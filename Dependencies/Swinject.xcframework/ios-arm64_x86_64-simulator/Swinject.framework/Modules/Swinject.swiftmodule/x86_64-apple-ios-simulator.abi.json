@@ -8905,392 +8905,392 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Assembler.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Assembler.swift",
       "kind": "Array",
       "offset": 1072,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Assembler.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Assembler.swift",
       "kind": "Array",
       "offset": 3423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 867,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "BooleanLiteral",
       "offset": 1326,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "Array",
       "offset": 2249,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "BooleanLiteral",
       "offset": 7334,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "BooleanLiteral",
       "offset": 10554,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "Dictionary",
       "offset": 11067,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11230,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11360,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 11533,
       "length": 69,
       "value": "\"Infinite recursive call for circular dependency has been detected. \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 11621,
       "length": 99,
       "value": "\"To avoid the infinite call, 'initCompleted' handler should be used to inject circular dependency.\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11759,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11894,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 11897,
       "length": 31,
       "value": "\"The depth cannot be negative.\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11958,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "IntegerLiteral",
       "offset": 11990,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 13969,
       "length": 89,
       "value": "\"If accessing container from multiple threads, make sure to use a synchronized resolver.\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 15582,
       "length": 3,
       "value": "\"[\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 15615,
       "length": 37,
       "value": "\"\n    { \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 15649,
       "length": 1,
       "value": "\" }\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 15682,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/Container.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
       "kind": "StringLiteral",
       "offset": 15701,
       "length": 5,
       "value": "\"\n]\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 53,
       "value": "\"Swinject: Resolution failed. Expected registration:\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 65,
       "value": "\"\t{ \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 1,
       "value": "\" }\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 26,
       "value": "\"Available registrations:\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 836,
       "length": 6,
       "value": "\"\t{ \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 4,
       "value": "\" }\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 929,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "Array",
       "offset": 1099,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 19,
       "value": "\", Name: \"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1244,
       "length": 1,
       "value": "\"\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1253,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 9,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1316,
       "length": 8,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1323,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1393,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1398,
       "length": 60,
       "value": "\", InitCompleted: Specified \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1448,
       "length": 8,
       "value": "\" closures\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1510,
       "length": 22,
       "value": "\", ObjectScope: \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1531,
       "length": 8,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1538,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1552,
       "length": 25,
       "value": "\"Service: \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 69,
       "value": "\", Factory: \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1681,
       "length": 2,
       "value": "\" -> \""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/DebugHelper.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "StringLiteral",
       "offset": 1710,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ObjectScope.Standard.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.Standard.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 11,
       "value": "\"transient\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ObjectScope.Standard.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.Standard.swift",
       "kind": "StringLiteral",
       "offset": 588,
       "length": 7,
       "value": "\"graph\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ObjectScope.Standard.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.Standard.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 11,
       "value": "\"container\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ObjectScope.Standard.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.Standard.swift",
       "kind": "StringLiteral",
       "offset": 1158,
       "length": 6,
       "value": "\"weak\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ObjectScope.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.swift",
       "kind": "StringLiteral",
       "offset": 1248,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ServiceEntry.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ServiceEntry.swift",
       "kind": "Array",
       "offset": 816,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ServiceKey.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ServiceKey.swift",
       "kind": "BooleanLiteral",
       "offset": 1596,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/FrameworkPlayground\/Dependencies\/Carthage\/Checkouts\/Swinject\/Sources\/ServiceKey.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ServiceKey.swift",
       "kind": "BooleanLiteral",
       "offset": 1621,
       "length": 5,

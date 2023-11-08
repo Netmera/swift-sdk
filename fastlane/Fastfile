@@ -1,0 +1,93 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+framework_modules = [
+  "NetmeraSwiftCore",
+  "NetmeraAnalytic",
+  "NetmeraAnalyticAutotracking",
+  "NetmeraLocation",
+  "NetmeraGeofence",
+  "NetmeraAdvertisingId",
+  "NetmeraNotificationCore",
+  "NetmeraNotification",
+  "NetmeraNotificationContentExtension",
+  "NetmeraNotificationServiceExtension",
+  "NetmeraNotificationInbox"
+]
+
+platform :ios do
+
+  desc "Release version - patch"
+  lane :release_version_patch do
+    bump_version_patch
+    commit_push_tag
+    pod_trunk
+  end
+
+  desc "Release version - patch"
+  lane :release_version_minor do
+    bump_version_minor
+    commit_push_tag
+    pod_trunk
+  end
+
+  desc "Bump version patch"
+  lane :bump_version_patch do
+
+    framework_modules.each do |sdk|
+      version_bump_podspec(path: "#{sdk}.podspec", bump_type: "patch")
+    end
+
+  end
+
+  desc "Bump version minor"
+  lane :bump_version_minor do
+
+    framework_modules.each do |sdk|
+      version_bump_podspec(path: "#{sdk}.podspec", bump_type: "minor")
+    end
+
+  end
+
+  desc "Commit, push and tag"
+  lane :commit_push_tag do
+    version = version_get_podspec(path: "NetmeraSwiftCore.podspec")
+
+    git_add
+    git_commit(path: "*", message: "Bump to version #{version}")
+    add_git_tag(tag: version)
+    push_to_git_remote
+
+  end
+
+  desc "Pod trunk"
+  lane :pod_trunk do
+
+    framework_modules.each do |sdk|
+      pod_push(
+        path: "#{sdk}.podspec",
+        allow_warnings: true,
+        use_libraries: true,
+        verbose: true,
+        skip_import_validation: true,
+        synchronous: true
+        )
+    end
+
+  end
+
+end

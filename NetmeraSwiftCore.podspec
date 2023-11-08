@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NetmeraSwiftCore'
-  s.version          = '4.0.0'
+  s.version          = '4.0.1'
   s.summary          = 'iOS SDK for Netmera mobile app engagement platform'
+  s.module_name      = 'NetmeraCore'
 
   s.description      = <<-DESC
 
