@@ -42,9 +42,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Netmera/swift-sdk.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/netmera'
 
-  s.ios.deployment_target = "11.0"
-  s.osx.deployment_target = "10.12"
-  s.tvos.deployment_target = "11.0"
+  s.ios.deployment_target = "12.0"
+  s.osx.deployment_target = "12.0"
+  s.tvos.deployment_target = "12.0"
 
   s.requires_arc  = true
 

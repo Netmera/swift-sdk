@@ -15,6 +15,22 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 ## iOS
 
+### ios release_version_patch
+
+```sh
+[bundle exec] fastlane ios release_version_patch
+```
+
+Release version - patch
+
+### ios release_version_minor
+
+```sh
+[bundle exec] fastlane ios release_version_minor
+```
+
+Release version - patch
+
 ### ios bump_version_patch
 
 ```sh
@@ -22,6 +38,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 ```
 
 Bump version patch
+
+### ios bump_version_minor
+
+```sh
+[bundle exec] fastlane ios bump_version_minor
+```
+
+Bump version minor
 
 ### ios commit_push_tag
 
