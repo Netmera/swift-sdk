@@ -54,13 +54,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NetmeraLocation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation"
       },
       {
         "kind": "Import",
@@ -190,7 +197,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetmeraLocationAuthorizationDelegate",
-                "printedName": "NetmeraLocation.NetmeraLocationAuthorizationDelegate",
+                "printedName": "any NetmeraLocation.NetmeraLocationAuthorizationDelegate",
                 "usr": "s:15NetmeraLocation0aB21AuthorizationDelegateP"
               }
             ],
@@ -217,7 +224,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetmeraLocationRegionDelegate",
-                "printedName": "NetmeraLocation.NetmeraLocationRegionDelegate",
+                "printedName": "any NetmeraLocation.NetmeraLocationRegionDelegate",
                 "usr": "s:15NetmeraLocation0aB14RegionDelegateP"
               }
             ],
@@ -427,13 +434,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NetmeraLocation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation"
       },
       {
         "kind": "TypeDecl",
@@ -604,13 +618,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NetmeraLocation",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation"
       },
       {
         "kind": "TypeDecl",
@@ -878,12 +899,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreLocation.CLLocationManagerDelegate?",
+                "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocationManagerDelegate",
-                    "printedName": "CoreLocation.CLLocationManagerDelegate",
+                    "printedName": "any CoreLocation.CLLocationManagerDelegate",
                     "usr": "c:objc(pl)CLLocationManagerDelegate"
                   }
                 ],
@@ -904,12 +925,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CoreLocation.CLLocationManagerDelegate?",
+                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocationManagerDelegate",
-                        "printedName": "CoreLocation.CLLocationManagerDelegate",
+                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
                         "usr": "c:objc(pl)CLLocationManagerDelegate"
                       }
                     ],
@@ -939,12 +960,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CoreLocation.CLLocationManagerDelegate?",
+                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocationManagerDelegate",
-                        "printedName": "CoreLocation.CLLocationManagerDelegate",
+                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
                         "usr": "c:objc(pl)CLLocationManagerDelegate"
                       }
                     ],
@@ -1385,41 +1406,6 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2629,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3552,
-      "length": 27,
-      "value": "\"Location update: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3578,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4208,
-      "length": 58,
-      "value": "\"Location manager authorization status changed: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4265,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/TrackingManager\/LocationTrackingManagerImpl.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 27,
@@ -1454,125 +1440,6 @@
       "value": "\"NetmeraLocation.NetmeraLocationDelegateImpl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2789,
-      "length": 34,
-      "value": "\"Requested location authorization\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3179,
-      "length": 82,
-      "value": "\"You must add location key into your info.plist to request location authorization\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3673,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3776,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3807,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4256,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4676,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 6505,
-      "length": 52,
-      "value": "\"New location authorization status saved: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 6556,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7069,
-      "length": 94,
-      "value": "\"New location authorization status will be updated as: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7136,
-      "length": 1,
-      "value": "\", current: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7162,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7508,
-      "length": 58,
-      "value": "\"Location authorization event triggered status: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7565,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 801,
-      "length": 107,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 828,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 892,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 156,
@@ -1599,62 +1466,6 @@
       "offset": 440,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 112,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1157,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1344,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1354,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/DI\/Internal\/LocationDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1367,
-      "length": 2,
-      "value": "\" is not availabled\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/AuthorizationStatusProvider\/LocationAuthorizationStatusProvider.swift",

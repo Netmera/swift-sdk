@@ -260,7 +260,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -288,7 +288,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -409,7 +409,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -813,7 +813,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -841,7 +841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1135,7 +1135,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1346,7 +1346,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1375,7 +1375,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1537,7 +1537,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1904,7 +1904,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1932,7 +1932,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2450,7 +2450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3071,7 +3071,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3205,7 +3205,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3368,7 +3368,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3519,7 +3519,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3601,7 +3601,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3803,7 +3803,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3832,7 +3832,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5253,7 +5253,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5281,7 +5281,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5481,7 +5481,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5510,7 +5510,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5723,7 +5723,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6237,7 +6237,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6320,7 +6320,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6732,7 +6732,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6761,7 +6761,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7027,7 +7027,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7056,7 +7056,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7218,7 +7218,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7301,7 +7301,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7399,7 +7399,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7546,7 +7546,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7935,7 +7935,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7963,7 +7963,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8136,7 +8136,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8350,7 +8350,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8378,7 +8378,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9304,6 +9304,134 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "expirationDate",
+            "printedName": "expirationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A8BasePushC14expirationDate10Foundation0G0VSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A8BasePushC14expirationDate10Foundation0G0VSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC14expirationDate10Foundation0G0VSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A8BasePushC14expirationDate10Foundation0G0VSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sendDate",
+            "printedName": "sendDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A8BasePushC8sendDate10Foundation0G0VSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A8BasePushC8sendDate10Foundation0G0VSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC8sendDate10Foundation0G0VSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A8BasePushC8sendDate10Foundation0G0VSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -9338,7 +9466,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9367,7 +9495,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9894,7 +10022,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9922,7 +10050,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10471,27 +10599,6 @@
       "value": "\"content-available\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
-      "kind": "StringLiteral",
-      "offset": 1722,
-      "length": 24,
-      "value": "\"cat: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
-      "kind": "StringLiteral",
-      "offset": 1742,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
-      "kind": "StringLiteral",
-      "offset": 1745,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInAppPush.swift",
       "kind": "StringLiteral",
       "offset": 374,
@@ -10504,13 +10611,6 @@
       "offset": 374,
       "length": 5,
       "value": "\"iam\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPopupShowEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 260,
-      "length": 7,
-      "value": "\"n:psw\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPopupShowEvent.swift",
@@ -10807,69 +10907,6 @@
       "value": "\"ia\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 640,
-      "length": 120,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1197,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1207,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1384,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1394,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/DI\/Internal\/NotificationCoreDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1407,
-      "length": 2,
-      "value": "\" is not availabled\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 6,
-      "value": "\"n:pv\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 889,
@@ -11159,13 +11196,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushDismissEvent.swift",
       "kind": "StringLiteral",
-      "offset": 264,
-      "length": 7,
-      "value": "\"n:pdm\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushDismissEvent.swift",
-      "kind": "StringLiteral",
       "offset": 896,
       "length": 4,
       "value": "\"fs\""
@@ -11334,13 +11364,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
       "kind": "StringLiteral",
-      "offset": 258,
-      "length": 6,
-      "value": "\"n:po\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1697,
       "length": 4,
       "value": "\"fs\""
@@ -11400,13 +11423,6 @@
       "offset": 174,
       "length": 20,
       "value": "\"NetmeraNotificationCore.NetmeraPushOpenEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushReceiveEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 264,
-      "length": 7,
-      "value": "\"n:prd\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushReceiveEvent.swift",
@@ -11479,55 +11495,6 @@
       "value": "\"uri\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 13,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "StringLiteral",
-      "offset": 425,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "Array",
-      "offset": 1998,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2022,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "StringLiteral",
-      "offset": 3737,
-      "length": 20,
-      "value": "\"Invalid JSON value\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "Array",
-      "offset": 4999,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/JSONCodingKeys.swift",
-      "kind": "StringLiteral",
-      "offset": 5142,
-      "length": 20,
-      "value": "\"Invalid JSON value\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushAction.swift",
       "kind": "StringLiteral",
       "offset": 918,
@@ -11607,163 +11574,156 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 929,
       "length": 5,
       "value": "\"_nm\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 929,
       "length": 5,
       "value": "\"_nm\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 1058,
       "length": 19,
       "value": "\"content-available\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 940,
+      "offset": 1058,
       "length": 19,
       "value": "\"content-available\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1147,
       "length": 4,
       "value": "\"pt\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1178,
       "length": 6,
       "value": "\"piid\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1203,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1235,
       "length": 5,
       "value": "\"ets\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1261,
       "length": 5,
       "value": "\"sts\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1303,
       "length": 4,
       "value": "\"dr\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1326,
       "length": 6,
       "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1351,
       "length": 5,
       "value": "\"act\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1147,
       "length": 4,
       "value": "\"pt\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1178,
       "length": 6,
       "value": "\"piid\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1203,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1235,
       "length": 5,
       "value": "\"ets\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1143,
+      "offset": 1261,
       "length": 5,
       "value": "\"sts\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1303,
       "length": 4,
       "value": "\"dr\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1326,
       "length": 6,
       "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1351,
       "length": 5,
       "value": "\"act\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1305,
+      "offset": 1423,
       "length": 4,
       "value": "\"at\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 1305,
+      "offset": 1423,
       "length": 4,
       "value": "\"at\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2145,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",

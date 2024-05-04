@@ -595,58 +595,9 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2936,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "BooleanLiteral",
       "offset": 4242,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4790,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4895,
-      "length": 56,
-      "value": "\"Advertising identifier new value: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4937,
-      "length": 4,
-      "value": "\" will be save\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5337,
-      "length": 87,
-      "value": "\"Advertising identifier information couldn't save error: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5423,
-      "length": 17,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Provider\/AdIdProvider.swift",
@@ -663,130 +614,11 @@
       "value": "\"AdvertisingInfo\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 117,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 655,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 729,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1168,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1178,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1350,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1360,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/DI\/Internal\/AdvertisingIdDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1373,
-      "length": 2,
-      "value": "\" is not availabled\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/TrackingManager\/Factory\/NetmeraTrackingManagerFactoryV14.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 32,
       "value": "\"NetmeraAdvertisingId.NetmeraTrackingManagerFactoryV14\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Framework\/AdvertisingIdFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 856,
-      "length": 112,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Framework\/AdvertisingIdFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 883,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Framework\/AdvertisingIdFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1427,
-      "length": 37,
-      "value": "\"Advertising authorization requested\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3368,
-      "length": 87,
-      "value": "\"Advertising authorization status will be updated with \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3432,
-      "length": 3,
-      "value": "\" for source: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3454,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5028,
-      "length": 75,
-      "value": "\"Advertising identifier couldn't save error: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdAuthorization\/AdvertisingIdAuthorizationManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5102,
-      "length": 17,
-      "value": "\"\""
     }
   ]
 }

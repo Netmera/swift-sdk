@@ -1,0 +1,11 @@
+framework module NetmeraGeofence {
+  umbrella header "NetmeraGeofence.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraGeofence.Swift {
+  header "NetmeraGeofence-Swift.h"
+  requires objc
+}

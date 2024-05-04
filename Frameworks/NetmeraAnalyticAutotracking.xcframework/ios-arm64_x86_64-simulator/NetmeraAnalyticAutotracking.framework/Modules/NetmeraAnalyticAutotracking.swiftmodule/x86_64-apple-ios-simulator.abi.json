@@ -1142,12 +1142,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIScrollViewDelegate?",
+                "printedName": "(any UIKit.UIScrollViewDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIScrollViewDelegate",
-                    "printedName": "UIKit.UIScrollViewDelegate",
+                    "printedName": "any UIKit.UIScrollViewDelegate",
                     "usr": "c:objc(pl)UIScrollViewDelegate"
                   }
                 ],
@@ -1518,12 +1518,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIPickerViewDelegate?",
+                "printedName": "(any UIKit.UIPickerViewDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "UIPickerViewDelegate",
-                    "printedName": "UIKit.UIPickerViewDelegate",
+                    "printedName": "any UIKit.UIPickerViewDelegate",
                     "usr": "c:objc(pl)UIPickerViewDelegate"
                   }
                 ],
@@ -1726,835 +1726,100 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIButtonInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIButtonInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Processor\/UIControlActionProcessorImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1329,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITableViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 314,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITableViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 28,
-      "value": "\"ct:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITableViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 385,
-      "length": 3,
-      "value": "\" row:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITableViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISegmentedInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 364,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISegmentedInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 501,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISegmentedInfoProvider.swift",
-      "kind": "IntegerLiteral",
-      "offset": 552,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISegmentedInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 603,
-      "length": 33,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISegmentedInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2076,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2716,
-      "length": 27,
-      "value": "\"Screen tracker is started\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2945,
-      "length": 27,
-      "value": "\"Screen tracker is stopped\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3320,
-      "length": 32,
-      "value": "\"Screen info will track \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3351,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3747,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3978,
-      "length": 32,
-      "value": "\"Screen info will track \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Manager\/ScreenTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4009,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/UICollectionViewDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 878,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIViewControllerInfoProvider.swift",
-      "kind": "Array",
-      "offset": 589,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIViewControllerInfoProvider.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIViewControllerInfoProvider.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 28,
       "value": "\"NetmeraAnalyticAutotracking.UIViewControllerInfoProvider\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISliderInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISliderInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISliderInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIStepperInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 351,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIStepperInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 459,
-      "length": 18,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIStepperInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 476,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Trackable\/UIControlActionTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1093,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Trackable\/UIControlActionTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1114,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Trackable\/UIControlActionTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1377,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Trackable\/UIControlActionTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1412,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Trackable\/UIControlActionTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1443,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/UITableViewDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 707,
-      "length": 124,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 734,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 815,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1175,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1185,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1362,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1372,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DI\/Internal\/AnalyticAutotrackingDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1385,
-      "length": 2,
-      "value": "\" is not availabled\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPageControlInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPageControlInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPageControlInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 494,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "Array",
-      "offset": 439,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 598,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 696,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIDatePickerInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 360,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIDatePickerInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 468,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIDatePickerInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 484,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 24,
       "value": "\"blacklist_screen_names\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 548,
       "length": 24,
       "value": "\"blacklist_screen_names\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 668,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 740,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 820,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 866,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 917,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1001,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1046,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "Array",
       "offset": 1096,
       "length": 1904,
       "value": "[\"UICompatibilityInputViewController\", \"UINavigationController\", \"UIAlertController\", \"UIPageViewController\", \"UITabBarController\", \"UIInputViewController\", \"UISystemKeyboardDockController\", \"UISearchController\", \"UISearchContainerViewController\", \"MFMailComposeInternalViewController\", \"MFMailComposePlaceholderViewController\", \"UIInputWindowController\", \"UIActivityViewController\", \"UIActivityGroupViewController\", \"_UIActivityGroupListViewController\", \"_UIActivityViewControllerContentController\", \"UIKeyboardCandidateRowViewController\", \"UIKeyboardCandidateGridCollectionViewController\", \"UIPrintMoreOptionsTableViewController\", \"UIPrintPanelTableViewController\", \"UIPrintPanelViewController\", \"UIPrintPaperViewController\", \"UIPrintPreviewViewController\", \"UIPrintRangeViewController\", \"UIDocumentMenuViewController\", \"UISplitViewController\", \"UIDocumentPickerViewController\", \"UIDocumentPickerExtensionViewController\", \"UIInterfaceActionGroupViewController\", \"UISystemInputViewController\", \"UICompatibilityInputViewController\", \"UIInputViewAnimationControllerViewController\", \"UISnapshotModalViewController\", \"UISplitViewController\", \"UIReferenceLibraryViewController\", \"UIMultiColumnViewController\", \"_UIFallbackPresentationViewController\", \"UIApplicationRotationFollowingControllerNoTouches\", \"UIKeyCommandDiscoverabilityHUDViewController\", \"UIApplicationRotationFollowingController\", \"UISystemInputAssistantViewController\", \"UIPredictionViewController\", \"UIRecentsInputViewController\", \"_UIShareExtensionRemoteViewController\", \"SFAuthenticationViewController\", \"SLComposeViewController\", \"SLRemoteComposeViewController\", \"SFBrowserRemoteViewController\", \"_UISFAirDropInstructionsViewController\"]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Trackable\/UIScreenTrackableImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1658,
-      "length": 50,
-      "value": "\"Screen info: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Trackable\/UIScreenTrackableImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1684,
-      "length": 2,
-      "value": "\" is found in blacklist \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Trackable\/UIScreenTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1741,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Screen\/Trackable\/UIScreenTrackableImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1782,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/UITextViewDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 747,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 359,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Manager\/UIActionTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1901,
-      "length": 29,
-      "value": "\"UIAction tracker is started\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Manager\/UIActionTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2322,
-      "length": 29,
-      "value": "\"UIAction tracker is stopped\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/Manager\/UIActionTrackingManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2515,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "Array",
-      "offset": 442,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 646,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 661,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UITextFieldInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/InAppPurchase\/InAppPurchaseManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 998,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/InAppPurchase\/InAppPurchaseManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2078,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/InAppPurchase\/InAppPurchaseManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2451,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/InAppPurchase\/InAppPurchaseManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/InAppPurchase\/InAppPurchaseManagerImpl.swift",
       "kind": "StringLiteral",
       "offset": 146,
       "length": 24,
       "value": "\"NetmeraAnalyticAutotracking.InAppPurchaseManagerImpl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/Battery\/BatteryLevelManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 687,
+      "offset": 682,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1561,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1747,
-      "length": 31,
-      "value": "\"Battery monitoring is started\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1957,
-      "length": 31,
-      "value": "\"Battery monitoring is stopped\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2087,
-      "length": 33,
-      "value": "\"Updated battery level: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2119,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2319,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2431,
-      "length": 36,
-      "value": "\"Battery Level is sending: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2466,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2662,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2746,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2801,
-      "length": 35,
-      "value": "\"Battery level not found in config\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISwitchInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISwitchInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UISwitchInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 472,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/UIPickerViewDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 861,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UILabelInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 345,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/ActionInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 436,
-      "length": 72,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/ActionInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 2,
-      "value": "\" is not impelementing #provide(control:selectorName:)\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/ActionInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 643,
-      "length": 84,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/ActionInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 661,
-      "length": 2,
-      "value": "\" is not implementing #provide(control:selectorName:component:row)\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UICollectionViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 329,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UICollectionViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 384,
-      "length": 28,
-      "value": "\"ct:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UICollectionViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 400,
-      "length": 3,
-      "value": "\" row:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UICollectionViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 411,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPickerViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 31,
-      "value": "\"Send correct type to provider\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPickerViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 28,
-      "value": "\"ct:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPickerViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 3,
-      "value": "\" row:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIPickerViewInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/ActionInfo\/UIControlActionInfo.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/ActionInfo\/UIControlActionInfo.swift",
       "kind": "StringLiteral",
       "offset": 683,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/UITextFieldDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 761,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIBarButtonInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 366,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutotracking\/NetmeraAnalyticAutotracking\/UIControlInfoProvider\/UIBarButtonInfoProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
       "length": 2,
       "value": "\"\""
     }

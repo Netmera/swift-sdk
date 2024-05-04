@@ -1,0 +1,15 @@
+//
+//  Release.xcconfig
+//  NetmeraCore
+//
+//  Created by Arif Okuyucu on 2.03.2024.
+//  Copyright © 2024 Fatih Sen. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../Shared/Configs/SharedRelease.xcconfig"
+
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+TARGETED_DEVICE_FAMILY = 1,2

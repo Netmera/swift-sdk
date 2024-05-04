@@ -4,9 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Debug.xcconfig</key>
+		<data>
+		eGHYUHw7AsW1DT8owQYkVwVjL3c=
+		</data>
+		<key>Frameworks/NetmeraAnalytic.framework/Debug.xcconfig</key>
+		<data>
+		04o6u986BYu002trikMGFw3cCo0=
+		</data>
+		<key>Frameworks/NetmeraAnalytic.framework/Info.plist</key>
+		<data>
+		bGmLaLIFq/neII5qQ7opybnyDRI=
+		</data>
+		<key>Frameworks/NetmeraAnalytic.framework/NetmeraAnalytic</key>
+		<data>
+		KCb0C17J9wK8YB2a/1NpC0HuKxU=
+		</data>
+		<key>Frameworks/NetmeraAnalytic.framework/Release.xcconfig</key>
+		<data>
+		Y4ubNsa3EqMZ7gCLwQv4h07jWZ8=
+		</data>
+		<key>Frameworks/NetmeraAnalytic.framework/_CodeSignature/CodeResources</key>
+		<data>
+		1glt5YvKiznTatj1EcR3B0Fkrao=
+		</data>
 		<key>Headers/NetmeraAdvertisingId-Swift.h</key>
 		<data>
-		+q6vtz2LC4fsIOCTMyCvlpdAek8=
+		r61R7Z0P4B+uLBRkUHBKrbG1SUs=
 		</data>
 		<key>Headers/NetmeraAdvertisingId.h</key>
 		<data>
@@ -14,60 +38,106 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FI71Z55SJmkp0u8zvUJ/nHPdtEs=
+		MLkoOdGheWsxhb+z/U7eNyphjLU=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TQqgs6fAqEBU9RcJEWt+L3Bm93g=
+		4MuGjgbKkBc7V6TF76yhcLCKth4=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M+rvddqpR0uh99MVSNeClvn9fS4=
+		/D9L6BfJruOkc+914R2vWWXyiAA=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O9VcqN1A020D7y66w9zVAGmaNWo=
+		h5PJm3d2SVi3Obivn6x7QrYmIpQ=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M+rvddqpR0uh99MVSNeClvn9fS4=
+		/D9L6BfJruOkc+914R2vWWXyiAA=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oCeOjnlcGaz5A2ZbNdgJrwvGRis=
+		Gzy4IXXlDdZhDisZTZN2007x5o4=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TQqgs6fAqEBU9RcJEWt+L3Bm93g=
+		4MuGjgbKkBc7V6TF76yhcLCKth4=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		38wqW4DWpXI81Kk6tgV4i9ASlBY=
+		PIv/GGCl/CBgpLmOYAgorZRG9p4=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2ugjNPVdE4vAVt6IIUEs7wmQtrQ=
+		fFQ8iyldlOiOSgIqFQNSbmg4++M=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		38wqW4DWpXI81Kk6tgV4i9ASlBY=
+		PIv/GGCl/CBgpLmOYAgorZRG9p4=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WTMNBKlQeTpdyM/Z4KtsHm+G6xs=
+		6CM+NR1eaO3ZIk3qaJAVVQqSKoE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		336tVq8km9pvn1I36PAKuXdCrsY=
 		</data>
+		<key>Release.xcconfig</key>
+		<data>
+		8agYiGgashMf4UWmGte1OaE4dHA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Debug.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P/fnhJXvTjCj7InGoy/hFVqmBKSft7+oWrh3LMJaZE0=
+			</data>
+		</dict>
+		<key>Frameworks/NetmeraAnalytic.framework/Debug.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BGQnOqstVUFgQD7mg4FMJ+Ou/BU9JEAaSz/BsCmvU9E=
+			</data>
+		</dict>
+		<key>Frameworks/NetmeraAnalytic.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ULrOxFu2fIaAVU550uo27KQtcBxMDF+xurbzoDDRgG8=
+			</data>
+		</dict>
+		<key>Frameworks/NetmeraAnalytic.framework/NetmeraAnalytic</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jinKHe6w+0BhqwqGCStASnXJBNZqOefkp1BrbM9F07w=
+			</data>
+		</dict>
+		<key>Frameworks/NetmeraAnalytic.framework/Release.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xB1LPCBGtHohtRO2sRF1fLA8K/FnEwk+mpyiRQ/fYnY=
+			</data>
+		</dict>
+		<key>Frameworks/NetmeraAnalytic.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			shbbBxW6xTNSE4gDi2A0KLGpN96G28ddL1nLexJs4+8=
+			</data>
+		</dict>
 		<key>Headers/NetmeraAdvertisingId-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ke6zCSVKYUdiNn0RuV5x5ahHLCmr2v8/v8Q4mUgxwos=
+			OiwYDW6L5+e7ohzfzYMtXP6cxbUOh+XS1M7uFqgH218=
 			</data>
 		</dict>
 		<key>Headers/NetmeraAdvertisingId.h</key>
@@ -81,70 +151,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiT+tZBwiB0Phd6crIu1sMmNlDCFyIcvAXxZmnNufzY=
+			ctOIHlaliZt1ZO0jkEStlwBs9sTpc27VXeBe4578HPE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fkaCcEu9ZYPy6zQKyqlX06T+bFvJP0adZnXrLgMVrrY=
+			vMVA2rQGNZy2576RGcNuQ51UWRrP+xjQQZcTzem7E+w=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hbo/u0pPEsTrCEJWYkJQi+m1SQsWFHjY7F9IUkU/akI=
+			JYENUE3utvuh2JDZX/SZYG1yovc4MTyKQbdAoXrBoks=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fkaCcEu9ZYPy6zQKyqlX06T+bFvJP0adZnXrLgMVrrY=
+			vMVA2rQGNZy2576RGcNuQ51UWRrP+xjQQZcTzem7E+w=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DNQhLu+ZQyeec+/U+TiYpl/iXZvkdb3DJcxvKGvPdWM=
+			wl11rvvj1gEMT/ay4+ByiqRJTL3heSFmIt/AGsfbJzU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiT+tZBwiB0Phd6crIu1sMmNlDCFyIcvAXxZmnNufzY=
+			ctOIHlaliZt1ZO0jkEStlwBs9sTpc27VXeBe4578HPE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w0dENnWIDhPOJ7yibl2Ll6m971ORkqi9sB20+57vtVY=
+			pMZFLK9sqljG6npHjEutZdLkSy26q3fYQ7gQVcIQxUM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1lc3v4PGJDorG9FJfqOh3E1AUHnTQEix/iQcXV0Fv4=
+			SRFal+EaUJJ6oFwc5afEfaiJf+LASW8lcj2QargmTjg=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w0dENnWIDhPOJ7yibl2Ll6m971ORkqi9sB20+57vtVY=
+			pMZFLK9sqljG6npHjEutZdLkSy26q3fYQ7gQVcIQxUM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CS7t7ZZFfzbs8Bywl6EX36NS09aQEfuacQ+yJ62x0qI=
+			8l8CxUqXmmeXA8VkA7SvqUIh3uBE4gpsqtBytuSpB24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +222,13 @@
 			<key>hash2</key>
 			<data>
 			+gmcDSk9C0PMODc7NnuoTLO+tg2VdCnYBM074gza1+Y=
+			</data>
+		</dict>
+		<key>Release.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ErhxURG/jrwsr8AzYhyLo2pJzT8DJF6J4VZy/h1N+Cg=
 			</data>
 		</dict>
 	</dict>

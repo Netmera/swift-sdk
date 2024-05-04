@@ -290,7 +290,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -317,7 +317,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1520,7 +1520,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1545,7 +1545,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2019,7 +2019,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2044,7 +2044,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2476,7 +2476,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2501,7 +2501,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2648,7 +2648,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetmeraInboxManager",
-                "printedName": "NetmeraNotificationInbox.NetmeraInboxManager",
+                "printedName": "any NetmeraNotificationInbox.NetmeraInboxManager",
                 "usr": "s:24NetmeraNotificationInbox0aC7ManagerP"
               },
               {
@@ -2679,7 +2679,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "NetmeraInboxCategoryManager",
-                "printedName": "NetmeraNotificationInbox.NetmeraInboxCategoryManager",
+                "printedName": "any NetmeraNotificationInbox.NetmeraInboxCategoryManager",
                 "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP"
               },
               {
@@ -2714,62 +2714,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1107,
-      "length": 51,
-      "value": "\"InboxCategory fetch called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1157,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2066,
-      "length": 89,
-      "value": "\"InboxCategory update status called for categories: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2131,
-      "length": 4,
-      "value": "\" with status: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2154,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryRequestManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2561,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
-      "kind": "Dictionary",
-      "offset": 660,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1407,
-      "length": 1,
-      "value": "0"
-    },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
       "kind": "StringLiteral",
@@ -2960,20 +2904,6 @@
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxError.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 47,
-      "value": "\"Inbox request must incluede filter parameters\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxError.swift",
-      "kind": "StringLiteral",
-      "offset": 443,
-      "length": 36,
-      "value": "\"Inbox model has not next page item\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
       "kind": "StringLiteral",
       "offset": 304,
@@ -3014,139 +2944,6 @@
       "offset": 359,
       "length": 3,
       "value": "\"4\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Framework\/NotificationInboxFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1166,
-      "length": 116,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Framework\/NotificationInboxFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1193,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Framework\/NotificationInboxFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1266,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 25,
-      "value": "\"resolver can not be nil\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1058,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1240,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/DI\/NotificationInboxDependencyResolverImp.swift",
-      "kind": "StringLiteral",
-      "offset": 1263,
-      "length": 2,
-      "value": "\" is not availabled\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1881,
-      "length": 52,
-      "value": "\"Inbox category fetch called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1932,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "Array",
-      "offset": 2247,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2324,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2842,
-      "length": 76,
-      "value": "\"Inbox category next page called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2917,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3061,
-      "length": 40,
-      "value": "\"Inbox category fetch has not next page\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4576,
-      "length": 29,
-      "value": "\"Categories can not be empty\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 4716,
-      "length": 19,
-      "value": "\"Status is invalid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "Array",
-      "offset": 5103,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
@@ -3161,104 +2958,6 @@
       "offset": 220,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 314,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 989,
-      "length": 43,
-      "value": "\"Inbox fetch called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1031,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2020,
-      "length": 79,
-      "value": "\"Inbox update status called pushIds: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2075,
-      "length": 4,
-      "value": "\" with status: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2098,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2715,
-      "length": 72,
-      "value": "\"Inbox update status called for all push objects with status: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 2786,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2915,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3494,
-      "length": 77,
-      "value": "\"Inbox update status called categories: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3547,
-      "length": 4,
-      "value": "\" with status: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3570,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3691,
-      "length": 29,
-      "value": "\"Categories can not be empty\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxRequestManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4343,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
@@ -3353,20 +3052,6 @@
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
-      "kind": "Dictionary",
-      "offset": 649,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
-      "kind": "Dictionary",
-      "offset": 1129,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
       "kind": "StringLiteral",
       "offset": 1557,
       "length": 6,
@@ -3406,111 +3091,6 @@
       "offset": 1613,
       "length": 6,
       "value": "\"cnts\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1878,
-      "length": 43,
-      "value": "\"Inbox fetch called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1920,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2393,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2539,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "Array",
-      "offset": 2650,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2727,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3175,
-      "length": 67,
-      "value": "\"Inbox next page called with filter: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3241,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 3357,
-      "length": 31,
-      "value": "\"Inbox fetch has not next page\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4258,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4391,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5285,
-      "length": 36,
-      "value": "\"Push objects must contain any item\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5432,
-      "length": 19,
-      "value": "\"Status is invalid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "Array",
-      "offset": 7546,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
-      "kind": "Dictionary",
-      "offset": 7584,
-      "length": 3,
-      "value": "[]"
     }
   ]
 }

@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetmeraNotificationCore
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotificationCore
 import Foundation
 import NetmeraCore
 @_exported import NetmeraNotificationCore
@@ -289,6 +288,8 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   final public let contentAvailable: Swift.Int?
   final public let params: [Swift.String : Swift.String]?
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
+  final public let expirationDate: Foundation.Date?
+  final public let sendDate: Foundation.Date?
   public init()
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws

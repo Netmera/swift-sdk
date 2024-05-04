@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Debug.xcconfig</key>
+		<data>
+		eGHYUHw7AsW1DT8owQYkVwVjL3c=
+		</data>
 		<key>Headers/NetmeraLocation-Swift.h</key>
 		<data>
-		bR22q4Yb1/XGSN7QlSMeT18QB7w=
+		GFazZBw/fAeHbJ/+1FGJbPfZcYc=
 		</data>
 		<key>Headers/NetmeraLocation.h</key>
 		<data>
@@ -14,60 +18,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HcWL4FkOavcFioUQmh9RRKRa2SQ=
+		6HRpHkG1rJ0VHT1wd9090ZntSlg=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		AZLWkK3ATVWF/cKduRn4Pw4tn7o=
+		l4nZ1eqTc+huDiKwD/T5b2j0p1w=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7IN+ORj8P8JFD1xJ7nzPmU5jy8E=
+		O8el6xMxVgPsHvi3uGc/nHSMx/0=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AgGONMUXzm/L/WnAmhxflxeY1Tw=
+		L3Hg4iFIeoL5t5z6kj+Mp4M9RCM=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7IN+ORj8P8JFD1xJ7nzPmU5jy8E=
+		O8el6xMxVgPsHvi3uGc/nHSMx/0=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MUgaRzs7KB29nzDAoFyZDKwMkUI=
+		Jw/j7H35UK46hAfy6CL3MHIvkHg=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		AZLWkK3ATVWF/cKduRn4Pw4tn7o=
+		l4nZ1eqTc+huDiKwD/T5b2j0p1w=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GVRD+WjRz8wJbUTZz5MPVkiBroo=
+		rMABw3MD+W85g5CfyQ0De8to9ro=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		f9VUd2AcjRhFBlWvyiQHPXPMLsI=
+		kd9uxNW0615fZtvsrt4BDhCPnDc=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GVRD+WjRz8wJbUTZz5MPVkiBroo=
+		rMABw3MD+W85g5CfyQ0De8to9ro=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yxh/UX65sUnVxxG2PQhJ7nvk+88=
+		uv9IMkBfTRRlsOdo3kXb4iG3km8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		9neBfYsvnpgXd0/z/tHhCLuuUFQ=
 		</data>
+		<key>Release.xcconfig</key>
+		<data>
+		8agYiGgashMf4UWmGte1OaE4dHA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Debug.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P/fnhJXvTjCj7InGoy/hFVqmBKSft7+oWrh3LMJaZE0=
+			</data>
+		</dict>
 		<key>Headers/NetmeraLocation-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Td84VYK41HqIkMnzcFEws6iRARSndRHiR5XJnpuAMAU=
+			k4Xs16Vesql6bWHkaY9iaj7+DwfQV76wUNJTespbI5g=
 			</data>
 		</dict>
 		<key>Headers/NetmeraLocation.h</key>
@@ -81,70 +96,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5DtDqeE0pfrb+t8LCajz21FpSQykye6Vl8bAU8TxrbE=
+			VZjPdq02Kr8w5FJZel04I1nZBeL7tpW4/t7/FwhfVrQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RhTsEvp9qctVuInT9Wq6zY6nlp3/4b9n49Vv1I+CoYs=
+			u5iKVxwRdi1VQH2OIl6kqbu51nDg1asPE4rsfLJ5Jvs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			igeT07PfShSJhqVBCey1TXFUr0n+xA8VCRyoeGMzFN8=
+			JbuinHXJ008KgjOZK+KBfcxjWg1CNR3Tgj4STCV+nAA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RhTsEvp9qctVuInT9Wq6zY6nlp3/4b9n49Vv1I+CoYs=
+			u5iKVxwRdi1VQH2OIl6kqbu51nDg1asPE4rsfLJ5Jvs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dpQV9rHk6ppaVjdHgPTlNO9s3S9/R69pdP88RagN9QQ=
+			madSplGDjTUKHQ0G7Osys5eVDi8DXvPu7r5JRCYzegk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5DtDqeE0pfrb+t8LCajz21FpSQykye6Vl8bAU8TxrbE=
+			VZjPdq02Kr8w5FJZel04I1nZBeL7tpW4/t7/FwhfVrQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDKGao640b3oNz+3tTKYX8n2rrHlkxr4mmXvQykYDIQ=
+			6ubrnEpHiBW7MIE9ttwv2hVuV5RcQeHVJoKiiBFuiqk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LjCqZjRujlPysypYBaScs+o2xwOlJnmek0P9o5k4Dk8=
+			RpJ2RNgOIlrJMmOHJwYEyxFEdUowKBe/628s8mGtsFo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDKGao640b3oNz+3tTKYX8n2rrHlkxr4mmXvQykYDIQ=
+			6ubrnEpHiBW7MIE9ttwv2hVuV5RcQeHVJoKiiBFuiqk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xYYNicEj/wu0w0z/TiKcetb1TZndHq2bKpzc8rCSw6s=
+			UCdUubEYFKttXFAfBeo3QqgHHIixPSDbi78C3bIK/sA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			u3hbRxd87QnWgOZ9NZv3wegaiaYfT3vnRGntWW0lT/o=
+			</data>
+		</dict>
+		<key>Release.xcconfig</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ErhxURG/jrwsr8AzYhyLo2pJzT8DJF6J4VZy/h1N+Cg=
 			</data>
 		</dict>
 	</dict>

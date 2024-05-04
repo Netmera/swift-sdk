@@ -357,7 +357,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -386,7 +386,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -698,7 +698,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -727,7 +727,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1479,7 +1479,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1508,7 +1508,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -1859,7 +1859,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1888,7 +1888,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2354,7 +2354,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2383,7 +2383,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2565,7 +2565,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2594,7 +2594,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4531,7 +4531,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4560,7 +4560,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5026,7 +5026,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5055,7 +5055,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5272,7 +5272,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5301,7 +5301,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6296,7 +6296,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6325,7 +6325,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6507,7 +6507,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6536,7 +6536,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6838,7 +6838,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6867,7 +6867,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7084,7 +7084,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7113,7 +7113,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7415,7 +7415,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7444,7 +7444,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8254,7 +8254,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8283,7 +8283,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8622,7 +8622,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8651,7 +8651,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9356,7 +9356,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9385,7 +9385,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9832,7 +9832,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9861,7 +9861,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10562,7 +10562,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10591,7 +10591,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -11087,7 +11087,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11116,7 +11116,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -11456,7 +11456,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11485,7 +11485,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12288,7 +12288,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12317,7 +12317,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12996,7 +12996,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -13025,7 +13025,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14019,7 +14019,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14048,7 +14048,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14514,7 +14514,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14543,7 +14543,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14883,7 +14883,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14912,7 +14912,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15996,7 +15996,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -16025,7 +16025,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16363,7 +16363,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -16392,7 +16392,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17162,7 +17162,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -17191,7 +17191,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17405,7 +17405,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -17434,7 +17434,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -17841,7 +17841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -17870,7 +17870,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -18700,13 +18700,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 246,
-      "length": 7,
-      "value": "\"n:acp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1188,
       "length": 4,
       "value": "\"ec\""
@@ -18742,13 +18735,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
       "kind": "StringLiteral",
-      "offset": 234,
-      "length": 6,
-      "value": "\"n:wl\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
-      "kind": "StringLiteral",
       "offset": 968,
       "length": 4,
       "value": "\"ge\""
@@ -18766,13 +18752,6 @@
       "offset": 145,
       "length": 20,
       "value": "\"NetmeraAnalytic.NetmeraWishListEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 7,
-      "value": "\"n:sco\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
@@ -18838,34 +18817,6 @@
       "value": "\"NetmeraAnalytic.NetmeraScreenOpenEvent\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Framework\/AnalyticFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
-      "length": 107,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Framework\/AnalyticFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 863,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Framework\/AnalyticFrameworkDelegateImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 927,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 254,
-      "length": 6,
-      "value": "\"n:bl\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
       "kind": "StringLiteral",
       "offset": 954,
@@ -18885,13 +18836,6 @@
       "offset": 168,
       "length": 24,
       "value": "\"NetmeraAnalytic.NetmeraBatteryLevelEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 6,
-      "value": "\"n:vt\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
@@ -18927,20 +18871,6 @@
       "offset": 164,
       "length": 20,
       "value": "\"NetmeraAnalytic.NetmeraCartViewEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentCommentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 6,
-      "value": "\"n:cc\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 6,
-      "value": "\"n:ua\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
@@ -19064,13 +18994,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 254,
-      "length": 6,
-      "value": "\"n:cv\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1210,
       "length": 4,
       "value": "\"ga\""
@@ -19102,13 +19025,6 @@
       "offset": 168,
       "length": 24,
       "value": "\"NetmeraAnalytic.NetmeraCategoryViewEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:vc\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
@@ -19244,20 +19160,6 @@
       "value": "\"NetmeraAnalytic.NetmeraProductEvent\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:vp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:cl\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
       "kind": "StringLiteral",
       "offset": 886,
@@ -19279,20 +19181,6 @@
       "value": "\"NetmeraAnalytic.NetmeraLoginEvent\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductCommentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 6,
-      "value": "\"n:cp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 6,
-      "value": "\"n:rg\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
       "kind": "StringLiteral",
       "offset": 892,
@@ -19312,13 +19200,6 @@
       "offset": 164,
       "length": 20,
       "value": "\"NetmeraAnalytic.NetmeraRegisterEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 6,
-      "value": "\"n:sv\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
@@ -19428,13 +19309,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 276,
-      "length": 6,
-      "value": "\"n:la\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1015,
       "length": 4,
       "value": "\"fe\""
@@ -19452,13 +19326,6 @@
       "offset": 179,
       "length": 33,
       "value": "\"NetmeraAnalytic.NetmeraLocationAuthorizationEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 6,
-      "value": "\"n:co\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
@@ -19522,13 +19389,6 @@
       "offset": 167,
       "length": 23,
       "value": "\"NetmeraAnalytic.NetmeraOrderCancelEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 192,
-      "length": 6,
-      "value": "\"n:ua\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
@@ -19638,13 +19498,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "StringLiteral",
-      "offset": 327,
-      "length": 6,
-      "value": "\"n:gu\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1240,
       "length": 4,
       "value": "\"ea\""
@@ -19680,13 +19533,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 252,
-      "length": 6,
-      "value": "\"n:bc\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1164,
       "length": 4,
       "value": "\"ea\""
@@ -19718,13 +19564,6 @@
       "offset": 167,
       "length": 23,
       "value": "\"NetmeraAnalytic.NetmeraBannerClickEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:rc\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
@@ -19855,13 +19694,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 252,
-      "length": 6,
-      "value": "\"n:lc\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1643,
       "length": 4,
       "value": "\"eg\""
@@ -19921,13 +19753,6 @@
       "offset": 167,
       "length": 21,
       "value": "\"NetmeraAnalytic.NetmeraLinkClickEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 7,
-      "value": "\"n:scc\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
@@ -20023,13 +19848,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:bc\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1129,
       "length": 4,
       "value": "\"ej\""
@@ -20065,13 +19883,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 240,
-      "length": 6,
-      "value": "\"n:rp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
-      "kind": "StringLiteral",
       "offset": 938,
       "length": 4,
       "value": "\"eo\""
@@ -20089,69 +19900,6 @@
       "offset": 148,
       "length": 23,
       "value": "\"NetmeraAnalytic.NetmeraProductRateEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 645,
-      "length": 112,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 672,
-      "length": 2,
-      "value": "\" is required when initializing \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
-      "length": 2,
-      "value": "\" on first time.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1194,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1204,
-      "length": 2,
-      "value": "\" is not available\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1381,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1391,
-      "length": 3,
-      "value": "\" for \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/DI\/AnalyticDependencyResolverImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1404,
-      "length": 2,
-      "value": "\" is not availabled\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 7,
-      "value": "\"n:tia\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
@@ -20173,13 +19921,6 @@
       "offset": 167,
       "length": 21,
       "value": "\"NetmeraAnalytic.NetmeraTimeInAppEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 7,
-      "value": "\"n:rcp\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
@@ -20310,13 +20051,6 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 262,
-      "length": 6,
-      "value": "\"n:lu\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
-      "kind": "StringLiteral",
       "offset": 1185,
       "length": 4,
       "value": "\"fw\""
@@ -20348,20 +20082,6 @@
       "offset": 172,
       "length": 26,
       "value": "\"NetmeraAnalytic.NetmeraLocationUpdateEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraOpenAppEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
-      "length": 6,
-      "value": "\"n:oa\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 6,
-      "value": "\"n:sr\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
