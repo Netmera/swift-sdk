@@ -8,26 +8,6 @@
 		<data>
 		eGHYUHw7AsW1DT8owQYkVwVjL3c=
 		</data>
-		<key>Frameworks/NetmeraAnalytic.framework/Debug.xcconfig</key>
-		<data>
-		04o6u986BYu002trikMGFw3cCo0=
-		</data>
-		<key>Frameworks/NetmeraAnalytic.framework/Info.plist</key>
-		<data>
-		bGmLaLIFq/neII5qQ7opybnyDRI=
-		</data>
-		<key>Frameworks/NetmeraAnalytic.framework/NetmeraAnalytic</key>
-		<data>
-		KCb0C17J9wK8YB2a/1NpC0HuKxU=
-		</data>
-		<key>Frameworks/NetmeraAnalytic.framework/Release.xcconfig</key>
-		<data>
-		Y4ubNsa3EqMZ7gCLwQv4h07jWZ8=
-		</data>
-		<key>Frameworks/NetmeraAnalytic.framework/_CodeSignature/CodeResources</key>
-		<data>
-		1glt5YvKiznTatj1EcR3B0Fkrao=
-		</data>
 		<key>Headers/NetmeraAdvertisingId-Swift.h</key>
 		<data>
 		r61R7Z0P4B+uLBRkUHBKrbG1SUs=
@@ -96,41 +76,6 @@
 			<key>hash2</key>
 			<data>
 			P/fnhJXvTjCj7InGoy/hFVqmBKSft7+oWrh3LMJaZE0=
-			</data>
-		</dict>
-		<key>Frameworks/NetmeraAnalytic.framework/Debug.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BGQnOqstVUFgQD7mg4FMJ+Ou/BU9JEAaSz/BsCmvU9E=
-			</data>
-		</dict>
-		<key>Frameworks/NetmeraAnalytic.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ULrOxFu2fIaAVU550uo27KQtcBxMDF+xurbzoDDRgG8=
-			</data>
-		</dict>
-		<key>Frameworks/NetmeraAnalytic.framework/NetmeraAnalytic</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jinKHe6w+0BhqwqGCStASnXJBNZqOefkp1BrbM9F07w=
-			</data>
-		</dict>
-		<key>Frameworks/NetmeraAnalytic.framework/Release.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xB1LPCBGtHohtRO2sRF1fLA8K/FnEwk+mpyiRQ/fYnY=
-			</data>
-		</dict>
-		<key>Frameworks/NetmeraAnalytic.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			shbbBxW6xTNSE4gDi2A0KLGpN96G28ddL1nLexJs4+8=
 			</data>
 		</dict>
 		<key>Headers/NetmeraAdvertisingId-Swift.h</key>
