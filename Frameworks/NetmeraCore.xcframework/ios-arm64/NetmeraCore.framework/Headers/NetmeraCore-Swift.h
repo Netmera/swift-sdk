@@ -304,6 +304,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol UIApplicationDelegate;
 
 @interface UIApplication (SWIFT_EXTENSION(NetmeraCore))
+- (id <UIApplicationDelegate> _Nullable)g_delegate SWIFT_WARN_UNUSED_RESULT;
 - (void)s_delegate:(id <UIApplicationDelegate> _Nullable)delegate;
 @end
 

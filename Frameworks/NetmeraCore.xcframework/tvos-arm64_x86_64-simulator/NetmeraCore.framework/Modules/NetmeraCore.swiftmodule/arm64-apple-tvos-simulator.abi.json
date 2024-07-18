@@ -1066,6 +1066,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7128,6 +7138,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8242,6 +8259,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
       },
       {
         "kind": "Import",
@@ -13089,6 +13113,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Netmera",
         "printedName": "Netmera",
@@ -13096,7 +13127,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(params:logLevel:encryptor:)",
+            "printedName": "initialize(params:logLevel:encryptor:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13147,11 +13178,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any UIKit.UIApplicationDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIApplicationDelegate",
+                    "printedName": "any UIKit.UIApplicationDelegate",
+                    "usr": "c:objc(pl)UIApplicationDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A0C10initialize6params8logLevel9encryptoryAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgtFZ",
-            "mangledName": "$s11NetmeraCore0A0C10initialize6params8logLevel9encryptoryAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgtFZ",
+            "usr": "s:11NetmeraCore0A0C10initialize6params8logLevel9encryptor8delegateyAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgSo21UIApplicationDelegate_pSgtFZ",
+            "mangledName": "$s11NetmeraCore0A0C10initialize6params8logLevel9encryptor8delegateyAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgSo21UIApplicationDelegate_pSgtFZ",
             "moduleName": "NetmeraCore",
             "static": true,
             "declAttributes": [
@@ -22797,7 +22843,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 7,
-      "value": "\"4.0.3\""
+      "value": "\"4.0.4\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

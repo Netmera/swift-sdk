@@ -432,7 +432,7 @@ public enum TransparencyAuthorizationSource : Swift.Int {
   }
 }
 @_hasMissingDesignatedInitializers public class Netmera {
-  public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil)
+  public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, delegate: (any UIKit.UIApplicationDelegate)? = nil)
   public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
   public static func setEncryptor(_ encryptor: any NetmeraCore.NetmeraEncrypterProtocol)
