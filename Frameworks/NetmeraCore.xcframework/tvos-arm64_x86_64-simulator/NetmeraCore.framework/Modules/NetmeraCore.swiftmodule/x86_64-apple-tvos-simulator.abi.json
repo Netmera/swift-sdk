@@ -369,6 +369,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1058,16 +1075,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NetmeraCore",
         "declAttributes": [
@@ -13127,7 +13134,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(params:logLevel:encryptor:delegate:)",
+            "printedName": "initialize(params:logLevel:encryptor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13178,26 +13185,11 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any UIKit.UIApplicationDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIApplicationDelegate",
-                    "printedName": "any UIKit.UIApplicationDelegate",
-                    "usr": "c:objc(pl)UIApplicationDelegate"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A0C10initialize6params8logLevel9encryptor8delegateyAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgSo21UIApplicationDelegate_pSgtFZ",
-            "mangledName": "$s11NetmeraCore0A0C10initialize6params8logLevel9encryptor8delegateyAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgSo21UIApplicationDelegate_pSgtFZ",
+            "usr": "s:11NetmeraCore0A0C10initialize6params8logLevel9encryptoryAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgtFZ",
+            "mangledName": "$s11NetmeraCore0A0C10initialize6params8logLevel9encryptoryAA0A6ParamsVSg_AA03LogF0OSgAA0A17EncrypterProtocol_pSgtFZ",
             "moduleName": "NetmeraCore",
             "static": true,
             "declAttributes": [
@@ -17660,6 +17652,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -17746,6 +17745,16 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -21677,6 +21686,13 @@
       "value": "\"NetmeraCore.DbCachesQueryByTypeStatement\""
     },
     {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/NetmeraApplicationProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 23,
+      "value": "\"NetmeraCore.NetmeraProxyAppDelegate\""
+    },
+    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Provider\/BaseUrlProvider.swift",
       "kind": "StringLiteral",
       "offset": 140,
@@ -22843,7 +22859,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 7,
-      "value": "\"4.0.4\""
+      "value": "\"4.0.5\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -24297,16 +24313,9 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
       "kind": "Dictionary",
-      "offset": 2269,
+      "offset": 2615,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
-      "kind": "StringLiteral",
-      "offset": 180,
-      "length": 26,
-      "value": "\"NetmeraCore.UIApplicationDelegateProxy\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/Enum\/NetmeraGender.swift",
