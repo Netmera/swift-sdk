@@ -149,6 +149,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
         "name": "Intents",
         "printedName": "Intents",
         "declKind": "Import",
@@ -247,6 +271,37 @@
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationServiceExtension"
       },
@@ -487,42 +542,56 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1826,
+      "length": 5,
+      "value": "\"_nm\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
       "length": 4,
       "value": "\"mu\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
       "kind": "StringLiteral",
-      "offset": 1239,
+      "offset": 1950,
       "length": 4,
       "value": "\"ps\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraPushStyle.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
+      "kind": "StringLiteral",
+      "offset": 1984,
+      "length": 4,
+      "value": "\"ia\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraPushStyle.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 7,
       "value": "\"iospi\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 12,
       "value": "\"attachment\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 18,
       "value": "\"TempPathProvider\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 20,

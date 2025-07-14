@@ -3422,287 +3422,287 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
       "kind": "Array",
       "offset": 184,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
       "kind": "Dictionary",
       "offset": 235,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
       "kind": "StringLiteral",
       "offset": 1626,
       "length": 6,
       "value": "\"msgs\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 6,
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
       "kind": "StringLiteral",
       "offset": 1682,
       "length": 6,
       "value": "\"cnts\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxCountResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxCountResponse.swift",
       "kind": "StringLiteral",
       "offset": 1483,
       "length": 6,
       "value": "\"cnts\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 718,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 625,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "BooleanLiteral",
       "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 7,
       "value": "\"piids\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "StringLiteral",
       "offset": 774,
       "length": 5,
       "value": "\"all\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "StringLiteral",
       "offset": 802,
       "length": 6,
       "value": "\"cats\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryModel.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryModel.swift",
       "kind": "Array",
       "offset": 155,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
       "kind": "StringLiteral",
       "offset": 1119,
       "length": 5,
       "value": "\"cnt\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
       "kind": "StringLiteral",
       "offset": 1149,
       "length": 6,
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 799,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 706,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "IntegerLiteral",
       "offset": 1274,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 1318,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "StringLiteral",
       "offset": 1538,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "StringLiteral",
       "offset": 1563,
       "length": 4,
       "value": "\"ps\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 4,
       "value": "\"ie\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryFilter.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 6,
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
       "kind": "StringLiteral",
       "offset": 1552,
       "length": 4,
       "value": "\"ct\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
       "kind": "StringLiteral",
       "offset": 1581,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
       "kind": "StringLiteral",
       "offset": 1609,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 3,
       "value": "\"1\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 3,
       "value": "\"2\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 3,
       "value": "\"4\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 1229,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
       "kind": "StringLiteral",
       "offset": 1486,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
       "kind": "StringLiteral",
       "offset": 1530,
       "length": 4,
       "value": "\"ie\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
       "kind": "StringLiteral",
       "offset": 1557,
       "length": 6,
       "value": "\"cats\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "IntegerLiteral",
       "offset": 1417,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 1461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "StringLiteral",
       "offset": 1747,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "StringLiteral",
       "offset": 1772,
       "length": 4,
       "value": "\"ps\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "StringLiteral",
       "offset": 1816,
       "length": 4,
       "value": "\"ie\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "StringLiteral",
       "offset": 1843,
       "length": 6,
       "value": "\"cats\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
       "kind": "StringLiteral",
       "offset": 1873,
       "length": 6,

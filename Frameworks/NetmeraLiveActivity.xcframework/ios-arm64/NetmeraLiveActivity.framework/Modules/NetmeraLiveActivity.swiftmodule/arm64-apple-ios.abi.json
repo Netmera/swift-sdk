@@ -505,56 +505,56 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityCloseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityCloseEvent.swift",
       "kind": "StringLiteral",
       "offset": 1092,
       "length": 4,
       "value": "\"eu\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityStartTokenEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityStartTokenEvent.swift",
       "kind": "StringLiteral",
       "offset": 1090,
       "length": 4,
       "value": "\"et\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityUpdateTokenEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityUpdateTokenEvent.swift",
       "kind": "StringLiteral",
       "offset": 1308,
       "length": 4,
       "value": "\"et\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityUpdateTokenEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityUpdateTokenEvent.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 4,
       "value": "\"eu\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 303,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 365,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 423,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Array",
       "offset": 473,
       "length": 2,

@@ -1876,77 +1876,77 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "Array",
       "offset": 166,
       "length": 1904,
       "value": "[\"UICompatibilityInputViewController\", \"UINavigationController\", \"UIAlertController\", \"UIPageViewController\", \"UITabBarController\", \"UIInputViewController\", \"UISystemKeyboardDockController\", \"UISearchController\", \"UISearchContainerViewController\", \"MFMailComposeInternalViewController\", \"MFMailComposePlaceholderViewController\", \"UIInputWindowController\", \"UIActivityViewController\", \"UIActivityGroupViewController\", \"_UIActivityGroupListViewController\", \"_UIActivityViewControllerContentController\", \"UIKeyboardCandidateRowViewController\", \"UIKeyboardCandidateGridCollectionViewController\", \"UIPrintMoreOptionsTableViewController\", \"UIPrintPanelTableViewController\", \"UIPrintPanelViewController\", \"UIPrintPaperViewController\", \"UIPrintPreviewViewController\", \"UIPrintRangeViewController\", \"UIDocumentMenuViewController\", \"UISplitViewController\", \"UIDocumentPickerViewController\", \"UIDocumentPickerExtensionViewController\", \"UIInterfaceActionGroupViewController\", \"UISystemInputViewController\", \"UICompatibilityInputViewController\", \"UIInputViewAnimationControllerViewController\", \"UISnapshotModalViewController\", \"UISplitViewController\", \"UIReferenceLibraryViewController\", \"UIMultiColumnViewController\", \"_UIFallbackPresentationViewController\", \"UIApplicationRotationFollowingControllerNoTouches\", \"UIKeyCommandDiscoverabilityHUDViewController\", \"UIApplicationRotationFollowingController\", \"UISystemInputAssistantViewController\", \"UIPredictionViewController\", \"UIRecentsInputViewController\", \"_UIShareExtensionRemoteViewController\", \"SFAuthenticationViewController\", \"SLComposeViewController\", \"SLRemoteComposeViewController\", \"SFBrowserRemoteViewController\", \"_UISFAirDropInstructionsViewController\"]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 2537,
       "length": 24,
       "value": "\"blacklist_screen_names\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2657,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2729,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2809,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2855,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2906,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 2990,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 3035,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/ActionInfo\/UIControlActionInfo.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/ActionInfo\/UIControlActionInfo.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 2,

@@ -402,35 +402,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "Array",
       "offset": 1328,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "Array",
       "offset": 1388,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 36,
       "value": "\"kNetmeraInternalGeofenceIdentifier\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 311,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 41,

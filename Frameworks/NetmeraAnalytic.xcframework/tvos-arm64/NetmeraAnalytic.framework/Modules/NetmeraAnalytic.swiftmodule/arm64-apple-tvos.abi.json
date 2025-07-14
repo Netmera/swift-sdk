@@ -20224,735 +20224,735 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 1261,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 1289,
       "length": 4,
       "value": "\"er\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 1014,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1209,
       "length": 4,
       "value": "\"er\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1235,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
       "offset": 1666,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
       "offset": 1694,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
       "offset": 1716,
       "length": 4,
       "value": "\"eq\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
       "offset": 1738,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
       "offset": 1765,
       "length": 4,
       "value": "\"ge\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1722,
       "length": 4,
       "value": "\"er\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1749,
       "length": 4,
       "value": "\"es\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1775,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 4,
       "value": "\"em\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2574,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2602,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2624,
       "length": 4,
       "value": "\"eq\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2652,
       "length": 4,
       "value": "\"ga\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2682,
       "length": 4,
       "value": "\"ef\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2706,
       "length": 4,
       "value": "\"gd\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2732,
       "length": 4,
       "value": "\"eh\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2756,
       "length": 4,
       "value": "\"ei\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 2781,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 4,
       "value": "\"eo\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2719,
       "length": 4,
       "value": "\"er\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2746,
       "length": 4,
       "value": "\"es\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2772,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2801,
       "length": 4,
       "value": "\"fz\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2827,
       "length": 7,
       "value": "\"items\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2860,
       "length": 4,
       "value": "\"em\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2889,
       "length": 4,
       "value": "\"ep\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2914,
       "length": 4,
       "value": "\"el\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 2937,
       "length": 4,
       "value": "\"ek\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 4,
       "value": "\"ge\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1547,
       "length": 4,
       "value": "\"ga\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 4,
       "value": "\"ef\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 2960,
       "length": 4,
       "value": "\"ee\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 2985,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 3016,
       "length": 4,
       "value": "\"ef\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 3049,
       "length": 4,
       "value": "\"ej\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 3076,
       "length": 4,
       "value": "\"el\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 3101,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 3126,
       "length": 4,
       "value": "\"fi\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
       "kind": "StringLiteral",
       "offset": 1450,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
       "kind": "StringLiteral",
       "offset": 1478,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
       "offset": 1436,
       "length": 4,
       "value": "\"ej\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
       "offset": 1460,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1204,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 157,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "StringLiteral",
       "offset": 1570,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "StringLiteral",
       "offset": 1591,
       "length": 4,
       "value": "\"fy\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3099,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3127,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3149,
       "length": 4,
       "value": "\"eq\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3177,
       "length": 4,
       "value": "\"ga\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3207,
       "length": 4,
       "value": "\"ef\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3229,
       "length": 4,
       "value": "\"ec\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3254,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
       "offset": 3279,
       "length": 4,
       "value": "\"ej\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 1982,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 2009,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 2038,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 2061,
       "length": 4,
       "value": "\"et\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
       "kind": "StringLiteral",
       "offset": 1297,
       "length": 4,
       "value": "\"fe\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 4,
       "value": "\"fw\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 4,
       "value": "\"fu\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewTestEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewTestEvent.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
       "kind": "StringLiteral",
       "offset": 1218,
       "length": 4,
       "value": "\"ft\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 156,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 6,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 180,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 7,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 4,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 10,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 6,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
       "length": 11,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 9,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 348,
       "length": 14,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1470,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1497,
       "length": 4,
       "value": "\"ed\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
       "kind": "StringLiteral",
       "offset": 1514,
       "length": 4,
       "value": "\"ed\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2238,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2266,
       "length": 4,
       "value": "\"eb\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2294,
       "length": 4,
       "value": "\"ed\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2322,
       "length": 4,
       "value": "\"ga\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2352,
       "length": 4,
       "value": "\"ef\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2377,
       "length": 4,
       "value": "\"ee\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
       "offset": 2402,
       "length": 4,
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 150,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
       "kind": "StringLiteral",
       "offset": 1010,
       "length": 4,
       "value": "\"eo\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
       "kind": "StringLiteral",
       "offset": 1110,
       "length": 5,
       "value": "\"uid\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
       "kind": "StringLiteral",
       "offset": 1172,
       "length": 5,

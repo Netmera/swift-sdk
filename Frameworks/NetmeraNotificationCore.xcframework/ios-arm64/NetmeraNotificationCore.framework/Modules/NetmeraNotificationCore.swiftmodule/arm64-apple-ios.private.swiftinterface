@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotificationCore
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
@@ -8,6 +8,7 @@ import NetmeraCore
 import Swift
 import Swinject
 import UIKit
+import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -122,6 +123,34 @@ public class NetmeraPushOpenEvent : NetmeraNotificationCore.NetmeraPushEvent {
   override public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
+}
+public struct NetmeraNotificationCategory {
+  public let id: Swift.String
+  public let actions: [NetmeraNotificationCore.NetmeraNotificationCategoryAction]
+  public init(id: Swift.String, actions: [NetmeraNotificationCore.NetmeraNotificationCategoryAction])
+}
+public struct NetmeraNotificationCategoryAction {
+  public let id: Swift.String
+  public let title: Swift.String
+  public let activationMode: NetmeraCore.NetmeraUserNotificationActionActivationMode
+  public let destructive: Swift.Bool
+  public let authenticationRequired: Swift.Bool
+  public let behaviour: NetmeraCore.UserNotificationActionType
+  public init(id: Swift.String, title: Swift.String, activationMode: NetmeraCore.NetmeraUserNotificationActionActivationMode, destructive: Swift.Bool, authenticationRequired: Swift.Bool, behaviour: NetmeraCore.UserNotificationActionType)
+}
+public protocol NotificationCategoryRegistering {
+  func register(categories: [NetmeraNotificationCore.NetmeraNotificationCategory], callback: (() -> Swift.Void)?)
+}
+public protocol UNUserNotificationCenterProtocol {
+  var delegate: (any UserNotifications.UNUserNotificationCenterDelegate)? { get set }
+  func requestAuthorization(options: UserNotifications.UNAuthorizationOptions, completionHandler: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+  func setNotificationCategories(_ categories: Swift.Set<UserNotifications.UNNotificationCategory>)
+  func getNotificationCategories(completionHandler: @escaping (Swift.Set<UserNotifications.UNNotificationCategory>) -> Swift.Void)
+  func getNotificationSettings(completionHandler: @escaping (UserNotifications.UNNotificationSettings) -> Swift.Void)
+  func getDeliveredNotifications(completionHandler: @escaping ([UserNotifications.UNNotification]) -> Swift.Void)
+  func removeDeliveredNotifications(withIdentifiers identifiers: [Swift.String])
+}
+extension UserNotifications.UNUserNotificationCenter : NetmeraNotificationCore.UNUserNotificationCenterProtocol {
 }
 @_hasMissingDesignatedInitializers public class ContentPushItem : Swift.Codable, Swift.Equatable {
   public static let empty: NetmeraNotificationCore.ContentPushItem

@@ -624,14 +624,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 4219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 17,

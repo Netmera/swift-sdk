@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NetmeraGeofence-Swift.h</key>
 		<data>
-		4a9DwpgRoNH5tYYG8P4WBUYOe2Y=
+		UsDsF56oxZ8wiPAMaTPCcPBZ9lw=
 		</data>
 		<key>Headers/NetmeraGeofence.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wKD6D5DLpmitlr/puggkqX+rCe8=
+		5XE7k0Pqd+eFG9lPZxIQKna0wfg=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6R9jyYCtCIucavdnazrk+121Xp0=
+		eXuPT0tJg1Fz8h0LQx32+livB8Q=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ml4okFHlh6inxrk62t1jcMCcMuY=
+		p2gCLzIf4gmqVFCDINxc4dCjTC0=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		r18SjTHi2xv9iQKHa2qiug4Le5w=
+		BUaYyH/J+3YMtNNeGcip8JxLaDM=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ml4okFHlh6inxrk62t1jcMCcMuY=
+		p2gCLzIf4gmqVFCDINxc4dCjTC0=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vGO/uDBKZ9xHg7H6VW8vaZahIPk=
+		03pEMRvzVAhTKjuIJCRqJJ6AB1M=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6R9jyYCtCIucavdnazrk+121Xp0=
+		eXuPT0tJg1Fz8h0LQx32+livB8Q=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ul2e0kxY1jOuaiZvpMeX0P0zYRo=
+		0ZesMraCAG4zI6Nkz3bqzofmi3s=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jVOki6avs/k7/FVYfkCZtNQUXyY=
+		cvui5TLXetwH75WlrUXWmL7PCvU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ul2e0kxY1jOuaiZvpMeX0P0zYRo=
+		0ZesMraCAG4zI6Nkz3bqzofmi3s=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zujDV22Uv/PYc7unLTETmNn5zNE=
+		OJnHBa5kjppwpY4oCdZpf060nN0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUhxFnH4PWCeIqEkui0PCziS8AeYdx1WHly+S6KDtuo=
+			UxKj7dCra7gfPRphWzV1TnAADJAbAwT8Z9Lf36IjwPs=
 			</data>
 		</dict>
 		<key>Headers/NetmeraGeofence.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VD8smdj2UO9Ibr+yFdRHYi70vD2BBGLHfb5WR6IxlUk=
+			ZDpTgSjeh63GD1EzBjwljAxwogM2IFby11gHiCfxAgE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPvdYmgqLSgDyoOBsuVtjXVyqx5XOjzWukvtbaUNNbQ=
+			WLOcQ42brjiqdyL2iMVH+3+pmvS10vj6mmZngoWrbLA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FKAlnKFDE8Wn7h+r6R5p7wtFEz2t8lHNUhkS9E7ErxI=
+			BR0tMFFtx4+UI65858iQ0sNYx8yXjRgWwkA0U1X9QEE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPvdYmgqLSgDyoOBsuVtjXVyqx5XOjzWukvtbaUNNbQ=
+			WLOcQ42brjiqdyL2iMVH+3+pmvS10vj6mmZngoWrbLA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			48IfhuCvRNogeGuG8B5mvg+kj3IivIPd/Pz1RxzKD9k=
+			mPeS1sn/R4vOpHMMhzYpdY9Lta/ktrTUA2V/u2UyDaw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VD8smdj2UO9Ibr+yFdRHYi70vD2BBGLHfb5WR6IxlUk=
+			ZDpTgSjeh63GD1EzBjwljAxwogM2IFby11gHiCfxAgE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RxcwO3Lj3Bnl3YPkgGbahmT5mUtELOeMkfQUa/9lo6c=
+			qnGWYO0QoOK+H7AirbRhe5OcLRmS7wKuQpD9tN2iTn0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFVTqeVezv+IyKuKzvH2bDmdTaLmovBmhHZIIk7aKGc=
+			bttXtq7HxQcJ0VNJLTjs1fMWMtytVxKjZJC6t7HbJ3A=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RxcwO3Lj3Bnl3YPkgGbahmT5mUtELOeMkfQUa/9lo6c=
+			qnGWYO0QoOK+H7AirbRhe5OcLRmS7wKuQpD9tN2iTn0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4yHDhlhbPQpm1q6xAhA0JbiczA5SzipykexRCMlOtbY=
+			3rFL2idYbNnP5C27uhuuun+q/PD+TnHNyNP5oIYohTE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
