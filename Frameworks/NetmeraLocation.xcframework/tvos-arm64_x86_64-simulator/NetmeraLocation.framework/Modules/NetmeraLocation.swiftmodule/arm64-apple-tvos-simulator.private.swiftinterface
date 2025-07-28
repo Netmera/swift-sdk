@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraLocation
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraLocation
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CoreLocation
 import Foundation
 @_exported import NetmeraAnalytic
@@ -13,21 +13,17 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
+public protocol NetmeraLocationAuthorizationDelegate {
+  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
+}
+extension NetmeraCore.Netmera {
+  public static func requestLocationAuthorization()
 }
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()
 }
-public protocol NetmeraLocationAuthorizationDelegate {
-  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
-}
-public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
-  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
-}
-public protocol NetmeraLocationRegionDelegate {
-  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
-  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
 }
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
 public typealias NetmeraCLLocation = CoreLocation.CLLocation
@@ -49,6 +45,10 @@ extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManage
     get
   }
 }
-extension NetmeraCore.Netmera {
-  public static func requestLocationAuthorization()
+public protocol NetmeraLocationRegionDelegate {
+  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
+  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
+}
+public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
+  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
 }

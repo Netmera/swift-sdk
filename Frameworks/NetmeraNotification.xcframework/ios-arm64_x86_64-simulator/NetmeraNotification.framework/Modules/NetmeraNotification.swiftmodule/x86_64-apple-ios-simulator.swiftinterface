@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotification
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraNotification
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CoreLocation
 import Foundation
 @_exported import NetmeraAnalytic
@@ -17,47 +17,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum NetmeraPushPermissionType {
-  case notDetermined
-  case blocked
-  case denied
-  case granted
-  public static func == (a: NetmeraNotification.NetmeraPushPermissionType, b: NetmeraNotification.NetmeraPushPermissionType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public protocol NetmeraPushDelegate : AnyObject {
-  func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
-  func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
-  func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
-  func handlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
-  func shouldHandleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
-  func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
-}
-@_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotification.NetmeraWebViewActionEvent, rhs: NetmeraNotification.NetmeraWebViewActionEvent) -> Swift.Bool
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotification.NetmeraNotificationSettingsEvent, rhs: NetmeraNotification.NetmeraNotificationSettingsEvent) -> Swift.Bool
-  @objc deinit
-}
 public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
-extension UserNotifications.UNUserNotificationCenter {
-  public static func swizzle()
-}
 extension NetmeraCore.Netmera {
   public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
     get
@@ -79,6 +39,46 @@ extension NetmeraCore.Netmera {
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
+}
+extension UserNotifications.UNUserNotificationCenter {
+  public static func swizzle()
+}
+public enum NetmeraPushPermissionType {
+  case notDetermined
+  case blocked
+  case denied
+  case granted
+  public static func == (a: NetmeraNotification.NetmeraPushPermissionType, b: NetmeraNotification.NetmeraPushPermissionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraNotificationSettingsEvent, rhs: NetmeraNotification.NetmeraNotificationSettingsEvent) -> Swift.Bool
+  @objc deinit
+}
+public protocol NetmeraPushDelegate : AnyObject {
+  func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldHandleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+}
+@_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraWebViewActionEvent, rhs: NetmeraNotification.NetmeraWebViewActionEvent) -> Swift.Bool
+  @objc deinit
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}
