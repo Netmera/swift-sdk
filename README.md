@@ -18,6 +18,7 @@ pod "NetmeraAnalytic" // to use Netmera analytic features
 #pod "NetmeraLocation" // to use Netmera location features
 #pod "NetmeraGeofence" // to use Netmera geofence features
 #pod "NetmeraNotificationInbox" // to use Netmera push inbox features
+#pod "NetmeraLiveActivity" // to use Live Activity features
 ````
 
 2.  Run `pod install` command in your terminal.
@@ -32,6 +33,7 @@ import NetmeraNotification
 import NetmeraLocation
 import NetmeraNotificationInbox
 import NetmeraAdvertisingId
+import NetmeraLiveActivity
 ```
 
 2. Initialize Netmera in your App.
@@ -51,8 +53,6 @@ Configure with Plist. Add Netmera-Config.plist file to your project. Copy the fo
 	<dict>
 		<key>app_group_name</key>
 		<string>{AppGroupName}</string>
-		<key>use_ui_scene</key>
-		<false/>
 		<key>api_key</key>
 		<string>{API_KEY}</string>
 		<key>base_url</key>
@@ -183,47 +183,90 @@ Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner p
 >
 >⚠️ Also device cannot receive popups or in app messages while application is closed and killed while low battery mode is on. Because that mode disable background application refresh mode.
 
-### Using Media Push
-First you should create a new Notification Service Extension to your application. In order to do that, you should Follow those steps:
+## Notification Service Extension Integration
 
--   On Xcode click File > New > Target.Choose  `Notification Service Extension`
--    Choose  `Notification Service Extension`
-- After you selected Notification Service Extension new class named NotificationService will be created. It should be extended from MyNetmeraNotificationServiceExtension class. Your NotificationService class should look like that:
-```swift
-import UserNotifications
-import NetmeraNotificationServiceExtension
+To enable media attachments (images, videos, etc.) in push notifications, integrate the Netmera Notification Service Extension.
 
-class NotificationService: NotificationServiceExtension {
-  override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
-    super.didReceive(request, withContentHandler: contentHandler)
-  }
+### 1. Add the Pod
 
-  override func serviceExtensionTimeWillExpire() {
-    super.serviceExtensionTimeWillExpire()
-  }
-}
-```
-In your pod file, you should add `NetmeraNotificationServiceExtension` and install to your extension target like this.
+Add the following line to your Podfile for your extension target:
+
 ```ruby
 pod "NetmeraNotificationServiceExtension"
 ```
 
->⚠️ As an addition, if you want to allow your application to receive http media contents, you should do that change:
->
->-   Click Info.plist under NotificationService Extension
->-   Add App Transport Security Settings
->-   Under App Transport Security Settings add Allow Arbitrary Loads and set it YES
+### 2. Create the Extension
 
-### Using Carousel / Slider and Thumbnail Push
+1. In Xcode, go to **File > New > Target**.
+2. Select **Notification Service Extension** and click **Next**.
+3. Name your extension (e.g., `NotificationServiceExtension`) and click **Finish**.
 
-First you should create a new Notification Content Extension to your application. In order to do that, you should Follow those steps:
+### 3. Configure the Extension
 
--   On Xcode click File > New > Target.Choose  `Notification Content Extension`
--   Choose  `Notification Content Extension`
-- After you selected Notification Content Extension new class named NotificationViewController will be created. It should be extended from `NetmeraNotificationContentExtension` class. Your NotificationContent class should look like that:
-- If you want to add slide to Carousel property, UserInteractionEnabled must be added
-- After that you should enable App Groups from the Capabilities for both of your application and NotificationContent extension then add "**bundle_identifier.group_name**" to your app groups.
-- Ensure you added the app groups to your app, you should provide in Netmera.start() in your app group name in app delegate method where you set Netmera.start() method like this;
+In your extension's `NotificationService.swift` file, replace the content with:
+
+```swift
+import UserNotifications
+import NetmeraNotificationServiceExtension
+
+class NotificationService: NetmeraNotificationServiceExtension {
+    // No additional implementation needed
+}
+```
+
+### 4. Network Configuration
+
+Add the following to your extension's `Info.plist` to allow HTTPS connections:
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+```
+
+### 5. Custom Push Icon Support
+
+To enable custom push icons:
+
+1. **Add Communication Notifications capability** to your main app target in Xcode.
+2. **Add the following to your main app's `Info.plist`**:
+
+```xml
+<key>NSUserActivityTypes</key>
+<array>
+    <string>INSendMessageIntent</string>
+</array>
+```
+
+3. **Add your custom icon image** to your extension target's asset catalog.
+
+The SDK will automatically display the custom icon when the push payload contains the relevant field.
+
+**⚠️ Warning**: Make sure to add the `Netmera-Config.plist` file to both Service Extension and Content Extension targets for proper configuration.
+
+## Notification Content Extension Integration
+
+To enable custom notification UI with carousel and slider support, integrate the Netmera Notification Content Extension.
+
+### 1. Add the Pod
+
+Add the following line to your Podfile for your extension target:
+
+```ruby
+pod "NetmeraNotificationContentExtension"
+```
+
+### 2. Create the Extension
+
+1. In Xcode, go to **File > New > Target**.
+2. Select **Notification Content Extension** and click **Next**.
+3. Name your extension (e.g., `NotificationContentExtension`) and click **Finish**.
+
+### 3. Configure the Extension
+
+In your extension's `NotificationViewController.swift` file, replace the content with:
 
 ```swift
 import UserNotifications
@@ -231,27 +274,20 @@ import UserNotificationsUI
 import NetmeraNotificationContentExtension
 
 class NotificationViewController: NotificationContentExtension {
-  override func viewDidLoad() {
-    super.viewDidLoad()
-  }
-
-  override func didReceive(_ notification: UNNotification) {
-    super.didReceive(notification)
-  }
+    // No additional implementation needed
 }
 ```
 
-In your pod file, you should add `NetmeraNotificationContentExtension` and install to your extension target like this.
-```ruby
-pod "NetmeraNotificationContentExtension"
-```
-‼️ Default label in MainInterface should be deleted.
+### 4. Supported Features
 
->⚠️ As an addition, if you want to allow your application to receive http media contents, you should do that change:
->
->-   Click Info.plist under Notification Content Extension
->-   Add App Transport Security Settings
->-   Under App Transport Security Settings add Allow Arbitrary Loads and set it YES
+The extension automatically supports:
+
+- **Carousel View**: Horizontal scrolling through multiple content items
+- **Slider View**: Swipeable content with navigation
+- **Custom Actions**: Forward and dismiss actions
+- **Analytics**: Automatic push view event tracking
+
+**⚠️ Warning**: Make sure to add the `Netmera-Config.plist` file to both Service Extension and Content Extension targets for proper configuration.
 
 ## Analytics
 
@@ -284,29 +320,41 @@ Netmera.send(event)
 Below is the list of all built-in event classes — categorized by use cases — and their sample usage:
 
 -   Common Events
-    -   Screen View Event
-    -   Login Event
-    -   Register Event
-    -   Search Event
-    -   Share Event
-    -   In App Purchase Event
-    -   Banner Click Event
-    -   Category View Event
-    -   Battery Level Event
+    -   Screen View Event (`NetmeraScreenViewEvent`)
+    -   Login Event (`NetmeraLoginEvent`)
+    -   Register Event (`NetmeraRegisterEvent`)
+    -   Search Event (`NetmeraSearchEvent`)
+    -   Share Event (`NetmeraShareEvent`)
+    -   In App Purchase Event (`NetmeraInAppPurchaseEvent`)
+    -   Banner Click Event (`NetmeraBannerClickEvent`)
+    -   Category View Event (`NetmeraCategoryViewEvent`)
+    -   Battery Level Event (`NetmeraBatteryLevelEvent`)
+    -   Open App Event (`NetmeraOpenAppEvent`)
+    -   Location Update Event (`NetmeraLocationUpdateEvent`)
+    -   Time In App Event (`NetmeraTimeInAppEvent`)
+    -   Link Click Event (`NetmeraLinkClickEvent`)
+    -   Location Authorization Event (`NetmeraLocationAuthorizationEvent`)
+    -   Geofence Event (`NetmeraGeofenceEvent`)
+    -   Notification Settings Event (`NetmeraNotificationSettingsEvent`)
+    -   Push Receive Event (`NetmeraPushReceiveEvent`)
+    -   Push View Event (`NetmeraPushViewEvent`)
+    -   Push Dismiss Event (`NetmeraPushDismissEvent`)
+    -   Popup Show Event (`NetmeraPopupShowEvent`)
+    -   Push Open Event (`NetmeraPushOpenEvent`)
 -   Commerce Events
-    -   Product View Event
-    -   Product Rate Event
-    -   Product Comment Event
-    -   Order Cancel Event
-    -   Purchase Event
-    -   Cart View Event
-    -   Add To Cart Event
-    -   Remove From Cart Event
-    -   Add To Wishlist Event
+    -   Product View Event (`NetmeraProductViewEvent`)
+    -   Product Rate Event (`NetmeraProductRateEvent`)
+    -   Product Comment Event (`NetmeraProductCommentEvent`)
+    -   Order Cancel Event (`NetmeraOrderCancelEvent`)
+    -   Purchase Event (`NetmeraInAppPurchaseEvent`)
+    -   Cart View Event (`NetmeraCartViewEvent`)
+    -   Add To Cart Event (`NetmeraCartAddProductEvent`)
+    -   Remove From Cart Event (`NetmeraCartRemoveProductEvent`)
+    -   Add To Wishlist Event (`NetmeraWishListEvent`)
 -   Media Events
-    -   Content Comment Event
-    -   Content Rate Event
-    -   Content View Event
+    -   Content Comment Event (`NetmeraContentCommentEvent`)
+    -   Content Rate Event (`NetmeraContentRateEvent`)
+    -   Content View Event (`NetmeraContentViewEvent`)
     
  ### Custom Events
  
@@ -317,6 +365,33 @@ You can follow Developers -> Events and click the Create New Event button to gen
 In the end, Netmera Dashboard will automatically generate source files for your custom event, so that you can just add them to your project and use without any hassle.
 
 After you add the source files to your project, you can fire that custom event.
+
+### Data Transfer Control
+
+You can control whether Netmera SDK sends data to the server or not using the following methods:
+
+```swift
+// Enable data transfer (default state)
+Netmera.setDataTransferEnabled(true)
+
+// Disable data transfer to pause all data sending
+Netmera.setDataTransferEnabled(false)
+
+// Check current data transfer status
+let isEnabled = Netmera.isDataTransferEnabled()
+print("Data transfer enabled: \(isEnabled)")
+```
+
+### Additional Request Headers
+
+You can add custom headers to all Netmera HTTP requests made by the SDK:
+
+```swift
+// Set additional headers for all requests
+Netmera.setAdditionalRequestHeaders([
+    "X-Custom-Header": "custom-value"
+])
+```
 
 ## Geofence & Location
 
@@ -349,32 +424,89 @@ Netmera.requestLocationAuthorization()
 ```
 >⚠️ You can set max regions for Geofence with **setNetmeraMaxActiveRegions** method. If you set max active regions' number greater than 20 or smaller than 0, it will be set as the default which is 20.
 
-## User
+## User Management
 
-Use  `NetmeraUser`  class to send information about your application's users to Netmera in a structured way.
-Typical place to inform Netmera about application user's attributes is after your users has logged in to your application.
+Netmera SDK provides comprehensive user management capabilities to identify, update, and manage user information in a structured way.
 
-### Setting Attributes
+### User Identification
 
-After you have information about your user, you should create a  `NetmeraUser`  object, set values, then call  `[Netmera updateUser:]`  method like below
+Use the `identifyUser(_:)` method to send or refresh the user's identity information. This is the recommended approach for user management:
 
 ```swift
+// Create a user object that extends NetmeraUserIdentify class
+var user = NetmeraUserIdentify()
+user.userId = "user123"
+user.email = "john.doe@example.com"
+user.msisdn = "+905551234567"
+
+// Identify the user
+Netmera.identifyUser(user)
+```
+
+### User Updates (Deprecated)
+
+⚠️ **Deprecated**: The `updateUser(_:)` method is deprecated. Use `identifyUser(_:)` instead.
+
+```swift
+// DEPRECATED - Use identifyUser(_:) instead
 var user = NetmeraUser()
 user.userId = userId
 user.name = name
 user.surname = surname
 user.email = email
-Netmera.updateUser(user: user)
+Netmera.updateUser(user: user) // This method is deprecated
 ```
-⚠️ userId cannot be removed even if you set `nil` to it.
+
+### User Profile Updates
+
+Use the `updateUserProfile(_:)` method to apply specific profile updates. `NetmeraUserProfile` uses `NetmeraProfileAttribute` objects that support different operations:
+
+```swift
+// Create a user profile object that extends NetmeraUserProfile class
+var userProfile = NetmeraUserProfile()
+
+// Set values using the set() method
+userProfile.name.set("John")
+userProfile.surname.set("Doe")
+userProfile.dateOfBirth.set(Date())
+
+// For array properties, you can add or remove values
+userProfile.externalSegments.add(["segment1", "segment2"])
+userProfile.externalSegments.remove(["segment1"])
+
+// Unset a property to remove it
+userProfile.gender.unset()
+
+// Update the user profile
+Netmera.updateUserProfile(userProfile: userProfile)
+```
+
+**Available Operations:**
+- `set(_:)` - Sets a new value, replacing any existing value
+- `unset()` - Removes the property value
+- `add(_:)` - Adds values to array properties (only for array types)
+- `remove(_:)` - Removes values from array properties (only for array types)
+
+### Getting Current User Information
+
+You can retrieve the current external identifier for the user:
+
+```swift
+let externalId = Netmera.getCurrentExternalId()
+if let id = externalId {
+    print("Current external ID: \(id)")
+}
+```
 
 ### Adding Custom Attributes to User
 
-Similar to events, you can generate a custom  `NetmeraUser`  subclass using Netmera Dashboard if the set of built-in attributes is not enough for use case.
+Similar to events, you can generate a custom `NetmeraUserProfile` subclass using Netmera Dashboard if the set of built-in attributes is not enough for your use case.
 
-If the custom attribute is to be created on the Netmera, it must first be defined in the panel.(Developers-Profile Attributes)
+If the custom attribute is to be created on Netmera, it must first be defined in the panel (Developers → Profile Attributes).
 
 Netmera will automatically generate the source files for your custom user class, so that you can easily use them to send information about your custom attributes.
+
+⚠️ **Important**: The `userId` cannot be removed even if you set `nil` to it.
 
 ## Tracking Transparency
 
@@ -540,6 +672,172 @@ self.inboxManager?.count(for: NetmeraInboxStatus.read)
 ### 5. Light fetching
 
 // TODO:
+
+## Communication Preferences
+
+Netmera SDK allows you to manage your users' communication preferences, including email and SMS permissions, as well as category-based notification preferences.
+
+### 1. Email and SMS Permissions
+
+You can set and query your users' consent for email and SMS communication:
+
+```swift
+import NetmeraCore
+
+// Grant email permission
+Netmera.setEmailPermission(isAllowed: true)
+
+// Query email permission
+Netmera.getEmailPermission { result in
+    switch result {
+    case .success(let isAllowed):
+        print("Email permission: \(isAllowed)")
+    case .failure(let error):
+        print("Error: \(error)")
+    }
+}
+
+// Grant SMS permission
+Netmera.setSmsPermission(isAllowed: true)
+
+// Query SMS permission
+Netmera.getSmsPermission { result in
+    switch result {
+    case .success(let isAllowed):
+        print("SMS permission: \(isAllowed)")
+    case .failure(let error):
+        print("Error: \(error)")
+    }
+}
+```
+
+## Category Preferences
+
+You can manage user preferences for specific notification categories:
+
+```swift
+import NetmeraNotification
+
+// Fetch user category preferences
+Netmera.getUserCategoryPreferenceList { result in
+    switch result {
+    case .success(let preferences):
+        for pref in preferences {
+            print("Category: \(pref.categoryName ?? "") - Enabled: \(pref.categoryEnabled ?? false)")
+        }
+    case .failure(let error):
+        print("Error: \(error)")
+    }
+}
+
+// Update preference for a specific category
+Netmera.setUserCategoryPreference(
+    categoryId: 123,
+    categoryEnabled: true
+) { result in
+    switch result {
+    case .success(let success):
+        print("Preference updated: \(success)")
+    case .failure(let error):
+        print("Error: \(error)")
+    }
+}
+```
+
+#### Model
+
+`NetmeraUserCategoryPreference` contains:
+- `categoryId: Int?`
+- `categoryEnabled: Bool?`
+- `categoryName: String?`
+
+## Live Activity Integration
+
+Netmera SDK provides built-in support for iOS Live Activities, allowing you to track and manage Live Activity lifecycles and receive updates via push notifications.
+
+### 1. Installation
+
+Add the following to your Podfile to include Live Activity support:
+
+```ruby
+pod "NetmeraLiveActivity"
+```
+
+### 2. Import
+
+In your relevant Swift files, import the module:
+
+```swift
+import NetmeraLiveActivity
+```
+
+### 3. Usage
+
+#### Registering a Live Activity Type
+
+To enable Netmera to observe and manage a specific Live Activity type, register it at app launch (iOS 17.2+):
+
+```swift
+import ActivityKit
+import NetmeraLiveActivity
+
+@available(iOS 17.2, *)
+func setupLiveActivity() {
+    Netmera.register(forType: MyActivityAttributes.self, name: "MyActivity")
+}
+```
+
+#### Unregistering
+
+To stop observing a Live Activity type:
+
+```swift
+@available(iOS 17.2, *)
+Netmera.unregister(name: "MyActivity")
+```
+
+#### Observing a Specific Activity
+
+To observe a specific Live Activity instance (iOS 16.1+):
+
+```swift
+if #available(iOS 16.1, *) {
+    Netmera.observeActivity(activityInstance)
+}
+```
+
+#### Resume Observing After Relaunch
+
+To resume observing all active Live Activities of a given type (iOS 16.1+):
+
+```swift
+if #available(iOS 16.1, *) {
+    Netmera.resumeObservingActivities(ofType: MyActivityAttributes.self)
+}
+```
+
+### 4. Requirements
+
+- Your `ActivityAttributes` type must conform to both `ActivityAttributes` and `NetmeraLiveActivityAttributes` protocols.
+- Available on iOS 16.1 and above (some features require iOS 17.2+).
+
+### 5. Example Attribute Protocol
+
+```swift
+import ActivityKit
+import NetmeraLiveActivity
+
+struct MyActivityAttributes: ActivityAttributes, NetmeraLiveActivityAttributes {
+    var netmeraGroupId: String?
+    // ... your custom properties
+}
+```
+
+## Enabling Network SSL Pinning
+
+To enable SSL Pinning with the Netmera SDK, simply add your server’s public SSL certificate file (`netmera.com.cer`, DER format) to your Xcode project and ensure it is included in your app bundle. The SDK will automatically detect and use this certificate for SSL pinning. If the certificate is not present, SSL pinning will not be enabled, and network requests will proceed as usual without pinning. No additional configuration or code changes are required.
+
+**Note:** If your certificate changes, update the `.cer` file in your project and rebuild your app.
 
 ## License
 
