@@ -12,31 +12,6 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct NetmeraInboxCountFilter : Swift.Codable {
-  public let status: NetmeraNotificationCore.NetmeraInboxStatus
-  public let shouldIncludeExpiredObjects: Swift.Bool
-  public let categories: [Swift.String]?
-  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol NetmeraInboxManager {
-  var objects: [NetmeraNotificationCore.NetmeraInboxPush] { get }
-  func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
-  func inbox(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for pushObjects: [NetmeraNotificationCore.NetmeraInboxPush], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  func updateStatusForAllPushObjects(_ status: NetmeraNotificationCore.NetmeraInboxStatus, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  func clear()
-}
-public struct NetmeraInboxCategoryStatusObject : Swift.Codable {
-  public let readCount: Swift.Int
-  public let unreadCount: Swift.Int
-  public let deletedCount: Swift.Int
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
   case noFilter
   case hasNoNextItems
@@ -46,6 +21,26 @@ public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
     get
   }
 }
+public struct NetmeraInboxCountFilter : Swift.Codable {
+  public let status: NetmeraNotificationCore.NetmeraInboxStatus
+  public let shouldIncludeExpiredObjects: Swift.Bool
+  public let categories: [Swift.String]?
+  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class NetmeraInboxCountResponse : NetmeraCore.NetmeraResponse {
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  final public func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
+  @objc deinit
+}
+public struct NetmeraInboxCategoryStatusObject : Swift.Codable {
+  public let readCount: Swift.Int
+  public let unreadCount: Swift.Int
+  public let deletedCount: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct NetmeraInboxCategoryObject : Swift.Codable {
   public let categoryName: Swift.String?
   public let statusCounts: [NetmeraNotificationCore.NetmeraInboxStatus : Swift.Int]
@@ -53,11 +48,6 @@ public struct NetmeraInboxCategoryObject : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   public func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class NetmeraInboxCountResponse : NetmeraCore.NetmeraResponse {
-  override final public func encode(to encoder: any Swift.Encoder) throws
-  final public func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
-  @objc deinit
 }
 public struct NetmeraInboxCategoryFilter : Swift.Codable, Swift.CustomStringConvertible {
   public let status: NetmeraNotificationCore.NetmeraInboxStatus
@@ -67,15 +57,25 @@ public struct NetmeraInboxCategoryFilter : Swift.Codable, Swift.CustomStringConv
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public protocol NetmeraInboxCategoryManager {
+  var categories: [NetmeraNotificationInbox.NetmeraInboxCategoryObject] { get }
+  func inboxCategory(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+  func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+  func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+  func clear()
+}
 extension NetmeraCore.Netmera {
   public static func inboxManager(with filter: NetmeraNotificationInbox.NetmeraInboxFilter) -> (any NetmeraNotificationInbox.NetmeraInboxManager)?
   public static func inboxCategoryManager(with filter: NetmeraNotificationInbox.NetmeraInboxCategoryFilter) -> (any NetmeraNotificationInbox.NetmeraInboxCategoryManager)?
   public static func fetchInboxCount(with filter: NetmeraNotificationInbox.NetmeraInboxCountFilter, callback: @escaping (Swift.Result<NetmeraNotificationInbox.NetmeraInboxCountResponse, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
 }
-public protocol NetmeraInboxCategoryManager {
-  var categories: [NetmeraNotificationInbox.NetmeraInboxCategoryObject] { get }
-  func inboxCategory(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+public protocol NetmeraInboxManager {
+  var objects: [NetmeraNotificationCore.NetmeraInboxPush] { get }
+  func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
+  func inbox(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+  func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for pushObjects: [NetmeraNotificationCore.NetmeraInboxPush], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
+  func updateStatusForAllPushObjects(_ status: NetmeraNotificationCore.NetmeraInboxStatus, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func clear()
 }
