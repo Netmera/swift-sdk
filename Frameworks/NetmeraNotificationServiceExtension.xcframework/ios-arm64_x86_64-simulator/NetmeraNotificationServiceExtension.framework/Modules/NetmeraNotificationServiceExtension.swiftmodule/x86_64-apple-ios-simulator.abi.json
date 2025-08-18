@@ -6,6 +6,47 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Intents",
+        "printedName": "Intents",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19,10 +60,41 @@
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "NetmeraNotificationServiceExtension",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
       },
       {
         "kind": "Import",
@@ -50,8 +122,53 @@
       },
       {
         "kind": "Import",
+        "name": "Intents",
+        "printedName": "Intents",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationServiceExtension"
       },
@@ -306,23 +423,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
@@ -381,6 +481,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationServiceExtension"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
@@ -395,112 +512,6 @@
       },
       {
         "kind": "Import",
-        "name": "Intents",
-        "printedName": "Intents",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Intents",
-        "printedName": "Intents",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -514,21 +525,10 @@
         "name": "Intents",
         "printedName": "Intents",
         "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationServiceExtension"
+        "moduleName": "NetmeraNotificationServiceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",

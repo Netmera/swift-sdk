@@ -29,81 +29,6 @@
         "moduleName": "NetmeraNotification"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UserCategoryPreferenceError",
         "printedName": "UserCategoryPreferenceError",
@@ -265,6 +190,98 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -309,6 +326,30 @@
       },
       {
         "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
@@ -367,6 +408,23 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -386,47 +444,6 @@
         "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -626,6 +643,43 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotification.NetmeraWebViewActionEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraWebViewActionEvent",
+                    "printedName": "NetmeraNotification.NetmeraWebViewActionEvent",
+                    "usr": "s:19NetmeraNotification0A18WebViewActionEventC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetmeraNotification0A18WebViewActionEventC8eventKeyACSgSS_tcfc",
+            "mangledName": "$s19NetmeraNotification0A18WebViewActionEventC8eventKeyACSgSS_tcfc",
+            "moduleName": "NetmeraNotification",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -729,20 +783,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -1160,22 +1200,8 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -1188,6 +1214,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -1243,23 +1276,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1308,47 +1324,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -1366,6 +1341,60 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraAnalytic",
+        "printedName": "NetmeraAnalytic",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "Exported"
+        ]
       },
       {
         "kind": "Import",
@@ -1465,20 +1494,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1544,6 +1559,13 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1551,6 +1573,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -1580,6 +1609,23 @@
         "kind": "Import",
         "name": "UserNotifications",
         "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -1947,8 +1993,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NetmeraNotification",
         "declAttributes": [
@@ -2019,6 +2065,16 @@
         "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2069,27 +2125,13 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NetmeraNotification",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -2172,6 +2214,16 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2179,6 +2231,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -2213,16 +2289,6 @@
         "printedName": "UserNotifications",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2284,23 +2350,6 @@
       },
       {
         "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -2351,23 +2400,6 @@
         "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -2602,6 +2634,43 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotification.NetmeraNotificationSettingsEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNotificationSettingsEvent",
+                    "printedName": "NetmeraNotification.NetmeraNotificationSettingsEvent",
+                    "usr": "s:19NetmeraNotification0aB13SettingsEventC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetmeraNotification0aB13SettingsEventC8eventKeyACSgSS_tcfc",
+            "mangledName": "$s19NetmeraNotification0aB13SettingsEventC8eventKeyACSgSS_tcfc",
+            "moduleName": "NetmeraNotification",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -2656,6 +2725,37 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -2699,6 +2799,37 @@
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -2783,16 +2914,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -2879,16 +3000,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraAnalytic",
-        "printedName": "NetmeraAnalytic",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -2899,10 +3010,14 @@
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "Exported"
-        ]
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -3026,6 +3141,40 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -3045,40 +3194,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
       },
@@ -3187,8 +3302,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NetmeraNotification",
         "declAttributes": [
@@ -3534,47 +3649,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -3616,8 +3690,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NetmeraNotification",
         "declAttributes": [
@@ -4223,6 +4297,42 @@
           },
           {
             "kind": "Function",
+            "name": "handleAction",
+            "printedName": "handleAction(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraPushAction",
+                "printedName": "NetmeraNotificationCore.NetmeraPushAction",
+                "usr": "s:23NetmeraNotificationCore0A10PushActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A12NotificationE12handleAction_3fory0acB00a4PushE0C_AG0a4BaseG0CtFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE12handleAction_3fory0acB00a4PushE0C_AG0a4BaseG0CtFZ",
+            "moduleName": "NetmeraNotification",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handleInteractiveAction",
             "printedName": "handleInteractiveAction(_:for:)",
             "children": [
@@ -4249,9 +4359,12 @@
             "mangledName": "$s11NetmeraCore0A0C0A12NotificationE23handleInteractiveAction_3fory0acB00a4PushF0C_AG0aeH0CtFZ",
             "moduleName": "NetmeraNotification",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4477,6 +4590,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Utils\/UNUserNotificationCenterExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Event\/NetmeraWebViewActionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1189,
@@ -4603,34 +4723,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
-      "kind": "StringLiteral",
-      "offset": 134,
-      "length": 10,
-      "value": "\"open_url\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 15,
-      "value": "\"open_deeplink\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 15,
-      "value": "\"close_webview\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
-      "kind": "StringLiteral",
-      "offset": 250,
-      "length": 20,
-      "value": "\"bg_location_prompt\""
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 160,
@@ -4687,6 +4779,34 @@
       "value": "\"close_webview\""
     },
     {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 134,
+      "length": 10,
+      "value": "\"open_url\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 15,
+      "value": "\"open_deeplink\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 15,
+      "value": "\"close_webview\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Model\/WebViewUserContentActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 20,
+      "value": "\"bg_location_prompt\""
+    },
+    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Framework\/NotificationFrameworkDelegateImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 501,
@@ -4736,11 +4856,11 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Utils\/UNUserNotificationCenterExtension.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 1,
-      "value": "1"
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/UserCategoryPreferenceListResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 5,
+      "value": "\"cts\""
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Provider\/AllowPopupPushPresentProvider.swift",
@@ -4776,13 +4896,6 @@
       "offset": 1735,
       "length": 12,
       "value": "\"app_manage\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/UserCategoryPreferenceListResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 931,
-      "length": 5,
-      "value": "\"cts\""
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PopupConstraintConfigurator.swift",

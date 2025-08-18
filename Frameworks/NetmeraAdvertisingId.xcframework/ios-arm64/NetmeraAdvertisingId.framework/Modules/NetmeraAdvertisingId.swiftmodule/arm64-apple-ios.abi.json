@@ -6,104 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraAnalytic",
-        "printedName": "NetmeraAnalytic",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "AppTrackingTransparency",
         "printedName": "AppTrackingTransparency",
         "declKind": "Import",
@@ -121,13 +23,17 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
         "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
       },
       {
         "kind": "Import",
@@ -143,13 +49,6 @@
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
         "declKind": "Import",
         "moduleName": "NetmeraAdvertisingId"
       },
@@ -169,71 +68,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -285,23 +119,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -326,13 +143,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "NetmeraAdvertisingId",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
       },
       {
         "kind": "Import",
@@ -367,13 +191,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAdvertisingId"
       },
       {
         "kind": "Import",
@@ -408,6 +225,189 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraAnalytic",
+        "printedName": "NetmeraAnalytic",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraAdvertisingId"
       },
       {
         "kind": "TypeDecl",
@@ -624,6 +624,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4347,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Framework\/AdvertisingIdFrameworkDelegateImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 452,
@@ -636,13 +643,6 @@
       "offset": 143,
       "length": 17,
       "value": "\"AdvertisingInfo\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4347,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
