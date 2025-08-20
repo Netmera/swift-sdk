@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		lJpcLcOfGV1x0TyFx0iEq7FuEHM=
+		jkPEUyFxocnSE8Fw/CTIqN1An8g=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		qbUhBBA2DF311sPE3BuApH1hHUo=
+		Fo73XT4uIteZjcm3TdIg097F8WU=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		lJpcLcOfGV1x0TyFx0iEq7FuEHM=
+		jkPEUyFxocnSE8Fw/CTIqN1An8g=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		6eO96Wq4DH6IzBoDoUqH11Mj+Pk=
+		Ve5Z5Cj4aA1BaZZ9l1SkBt/gHjU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5y+qNi9pMLu08LA0gjFovDyGmeC/r0ewr5j7vYYTroo=
+			ccvFz83XpgHnehHWsJwqNsqQVkCYoh7OOicSgjUkzpM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			21c1xfgyisUYSbF2CM7rK/nWV6QaXYlXY87hgxZ63SE=
+			sGqRgfskh/I8nw5hncA5o+iZe0AGr5+amLORVV2RFnk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5y+qNi9pMLu08LA0gjFovDyGmeC/r0ewr5j7vYYTroo=
+			ccvFz83XpgHnehHWsJwqNsqQVkCYoh7OOicSgjUkzpM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KeGzuDzPbRoAkGYJ5bOPTmw+rkaQzAMKSflMO4VsbXU=
+			Qw9OsYD3eoi/h5azvwblZPPUEkpCZJfN/R3WbuQ1DKU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

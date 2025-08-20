@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FGXmg4Vuw1pAUPgiC1rkQaqFi/Y=
+		jvYihinpcPNoXFCJTYUCZ/dfFwU=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dXdwsY+ae5jaD6r1KnVx+f4LGao=
+		D/mxZTrXQ4l3pAEisPa4Z912T1Q=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FGXmg4Vuw1pAUPgiC1rkQaqFi/Y=
+		jvYihinpcPNoXFCJTYUCZ/dfFwU=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k0aplwPu4ZHgxSupPo+HJ0H5O7Y=
+		x1Upvacs80pWF8FQNKTnbcIhGJ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CyDGz8XNHGAVUbC4p8xVtbSOWTIZfkkRvoIvtW3rPMU=
+			Z52wYtw+JP7Ao9k+QLwU5X+6sTOsLzbXK7Zk5bheLpY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TybJCVl46qI5PBZzuWMUBbsyw14e+/6yzilXuVBwdrY=
+			kSG+48cqKa0/n0xRtpHBQRT0iK3OqQDk7sal+l/a6uo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CyDGz8XNHGAVUbC4p8xVtbSOWTIZfkkRvoIvtW3rPMU=
+			Z52wYtw+JP7Ao9k+QLwU5X+6sTOsLzbXK7Zk5bheLpY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q2zS7SLyNS04Pr3ArWku5r8ctauuVGMsH7t37DeME5k=
+			AS93XefLMCp0OwFH7StUlatuh5T2Wl2aI4GxkucSfSk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

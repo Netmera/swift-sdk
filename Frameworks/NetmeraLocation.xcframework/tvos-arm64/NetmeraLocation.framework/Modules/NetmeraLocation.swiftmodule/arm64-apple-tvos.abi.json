@@ -26,6 +26,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -592,26 +612,6 @@
         "name": "NetmeraAnalytic",
         "printedName": "NetmeraAnalytic",
         "declKind": "Import",
-        "moduleName": "NetmeraLocation",
-        "declAttributes": [
-          "Exported"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraAnalytic",
-        "printedName": "NetmeraAnalytic",
-        "declKind": "Import",
         "moduleName": "NetmeraLocation"
       },
       {
@@ -935,16 +935,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -1160,6 +1150,26 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraAnalytic",
+        "printedName": "NetmeraAnalytic",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -1228,16 +1238,6 @@
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -1596,20 +1596,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1301,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
-      "kind": "Array",
-      "offset": 486,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 177,
@@ -1643,6 +1629,20 @@
       "offset": 583,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
+      "kind": "Array",
+      "offset": 486,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
