@@ -12,11 +12,6 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension NetmeraCore.Netmera {
-  public static func inboxManager(with filter: NetmeraNotificationInbox.NetmeraInboxFilter) -> (any NetmeraNotificationInbox.NetmeraInboxManager)?
-  public static func inboxCategoryManager(with filter: NetmeraNotificationInbox.NetmeraInboxCategoryFilter) -> (any NetmeraNotificationInbox.NetmeraInboxCategoryManager)?
-  public static func fetchInboxCount(with filter: NetmeraNotificationInbox.NetmeraInboxCountFilter, callback: @escaping (Swift.Result<NetmeraNotificationInbox.NetmeraInboxCountResponse, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-}
 public protocol NetmeraInboxCategoryManager {
   var categories: [NetmeraNotificationInbox.NetmeraInboxCategoryObject] { get }
   func inboxCategory(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
@@ -87,4 +82,9 @@ public struct NetmeraInboxCategoryFilter : Swift.Codable, Swift.CustomStringConv
   public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension NetmeraCore.Netmera {
+  public static func inboxManager(with filter: NetmeraNotificationInbox.NetmeraInboxFilter) -> (any NetmeraNotificationInbox.NetmeraInboxManager)?
+  public static func inboxCategoryManager(with filter: NetmeraNotificationInbox.NetmeraInboxCategoryFilter) -> (any NetmeraNotificationInbox.NetmeraInboxCategoryManager)?
+  public static func fetchInboxCount(with filter: NetmeraNotificationInbox.NetmeraInboxCountFilter, callback: @escaping (Swift.Result<NetmeraNotificationInbox.NetmeraInboxCountResponse, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
 }

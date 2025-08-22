@@ -12,6 +12,15 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct NetmeraInboxFilter : Swift.Codable {
+  public let status: NetmeraNotificationCore.NetmeraInboxStatus
+  public let pageSize: Swift.Int
+  public let shouldIncludeExpiredObjects: Swift.Bool
+  public let categories: [Swift.String]?
+  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct NetmeraInboxCountFilter : Swift.Codable {
   public let status: NetmeraNotificationCore.NetmeraInboxStatus
   public let shouldIncludeExpiredObjects: Swift.Bool
@@ -78,13 +87,4 @@ public protocol NetmeraInboxCategoryManager {
   func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func clear()
-}
-public struct NetmeraInboxFilter : Swift.Codable {
-  public let status: NetmeraNotificationCore.NetmeraInboxStatus
-  public let pageSize: Swift.Int
-  public let shouldIncludeExpiredObjects: Swift.Bool
-  public let categories: [Swift.String]?
-  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }

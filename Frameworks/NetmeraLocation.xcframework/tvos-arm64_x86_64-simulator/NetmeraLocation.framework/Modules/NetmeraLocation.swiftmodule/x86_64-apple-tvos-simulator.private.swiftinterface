@@ -33,6 +33,9 @@ extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManage
     get
   }
 }
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
+}
 public protocol NetmeraLocationRegionDelegate {
   func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
   func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
@@ -50,7 +53,4 @@ extension NetmeraCore.Netmera {
 }
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()
-}
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
 }

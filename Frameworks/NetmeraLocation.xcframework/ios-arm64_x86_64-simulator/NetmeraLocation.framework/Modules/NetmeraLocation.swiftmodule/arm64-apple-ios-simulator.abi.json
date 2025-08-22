@@ -6,584 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetmeraLocationManager",
-        "printedName": "NetmeraLocationManager",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "requestWhenInUseAuthorization",
-            "printedName": "requestWhenInUseAuthorization()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP29requestWhenInUseAuthorizationyyF",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP29requestWhenInUseAuthorizationyyF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "requestLocation",
-            "printedName": "requestLocation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP07requestB0yyF",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP07requestB0yyF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "osLocation",
-            "printedName": "osLocation",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "NetmeraCore.Location?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Location",
-                    "printedName": "NetmeraCore.Location",
-                    "usr": "s:11NetmeraCore8LocationV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
-            "moduleName": "NetmeraLocation",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "NetmeraCore.Location?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Location",
-                        "printedName": "NetmeraCore.Location",
-                        "usr": "s:11NetmeraCore8LocationV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CLLocationManagerDelegate",
-                    "printedName": "any CoreLocation.CLLocationManagerDelegate",
-                    "usr": "c:objc(pl)CLLocationManagerDelegate"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvp",
-            "moduleName": "NetmeraLocation",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CLLocationManagerDelegate",
-                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
-                        "usr": "c:objc(pl)CLLocationManagerDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvg",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CLLocationManagerDelegate",
-                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
-                        "usr": "c:objc(pl)CLLocationManagerDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvs",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvs",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvM",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvM",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "locationServicesEnabled",
-            "printedName": "locationServicesEnabled()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP23locationServicesEnabledSbyFZ",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP23locationServicesEnabledSbyFZ",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "static": true,
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "requestAlwaysAuthorization",
-            "printedName": "requestAlwaysAuthorization()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP26requestAlwaysAuthorizationyyF",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP26requestAlwaysAuthorizationyyF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "monitoredRegions",
-            "printedName": "monitoredRegions",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<CoreLocation.CLRegion>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CLRegion",
-                    "printedName": "CoreLocation.CLRegion",
-                    "usr": "c:objc(cs)CLRegion"
-                  }
-                ],
-                "usr": "s:Sh"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvp",
-            "moduleName": "NetmeraLocation",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Set",
-                    "printedName": "Swift.Set<CoreLocation.CLRegion>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CLRegion",
-                        "printedName": "CoreLocation.CLRegion",
-                        "usr": "c:objc(cs)CLRegion"
-                      }
-                    ],
-                    "usr": "s:Sh"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvg",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "isMonitoringAvailable",
-            "printedName": "isMonitoringAvailable(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ExistentialMetatype",
-                "printedName": "any AnyObject.Type",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "AnyObject"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP21isMonitoringAvailable3forSbyXlXp_tFZ",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP21isMonitoringAvailable3forSbyXlXp_tFZ",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "static": true,
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "maximumRegionMonitoringDistance",
-            "printedName": "maximumRegionMonitoringDistance",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvp",
-            "moduleName": "NetmeraLocation",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvg",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "startMonitoring",
-            "printedName": "startMonitoring(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLRegion",
-                "printedName": "CoreLocation.CLRegion",
-                "usr": "c:objc(cs)CLRegion"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP15startMonitoring3forySo8CLRegionC_tF",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP15startMonitoring3forySo8CLRegionC_tF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopMonitoring",
-            "printedName": "stopMonitoring(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CLRegion",
-                "printedName": "CoreLocation.CLRegion",
-                "usr": "c:objc(cs)CLRegion"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP14stopMonitoring3forySo8CLRegionC_tF",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP14stopMonitoring3forySo8CLRegionC_tF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "authorizationStatus",
-            "printedName": "authorizationStatus",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CLAuthorizationStatus",
-                "printedName": "CoreLocation.CLAuthorizationStatus",
-                "usr": "c:@E@CLAuthorizationStatus"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvp",
-            "moduleName": "NetmeraLocation",
-            "protocolReq": true,
-            "intro_iOS": "14.0",
-            "declAttributes": [
-              "Available"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CLAuthorizationStatus",
-                    "printedName": "CoreLocation.CLAuthorizationStatus",
-                    "usr": "c:@E@CLAuthorizationStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvg",
-                "moduleName": "NetmeraLocation",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "authorizationStatus",
-            "printedName": "authorizationStatus()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CLAuthorizationStatus",
-                "printedName": "CoreLocation.CLAuthorizationStatus",
-                "usr": "c:@E@CLAuthorizationStatus"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0VyFZ",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0VyFZ",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
-            "static": true,
-            "protocolReq": true,
-            "intro_iOS": "4.2",
-            "declAttributes": [
-              "Available"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:15NetmeraLocation0aB7ManagerP",
-        "mangledName": "$s15NetmeraLocation0aB7ManagerP",
-        "moduleName": "NetmeraLocation",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1451,10 +873,76 @@
         "moduleName": "NetmeraLocation"
       },
       {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLocation"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "CLLocationManager",
-        "printedName": "CLLocationManager",
+        "name": "NetmeraLocationManager",
+        "printedName": "NetmeraLocationManager",
         "children": [
+          {
+            "kind": "Function",
+            "name": "requestWhenInUseAuthorization",
+            "printedName": "requestWhenInUseAuthorization()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP29requestWhenInUseAuthorizationyyF",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP29requestWhenInUseAuthorizationyyF",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestLocation",
+            "printedName": "requestLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP07requestB0yyF",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP07requestB0yyF",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Var",
             "name": "osLocation",
@@ -1476,13 +964,10 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
-            "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
+            "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
             "moduleName": "NetmeraLocation",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
+            "protocolReq": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1505,40 +990,450 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
-                "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
+                "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
                 "moduleName": "NetmeraLocation",
-                "isFromExtension": true,
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationManagerDelegate",
+                    "printedName": "any CoreLocation.CLLocationManagerDelegate",
+                    "usr": "c:objc(pl)CLLocationManagerDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvp",
+            "moduleName": "NetmeraLocation",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationManagerDelegate",
+                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
+                        "usr": "c:objc(pl)CLLocationManagerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvg",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CoreLocation.CLLocationManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationManagerDelegate",
+                        "printedName": "any CoreLocation.CLLocationManagerDelegate",
+                        "usr": "c:objc(pl)CLLocationManagerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvs",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvs",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvM",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP8delegateSo010CLLocationC8Delegate_pSgvM",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "locationServicesEnabled",
+            "printedName": "locationServicesEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP23locationServicesEnabledSbyFZ",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP23locationServicesEnabledSbyFZ",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestAlwaysAuthorization",
+            "printedName": "requestAlwaysAuthorization()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP26requestAlwaysAuthorizationyyF",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP26requestAlwaysAuthorizationyyF",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "monitoredRegions",
+            "printedName": "monitoredRegions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<CoreLocation.CLRegion>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLRegion",
+                    "printedName": "CoreLocation.CLRegion",
+                    "usr": "c:objc(cs)CLRegion"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvp",
+            "moduleName": "NetmeraLocation",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<CoreLocation.CLRegion>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLRegion",
+                        "printedName": "CoreLocation.CLRegion",
+                        "usr": "c:objc(cs)CLRegion"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP16monitoredRegionsShySo8CLRegionCGvg",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isMonitoringAvailable",
+            "printedName": "isMonitoringAvailable(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP21isMonitoringAvailable3forSbyXlXp_tFZ",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP21isMonitoringAvailable3forSbyXlXp_tFZ",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "maximumRegionMonitoringDistance",
+            "printedName": "maximumRegionMonitoringDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvp",
+            "moduleName": "NetmeraLocation",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP31maximumRegionMonitoringDistanceSdvg",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP15startMonitoring3forySo8CLRegionC_tF",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP15startMonitoring3forySo8CLRegionC_tF",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMonitoring",
+            "printedName": "stopMonitoring(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLRegion",
+                "printedName": "CoreLocation.CLRegion",
+                "usr": "c:objc(cs)CLRegion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP14stopMonitoring3forySo8CLRegionC_tF",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP14stopMonitoring3forySo8CLRegionC_tF",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationStatus",
+            "printedName": "authorizationStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvp",
+            "moduleName": "NetmeraLocation",
+            "protocolReq": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0Vvg",
+                "moduleName": "NetmeraLocation",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "authorizationStatus",
+            "printedName": "authorizationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0VyFZ",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP19authorizationStatusSo015CLAuthorizationE0VyFZ",
+            "moduleName": "NetmeraLocation",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
+            "static": true,
+            "protocolReq": true,
+            "intro_iOS": "4.2",
+            "declAttributes": [
+              "Available"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)CLLocationManager",
-        "moduleName": "CoreLocation",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "CLLocationManager",
+        "declKind": "Protocol",
+        "usr": "s:15NetmeraLocation0aB7ManagerP",
+        "mangledName": "$s15NetmeraLocation0aB7ManagerP",
+        "moduleName": "NetmeraLocation",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "Available",
-          "ObjC",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
           {
             "kind": "Conformance",
             "name": "Escapable",
@@ -1548,59 +1443,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "NetmeraLocationManager",
-            "printedName": "NetmeraLocationManager",
-            "usr": "s:15NetmeraLocation0aB7ManagerP",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -1800,6 +1646,160 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CLLocationManager",
+        "printedName": "CLLocationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "osLocation",
+            "printedName": "osLocation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraCore.Location?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "NetmeraCore.Location",
+                    "usr": "s:11NetmeraCore8LocationV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
+            "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
+            "moduleName": "NetmeraLocation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraCore.Location?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Location",
+                        "printedName": "NetmeraCore.Location",
+                        "usr": "s:11NetmeraCore8LocationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
+                "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
+                "moduleName": "NetmeraLocation",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)CLLocationManager",
+        "moduleName": "CoreLocation",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "CLLocationManager",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetmeraLocationManager",
+            "printedName": "NetmeraLocationManager",
+            "usr": "s:15NetmeraLocation0aB7ManagerP",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP"
           }
         ]
       }

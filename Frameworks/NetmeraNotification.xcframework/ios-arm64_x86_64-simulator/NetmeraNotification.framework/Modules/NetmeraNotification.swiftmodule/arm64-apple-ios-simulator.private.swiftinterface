@@ -17,6 +17,9 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UserNotifications.UNUserNotificationCenter {
+  public static func swizzle()
+}
 @_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -34,6 +37,7 @@ public protocol NetmeraPushDelegate : AnyObject {
   func shouldHandleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
 }
+public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
 extension NetmeraCore.Netmera {
   public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
     get
@@ -60,12 +64,6 @@ extension NetmeraCore.Netmera {
   public static func getUserCategoryPreferenceList(callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
   public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
 }
-public struct NetmeraUserCategoryPreference : Swift.Decodable {
-  public let categoryId: Swift.Int?
-  public let categoryEnabled: Swift.Bool?
-  public let categoryName: Swift.String?
-  public init(from decoder: any Swift.Decoder) throws
-}
 public enum NetmeraPushPermissionType {
   case notDetermined
   case blocked
@@ -77,7 +75,12 @@ public enum NetmeraPushPermissionType {
     get
   }
 }
-public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
+public struct NetmeraUserCategoryPreference : Swift.Decodable {
+  public let categoryId: Swift.Int?
+  public let categoryEnabled: Swift.Bool?
+  public let categoryName: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
 @_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -92,9 +95,6 @@ public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvert
   public var description: Swift.String {
     get
   }
-}
-extension UserNotifications.UNUserNotificationCenter {
-  public static func swizzle()
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}

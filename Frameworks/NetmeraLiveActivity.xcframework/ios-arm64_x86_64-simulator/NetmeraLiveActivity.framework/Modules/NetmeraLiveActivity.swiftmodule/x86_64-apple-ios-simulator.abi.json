@@ -16,26 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "ActivityKit",
         "printedName": "ActivityKit",
         "declKind": "Import",
@@ -297,6 +277,26 @@
         "moduleName": "NetmeraLiveActivity"
       },
       {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Netmera",
         "printedName": "Netmera",
@@ -505,20 +505,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1092,
-      "length": 4,
-      "value": "\"eu\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityStartTokenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1090,
-      "length": 4,
-      "value": "\"et\""
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityUpdateTokenEvent.swift",
       "kind": "StringLiteral",
       "offset": 1308,
@@ -566,6 +552,20 @@
       "offset": 473,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityCloseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1092,
+      "length": 4,
+      "value": "\"eu\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityStartTokenEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 4,
+      "value": "\"et\""
     }
   ]
 }
