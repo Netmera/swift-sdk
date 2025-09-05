@@ -50,12 +50,12 @@ public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate
 public protocol NetmeraLocationAuthorizationDelegate {
   func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
 }
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
+}
 extension NetmeraCore.Netmera {
   public static func shouldRequestLocationAuthorization() -> Swift.Bool
   public static func requestLocationAuthorization()
-}
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
 }
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		NJA+wXnsScPv/OzVtjl6HU+s81U=
+		sLNpcgAAeJ7W6QO+jJw1pqjLFxI=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		OwBT1Pg7r0r1t5lMP02L0S9XGrM=
+		K7TENQZPSg2/RZbYQeOGII1rUkU=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		NJA+wXnsScPv/OzVtjl6HU+s81U=
+		sLNpcgAAeJ7W6QO+jJw1pqjLFxI=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		xr3dDQUY07btrbVfY2kZvjItuuY=
+		xEnE12QwICsayhq6/L+i+joP8tE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7PWc/aM/EkhPZJ1xzeXGhrSiCA17RvHk2B/HjwNKkEg=
+			5180feBebjlZ/Jl0e9w8/XVP01V222GG2sT+tWorQac=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8G8GtpLUfO7+8vn8P540LMuwRXfbkpZL/zx7fIAukc=
+			cUzdbZZN3XoYkfltCxYb9aaur/lYi238GYvBYof5XPk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7PWc/aM/EkhPZJ1xzeXGhrSiCA17RvHk2B/HjwNKkEg=
+			5180feBebjlZ/Jl0e9w8/XVP01V222GG2sT+tWorQac=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D+L9vsOvr5NKtCe4oz7RyTKLaETyvJwYUC+DBmCVrI8=
+			v/Tz6BNqmKU/mgVwOrK+4r/6qwXX9uUtK5kZEwSH/qM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

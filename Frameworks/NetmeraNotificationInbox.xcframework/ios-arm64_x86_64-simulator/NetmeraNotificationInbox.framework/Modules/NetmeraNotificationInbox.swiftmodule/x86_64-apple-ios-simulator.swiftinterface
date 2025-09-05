@@ -24,6 +24,23 @@ public protocol NetmeraInboxCategoryManager {
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func clear()
 }
+public struct NetmeraInboxFilter : Swift.Codable {
+  public let status: NetmeraNotificationCore.NetmeraInboxStatus
+  public let pageSize: Swift.Int
+  public let shouldIncludeExpiredObjects: Swift.Bool
+  public let categories: [Swift.String]?
+  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct NetmeraInboxCountFilter : Swift.Codable {
+  public let status: NetmeraNotificationCore.NetmeraInboxStatus
+  public let shouldIncludeExpiredObjects: Swift.Bool
+  public let categories: [Swift.String]?
+  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol NetmeraInboxManager {
   var objects: [NetmeraNotificationCore.NetmeraInboxPush] { get }
   func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
@@ -34,6 +51,13 @@ public protocol NetmeraInboxManager {
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
   func clear()
 }
+public struct NetmeraInboxCategoryStatusObject : Swift.Codable {
+  public let readCount: Swift.Int
+  public let unreadCount: Swift.Int
+  public let deletedCount: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
   case noFilter
   case hasNoNextItems
@@ -42,15 +66,6 @@ public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
-}
-public struct NetmeraInboxFilter : Swift.Codable {
-  public let status: NetmeraNotificationCore.NetmeraInboxStatus
-  public let pageSize: Swift.Int
-  public let shouldIncludeExpiredObjects: Swift.Bool
-  public let categories: [Swift.String]?
-  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public struct NetmeraInboxCategoryObject : Swift.Codable {
   public let categoryName: Swift.String?
@@ -70,21 +85,6 @@ public struct NetmeraInboxCategoryFilter : Swift.Codable, Swift.CustomStringConv
   public let pageSize: Swift.Int
   public let shouldIncludeExpiredObjects: Swift.Bool
   public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct NetmeraInboxCountFilter : Swift.Codable {
-  public let status: NetmeraNotificationCore.NetmeraInboxStatus
-  public let shouldIncludeExpiredObjects: Swift.Bool
-  public let categories: [Swift.String]?
-  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct NetmeraInboxCategoryStatusObject : Swift.Codable {
-  public let readCount: Swift.Int
-  public let unreadCount: Swift.Int
-  public let deletedCount: Swift.Int
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
