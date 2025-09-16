@@ -23,6 +23,13 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -35,13 +42,6 @@
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
       },
@@ -98,6 +98,13 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
@@ -121,308 +128,28 @@
         "moduleName": "NetmeraNotificationInbox"
       },
       {
-        "kind": "TypeDecl",
-        "name": "NetmeraInboxCategoryManager",
-        "printedName": "NetmeraInboxCategoryManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "categories",
-            "printedName": "categories",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[NetmeraNotificationInbox.NetmeraInboxCategoryObject]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraInboxCategoryObject",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxCategoryObject",
-                    "usr": "s:24NetmeraNotificationInbox0aC14CategoryObjectV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvp",
-            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvp",
-            "moduleName": "NetmeraNotificationInbox",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[NetmeraNotificationInbox.NetmeraInboxCategoryObject]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxCategoryObject",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxCategoryObject",
-                        "usr": "s:24NetmeraNotificationInbox0aC14CategoryObjectV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvg",
-                "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvg",
-                "moduleName": "NetmeraNotificationInbox",
-                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-                "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "inboxCategory",
-            "printedName": "inboxCategory(callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP05inboxD08callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP05inboxD08callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
-            "moduleName": "NetmeraNotificationInbox",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "nextPage",
-            "printedName": "nextPage(callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP8nextPage8callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP8nextPage8callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
-            "moduleName": "NetmeraNotificationInbox",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateStatus",
-            "printedName": "updateStatus(_:for:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraInboxStatus",
-                "printedName": "NetmeraNotificationCore.NetmeraInboxStatus",
-                "usr": "s:23NetmeraNotificationCore0A11InboxStatusV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP12updateStatus_3for8callbacky0aB4Core0acG0V_SaySSGys6ResultOySbAA0aC5ErrorOGctF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP12updateStatus_3for8callbacky0aB4Core0acG0V_SaySSGys6ResultOySbAA0aC5ErrorOGctF",
-            "moduleName": "NetmeraNotificationInbox",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clear",
-            "printedName": "clear()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP5clearyyF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP5clearyyF",
-            "moduleName": "NetmeraNotificationInbox",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP",
-        "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
       },
       {
         "kind": "Import",
@@ -827,13 +554,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
         "name": "Swinject",
         "printedName": "Swinject",
         "declKind": "Import",
@@ -850,284 +570,11 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "NetmeraInboxError",
-        "printedName": "NetmeraInboxError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "noFilter",
-            "printedName": "noFilter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> NetmeraNotificationInbox.NetmeraInboxError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraInboxError",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                    "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO8noFilteryA2CmF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO8noFilteryA2CmF",
-            "moduleName": "NetmeraNotificationInbox"
-          },
-          {
-            "kind": "Var",
-            "name": "hasNoNextItems",
-            "printedName": "hasNoNextItems",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> NetmeraNotificationInbox.NetmeraInboxError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraInboxError",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                    "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO14hasNoNextItemsyA2CmF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO14hasNoNextItemsyA2CmF",
-            "moduleName": "NetmeraNotificationInbox"
-          },
-          {
-            "kind": "Var",
-            "name": "requestError",
-            "printedName": "requestError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> (Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(description: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO07requestD0yACSS_tcACmF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO07requestD0yACSS_tcACmF",
-            "moduleName": "NetmeraNotificationInbox"
-          },
-          {
-            "kind": "Var",
-            "name": "invalidParameter",
-            "printedName": "invalidParameter",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> (Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(description: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraInboxError",
-                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
-                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
-            "moduleName": "NetmeraNotificationInbox"
-          },
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvp",
-            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvp",
-            "moduleName": "NetmeraNotificationInbox",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvg",
-                "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvg",
-                "moduleName": "NetmeraNotificationInbox",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO",
-        "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO",
-        "moduleName": "NetmeraNotificationInbox",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
       },
       {
         "kind": "Import",
@@ -1165,10 +612,314 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraInboxCategoryManager",
+        "printedName": "NetmeraInboxCategoryManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "categories",
+            "printedName": "categories",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NetmeraNotificationInbox.NetmeraInboxCategoryObject]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraInboxCategoryObject",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxCategoryObject",
+                    "usr": "s:24NetmeraNotificationInbox0aC14CategoryObjectV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvp",
+            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvp",
+            "moduleName": "NetmeraNotificationInbox",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraNotificationInbox.NetmeraInboxCategoryObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxCategoryObject",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxCategoryObject",
+                        "usr": "s:24NetmeraNotificationInbox0aC14CategoryObjectV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvg",
+                "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP10categoriesSayAA0acD6ObjectVGvg",
+                "moduleName": "NetmeraNotificationInbox",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+                "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "inboxCategory",
+            "printedName": "inboxCategory(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP05inboxD08callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP05inboxD08callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
+            "moduleName": "NetmeraNotificationInbox",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nextPage",
+            "printedName": "nextPage(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP8nextPage8callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP8nextPage8callbackyys6ResultOySbAA0aC5ErrorOGc_tF",
+            "moduleName": "NetmeraNotificationInbox",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateStatus",
+            "printedName": "updateStatus(_:for:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraInboxStatus",
+                "printedName": "NetmeraNotificationCore.NetmeraInboxStatus",
+                "usr": "s:23NetmeraNotificationCore0A11InboxStatusV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP12updateStatus_3for8callbacky0aB4Core0acG0V_SaySSGys6ResultOySbAA0aC5ErrorOGctF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP12updateStatus_3for8callbacky0aB4Core0acG0V_SaySSGys6ResultOySbAA0aC5ErrorOGctF",
+            "moduleName": "NetmeraNotificationInbox",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP5clearyyF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP5clearyyF",
+            "moduleName": "NetmeraNotificationInbox",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotificationInbox.NetmeraInboxCategoryManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24NetmeraNotificationInbox0aC15CategoryManagerP",
+        "mangledName": "$s24NetmeraNotificationInbox0aC15CategoryManagerP",
+        "moduleName": "NetmeraNotificationInbox",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1521,138 +1272,17 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
       },
       {
-        "kind": "TypeDecl",
-        "name": "NetmeraInboxCountResponse",
-        "printedName": "NetmeraInboxCountResponse",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraNotificationInbox",
-            "overriding": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "count",
-            "printedName": "count(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraInboxStatus",
-                "printedName": "NetmeraNotificationCore.NetmeraInboxStatus",
-                "usr": "s:23NetmeraNotificationCore0A11InboxStatusV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC5count3forSi0aB4Core0aC6StatusV_tF",
-            "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC5count3forSi0aB4Core0aC6StatusV_tF",
-            "moduleName": "NetmeraNotificationInbox",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC",
-        "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC",
-        "moduleName": "NetmeraNotificationInbox",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "superclassUsr": "s:11NetmeraCore0A8ResponseC",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "NetmeraCore.NetmeraResponse"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
       },
       {
         "kind": "Import",
@@ -2186,6 +1816,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraInboxCategoryStatusObject",
         "printedName": "NetmeraInboxCategoryStatusObject",
@@ -2456,13 +2103,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2472,18 +2112,284 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
+        "kind": "TypeDecl",
+        "name": "NetmeraInboxError",
+        "printedName": "NetmeraInboxError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noFilter",
+            "printedName": "noFilter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> NetmeraNotificationInbox.NetmeraInboxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraInboxError",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                    "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO8noFilteryA2CmF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO8noFilteryA2CmF",
+            "moduleName": "NetmeraNotificationInbox"
+          },
+          {
+            "kind": "Var",
+            "name": "hasNoNextItems",
+            "printedName": "hasNoNextItems",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> NetmeraNotificationInbox.NetmeraInboxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraInboxError",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                    "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO14hasNoNextItemsyA2CmF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO14hasNoNextItemsyA2CmF",
+            "moduleName": "NetmeraNotificationInbox"
+          },
+          {
+            "kind": "Var",
+            "name": "requestError",
+            "printedName": "requestError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> (Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO07requestD0yACSS_tcACmF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO07requestD0yACSS_tcACmF",
+            "moduleName": "NetmeraNotificationInbox"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameter",
+            "printedName": "invalidParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> (Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> NetmeraNotificationInbox.NetmeraInboxError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(description: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
+            "moduleName": "NetmeraNotificationInbox"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvp",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvp",
+            "moduleName": "NetmeraNotificationInbox",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvg",
+                "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO11descriptionSSvg",
+                "moduleName": "NetmeraNotificationInbox",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO",
+        "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO",
+        "moduleName": "NetmeraNotificationInbox",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2876,6 +2782,13 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2897,6 +2810,117 @@
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraInboxCountResponse",
+        "printedName": "NetmeraInboxCountResponse",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraNotificationInbox",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "count",
+            "printedName": "count(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraInboxStatus",
+                "printedName": "NetmeraNotificationCore.NetmeraInboxStatus",
+                "usr": "s:23NetmeraNotificationCore0A11InboxStatusV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC5count3forSi0aB4Core0aC6StatusV_tF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC5count3forSi0aB4Core0aC6StatusV_tF",
+            "moduleName": "NetmeraNotificationInbox",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24NetmeraNotificationInbox0aC13CountResponseC",
+        "mangledName": "$s24NetmeraNotificationInbox0aC13CountResponseC",
+        "moduleName": "NetmeraNotificationInbox",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A8ResponseC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NetmeraCore.NetmeraResponse"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3208,6 +3232,16 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3222,40 +3256,6 @@
         "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationInbox",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -3438,20 +3438,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "IntegerLiteral",
-      "offset": 799,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
-      "kind": "Dictionary",
-      "offset": 706,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/SetInboxStatusRequestPayload.swift",
       "kind": "BooleanLiteral",
       "offset": 446,
@@ -3485,6 +3471,20 @@
       "offset": 802,
       "length": 6,
       "value": "\"cats\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
+      "kind": "Dictionary",
+      "offset": 706,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxFilter.swift",
@@ -3536,6 +3536,20 @@
       "value": "\"prms\""
     },
     {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
+      "kind": "Array",
+      "offset": 184,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
+      "kind": "Dictionary",
+      "offset": 235,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 718,
@@ -3548,20 +3562,6 @@
       "offset": 625,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1119,
-      "length": 5,
-      "value": "\"cnt\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1149,
-      "length": 6,
-      "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCountFilter.swift",
@@ -3592,11 +3592,18 @@
       "value": "\"cats\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxCountResponse.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 1119,
+      "length": 5,
+      "value": "\"cnt\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
       "length": 6,
-      "value": "\"cnts\""
+      "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryStatusObject.swift",
@@ -3620,34 +3627,6 @@
       "value": "\"4\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Framework\/NotificationInboxFrameworkDelegateImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 493,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1626,
-      "length": 6,
-      "value": "\"msgs\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 6,
-      "value": "\"prms\""
-    },
-    {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1682,
-      "length": 6,
-      "value": "\"cnts\""
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Model\/NetmeraInboxCategoryObject.swift",
       "kind": "StringLiteral",
       "offset": 1693,
@@ -3667,6 +3646,20 @@
       "offset": 1750,
       "length": 5,
       "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Framework\/NotificationInboxFrameworkDelegateImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxCountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 6,
+      "value": "\"cnts\""
     },
     {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/InboxCategoryModel.swift",
@@ -3718,18 +3711,25 @@
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
-      "kind": "Array",
-      "offset": 184,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 6,
+      "value": "\"msgs\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxModel.swift",
-      "kind": "Dictionary",
-      "offset": 235,
-      "length": 3,
-      "value": "[]"
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 6,
+      "value": "\"prms\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/InboxResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1682,
+      "length": 6,
+      "value": "\"cnts\""
     }
   ]
 }
