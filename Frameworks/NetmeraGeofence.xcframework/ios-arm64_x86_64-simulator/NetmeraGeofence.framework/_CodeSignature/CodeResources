@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3Zbf0HYMQM0OtrAojCtEtTqSYLQ=
+		/Y93pQxwKhxXku7kz2o57FOzlHk=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cEt4V2GmDgdZF0l6vVSLj9EKNDA=
+		M5njYvSevIPmdt+L23D8f0o7qhc=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hg/143nu2m7FPLkdfcVTWFa+TPQ=
+		lMlXobwQZ6XgCp/yhWyelyI4qrs=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cEt4V2GmDgdZF0l6vVSLj9EKNDA=
+		M5njYvSevIPmdt+L23D8f0o7qhc=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		awNx/f2yXU7vjIQHhxqP8TYhRJE=
+		6KbOocFNAUVdP8xRmutxV/8IHkw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqn2gpOkh55C0Lj7yDyFyH1s88fP0xRHHCoU2BQePcc=
+			p9fjMPnuvpdYSug/d7dOL+H6RV88VRjFdrS4wRZVZxE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Na6gZ0noqFSTCdq8az3Tr9xI5US7hN6IJWbFq7pdL1k=
+			tBQCAaaO79I4ydFkYpEeBvOWC5LwC0+g8ANP8Qweu3E=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqn2gpOkh55C0Lj7yDyFyH1s88fP0xRHHCoU2BQePcc=
+			p9fjMPnuvpdYSug/d7dOL+H6RV88VRjFdrS4wRZVZxE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLSn425V/k5OwHqW/R+PQ1b/YgnX4/4HgE8PBL42ujU=
+			zJPGaQVnJJ/sRNRT1gT64TqFX6vrI4MW0P85cyAZAYI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		otrGacKbhygZ7n870dRuZDkoTdc=
+		ezI5dRs4gXRNAndhMn9ecvfKeEU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		HX5JTbEbX6bhaPOUlPjuMnCnkzM=
+		wyAxt5vTzKO/GFz5/HClSGQQ5GU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		XVnJzeLop7SmC5htbb30wSktXGI=
+		GhbWwHq6+9wOfi1JaUO8Yzi4m1Y=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		HX5JTbEbX6bhaPOUlPjuMnCnkzM=
+		wyAxt5vTzKO/GFz5/HClSGQQ5GU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		nErdyIMtb+jfPu/4gHfZ6+I83c0=
+		ePr+E8RYH+HGhXOrDf6+y7P30dw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBseyPHgekz3hb4+hpebgsC52C36ZxY9vVsHtIY+/hg=
+			YwPdyBbXKEGrEkc92JENgyRlbS3NUhQCkCP8jDwefHY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uUWWC8YbY+tIz9j4Mfn4lHNheeU/3U87ABLir30zsmA=
+			90kyw4vXeU9UQGVpz99odcA356PNCpl6btRg0rfHpRM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBseyPHgekz3hb4+hpebgsC52C36ZxY9vVsHtIY+/hg=
+			YwPdyBbXKEGrEkc92JENgyRlbS3NUhQCkCP8jDwefHY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHpPV42ZJ1RUpjjRsHhuLvf0uCIKOV4p6DCy3MyXkMA=
+			tRQrxPA60/IpGx3/EYC3qy29uY2rEM4lk3sMvhjfMNU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

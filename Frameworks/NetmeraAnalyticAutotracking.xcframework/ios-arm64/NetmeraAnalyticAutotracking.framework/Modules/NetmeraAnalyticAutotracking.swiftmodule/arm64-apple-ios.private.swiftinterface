@@ -12,12 +12,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension UIKit.UIScrollView {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
-}
 extension UIKit.UIPickerView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIPickerViewDelegate)?)
 }
 public protocol NetmeraScreenTrackable : UIKit.UIViewController {
   var netmeraScreenName: Swift.String { get set }
+}
+extension UIKit.UIScrollView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
 }

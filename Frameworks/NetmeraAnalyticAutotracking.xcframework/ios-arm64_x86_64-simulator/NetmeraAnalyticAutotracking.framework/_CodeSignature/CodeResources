@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dKqcAp84xLd62nv+aTnwKZQW5fE=
+		yv1nb/hJLUQ/2CjvCoZQuOUNWPE=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ABxSrLZoTcGSjsmE9wlNB3Khuiw=
+		khXrJZ596myEb7E9y5udYr1eSh0=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DXmLxKEp2DnDP2LnFSJs8GL66Vw=
+		MU0zNJwvP4F9euFVi75wGhnwQsQ=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DXmLxKEp2DnDP2LnFSJs8GL66Vw=
+		MU0zNJwvP4F9euFVi75wGhnwQsQ=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OOIISZcs8MYFs77cfZMJNbjX0uQ=
+		qqhsimTJkmiDZjp5VSfbCJTr2zM=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ABxSrLZoTcGSjsmE9wlNB3Khuiw=
+		khXrJZ596myEb7E9y5udYr1eSh0=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		R6Bb40zQ0aG5aiIu+C4qUgzkfo0=
+		LCUYk6nhfTx30DvtSbSCIcAtkis=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		R6Bb40zQ0aG5aiIu+C4qUgzkfo0=
+		LCUYk6nhfTx30DvtSbSCIcAtkis=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YYg53VYFoPpOyYwi8hyX+tq95HA=
+		8nnHT4zV9P5kPZgZm5t0GUAamqY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgMxAEiEniy4hP5Xcdlg7RLxRw3R4Z56fm+tR6IUP+g=
+			nKfJIzggHVCTcaMgvkWN6jF26WsYXOFV1JJL2H3dAOo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+r/nF6wvMDguxN1Ovyk1eQ8Kx+V4uz+zbwbFdDwKqCY=
+			qe9ufKMG4BW4y8xj6YEA6I2AIfjQTjHCdevMk3MrZBs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+r/nF6wvMDguxN1Ovyk1eQ8Kx+V4uz+zbwbFdDwKqCY=
+			qe9ufKMG4BW4y8xj6YEA6I2AIfjQTjHCdevMk3MrZBs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+2alLlJL0aRMFanU8GOPgAKSkK0OCfsxrryP/1dJ7VY=
+			YzgjQ/n1tGpEQZu5v3q4PagmQSkXSfRzrT4JQdabxyM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgMxAEiEniy4hP5Xcdlg7RLxRw3R4Z56fm+tR6IUP+g=
+			nKfJIzggHVCTcaMgvkWN6jF26WsYXOFV1JJL2H3dAOo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASNaHBj9LG9TF8XaSf7rdciSyxC3454ZGvYhArHPi9o=
+			3q/zywWzEXu5+DZd54iMEjTPsP7L0AlfYj+FAtOraPY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASNaHBj9LG9TF8XaSf7rdciSyxC3454ZGvYhArHPi9o=
+			3q/zywWzEXu5+DZd54iMEjTPsP7L0AlfYj+FAtOraPY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gmqy0eiVKyieWG1tbhAj3fypgGSpCn6ionzlItApUa8=
+			aPCb/MiSoRYi208zTj62NYtPhOw0LCoci8nd8cTqMvY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -12,6 +12,19 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class NetmeraInboxCountResponse : NetmeraCore.NetmeraResponse {
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  final public func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
+  @objc deinit
+}
+public struct NetmeraInboxCountFilter : Swift.Codable {
+  public let status: NetmeraNotificationCore.NetmeraInboxStatus
+  public let shouldIncludeExpiredObjects: Swift.Bool
+  public let categories: [Swift.String]?
+  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct NetmeraInboxCategoryStatusObject : Swift.Codable {
   public let readCount: Swift.Int
   public let unreadCount: Swift.Int
@@ -54,11 +67,6 @@ public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class NetmeraInboxCountResponse : NetmeraCore.NetmeraResponse {
-  override final public func encode(to encoder: any Swift.Encoder) throws
-  final public func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
-  @objc deinit
-}
 extension NetmeraCore.Netmera {
   public static func inboxManager(with filter: NetmeraNotificationInbox.NetmeraInboxFilter) -> (any NetmeraNotificationInbox.NetmeraInboxManager)?
   public static func inboxCategoryManager(with filter: NetmeraNotificationInbox.NetmeraInboxCategoryFilter) -> (any NetmeraNotificationInbox.NetmeraInboxCategoryManager)?
@@ -77,14 +85,6 @@ public struct NetmeraInboxFilter : Swift.Codable {
   public let shouldIncludeExpiredObjects: Swift.Bool
   public let categories: [Swift.String]?
   public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct NetmeraInboxCountFilter : Swift.Codable {
-  public let status: NetmeraNotificationCore.NetmeraInboxStatus
-  public let shouldIncludeExpiredObjects: Swift.Bool
-  public let categories: [Swift.String]?
-  public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
