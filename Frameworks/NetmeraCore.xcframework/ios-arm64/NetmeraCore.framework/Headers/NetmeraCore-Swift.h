@@ -283,7 +283,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -324,10 +323,10 @@ SWIFT_CLASS("_TtC11NetmeraCore18SSLPinningDelegate")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@protocol UISceneDelegate;
-SWIFT_AVAILABILITY(tvos,introduced=13) SWIFT_AVAILABILITY(ios,introduced=13)
-@interface UIScene (SWIFT_EXTENSION(NetmeraCore))
-- (void)s_delegate:(id <UISceneDelegate> _Nullable)delegate;
+SWIFT_CLASS("_TtC11NetmeraCore12UISceneProxy") SWIFT_AVAILABILITY(tvos,introduced=13.0) SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface UISceneProxy : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif

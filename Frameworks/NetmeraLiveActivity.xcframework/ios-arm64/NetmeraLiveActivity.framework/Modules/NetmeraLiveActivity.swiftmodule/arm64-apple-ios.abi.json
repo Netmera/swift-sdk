@@ -13,6 +13,13 @@
       },
       {
         "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -288,13 +295,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "ActivityKit",
-        "printedName": "ActivityKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
       },
       {
         "kind": "TypeDecl",

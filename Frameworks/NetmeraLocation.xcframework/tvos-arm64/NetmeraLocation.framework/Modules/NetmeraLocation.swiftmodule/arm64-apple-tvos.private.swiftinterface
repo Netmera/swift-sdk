@@ -13,6 +13,9 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
+}
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
 public typealias NetmeraCLLocation = CoreLocation.CLLocation
 public typealias NetmeraRegion = CoreLocation.CLRegion
@@ -50,7 +53,4 @@ extension NetmeraCore.Netmera {
 }
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()
-}
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
 }

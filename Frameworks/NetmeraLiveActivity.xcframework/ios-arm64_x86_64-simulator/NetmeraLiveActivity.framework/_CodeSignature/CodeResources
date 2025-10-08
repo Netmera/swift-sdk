@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aXdPoIkMKLjU2dTAdcUdqkfm6Mo=
+		hTK844NxWOGDB4c9PUw4/Sowuvs=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XGqr8gI3aQsKfVdpxDmd8IxJctg=
+		goIYRN1SSDSr1h1H2dCHL1arkTU=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aXdPoIkMKLjU2dTAdcUdqkfm6Mo=
+		hTK844NxWOGDB4c9PUw4/Sowuvs=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oJ/1EqMNQpJtDOX2Iu20IFMKjHQ=
+		dWlvuwbXg96NEdLkURgXRJrmyhk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFCSVz9Ah4bI8YmuXZ4djkKb7JuxidUqklESotzJPas=
+			ifXD0lbcE5ZHzjFAm+PRQgfmINxI6cxJGGCalBMnLpw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/83mfal72G58GyVsD2cEgEVbDtUXUZuxNRnSCOH9aEk=
+			jDZ0k3IptJMr39xBQLqEpD5xWEiBRZB2oDyV7kISVI8=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zFCSVz9Ah4bI8YmuXZ4djkKb7JuxidUqklESotzJPas=
+			ifXD0lbcE5ZHzjFAm+PRQgfmINxI6cxJGGCalBMnLpw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BIrhiDocf18C7lHRF1Dtm9wqqLSCBN1TlzKk6Qrxk4M=
+			+Jvw+bF1UroNicBbiJ+0jpFQi1rjEwkGMnHirgsglgI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

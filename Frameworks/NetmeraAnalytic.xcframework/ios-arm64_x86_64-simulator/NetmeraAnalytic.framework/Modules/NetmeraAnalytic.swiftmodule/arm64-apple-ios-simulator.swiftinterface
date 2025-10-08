@@ -10,15 +10,94 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-open class NetmeraCartViewEvent : NetmeraCore.NetmeraEvent {
+public class NetmeraTimeInAppEvent : NetmeraCore.NetmeraEvent {
+  override public class var key: Swift.String {
+    get
+  }
+  final public let timeInAppSeconds: Swift.Double
+  public init(timeInAppSeconds: Swift.Double)
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraAnalytic.NetmeraTimeInAppEvent, rhs: NetmeraAnalytic.NetmeraTimeInAppEvent) -> Swift.Bool
+  @objc deinit
+}
+public class NetmeraLineItem : Swift.Codable {
+  public var productId: Swift.String?
+  public var productName: Swift.String?
+  public var price: Swift.Double?
+  public var count: Swift.Int
+  public var campaignId: Swift.String?
+  public init(productId: Swift.String? = nil, productName: Swift.String? = nil, price: Swift.Double? = nil, count: Swift.Int = .zero, campaignId: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+open class NetmeraCategoryViewEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
   }
-  public var subTotal: Swift.Double?
-  public var itemCount: Swift.UInt?
-  public init(subTotal: Swift.Double? = nil, itemCount: Swift.UInt? = nil)
+  public var categoryId: Swift.String?
+  public var categoryName: Swift.String?
+  public init(categoryId: Swift.String? = nil, categoryName: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraAnalytic.NetmeraCategoryViewEvent, rhs: NetmeraAnalytic.NetmeraCategoryViewEvent) -> Swift.Bool
+  @objc deinit
+}
+public class NetmeraOpenAppEvent : NetmeraCore.NetmeraEvent {
+  override public class var key: Swift.String {
+    get
+  }
+  override public init()
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public enum NetmeraContentEventType : Swift.Int, Swift.Codable {
+  case other
+  case image
+  case audio
+  case video
+  case text
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers open class NetmeraCartAddProductEvent : NetmeraAnalytic.NetmeraProductEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var count: Swift.UInt?
+  public var basketTotal: Swift.Double?
+  public init(product: NetmeraAnalytic.NetmeraProduct, count: Swift.UInt? = nil, basketTotal: Swift.Double? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class NetmeraWishListEvent : NetmeraAnalytic.NetmeraProductEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var campaignId: Swift.String?
+  public init(product: NetmeraAnalytic.NetmeraProduct, campaignId: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public class NetmeraLinkClickEvent : NetmeraCore.NetmeraEvent {
+  override public class var key: Swift.String {
+    get
+  }
+  public var source: Swift.String?
+  public var campaignId: Swift.String?
+  public var campaignName: Swift.String?
+  public var medium: Swift.String?
+  public init(source: Swift.String? = nil, campaignId: Swift.String? = nil, campaignName: Swift.String? = nil, medium: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraAnalytic.NetmeraLinkClickEvent, rhs: NetmeraAnalytic.NetmeraLinkClickEvent) -> Swift.Bool
   @objc deinit
 }
 public class NetmeraContent {
@@ -30,6 +109,16 @@ public class NetmeraContent {
   public var provider: Swift.String?
   public var keywords: [Swift.String]?
   public init(contentId: Swift.String, contentName: Swift.String, contentType: NetmeraAnalytic.NetmeraContentEventType, categoryIds: [Swift.String]? = nil, categoryNames: [Swift.String]? = nil, provider: Swift.String? = nil, keywords: [Swift.String]? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class NetmeraProductRateEvent : NetmeraAnalytic.NetmeraProductEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var rating: Swift.UInt?
+  public init(product: NetmeraAnalytic.NetmeraProduct, rating: Swift.UInt? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 open class NetmeraBatteryLevelEvent : NetmeraCore.NetmeraEvent {
@@ -55,16 +144,6 @@ open class NetmeraViewActionEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraViewActionEvent, rhs: NetmeraAnalytic.NetmeraViewActionEvent) -> Swift.Bool
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class NetmeraProductRateEvent : NetmeraAnalytic.NetmeraProductEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public var rating: Swift.UInt?
-  public init(product: NetmeraAnalytic.NetmeraProduct, rating: Swift.UInt? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
 open class NetmeraRegisterEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -74,6 +153,19 @@ open class NetmeraRegisterEvent : NetmeraCore.NetmeraEvent {
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraAnalytic.NetmeraRegisterEvent, rhs: NetmeraAnalytic.NetmeraRegisterEvent) -> Swift.Bool
+  @objc deinit
+}
+public class NetmeraProduct {
+  final public let productId: Swift.String
+  final public let productName: Swift.String
+  final public let price: Swift.Double
+  public var categoryIds: [Swift.String]?
+  public var categoryNames: [Swift.String]?
+  public var brandId: Swift.String?
+  public var brandName: Swift.String?
+  public var variant: Swift.String?
+  public var keywords: [Swift.String]?
+  public init(productId: Swift.String, productName: Swift.String, price: Swift.Double, categoryIds: [Swift.String]? = nil, categoryNames: [Swift.String]? = nil, brandId: Swift.String? = nil, brandName: Swift.String? = nil, variant: Swift.String? = nil, keywords: [Swift.String]? = nil)
   @objc deinit
 }
 open class NetmeraSearchEvent : NetmeraCore.NetmeraEvent {
@@ -104,6 +196,17 @@ open class NetmeraShowViewTestEvent : NetmeraCore.NetmeraEvent {
     get
   }
   public init(content: NetmeraAnalytic.NetmeraContent)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+open class NetmeraCartViewEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var subTotal: Swift.Double?
+  public var itemCount: Swift.UInt?
+  public init(subTotal: Swift.Double? = nil, itemCount: Swift.UInt? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -144,6 +247,28 @@ public class NetmeraLocationUpdateEvent : NetmeraCore.NetmeraEvent {
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
+open class NetmeraPurchaseEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var subTotal: Swift.Double
+  public var grandTotal: Swift.Double
+  public var lineItems: [NetmeraAnalytic.NetmeraLineItem]
+  public var paymentMethod: Swift.String?
+  public var shippingCost: Swift.Double?
+  public var discount: Swift.Double?
+  public var coupon: Swift.String?
+  public var itemCount: Swift.Int {
+    get
+  }
+  public var productCount: Swift.Int {
+    get
+  }
+  public init(subTotal: Swift.Double, grandTotal: Swift.Double, lineItems: [NetmeraAnalytic.NetmeraLineItem], paymentMethod: Swift.String? = nil, shippingCost: Swift.Double? = nil, discount: Swift.Double? = nil, coupon: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 open class NetmeraInAppPurchaseEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -162,18 +287,22 @@ open class NetmeraInAppPurchaseEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraInAppPurchaseEvent, rhs: NetmeraAnalytic.NetmeraInAppPurchaseEvent) -> Swift.Bool
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class NetmeraCartRemoveProductEvent : NetmeraAnalytic.NetmeraProductEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public var count: Swift.UInt?
-  public init(product: NetmeraAnalytic.NetmeraProduct, count: Swift.UInt? = nil)
+extension NetmeraCore.Netmera {
+  public static func send<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
+}
+@_hasMissingDesignatedInitializers open class NetmeraProductEvent : NetmeraCore.NetmeraEvent {
+  final public let productId: Swift.String
+  final public let productName: Swift.String
+  final public let price: Swift.Double
+  public var categoryIds: [Swift.String]?
+  public var categoryNames: [Swift.String]?
+  public var brandId: Swift.String?
+  public var brandName: Swift.String?
+  public var variant: Swift.String?
+  public var keywords: [Swift.String]?
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
-}
-extension NetmeraCore.Netmera {
-  public static func send<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
 }
 public enum NetmeraUIActionType : Swift.Int, Swift.Codable {
   case unknown
@@ -208,6 +337,19 @@ open class NetmeraLoginEvent : NetmeraCore.NetmeraEvent {
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraAnalytic.NetmeraLoginEvent, rhs: NetmeraAnalytic.NetmeraLoginEvent) -> Swift.Bool
+  @objc deinit
+}
+open class NetmeraOrderCancelEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var subTotal: Swift.Double?
+  public var grandTotal: Swift.Double?
+  public var itemCount: Swift.UInt?
+  public var paymentMethod: Swift.String?
+  public init(subTotal: Swift.Double, grandTotal: Swift.Double? = nil, itemCount: Swift.UInt? = nil, paymentMethod: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 open class NetmeraScreenViewEvent : NetmeraCore.NetmeraEvent {
@@ -248,6 +390,16 @@ open class NetmeraShowViewEvent : NetmeraCore.NetmeraEvent {
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
+@_hasMissingDesignatedInitializers open class NetmeraCartRemoveProductEvent : NetmeraAnalytic.NetmeraProductEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var count: Swift.UInt?
+  public init(product: NetmeraAnalytic.NetmeraProduct, count: Swift.UInt? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 public class NetmeraLocationAuthorizationEvent : NetmeraCore.NetmeraEvent {
   override public class var key: Swift.String {
     get
@@ -259,17 +411,6 @@ public class NetmeraLocationAuthorizationEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraLocationAuthorizationEvent, rhs: NetmeraAnalytic.NetmeraLocationAuthorizationEvent) -> Swift.Bool
   @objc deinit
 }
-public class NetmeraLineItem : Swift.Codable {
-  public var productId: Swift.String?
-  public var productName: Swift.String?
-  public var price: Swift.Double?
-  public var count: Swift.Int
-  public var campaignId: Swift.String?
-  public init(productId: Swift.String? = nil, productName: Swift.String? = nil, price: Swift.Double? = nil, count: Swift.Int = .zero, campaignId: Swift.String? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
 @_inheritsConvenienceInitializers open class NetmeraContentCommentEvent : NetmeraAnalytic.NetmeraContentEvent {
   override open class var key: Swift.String {
     get
@@ -279,12 +420,11 @@ public class NetmeraLineItem : Swift.Codable {
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class NetmeraWishListEvent : NetmeraAnalytic.NetmeraProductEvent {
+@_inheritsConvenienceInitializers open class NetmeraProductViewEvent : NetmeraAnalytic.NetmeraProductEvent {
   override open class var key: Swift.String {
     get
   }
-  public var campaignId: Swift.String?
-  public init(product: NetmeraAnalytic.NetmeraProduct, campaignId: Swift.String? = nil)
+  public init(product: NetmeraAnalytic.NetmeraProduct)
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -313,44 +453,6 @@ public class NetmeraGeofenceEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraGeofenceEvent, rhs: NetmeraAnalytic.NetmeraGeofenceEvent) -> Swift.Bool
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class NetmeraCartAddProductEvent : NetmeraAnalytic.NetmeraProductEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public var count: Swift.UInt?
-  public var basketTotal: Swift.Double?
-  public init(product: NetmeraAnalytic.NetmeraProduct, count: Swift.UInt? = nil, basketTotal: Swift.Double? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public class NetmeraProduct {
-  final public let productId: Swift.String
-  final public let productName: Swift.String
-  final public let price: Swift.Double
-  public var categoryIds: [Swift.String]?
-  public var categoryNames: [Swift.String]?
-  public var brandId: Swift.String?
-  public var brandName: Swift.String?
-  public var variant: Swift.String?
-  public var keywords: [Swift.String]?
-  public init(productId: Swift.String, productName: Swift.String, price: Swift.Double, categoryIds: [Swift.String]? = nil, categoryNames: [Swift.String]? = nil, brandId: Swift.String? = nil, brandName: Swift.String? = nil, variant: Swift.String? = nil, keywords: [Swift.String]? = nil)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers open class NetmeraProductEvent : NetmeraCore.NetmeraEvent {
-  final public let productId: Swift.String
-  final public let productName: Swift.String
-  final public let price: Swift.Double
-  public var categoryIds: [Swift.String]?
-  public var categoryNames: [Swift.String]?
-  public var brandId: Swift.String?
-  public var brandName: Swift.String?
-  public var variant: Swift.String?
-  public var keywords: [Swift.String]?
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
 open class NetmeraViewActionTestEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -363,15 +465,11 @@ open class NetmeraViewActionTestEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraViewActionTestEvent, rhs: NetmeraAnalytic.NetmeraViewActionTestEvent) -> Swift.Bool
   @objc deinit
 }
-open class NetmeraOrderCancelEvent : NetmeraCore.NetmeraEvent {
+@_inheritsConvenienceInitializers open class NetmeraProductCommentEvent : NetmeraAnalytic.NetmeraProductEvent {
   override open class var key: Swift.String {
     get
   }
-  public var subTotal: Swift.Double?
-  public var grandTotal: Swift.Double?
-  public var itemCount: Swift.UInt?
-  public var paymentMethod: Swift.String?
-  public init(subTotal: Swift.Double, grandTotal: Swift.Double? = nil, itemCount: Swift.UInt? = nil, paymentMethod: Swift.String? = nil)
+  public init(product: NetmeraAnalytic.NetmeraProduct)
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -388,110 +486,12 @@ open class NetmeraShareEvent : NetmeraCore.NetmeraEvent {
   public static func == (lhs: NetmeraAnalytic.NetmeraShareEvent, rhs: NetmeraAnalytic.NetmeraShareEvent) -> Swift.Bool
   @objc deinit
 }
-public class NetmeraTimeInAppEvent : NetmeraCore.NetmeraEvent {
-  override public class var key: Swift.String {
-    get
-  }
-  final public let timeInAppSeconds: Swift.Double
-  public init(timeInAppSeconds: Swift.Double)
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraAnalytic.NetmeraTimeInAppEvent, rhs: NetmeraAnalytic.NetmeraTimeInAppEvent) -> Swift.Bool
-  @objc deinit
-}
-open class NetmeraCategoryViewEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public var categoryId: Swift.String?
-  public var categoryName: Swift.String?
-  public init(categoryId: Swift.String? = nil, categoryName: Swift.String? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraAnalytic.NetmeraCategoryViewEvent, rhs: NetmeraAnalytic.NetmeraCategoryViewEvent) -> Swift.Bool
-  @objc deinit
-}
-open class NetmeraPurchaseEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public var subTotal: Swift.Double
-  public var grandTotal: Swift.Double
-  public var lineItems: [NetmeraAnalytic.NetmeraLineItem]
-  public var paymentMethod: Swift.String?
-  public var shippingCost: Swift.Double?
-  public var discount: Swift.Double?
-  public var coupon: Swift.String?
-  public var itemCount: Swift.Int {
-    get
-  }
-  public var productCount: Swift.Int {
-    get
-  }
-  public init(subTotal: Swift.Double, grandTotal: Swift.Double, lineItems: [NetmeraAnalytic.NetmeraLineItem], paymentMethod: Swift.String? = nil, shippingCost: Swift.Double? = nil, discount: Swift.Double? = nil, coupon: Swift.String? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public class NetmeraOpenAppEvent : NetmeraCore.NetmeraEvent {
-  override public class var key: Swift.String {
-    get
-  }
-  override public init()
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public enum NetmeraContentEventType : Swift.Int, Swift.Codable {
-  case other
-  case image
-  case audio
-  case video
-  case text
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers open class NetmeraProductViewEvent : NetmeraAnalytic.NetmeraProductEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public init(product: NetmeraAnalytic.NetmeraProduct)
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public class NetmeraLinkClickEvent : NetmeraCore.NetmeraEvent {
-  override public class var key: Swift.String {
-    get
-  }
-  public var source: Swift.String?
-  public var campaignId: Swift.String?
-  public var campaignName: Swift.String?
-  public var medium: Swift.String?
-  public init(source: Swift.String? = nil, campaignId: Swift.String? = nil, campaignName: Swift.String? = nil, medium: Swift.String? = nil)
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraAnalytic.NetmeraLinkClickEvent, rhs: NetmeraAnalytic.NetmeraLinkClickEvent) -> Swift.Bool
-  @objc deinit
-}
-@_inheritsConvenienceInitializers open class NetmeraProductCommentEvent : NetmeraAnalytic.NetmeraProductEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  public init(product: NetmeraAnalytic.NetmeraProduct)
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
+extension NetmeraAnalytic.NetmeraContentEventType : Swift.Equatable {}
+extension NetmeraAnalytic.NetmeraContentEventType : Swift.Hashable {}
+extension NetmeraAnalytic.NetmeraContentEventType : Swift.RawRepresentable {}
 extension NetmeraAnalytic.NetmeraUIActionType : Swift.Equatable {}
 extension NetmeraAnalytic.NetmeraUIActionType : Swift.Hashable {}
 extension NetmeraAnalytic.NetmeraUIActionType : Swift.RawRepresentable {}
 extension NetmeraAnalytic.GeofenceType : Swift.Equatable {}
 extension NetmeraAnalytic.GeofenceType : Swift.Hashable {}
 extension NetmeraAnalytic.GeofenceType : Swift.RawRepresentable {}
-extension NetmeraAnalytic.NetmeraContentEventType : Swift.Equatable {}
-extension NetmeraAnalytic.NetmeraContentEventType : Swift.Hashable {}
-extension NetmeraAnalytic.NetmeraContentEventType : Swift.RawRepresentable {}
