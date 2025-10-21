@@ -13,6 +13,101 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
         "name": "ActivityKit",
         "printedName": "ActivityKit",
         "declKind": "Import",
@@ -200,101 +295,6 @@
         "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "ActivityKit",
-        "printedName": "ActivityKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -505,13 +505,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Framework\/LiveActivityFrameworkDelegateImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 470,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 303,
@@ -566,6 +559,13 @@
       "offset": 1332,
       "length": 4,
       "value": "\"eu\""
+    },
+    {
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Framework\/LiveActivityFrameworkDelegateImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

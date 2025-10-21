@@ -16,6 +16,24 @@ import _SwiftConcurrencyShims
 extension CoreLocation.CLLocation {
   public func toSdkLocation() -> NetmeraCore.Location
 }
+public protocol NetmeraLocationRegionDelegate {
+  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
+  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
+}
+public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
+  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
+  func assign(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
+}
+public protocol NetmeraLocationAuthorizationDelegate {
+  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
+}
+public protocol LocationUpdateDelegate {
+  func updateActiveLocation()
+}
+extension NetmeraCore.Netmera {
+  public static func shouldRequestLocationAuthorization() -> Swift.Bool
+  public static func requestLocationAuthorization()
+}
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
 public typealias NetmeraCLLocation = CoreLocation.CLLocation
 public typealias NetmeraRegion = CoreLocation.CLRegion
@@ -35,22 +53,4 @@ extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManage
   public var osLocation: NetmeraCore.Location? {
     get
   }
-}
-public protocol NetmeraLocationRegionDelegate {
-  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
-  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
-}
-public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
-  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
-  func assign(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
-}
-public protocol NetmeraLocationAuthorizationDelegate {
-  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
-}
-extension NetmeraCore.Netmera {
-  public static func shouldRequestLocationAuthorization() -> Swift.Bool
-  public static func requestLocationAuthorization()
-}
-public protocol LocationUpdateDelegate {
-  func updateActiveLocation()
 }
