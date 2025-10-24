@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z0CWh4/96p9IGsoPSJRM4X5cSxI=
+		pOieVNLELYAhwc/1IrhM02Ct9V0=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6cfvjCrFpmJB6jHyGekzioxepyM=
+		x5PrCXUJW9OF9+Mp+PSMnASXJvA=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z0CWh4/96p9IGsoPSJRM4X5cSxI=
+		pOieVNLELYAhwc/1IrhM02Ct9V0=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3SoRlPqVqVh3ojBmXXmnSBSQYys=
+		fFhVA3k3yIZGrkQYlMv7ZyBVaB4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrzJVfundnXCydTOVqvVCklvqeALWycKWph5C1GjOs4=
+			OMe5G61Z0QZaKgcnH3+rM1aH/ZNcDNQtDQv/kyR/tPI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V97xmfuq0OileNYluwcXjsVzLPm8MlEtizNdh8zC0Ww=
+			FME2p/mAg4wfehwP2asQi8KcqSmc4JSsDUT8gztA0XM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrzJVfundnXCydTOVqvVCklvqeALWycKWph5C1GjOs4=
+			OMe5G61Z0QZaKgcnH3+rM1aH/ZNcDNQtDQv/kyR/tPI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MquMfzkaG82sokKl3UL3w3mDrPSJpI7JfWG8n/MPtzE=
+			hbMhRNGPwUTHzn5uyhT3hIs71gXxkxNDBXsUvheTd8U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -17,8 +17,9 @@ public protocol NetmeraLocationRegionDelegate {
   func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
   func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
 }
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
+public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
+  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
+  func assign(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
 }
 public protocol NetmeraLocationAuthorizationDelegate {
   func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
@@ -30,9 +31,8 @@ extension NetmeraCore.Netmera {
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()
 }
-public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
-  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
-  func assign(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
 }
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
 public typealias NetmeraCLLocation = CoreLocation.CLLocation
