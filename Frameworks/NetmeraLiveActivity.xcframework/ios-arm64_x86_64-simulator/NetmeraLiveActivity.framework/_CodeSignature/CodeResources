@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NLkxdbzGLrkCOGsqDFYhWxnIK44=
+		jvYihinpcPNoXFCJTYUCZ/dfFwU=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3ZkENqe0BjTV14L1Bjae+R12Fio=
+		qElO9I4cbwQ2EsNxTRVlzxcctuA=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NLkxdbzGLrkCOGsqDFYhWxnIK44=
+		jvYihinpcPNoXFCJTYUCZ/dfFwU=
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Frm2cWcKs2xQvRVBjpOw86WIoPY=
+		n9E28JQ4mzeYlU2+hTvRE7Xkxwk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MRIBKlohaUaSVz0TO1XSJaEvK0A8mfVUWgQa787ttQ=
+			Z52wYtw+JP7Ao9k+QLwU5X+6sTOsLzbXK7Zk5bheLpY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cBHXtFwGHWCUFr6YuT2wNHq1ShRb9i0ZZUXxOonk4oQ=
+			ceqzYNG+HZ7ULtdOld+ypZu83qhQTAh9ou7gJH6JPE4=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MRIBKlohaUaSVz0TO1XSJaEvK0A8mfVUWgQa787ttQ=
+			Z52wYtw+JP7Ao9k+QLwU5X+6sTOsLzbXK7Zk5bheLpY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLiveActivity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XYSRULNET14AM6aixhfq7Ccraprb/ooAuwVW2HEbnnU=
+			epBGxPyvEVsxTeLihX+Sm6SDjMtTtzcFv7C67AlC34c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
