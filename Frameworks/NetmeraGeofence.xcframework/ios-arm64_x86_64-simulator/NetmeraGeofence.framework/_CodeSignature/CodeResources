@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/Y93pQxwKhxXku7kz2o57FOzlHk=
+		81XSMAz9IIjBvje9QgiIBAZyeYk=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SyhxUMOWgUuHZ98al8J6D8fqdXs=
+		NFSYU5V59lrb0lHh0/kmyjmwNNY=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JypubR5ohPW+tzCkDzPhbQiR6iU=
+		7IK+9rGdaL9Sk1uobNShSs4SLqU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SyhxUMOWgUuHZ98al8J6D8fqdXs=
+		NFSYU5V59lrb0lHh0/kmyjmwNNY=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hj9ZQQM4+BGDL+8nBUuwgQ+HB7M=
+		ZQyOpl8UOYTrZILoa8mMLFeq1T4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UVtJ61CjIi16pDGiwqROBmzonsBEEhCrDto1vPOm++E=
+			nsU3+nlmsSrMqtBrVUK+y1NN9XjtLSh63CkOW1eMW7k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2SldMm3ZG+5Y8bkFc3Tq7/3YejniFZAb15Q1XSBhV7M=
+			cMVaLksFnz90NY9HY/LGjqf2AYnkpHjaamgtdZXL4Ac=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UVtJ61CjIi16pDGiwqROBmzonsBEEhCrDto1vPOm++E=
+			nsU3+nlmsSrMqtBrVUK+y1NN9XjtLSh63CkOW1eMW7k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pzBwnZujeJ2xZuqNrB33Mkz0wvLG8OqUxv23NygdBmg=
+			Yxg/vzKyY8VFgc5Ze1T/BlzfwXBwTYe4OJnOEMZg6mQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

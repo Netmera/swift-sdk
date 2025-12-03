@@ -15,6 +15,9 @@ import UserNotificationsUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}
 @objc @_inheritsConvenienceInitializers @available(iOS 10.0, *)
 @_Concurrency.MainActor @preconcurrency open class NotificationContentExtension : UIKit.UIViewController, UserNotificationsUI.UNNotificationContentExtension {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
@@ -25,7 +28,4 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init?(hex: Swift.String)
 }

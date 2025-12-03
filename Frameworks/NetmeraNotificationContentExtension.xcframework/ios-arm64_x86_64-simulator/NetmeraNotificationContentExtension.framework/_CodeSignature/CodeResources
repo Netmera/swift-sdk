@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pOV5bFp80uCdcpEQmWuSeVJPBf4=
+		Nf8k2l0lCav3bOE6TImFGvThoVA=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9HosmSBhDKipIzdLa44s7NO59eU=
+		PRbnZPp0rCnWZfwqiiU8OpZ7mpI=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kDhmKi3OJzMkofESns4BopeEGXM=
+		pmoG6/9/jHjupL0LLE/aqN56Xfg=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kDhmKi3OJzMkofESns4BopeEGXM=
+		pmoG6/9/jHjupL0LLE/aqN56Xfg=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fotQkNzUwCk5vnqNmu/zGqTCSzk=
+		zdPYJjwPsbbOwyrKsS6CUV7Yb0g=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9HosmSBhDKipIzdLa44s7NO59eU=
+		PRbnZPp0rCnWZfwqiiU8OpZ7mpI=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Pwd4KZ52OQ2UdttpF9q8cMvRESo=
+		uEwfMwapWfGFya74gt78JrRGA5Q=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Pwd4KZ52OQ2UdttpF9q8cMvRESo=
+		uEwfMwapWfGFya74gt78JrRGA5Q=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hiYQpjBuLbXF58BKjZgz3lx9M/U=
+		sOMtFulCIB5zFXfS0lSiOnhGEYI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pb2PNsiPpRu5cnPwxY7696sXGcihfc2gyxrNi9p8BkE=
+			aLC+xNSPtENJNHr9nRCf6qh1cZVbb21tRsq2aJy9NpE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2k4oiY2hSiyI2ONDdfhvbRcOtmwpzfrI8x6PLsWHJU=
+			zUcVZhJeAaWnylFqwMc+FQrbQW9Vl7VJL2MaF+yvnXc=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2k4oiY2hSiyI2ONDdfhvbRcOtmwpzfrI8x6PLsWHJU=
+			zUcVZhJeAaWnylFqwMc+FQrbQW9Vl7VJL2MaF+yvnXc=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUecD0r8rFoPfMpOByx1RjaxQTP5fVK/oB4/u2qUtCQ=
+			4v5W7JKHW6DCoR2VasYmXcsuGluWqYGAENIem1bk9fI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pb2PNsiPpRu5cnPwxY7696sXGcihfc2gyxrNi9p8BkE=
+			aLC+xNSPtENJNHr9nRCf6qh1cZVbb21tRsq2aJy9NpE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P94zKkw9Fql9I0DlcPS6QjKeZa1KtBTpz4+wEREwjr0=
+			r0TQHpw0TXVqHL9quMsMlE83Cp1p77XULSgZ/Iq/w+A=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P94zKkw9Fql9I0DlcPS6QjKeZa1KtBTpz4+wEREwjr0=
+			r0TQHpw0TXVqHL9quMsMlE83Cp1p77XULSgZ/Iq/w+A=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SorepBJSRuiVz8FJZScWTb2gDUIrU2OAXDxij7AcheM=
+			0M4cPYt6KuD78Ttt6pL0QC86LcBedypxFnpFvKfGlwE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
