@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PRbnZPp0rCnWZfwqiiU8OpZ7mpI=
+		0BOXW+/42IWRimL+EbQoMU6O0nw=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pmoG6/9/jHjupL0LLE/aqN56Xfg=
+		kDhmKi3OJzMkofESns4BopeEGXM=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pmoG6/9/jHjupL0LLE/aqN56Xfg=
+		kDhmKi3OJzMkofESns4BopeEGXM=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zdPYJjwPsbbOwyrKsS6CUV7Yb0g=
+		/IbB40DYYOxjJkpP97dOlWvD0ts=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PRbnZPp0rCnWZfwqiiU8OpZ7mpI=
+		0BOXW+/42IWRimL+EbQoMU6O0nw=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uEwfMwapWfGFya74gt78JrRGA5Q=
+		Pwd4KZ52OQ2UdttpF9q8cMvRESo=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uEwfMwapWfGFya74gt78JrRGA5Q=
+		Pwd4KZ52OQ2UdttpF9q8cMvRESo=
 		</data>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sOMtFulCIB5zFXfS0lSiOnhGEYI=
+		KHERX2MuTkTnXEKk99/Tcye0LTA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLC+xNSPtENJNHr9nRCf6qh1cZVbb21tRsq2aJy9NpE=
+			Jvwv8tgyrC1eudSZEMebOq+1lB4FYb3EfL2bYi7rFTs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUcVZhJeAaWnylFqwMc+FQrbQW9Vl7VJL2MaF+yvnXc=
+			A2k4oiY2hSiyI2ONDdfhvbRcOtmwpzfrI8x6PLsWHJU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUcVZhJeAaWnylFqwMc+FQrbQW9Vl7VJL2MaF+yvnXc=
+			A2k4oiY2hSiyI2ONDdfhvbRcOtmwpzfrI8x6PLsWHJU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4v5W7JKHW6DCoR2VasYmXcsuGluWqYGAENIem1bk9fI=
+			xmGwm/J2bRoaFffxaH47/snCD+TeNAhsBXCVj4TF4uA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLC+xNSPtENJNHr9nRCf6qh1cZVbb21tRsq2aJy9NpE=
+			Jvwv8tgyrC1eudSZEMebOq+1lB4FYb3EfL2bYi7rFTs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0TQHpw0TXVqHL9quMsMlE83Cp1p77XULSgZ/Iq/w+A=
+			P94zKkw9Fql9I0DlcPS6QjKeZa1KtBTpz4+wEREwjr0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0TQHpw0TXVqHL9quMsMlE83Cp1p77XULSgZ/Iq/w+A=
+			P94zKkw9Fql9I0DlcPS6QjKeZa1KtBTpz4+wEREwjr0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationContentExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0M4cPYt6KuD78Ttt6pL0QC86LcBedypxFnpFvKfGlwE=
+			F7eua/rWdB86M/l/5KGPylCKqICsCqgPeDrRIZ8g+DQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

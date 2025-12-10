@@ -13,6 +13,10 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol NetmeraLocationRegionDelegate {
+  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
+  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
+}
 public protocol LocationUpdateDelegate {
   func updateActiveLocation()
 }
@@ -55,8 +59,4 @@ public protocol NetmeraLocationAuthorizationDelegate {
 public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
   func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
   func assign(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
-}
-public protocol NetmeraLocationRegionDelegate {
-  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
-  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
 }
