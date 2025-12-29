@@ -10,6 +10,9 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol NetmeraLiveActivityAttributes {
+  var netmeraGroupId: Swift.String? { get set }
+}
 extension NetmeraCore.Netmera {
   @available(iOS 17.2, *)
   public static func register<T>(forType type: ActivityKit.Activity<T>.Type, name: Swift.String) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
@@ -19,7 +22,4 @@ extension NetmeraCore.Netmera {
   public static func observeActivity<T>(_ activity: ActivityKit.Activity<T>) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
   @available(iOS 16.1, *)
   public static func resumeObservingActivities<T>(ofType type: ActivityKit.Activity<T>.Type) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
-}
-public protocol NetmeraLiveActivityAttributes {
-  var netmeraGroupId: Swift.String? { get set }
 }

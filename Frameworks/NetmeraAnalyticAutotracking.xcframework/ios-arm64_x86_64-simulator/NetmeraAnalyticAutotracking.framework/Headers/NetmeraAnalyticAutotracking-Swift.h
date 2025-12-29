@@ -314,6 +314,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 - (void)s_delegate:(id <UIScrollViewDelegate> _Nullable)delegate;
 @end
 
+@protocol UITextFieldDelegate;
+@interface UITextField (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
+- (void)s_delegate:(id <UITextFieldDelegate> _Nullable)delegate;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -636,6 +641,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @protocol UIScrollViewDelegate;
 @interface UIScrollView (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
 - (void)s_delegate:(id <UIScrollViewDelegate> _Nullable)delegate;
+@end
+
+@protocol UITextFieldDelegate;
+@interface UITextField (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
+- (void)s_delegate:(id <UITextFieldDelegate> _Nullable)delegate;
 @end
 
 #endif
