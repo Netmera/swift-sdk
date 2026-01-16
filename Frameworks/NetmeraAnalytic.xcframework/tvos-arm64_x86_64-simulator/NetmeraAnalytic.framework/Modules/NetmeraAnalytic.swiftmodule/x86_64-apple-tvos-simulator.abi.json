@@ -23,6 +23,245 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetmeraOpenAppEvent",
+        "printedName": "NetmeraOpenAppEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC3keySSvpZ",
+            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC3keySSvpZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC3keySSvgZ",
+                "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC3keySSvgZ",
+                "moduleName": "NetmeraAnalytic",
+                "static": true,
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraOpenAppEvent",
+                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
+                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A12OpenAppEventCACycfc",
+            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventCACycfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraOpenAppEvent",
+                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
+                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraOpenAppEvent",
+                    "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
+                    "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC8eventKeyACSgSS_tcfc",
+            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC8eventKeyACSgSS_tcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A12OpenAppEventC",
+        "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "NetmeraPurchaseEvent",
         "printedName": "NetmeraPurchaseEvent",
         "children": [
@@ -1154,6 +1393,30 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
       },
       {
         "kind": "Import",
@@ -4756,23 +5019,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "NetmeraProduct",
         "printedName": "NetmeraProduct",
@@ -7031,6 +7277,30 @@
         "moduleName": "NetmeraAnalytic"
       },
       {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraTimeInAppEvent",
         "printedName": "NetmeraTimeInAppEvent",
@@ -8507,23 +8777,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
       },
       {
         "kind": "Import",
@@ -11658,6 +11911,23 @@
         "moduleName": "NetmeraAnalytic"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraViewActionTestEvent",
         "printedName": "NetmeraViewActionTestEvent",
@@ -13468,30 +13738,6 @@
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
         "declKind": "Import",
         "moduleName": "NetmeraAnalytic"
       },
@@ -16090,6 +16336,23 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
       },
       {
         "kind": "Import",
@@ -18754,30 +19017,6 @@
         "moduleName": "NetmeraAnalytic"
       },
       {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
         "kind": "TypeDecl",
         "name": "NetmeraCartViewEvent",
         "printedName": "NetmeraCartViewEvent",
@@ -20691,245 +20930,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetmeraOpenAppEvent",
-        "printedName": "NetmeraOpenAppEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "key",
-            "printedName": "key",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC3keySSvpZ",
-            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC3keySSvpZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "overriding": true,
-            "declAttributes": [
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC3keySSvgZ",
-                "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC3keySSvgZ",
-                "moduleName": "NetmeraAnalytic",
-                "static": true,
-                "overriding": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraOpenAppEvent",
-                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
-                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A12OpenAppEventCACycfc",
-            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventCACycfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraOpenAppEvent",
-                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
-                "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(eventKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraOpenAppEvent",
-                    "printedName": "NetmeraAnalytic.NetmeraOpenAppEvent",
-                    "usr": "s:15NetmeraAnalytic0A12OpenAppEventC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A12OpenAppEventC8eventKeyACSgSS_tcfc",
-            "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC8eventKeyACSgSS_tcfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "implicit": true,
-            "declAttributes": [
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:15NetmeraAnalytic0A12OpenAppEventC",
-        "mangledName": "$s15NetmeraAnalytic0A12OpenAppEventC",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "s:11NetmeraCore0A5EventC",
-        "superclassNames": [
-          "NetmeraCore.NetmeraEvent"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },

@@ -12,6 +12,9 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol NetmeraScreenTrackable : UIKit.UIViewController {
+  var netmeraScreenName: Swift.String { get }
+}
 extension UIKit.UIScrollView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
 }
@@ -20,7 +23,4 @@ extension UIKit.UIPickerView {
 }
 extension UIKit.UITextField {
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UITextFieldDelegate)?)
-}
-public protocol NetmeraScreenTrackable : UIKit.UIViewController {
-  var netmeraScreenName: Swift.String { get }
 }

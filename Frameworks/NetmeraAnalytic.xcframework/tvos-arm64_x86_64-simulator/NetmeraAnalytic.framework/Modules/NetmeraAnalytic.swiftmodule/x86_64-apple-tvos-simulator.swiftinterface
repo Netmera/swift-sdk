@@ -10,6 +10,15 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public class NetmeraOpenAppEvent : NetmeraCore.NetmeraEvent {
+  override public class var key: Swift.String {
+    get
+  }
+  override public init()
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 open class NetmeraPurchaseEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
     get
@@ -476,15 +485,6 @@ open class NetmeraInAppPurchaseEvent : NetmeraCore.NetmeraEvent {
   public init(product: NetmeraAnalytic.NetmeraProduct)
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-public class NetmeraOpenAppEvent : NetmeraCore.NetmeraEvent {
-  override public class var key: Swift.String {
-    get
-  }
-  override public init()
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 extension NetmeraAnalytic.NetmeraUIActionType : Swift.Equatable {}
