@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraLocation
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import CoreLocation
 import Foundation
 @_exported import NetmeraAnalytic
@@ -13,6 +13,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension _LocationEssentials.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
+}
+public protocol LocationUpdateDelegate {
+  func updateActiveLocation()
+}
 public protocol NetmeraLocationAuthorizationDelegate {
   func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
 }
@@ -24,18 +30,19 @@ public protocol NetmeraLocationRegionDelegate {
   func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
   func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
 }
-public protocol LocationUpdateDelegate {
-  func updateActiveLocation()
-}
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
-public typealias NetmeraCLLocation = CoreLocation.CLLocation
+public typealias NetmeraCLLocation = _LocationEssentials.CLLocation
 public typealias NetmeraRegion = CoreLocation.CLRegion
-public typealias NetmeraLocationDistance = CoreLocation.CLLocationDistance
+public typealias NetmeraLocationDistance = _LocationEssentials.CLLocationDistance
 public protocol NetmeraLocationManager : AnyObject {
   func requestWhenInUseAuthorization()
   func requestLocation()
+  #if compiler(>=5.3) && $NonescapableTypes
   var osLocation: NetmeraCore.Location? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any CoreLocation.CLLocationManagerDelegate)? { get set }
+  #endif
   static func locationServicesEnabled() -> Swift.Bool
   @available(tvOS 14.0, *)
   var authorizationStatus: CoreLocation.CLAuthorizationStatus { get }
@@ -43,12 +50,11 @@ public protocol NetmeraLocationManager : AnyObject {
   static func authorizationStatus() -> CoreLocation.CLAuthorizationStatus
 }
 extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManager {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var osLocation: NetmeraCore.Location? {
     get
   }
-}
-extension CoreLocation.CLLocation {
-  public func toSdkLocation() -> NetmeraCore.Location
+  #endif
 }
 extension NetmeraCore.Netmera {
   public static func shouldRequestLocationAuthorization() -> Swift.Bool

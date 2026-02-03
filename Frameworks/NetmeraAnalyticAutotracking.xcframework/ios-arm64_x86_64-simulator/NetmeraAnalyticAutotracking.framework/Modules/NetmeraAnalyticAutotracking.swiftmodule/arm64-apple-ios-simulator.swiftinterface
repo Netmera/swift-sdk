@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraAnalyticAutotracking
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import NetmeraAnalytic
 import NetmeraCore
@@ -12,15 +12,21 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol NetmeraScreenTrackable : UIKit.UIViewController {
-  var netmeraScreenName: Swift.String { get }
+extension UIKit.UIPickerView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIPickerViewDelegate)?)
+  #endif
 }
 extension UIKit.UIScrollView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
-}
-extension UIKit.UIPickerView {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIPickerViewDelegate)?)
+  #endif
 }
 extension UIKit.UITextField {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UITextFieldDelegate)?)
+  #endif
+}
+public protocol NetmeraScreenTrackable : UIKit.UIViewController {
+  var netmeraScreenName: Swift.String { get }
 }
