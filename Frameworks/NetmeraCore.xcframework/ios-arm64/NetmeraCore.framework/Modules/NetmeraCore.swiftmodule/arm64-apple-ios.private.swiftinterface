@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraCore
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreTelephony
 import Foundation
 @_exported import NetmeraCore
@@ -51,24 +51,14 @@ open class CoreProvider<T> {
 }
 open class DelegateProxy<D> : ObjectiveC.NSObject where D : ObjectiveC.NSObjectProtocol {
   weak public var delegate: D?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(delegate: D?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func responds(to aSelector: ObjectiveC.Selector!) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public func forwardingTarget(for aSelector: ObjectiveC.Selector!) -> Any?
-  #endif
   @objc deinit
 }
 public protocol DependencyResolver {
-  #if compiler(>=5.3) && $NonescapableTypes
   func resolve<T>() -> T?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func resolve<T>(named: Swift.String) -> T?
-  #endif
   func resolveOrError<T>() -> T
   func resolveOrError<T>(named: Swift.String) -> T
   func register<T>(_ value: T)
@@ -155,14 +145,10 @@ public enum NetmeraRequestParams {
 public protocol NetmeraSessionDataSender : AnyObject {
   func sendOpenAppEvent()
   func sendTimeInAppEvent(_ timeInAppSecs: Swift.Double)
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendDeferredDeeplinkEvent(_ attributes: [Swift.String : Swift.String]?)
-  #endif
 }
 public protocol PushInstanceParamsSetProtocol {
-  #if compiler(>=5.3) && $NonescapableTypes
   func setPushParams(pushId: Swift.String?, pushInstanceId: Swift.String?)
-  #endif
 }
 public protocol Releasable {
   func releaseInstance()
@@ -181,9 +167,7 @@ public protocol UIApplicationProxyDelegate : AnyObject {
   func registerForRemoteNotifications()
   func beginBackgroundTask()
   func endBackgroundTask()
-  #if compiler(>=5.3) && $NonescapableTypes
   func open(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenExternalURLOptionsKey : Any], completionHandler: ((Swift.Bool) -> Swift.Void)?)
-  #endif
   var resolver: any NetmeraCore.DependencyResolver { get }
 }
 open class Variable<T> where T : Swift.Equatable {
@@ -200,14 +184,10 @@ open class Variable<T> where T : Swift.Equatable {
 }
 public protocol NetmeraEventConverter {
   func hasConverter(_ className: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   func convert(_ dbCache: NetmeraCore.DbCache) -> NetmeraCore.NetmeraEvent?
-  #endif
 }
 public protocol NetmeraPushConverterProtocol {
-  #if compiler(>=5.3) && $NonescapableTypes
   func convert(_ userInfo: [Swift.AnyHashable : Any], _ serializerProvider: NetmeraCore.SerializerProvider<any NetmeraCore.DictionaryDecoder, any NetmeraCore.DictionaryEncoder>) -> NetmeraCore.NetmeraPush?
-  #endif
   func canConvert(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
 }
 public typealias ReleasableDependencyResolver = NetmeraCore.DependencyResolver & NetmeraCore.Releasable
@@ -215,13 +195,9 @@ public protocol NetmeraCacheInvoke {
   func appendEventClasses(classes: [Swift.AnyClass])
   func appendRequestClasses(classes: [Swift.AnyClass])
   func isKnownEventClass(_ key: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   func typeEventOf(_ key: Swift.String) -> Swift.AnyClass?
-  #endif
   func isKnownRequestClass(_ key: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   func typeRequestOf(_ key: Swift.String) -> Swift.AnyClass?
-  #endif
   func appendSessionlessEventClasses(classes: [Swift.AnyClass])
   func isSessionlessEventClass(_ key: Swift.String) -> Swift.Bool
 }
@@ -267,9 +243,7 @@ public protocol InitializerCache {
 public enum AccessLevel : Swift.String {
   case `public`
   case `private`
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -285,9 +259,7 @@ public enum LogLevel : Swift.Int, Swift.Comparable {
   case error
   case fault
   public static func < (lhs: NetmeraCore.LogLevel, rhs: NetmeraCore.LogLevel) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -300,18 +272,10 @@ public enum NetmeraFetchCouponError : Swift.Error, Swift.CustomStringConvertible
   }
 }
 public protocol CacheManager {
-  #if compiler(>=5.3) && $NonescapableTypes
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraCacheError> where T : Swift.Decodable, T : Swift.Encodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraCacheError>) -> Swift.Void) where T : Swift.Decodable, T : Swift.Encodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func save<T>(key: Swift.String, value: T) -> Swift.Result<Swift.Void, NetmeraCore.NetmeraCacheError> where T : Swift.Decodable, T : Swift.Encodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func save<T>(key: Swift.String, value: T, completion: @escaping (Swift.Result<Swift.Void, NetmeraCore.NetmeraCacheError>) -> Swift.Void) where T : Swift.Decodable, T : Swift.Encodable
-  #endif
   func clearAllInvalidateableValues()
 }
 @_hasMissingDesignatedInitializers final public class DataTransferStatusManager : NetmeraCore.DataTransferStatusManaging {
@@ -327,18 +291,12 @@ public protocol DeferredDeeplinkHandling {
   func processClipboard()
 }
 public protocol PlistManager {
-  #if compiler(>=5.3) && $NonescapableTypes
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraPlistError> where T : Swift.Decodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraPlistError>) -> Swift.Void) where T : Swift.Decodable
-  #endif
 }
 public protocol ProxyCacheManager {
   func retainReferanceOn<T>(_ host: Any, value: T, key: Swift.UnsafeRawPointer)
-  #if compiler(>=5.3) && $NonescapableTypes
   func referanceOn<T>(_ host: Any, key: Swift.UnsafeRawPointer) -> T?
-  #endif
   func clearReferenceOn(_ host: Any, withKey key: Swift.UnsafeRawPointer)
   func clearAllReferences(withKey key: Swift.UnsafeRawPointer)
   func getReferencesByHost(withKey key: Swift.UnsafeRawPointer) -> [(host: Swift.AnyObject, value: Swift.AnyObject)]
@@ -410,9 +368,7 @@ public enum NetmeraTrackingManagerAuthorizationStatus : Swift.UInt, Swift.Codabl
   public var description: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt)
-  #endif
   public typealias RawValue = Swift.UInt
   public var rawValue: Swift.UInt {
     get
@@ -434,9 +390,7 @@ public enum TransparencyAuthorizationSource : Swift.Int, Swift.CustomStringConve
   public var description: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -445,9 +399,7 @@ public enum TransparencyAuthorizationSource : Swift.Int, Swift.CustomStringConve
 public enum UserNotificationActionType : Swift.Int, Swift.Codable {
   case `default`
   case textInput
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -464,9 +416,7 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
     get
   }
   public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(eventKey: Swift.String)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public static func == (lhs: NetmeraCore.NetmeraEvent, rhs: NetmeraCore.NetmeraEvent) -> Swift.Bool
   open func encode(to encoder: any Swift.Encoder) throws
@@ -474,9 +424,7 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
 }
 @_spi(NetmeraInternal) public struct AnyCodable : Swift.Codable {
   @_spi(NetmeraInternal) public var value: Any
-  #if compiler(>=5.3) && $NonescapableTypes
   @_spi(NetmeraInternal) public init<T>(_ value: T?)
-  #endif
 }
 @_spi(NetmeraInternal) extension NetmeraCore.AnyCodable : NetmeraCore._AnyEncodable, NetmeraCore._AnyDecodable {
 }
@@ -524,15 +472,11 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
 }
 @_spi(NetmeraInternal) public struct AnyDecodable : Swift.Decodable {
   @_spi(NetmeraInternal) public let value: Any
-  #if compiler(>=5.3) && $NonescapableTypes
   @_spi(NetmeraInternal) public init<T>(_ value: T?)
-  #endif
 }
 @_spi(NetmeraInternal) public protocol _AnyDecodable {
   @_spi(NetmeraInternal) var value: Any { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_spi(NetmeraInternal) init<T>(_ value: T?)
-  #endif
 }
 @_spi(NetmeraInternal) extension NetmeraCore.AnyDecodable : NetmeraCore._AnyDecodable {
 }
@@ -560,15 +504,11 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
 }
 @_spi(NetmeraInternal) public struct AnyEncodable : Swift.Encodable {
   @_spi(NetmeraInternal) public let value: Any
-  #if compiler(>=5.3) && $NonescapableTypes
   @_spi(NetmeraInternal) public init<T>(_ value: T?)
-  #endif
 }
 @_spi(NetmeraInternal) public protocol _AnyEncodable {
   @_spi(NetmeraInternal) var value: Any { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_spi(NetmeraInternal) init<T>(_ value: T?)
-  #endif
 }
 @_spi(NetmeraInternal) extension NetmeraCore.AnyEncodable : NetmeraCore._AnyEncodable {
 }
@@ -632,28 +572,18 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
 }
 open class NetmeraPush : Swift.Codable {
   final public let pushType: NetmeraCore.NetmeraPushType
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(pushType: NetmeraCore.NetmeraPushType? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   open func encode(to encoder: any Swift.Encoder) throws
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case payload
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -663,21 +593,13 @@ open class NetmeraPush : Swift.Codable {
   }
   public enum PayloadInfoKeys : Swift.String, Swift.CodingKey {
     case pushType
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -704,9 +626,7 @@ public enum NetmeraPushType : Swift.Int, Swift.Codable {
   case review
   case forceUpdate
   case widget
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -716,9 +636,7 @@ public enum NetmeraGender : Swift.Int, Swift.Codable {
   case male
   case female
   case notSpecified
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -728,9 +646,7 @@ public enum NetmeraMaritalStatus : Swift.Int, Swift.Codable {
   case single
   case married
   case notSpecified
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -750,16 +666,13 @@ extension NetmeraCore.NetmeraProfileAttribute where T : Swift.ExpressibleByArray
 }
 extension Swift.KeyedEncodingContainer {
   public mutating func encode<T>(_ value: NetmeraCore.NetmeraProfileAttribute<T>, forKey key: K) throws where T : Swift.Decodable, T : Swift.Encodable
-  #if compiler(>=5.3) && $NonescapableTypes
   public mutating func encodeIfPresent<T>(_ value: NetmeraCore.NetmeraProfileAttribute<T>?, forKey key: K) throws where T : Swift.Decodable, T : Swift.Encodable
-  #endif
 }
 extension Swift.KeyedDecodingContainer {
   public func decode<T>(_: NetmeraCore.NetmeraProfileAttribute<T>.Type, forKey key: K) throws -> NetmeraCore.NetmeraProfileAttribute<T> where T : Swift.Decodable, T : Swift.Encodable
 }
 @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
 open class NetmeraUser : Swift.Codable {
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($userId) public var userId: Swift.String? {
     get
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
@@ -767,11 +680,9 @@ open class NetmeraUser : Swift.Codable {
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
     _modify
   }
-  #endif
   public var $userId: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($email) public var email: Swift.String? {
     get
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
@@ -779,11 +690,9 @@ open class NetmeraUser : Swift.Codable {
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
     _modify
   }
-  #endif
   public var $email: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($msisdn) public var msisdn: Swift.String? {
     get
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
@@ -791,7 +700,6 @@ open class NetmeraUser : Swift.Codable {
     @available(*, deprecated, message: "Use NetmeraUserIdentify and NetmeraUserProfile instead")
     _modify
   }
-  #endif
   public var $msisdn: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
@@ -816,43 +724,35 @@ open class NetmeraUser : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
 }
 final public class NetmeraUserIdentify {
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($userId) final public var userId: Swift.String? {
     get
     set
     _modify
   }
-  #endif
   final public var $userId: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($email) final public var email: Swift.String? {
     get
     set
     _modify
   }
-  #endif
   final public var $email: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($msisdn) final public var msisdn: Swift.String? {
     get
     set
     _modify
   }
-  #endif
   final public var $msisdn: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @NetmeraCore.ExplicitlySet @_projectedValueProperty($whatsAppNumber) final public var whatsAppNumber: Swift.String? {
     get
     set
     _modify
   }
-  #endif
   final public var $whatsAppNumber: NetmeraCore.ExplicitlySet<Swift.String> {
     get
   }
@@ -884,19 +784,15 @@ open class NetmeraUserProfile : Swift.Codable {
   public var isSet: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var wrappedValue: Value? {
     get
     set
   }
-  #endif
   public var projectedValue: NetmeraCore.ExplicitlySet<Value> {
     get
   }
   public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(value: Value?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -921,9 +817,7 @@ public struct Location : Swift.CustomStringConvertible, Swift.Equatable {
   required public init(from decoder: any Swift.Decoder) throws
   public static func empty() -> NetmeraCore.NetmeraAdvertisingInfo
   public static func == (lhs: NetmeraCore.NetmeraAdvertisingInfo, rhs: NetmeraCore.NetmeraAdvertisingInfo) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public func copy(authStatusForSystem: NetmeraCore.NetmeraTrackingManagerAuthorizationStatus? = nil, authStatusForApp: NetmeraCore.NetmeraTrackingManagerAuthorizationStatus? = nil, adId: Swift.String? = nil) -> NetmeraCore.NetmeraAdvertisingInfo
-  #endif
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
@@ -973,9 +867,7 @@ public struct NetmeraGeofenceEntity : Swift.Codable, Swift.Equatable {
 public struct NetmeraIdentifiers : Swift.Codable, Swift.Equatable {
   public static let empty: NetmeraCore.NetmeraIdentifiers
   public static func == (lhs: NetmeraCore.NetmeraIdentifiers, rhs: NetmeraCore.NetmeraIdentifiers) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public func copy(installationId: Swift.String? = nil, deviceId: Swift.String? = nil, sessionId: Swift.String? = nil, userId: Swift.String? = nil, externalId: Swift.String? = nil, pushId: Swift.String? = nil, pushInstanceId: Swift.String? = nil, timeZoneId: Swift.String? = nil) -> NetmeraCore.NetmeraIdentifiers
-  #endif
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case installationId
     case deviceId
@@ -985,21 +877,13 @@ public struct NetmeraIdentifiers : Swift.Codable, Swift.Equatable {
     case pushId
     case pushInstanceId
     case timeZoneId
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -1015,9 +899,7 @@ public struct NetmeraParams : Swift.Equatable, Swift.Codable {
   public let baseUrl: Swift.String?
   public let appGroupName: Swift.String?
   public let customEvents: [Swift.AnyClass]
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiKey: Swift.String, baseUrl: Swift.String? = nil, appGroupName: Swift.String? = nil, customEvents: [Swift.AnyClass] = [])
-  #endif
   public init(from decoder: any Swift.Decoder) throws
   public static func == (lhs: NetmeraCore.NetmeraParams, rhs: NetmeraCore.NetmeraParams) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1031,21 +913,13 @@ public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
     case path
     case code
     case actionType
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
-    #endif
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.String
-    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
-    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -1066,9 +940,7 @@ public struct NetmeraTrackableScreenInfo : Swift.Codable, Swift.Equatable {
 public enum NetmeraUserNotificationActionActivationMode : Swift.Int, Swift.Codable {
   case background
   case foreground
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1094,9 +966,7 @@ public struct NetmeraUserNotificationCategory : Swift.Codable, Swift.Equatable {
 }
 public protocol NetmeraRequestSender : AnyObject {
   func enqueue(params: NetmeraCore.NetmeraRequestParams)
-  #if compiler(>=5.3) && $NonescapableTypes
   func request<T>(params: NetmeraCore.NetmeraRequestParams, callback: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : NetmeraCore.NetmeraResponse
-  #endif
 }
 @_hasMissingDesignatedInitializers open class NetmeraRequest : Swift.Codable, Swift.Equatable {
   public static func == (lhs: NetmeraCore.NetmeraRequest, rhs: NetmeraCore.NetmeraRequest) -> Swift.Bool
@@ -1110,9 +980,7 @@ public protocol NetmeraRequestSender : AnyObject {
   @objc deinit
 }
 open class NetmeraResponse : Swift.Codable {
-  #if compiler(>=5.3) && $NonescapableTypes
   required public init(code: Swift.Int? = nil, error: Swift.String? = nil)
-  #endif
   @objc deinit
   open func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -1127,21 +995,15 @@ public enum NetmeraHTTPMethod : Swift.String {
   case post
   case put
   case trace
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public protocol NetmeraDownloader {
-  #if compiler(>=5.3) && $NonescapableTypes
   func download(_ url: Swift.String, options: [NetmeraCore.NetmeraDownloadOption], completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func download(_ url: Swift.String, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
-  #endif
 }
 public enum NetmeraDownloadOption {
   case createIntermediateDirectories
@@ -1156,12 +1018,8 @@ public protocol WidgetUrlInterceptor {
   func proceed(_ url: Foundation.URL) -> Foundation.URL
 }
 @_hasMissingDesignatedInitializers public class SwizzleHelper {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetSelector: ObjectiveC.Selector)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass?, _ targetSelector: ObjectiveC.Selector)
-  #endif
   public static func exchangeOrMakeNoOp(_ sourceClass: Swift.AnyClass, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass, _ targetSelector: ObjectiveC.Selector, _ noOpIMP: ObjectiveC.IMP)
   @discardableResult
   public static func injectSelector(_ sourceClass: Swift.AnyClass, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass, _ targetSelector: ObjectiveC.Selector) -> Swift.Bool
@@ -1174,46 +1032,28 @@ public class SwizzlingForwarder {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalNetmera {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func updateUserProfile(withDictionary dictionary: [Swift.String : Any], completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Netmera {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)? = nil)
-  #endif
   @available(*, deprecated, message: "Use identifyUser(_:) instead")
   public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func identifyUser<T>(_ user: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserIdentify
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func updateUserProfile<T>(userProfile: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserProfile
-  #endif
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
   public static func setEncryptor(_ encryptor: any NetmeraCore.NetmeraEncrypterProtocol)
   public static func setDataTransferEnabled(_ enabled: Swift.Bool)
   public static func isDataTransferEnabled() -> Swift.Bool
   public static func isNetmeraRemoteMessage(payload: [Swift.AnyHashable : Any]) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getCurrentExternalId() -> Swift.String?
-  #endif
   public static func setEmailPermission(isAllowed: Swift.Bool)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getEmailPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
   public static func setSmsPermission(isAllowed: Swift.Bool)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getSmsPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
   public static func setWhatsAppPermission(isAllowed: Swift.Bool)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getWhatsAppPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
   @available(*, deprecated, renamed: "setEmailPermission(isAllowed:)")
   public static func setAllowedEmailSubscription(_ allowed: Swift.Bool)
   @available(*, deprecated, renamed: "getEmailPermission(callback:)")
@@ -1223,9 +1063,7 @@ public class SwizzlingForwarder {
   public static func kill()
   @available(iOS 13.0, tvOS 13.0, *)
   public static func handleConnectionOptions(_ options: UIKit.UIScene.ConnectionOptions)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func fetchCoupons(using filter: NetmeraCore.NetmeraCouponFilter, callback: @escaping (Swift.Result<[NetmeraCore.NetmeraCouponObject], NetmeraCore.NetmeraFetchCouponError>) -> Swift.Void)
-  #endif
   @objc deinit
 }
 extension NetmeraCore.AccessLevel : Swift.Equatable {}

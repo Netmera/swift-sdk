@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraNotification
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotification
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreLocation
 import Foundation
 @_exported import NetmeraAnalytic
@@ -71,11 +71,9 @@ extension UserNotifications.UNUserNotificationCenter {
   public static func swizzle()
 }
 extension NetmeraCore.Netmera {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
     get
   }
-  #endif
   @available(*, deprecated, renamed: "setPopupPresentationEnabled(_:)")
   public static func setEnabledPopupPresentation(_ enabled: Swift.Bool)
   @available(*, deprecated, renamed: "setInAppMessagePresentationEnabled(_:)")
@@ -89,21 +87,15 @@ extension NetmeraCore.Netmera {
   public static func dismissAllPresentations()
   public static func setReceivingPushNotificationsEnabled(_ enabled: Swift.Bool)
   public static func isReceivingPushNotificationsEnabled(completion: @escaping (Swift.Bool) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
-  #endif
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   @available(*, deprecated, renamed: "handleAction(_:for:)")
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getUserCategoryPreferenceList(callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
-  #endif
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}

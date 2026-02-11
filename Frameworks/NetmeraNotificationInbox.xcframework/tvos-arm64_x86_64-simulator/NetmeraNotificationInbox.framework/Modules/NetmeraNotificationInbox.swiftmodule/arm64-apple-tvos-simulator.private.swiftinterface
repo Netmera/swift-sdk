@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NetmeraNotificationInbox
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotificationInbox
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import NetmeraAnalytic
 import NetmeraCore
@@ -29,34 +29,18 @@ public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
 public protocol NetmeraInboxManager {
   var objects: [NetmeraNotificationCore.NetmeraInboxPush] { get }
   func count(for status: NetmeraNotificationCore.NetmeraInboxStatus) -> Swift.Int
-  #if compiler(>=5.3) && $NonescapableTypes
   func inbox(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for pushObjects: [NetmeraNotificationCore.NetmeraInboxPush], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateStatusForAllPushObjects(_ status: NetmeraNotificationCore.NetmeraInboxStatus, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
   func clear()
 }
 public protocol NetmeraInboxCategoryManager {
   var categories: [NetmeraNotificationInbox.NetmeraInboxCategoryObject] { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   func inboxCategory(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func nextPage(callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateStatus(_ status: NetmeraNotificationCore.NetmeraInboxStatus, for categories: [Swift.String], callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
   func clear()
 }
 public struct NetmeraInboxCategoryFilter : Swift.Codable {
@@ -91,9 +75,7 @@ public struct NetmeraInboxCountFilter : Swift.Codable {
   public let status: NetmeraNotificationCore.NetmeraInboxStatus
   public let shouldIncludeExpiredObjects: Swift.Bool
   public let categories: [Swift.String]?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -107,9 +89,7 @@ public struct NetmeraInboxFilter : Swift.Codable {
   public let pageSize: Swift.Int
   public let shouldIncludeExpiredObjects: Swift.Bool
   public let categories: [Swift.String]?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(status: NetmeraNotificationCore.NetmeraInboxStatus = .default, pageSize: Swift.Int = 10, shouldIncludeExpiredObjects: Swift.Bool = false, categories: [Swift.String]? = nil)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -119,13 +99,7 @@ extension NetmeraNotificationInbox.NetmeraInboxFilter : Swift.CustomStringConver
   }
 }
 extension NetmeraCore.Netmera {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func inboxManager(with filter: NetmeraNotificationInbox.NetmeraInboxFilter) -> (any NetmeraNotificationInbox.NetmeraInboxManager)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func inboxCategoryManager(with filter: NetmeraNotificationInbox.NetmeraInboxCategoryFilter) -> (any NetmeraNotificationInbox.NetmeraInboxCategoryManager)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func fetchInboxCount(with filter: NetmeraNotificationInbox.NetmeraInboxCountFilter, callback: @escaping (Swift.Result<NetmeraNotificationInbox.NetmeraInboxCountResponse, NetmeraNotificationInbox.NetmeraInboxError>) -> Swift.Void)
-  #endif
 }

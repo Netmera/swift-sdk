@@ -1271,7 +1271,7 @@
         ],
         "declKind": "Class",
         "usr": "c:objc(cs)CLLocation",
-        "moduleName": "_LocationEssentials",
+        "moduleName": "CoreLocation",
         "isOpen": true,
         "objc_name": "CLLocation",
         "declAttributes": [
@@ -1357,13 +1357,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1603,56 +1596,56 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Framework\/LocationFrameworkDelegateImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 417,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 1301,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
       "kind": "Array",
       "offset": 486,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 34,
       "value": "\"NSLocationAlwaysUsageDescription\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 46,
       "value": "\"NSLocationAlwaysAndWhenInUseUsageDescription\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 37,
       "value": "\"NSLocationWhenInUseUsageDescription\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 21,
       "value": "\"authorizationStatus\""
     },
     {
-      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 583,
       "length": 1,
