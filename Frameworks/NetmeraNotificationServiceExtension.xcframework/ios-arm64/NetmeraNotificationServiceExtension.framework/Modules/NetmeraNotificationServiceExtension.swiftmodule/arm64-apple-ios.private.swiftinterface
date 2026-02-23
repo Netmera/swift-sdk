@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import Intents
+import MobileCoreServices
 import NetmeraAnalytic
 import NetmeraCore
 import NetmeraNotificationCore
@@ -11,6 +12,7 @@ import NetmeraNotificationCore
 import Swift
 import Swinject
 import UIKit
+import UniformTypeIdentifiers
 import UserNotifications
 import _Concurrency
 import _StringProcessing

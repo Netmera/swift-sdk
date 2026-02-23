@@ -64,10 +64,13 @@ public enum PushActionType : Swift.Int, Swift.Codable {
     get
   }
 }
-public enum PushStyleType : Swift.Int, Swift.Codable {
+public enum PushStyleType : Swift.Int, Swift.Codable, Swift.CustomStringConvertible {
   case general
   case carousel
   case slider
+  public var description: Swift.String {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

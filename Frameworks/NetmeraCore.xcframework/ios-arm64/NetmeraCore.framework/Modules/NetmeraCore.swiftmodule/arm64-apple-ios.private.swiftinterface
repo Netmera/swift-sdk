@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreTelephony
 import Foundation
+import MobileCoreServices
 @_exported import NetmeraCore
 import OSLog
 import SQLite3
@@ -12,6 +13,7 @@ import Swift
 import Swinject
 import SystemConfiguration
 import UIKit
+import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -1001,9 +1003,13 @@ public enum NetmeraHTTPMethod : Swift.String {
     get
   }
 }
+public enum NetmeraAttachmentValidation {
+  public static let maxAttachmentBytes: Swift.Int64
+  public static func fileSizeBytes(at url: Foundation.URL) -> Swift.Int64?
+}
 public protocol NetmeraDownloader {
-  func download(_ url: Swift.String, options: [NetmeraCore.NetmeraDownloadOption], completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
-  func download(_ url: Swift.String, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
+  func download(_ url: Swift.String, options: [NetmeraCore.NetmeraDownloadOption], completion: @escaping (Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>) -> Swift.Void)
+  func download(_ url: Swift.String, completion: @escaping (Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>) -> Swift.Void)
 }
 public enum NetmeraDownloadOption {
   case createIntermediateDirectories

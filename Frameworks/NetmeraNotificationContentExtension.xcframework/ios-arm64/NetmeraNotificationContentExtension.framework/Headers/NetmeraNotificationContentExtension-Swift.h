@@ -342,6 +342,7 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension15PushContentCell")
 @interface PushContentCell : UICollectionViewCell
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
+- (void)prepareForReuse;
 @end
 
 
@@ -379,7 +380,6 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension10SliderView")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 @class UICollectionViewLayoutAttributes;

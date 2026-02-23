@@ -30604,13 +30604,17 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
         "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
       },
       {
         "kind": "Import",
@@ -30640,6 +30644,142 @@
         "moduleName": "NetmeraCore",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraAttachmentValidation",
+        "printedName": "NetmeraAttachmentValidation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxAttachmentBytes",
+            "printedName": "maxAttachmentBytes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20AttachmentValidationO03maxC5Bytess5Int64VvpZ",
+            "mangledName": "$s11NetmeraCore0A20AttachmentValidationO03maxC5Bytess5Int64VvpZ",
+            "moduleName": "NetmeraCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20AttachmentValidationO03maxC5Bytess5Int64VvgZ",
+                "mangledName": "$s11NetmeraCore0A20AttachmentValidationO03maxC5Bytess5Int64VvgZ",
+                "moduleName": "NetmeraCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fileSizeBytes",
+            "printedName": "fileSizeBytes(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A20AttachmentValidationO13fileSizeBytes2ats5Int64VSg10Foundation3URLV_tFZ",
+            "mangledName": "$s11NetmeraCore0A20AttachmentValidationO13fileSizeBytes2ats5Int64VSg10Foundation3URLV_tFZ",
+            "moduleName": "NetmeraCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11NetmeraCore0A20AttachmentValidationO",
+        "mangledName": "$s11NetmeraCore0A20AttachmentValidationO",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -30710,7 +30850,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -30720,13 +30860,26 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
+                    "printedName": "Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ]
                       },
                       {
                         "kind": "TypeNominal",
@@ -30741,8 +30894,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A10DownloaderP8download_7options10completionySS_SayAA0A14DownloadOptionOGys6ResultOy10Foundation3URLVs5Error_pGctF",
-            "mangledName": "$s11NetmeraCore0A10DownloaderP8download_7options10completionySS_SayAA0A14DownloadOptionOGys6ResultOy10Foundation3URLVs5Error_pGctF",
+            "usr": "s:11NetmeraCore0A10DownloaderP8download_7options10completionySS_SayAA0A14DownloadOptionOGys6ResultOy10Foundation3URLV_So17NSHTTPURLResponseCts5Error_pGctF",
+            "mangledName": "$s11NetmeraCore0A10DownloaderP8download_7options10completionySS_SayAA0A14DownloadOptionOGys6ResultOy10Foundation3URLV_So17NSHTTPURLResponseCts5Error_pGctF",
             "moduleName": "NetmeraCore",
             "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraDownloader>",
             "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraDownloader>",
@@ -30772,7 +30925,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -30782,13 +30935,26 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
+                    "printedName": "Swift.Result<(Foundation.URL, Foundation.HTTPURLResponse), any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URL, Foundation.HTTPURLResponse)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ]
                       },
                       {
                         "kind": "TypeNominal",
@@ -30803,8 +30969,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A10DownloaderP8download_10completionySS_ys6ResultOy10Foundation3URLVs5Error_pGctF",
-            "mangledName": "$s11NetmeraCore0A10DownloaderP8download_10completionySS_ys6ResultOy10Foundation3URLVs5Error_pGctF",
+            "usr": "s:11NetmeraCore0A10DownloaderP8download_10completionySS_ys6ResultOy10Foundation3URLV_So17NSHTTPURLResponseCts5Error_pGctF",
+            "mangledName": "$s11NetmeraCore0A10DownloaderP8download_10completionySS_ys6ResultOy10Foundation3URLV_So17NSHTTPURLResponseCts5Error_pGctF",
             "moduleName": "NetmeraCore",
             "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraDownloader>",
             "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraDownloader>",
@@ -35980,6 +36146,20 @@
       "value": "\"Network did finish with error:\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetworkSession\/NetmeraNetworkSessionImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetworkSession\/NetmeraNetworkSessionImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 866,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 172,
@@ -36162,6 +36342,27 @@
       "value": "\"coupon\/fetch\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraAttachmentValidation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraAttachmentValidation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraAttachmentValidation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 4,
+      "value": "1024"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRetryDispatcherImpl.swift",
       "kind": "IntegerLiteral",
       "offset": 117,
@@ -36327,7 +36528,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.14.6\""
+      "value": "\"4.14.7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
