@@ -29,12 +29,42 @@ public enum NetmeraPushPermissionType {
   }
 }
 public protocol NetmeraPushDelegate : AnyObject {
+  func shouldPresentWebView(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func presentWebView(for push: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldPresentNotification(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func didRegisterDeviceToken(_ deviceToken: Swift.String)
+  func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+}
+extension NetmeraNotification.NetmeraPushDelegate {
+  public func shouldPresentWebView(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func presentWebView(for push: NetmeraNotificationCore.NetmeraBasePush)
+  public func shouldPresentNotification(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
+  public func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
+  public func didRegisterDeviceToken(_: Swift.String)
+  public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func shouldHandleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func handleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func shouldHandlePresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func handlePresentation(for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func shouldHandleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func handleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
 @_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {

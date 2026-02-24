@@ -916,6 +916,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1991,6 +2001,39 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "asyncAfter",
+            "printedName": "asyncAfter(deadline:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchTime",
+                "printedName": "Dispatch.DispatchTime",
+                "usr": "s:8Dispatch0A4TimeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItem",
+                "printedName": "Dispatch.DispatchWorkItem",
+                "usr": "s:8Dispatch0A8WorkItemC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore12DispatchableP10asyncAfter8deadline7executey8Dispatch0H4TimeV_AG0H8WorkItemCtF",
+            "mangledName": "$s11NetmeraCore12DispatchableP10asyncAfter8deadline7executey8Dispatch0H4TimeV_AG0H8WorkItemCtF",
+            "moduleName": "NetmeraCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.Dispatchable>",
+            "sugared_genericSig": "<Self where Self : NetmeraCore.Dispatchable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -2669,94 +2712,6 @@
         "moduleName": "NetmeraCore",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetmeraCoreAnalyticDelegate",
-        "printedName": "NetmeraCoreAnalyticDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "sessionEvent",
-            "printedName": "sessionEvent(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0aB16AnalyticDelegateP12sessionEventyySdF",
-            "mangledName": "$s11NetmeraCore0aB16AnalyticDelegateP12sessionEventyySdF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCoreAnalyticDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCoreAnalyticDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openAppEvent",
-            "printedName": "openAppEvent()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0aB16AnalyticDelegateP12openAppEventyyF",
-            "mangledName": "$s11NetmeraCore0aB16AnalyticDelegateP12openAppEventyyF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCoreAnalyticDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCoreAnalyticDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11NetmeraCore0aB16AnalyticDelegateP",
-        "mangledName": "$s11NetmeraCore0aB16AnalyticDelegateP",
-        "moduleName": "NetmeraCore",
         "declAttributes": [
           "AccessControl"
         ],
@@ -5583,147 +5538,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetmeraEventConverter",
-        "printedName": "NetmeraEventConverter",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "hasConverter",
-            "printedName": "hasConverter(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0A14EventConverterP03hasD0ySbSSF",
-            "mangledName": "$s11NetmeraCore0A14EventConverterP03hasD0ySbSSF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraEventConverter>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraEventConverter>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "convert",
-            "printedName": "convert(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "NetmeraCore.NetmeraEvent?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraEvent",
-                    "printedName": "NetmeraCore.NetmeraEvent",
-                    "usr": "s:11NetmeraCore0A5EventC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "DbCache",
-                "printedName": "NetmeraCore.DbCache",
-                "usr": "s:11NetmeraCore7DbCacheC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0A14EventConverterP7convertyAA0aC0CSgAA7DbCacheCF",
-            "mangledName": "$s11NetmeraCore0A14EventConverterP7convertyAA0aC0CSgAA7DbCacheCF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraEventConverter>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraEventConverter>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11NetmeraCore0A14EventConverterP",
-        "mangledName": "$s11NetmeraCore0A14EventConverterP",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "NetmeraPushConverterProtocol",
         "printedName": "NetmeraPushConverterProtocol",
@@ -6077,50 +5891,6 @@
         "children": [
           {
             "kind": "Function",
-            "name": "appendEventClasses",
-            "printedName": "appendEventClasses(classes:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any AnyObject.Type]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExistentialMetatype",
-                    "printedName": "any AnyObject.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "AnyObject"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0A11CacheInvokeP18appendEventClasses7classesySayyXlXpG_tF",
-            "mangledName": "$s11NetmeraCore0A11CacheInvokeP18appendEventClasses7classesySayyXlXpG_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCacheInvoke>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCacheInvoke>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "appendRequestClasses",
             "printedName": "appendRequestClasses(classes:)",
             "children": [
@@ -6153,82 +5923,6 @@
             "declKind": "Func",
             "usr": "s:11NetmeraCore0A11CacheInvokeP20appendRequestClasses7classesySayyXlXpG_tF",
             "mangledName": "$s11NetmeraCore0A11CacheInvokeP20appendRequestClasses7classesySayyXlXpG_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCacheInvoke>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCacheInvoke>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isKnownEventClass",
-            "printedName": "isKnownEventClass(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0A11CacheInvokeP17isKnownEventClassySbSSF",
-            "mangledName": "$s11NetmeraCore0A11CacheInvokeP17isKnownEventClassySbSSF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCacheInvoke>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCacheInvoke>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "typeEventOf",
-            "printedName": "typeEventOf(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any AnyObject.Type)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExistentialMetatype",
-                    "printedName": "any AnyObject.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "AnyObject"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore0A11CacheInvokeP11typeEventOfyyXlXpSgSSF",
-            "mangledName": "$s11NetmeraCore0A11CacheInvokeP11typeEventOfyyXlXpSgSSF",
             "moduleName": "NetmeraCore",
             "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.NetmeraCacheInvoke>",
             "sugared_genericSig": "<Self where Self : NetmeraCore.NetmeraCacheInvoke>",
@@ -12488,116 +12182,6 @@
                 "declKind": "Accessor",
                 "usr": "s:11NetmeraCore0A5EventC7revenueSdSgvM",
                 "mangledName": "$s11NetmeraCore0A5EventC7revenueSdSgvM",
-                "moduleName": "NetmeraCore",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "identifiers",
-            "printedName": "identifiers",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "NetmeraCore.NetmeraIdentifiers?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraIdentifiers",
-                    "printedName": "NetmeraCore.NetmeraIdentifiers",
-                    "usr": "s:11NetmeraCore0A11IdentifiersV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvp",
-            "mangledName": "$s11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvp",
-            "moduleName": "NetmeraCore",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "NetmeraCore.NetmeraIdentifiers?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraIdentifiers",
-                        "printedName": "NetmeraCore.NetmeraIdentifiers",
-                        "usr": "s:11NetmeraCore0A11IdentifiersV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvg",
-                "mangledName": "$s11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvg",
-                "moduleName": "NetmeraCore",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "NetmeraCore.NetmeraIdentifiers?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraIdentifiers",
-                        "printedName": "NetmeraCore.NetmeraIdentifiers",
-                        "usr": "s:11NetmeraCore0A11IdentifiersV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvs",
-                "mangledName": "$s11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvs",
-                "moduleName": "NetmeraCore",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvM",
-                "mangledName": "$s11NetmeraCore0A5EventC11identifiersAA0A11IdentifiersVSgvM",
                 "moduleName": "NetmeraCore",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -26935,76 +26519,62 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "customEvents",
-            "printedName": "customEvents",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:baseUrl:appGroupName:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any AnyObject.Type]",
+                "name": "NetmeraParams",
+                "printedName": "NetmeraCore.NetmeraParams",
+                "usr": "s:11NetmeraCore0A6ParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ExistentialMetatype",
-                    "printedName": "any AnyObject.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "AnyObject"
-                      }
-                    ]
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
-                "usr": "s:Sa"
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:11NetmeraCore0A6ParamsV12customEventsSayyXlXpGvp",
-            "mangledName": "$s11NetmeraCore0A6ParamsV12customEventsSayyXlXpGvp",
+            "declKind": "Constructor",
+            "usr": "s:11NetmeraCore0A6ParamsV6apiKey7baseUrl12appGroupNameACSS_SSSgAGtcfc",
+            "mangledName": "$s11NetmeraCore0A6ParamsV6apiKey7baseUrl12appGroupNameACSS_SSSgAGtcfc",
             "moduleName": "NetmeraCore",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any AnyObject.Type]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExistentialMetatype",
-                        "printedName": "any AnyObject.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "AnyObject"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore0A6ParamsV12customEventsSayyXlXpGvg",
-                "mangledName": "$s11NetmeraCore0A6ParamsV12customEventsSayyXlXpGvg",
-                "moduleName": "NetmeraCore",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -27079,38 +26649,11 @@
             "usr": "s:11NetmeraCore0A6ParamsV6apiKey7baseUrl12appGroupName12customEventsACSS_SSSgAHSayyXlXpGtcfc",
             "mangledName": "$s11NetmeraCore0A6ParamsV6apiKey7baseUrl12appGroupName12customEventsACSS_SSSgAHSayyXlXpGtcfc",
             "moduleName": "NetmeraCore",
+            "deprecated": true,
             "declAttributes": [
               "AccessControl",
-              "RawDocComment"
+              "Available"
             ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraParams",
-                "printedName": "NetmeraCore.NetmeraParams",
-                "usr": "s:11NetmeraCore0A6ParamsV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11NetmeraCore0A6ParamsV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11NetmeraCore0A6ParamsV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraCore",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
             "init_kind": "Designated"
           },
           {
@@ -27149,6 +26692,32 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraParams",
+                "printedName": "NetmeraCore.NetmeraParams",
+                "usr": "s:11NetmeraCore0A6ParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NetmeraCore0A6ParamsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11NetmeraCore0A6ParamsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -27169,10 +26738,7 @@
             "usr": "s:11NetmeraCore0A6ParamsV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s11NetmeraCore0A6ParamsV6encode2toys7Encoder_p_tKF",
             "moduleName": "NetmeraCore",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -29720,6 +29286,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraFetchCouponResponse",
         "printedName": "NetmeraFetchCouponResponse",
@@ -30713,16 +30289,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "NetmeraAttachmentValidation",
         "printedName": "NetmeraAttachmentValidation",
@@ -30836,26 +30402,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -31275,26 +30821,6 @@
             "usr": "s:SH",
             "mangledName": "$sSH"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -32518,6 +32044,84 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Constants",
+            "printedName": "Constants",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "deviceTokenVariableName",
+                "printedName": "deviceTokenVariableName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11NetmeraCore08InternalA0C9ConstantsO23deviceTokenVariableNameSSvpZ",
+                "mangledName": "$s11NetmeraCore08InternalA0C9ConstantsO23deviceTokenVariableNameSSvpZ",
+                "moduleName": "NetmeraCore",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11NetmeraCore08InternalA0C9ConstantsO23deviceTokenVariableNameSSvgZ",
+                    "mangledName": "$s11NetmeraCore08InternalA0C9ConstantsO23deviceTokenVariableNameSSvgZ",
+                    "moduleName": "NetmeraCore",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11NetmeraCore08InternalA0C9ConstantsO",
+            "mangledName": "$s11NetmeraCore08InternalA0C9ConstantsO",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -34697,6 +34301,13 @@
       "value": "-1"
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Common\/Migration\/OfflineEventRemovalMigration.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 46,
+      "value": "\"NetmeraOfflineEventRemovalMigrationCompleted\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
       "kind": "Dictionary",
       "offset": 2954,
@@ -34790,21 +34401,14 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/NetmeraCacheInvokeImpl.swift",
       "kind": "Dictionary",
-      "offset": 294,
+      "offset": 288,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/NetmeraCacheInvokeImpl.swift",
       "kind": "Dictionary",
-      "offset": 357,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/NetmeraCacheInvokeImpl.swift",
-      "kind": "Dictionary",
-      "offset": 411,
+      "offset": 342,
       "length": 3,
       "value": "[]"
     },
@@ -35105,30 +34709,23 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Event\/NetmeraEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2648,
+      "offset": 2359,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Event\/NetmeraEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 2392,
       "length": 4,
       "value": "\"fv\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Event\/NetmeraEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2421,
       "length": 4,
       "value": "\"ts\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Event\/NetmeraEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 5,
-      "value": "\"ids\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Push\/NetmeraConfigPush.swift",
@@ -35875,44 +35472,30 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "Array",
-      "offset": 265,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
-      "kind": "Array",
-      "offset": 578,
+      "offset": 801,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2205,
+      "offset": 1154,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 1183,
       "length": 10,
       "value": "\"base_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 1218,
       "length": 16,
       "value": "\"app_group_name\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
-      "kind": "StringLiteral",
-      "offset": 2310,
-      "length": 15,
-      "value": "\"custom_events\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetmeraTrackableActionInfo.swift",
@@ -35999,144 +35582,165 @@
       "value": "\"ia\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/EventQueue\/NetmeraPersistableEventBatchQueue.swift",
-      "kind": "Array",
-      "offset": 776,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraAddTestDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 975,
       "length": 6,
       "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraDisableAdIdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 960,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraDisablePushRequest.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 960,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraEnableAdIdRequest.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 957,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraEnablePushRequest.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 957,
       "length": 5,
       "value": "\"src\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraIdentifyUserRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 2128,
       "length": 10,
       "value": "\"wpNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraIdentifyUserRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2101,
+      "offset": 2162,
       "length": 6,
       "value": "\"prfl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraInitSessionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1996,
+      "offset": 2056,
       "length": 6,
       "value": "\"cfgV\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraInitSessionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2025,
+      "offset": 2085,
       "length": 6,
       "value": "\"info\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraInitSessionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2058,
+      "offset": 2118,
       "length": 4,
       "value": "\"tz\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraInitSessionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2085,
+      "offset": 2145,
       "length": 4,
       "value": "\"ts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraInitSessionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2124,
+      "offset": 2184,
       "length": 4,
       "value": "\"an\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraRegisterPushRequest.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 1017,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraRequest.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 897,
       "length": 5,
       "value": "\"ids\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraSetEmailPermissionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 963,
+      "offset": 1021,
       "length": 9,
       "value": "\"allowed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraSetSmsPermissionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 1015,
       "length": 9,
       "value": "\"allowed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraSetWhatsAppPermissionRequest.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1030,
       "length": 9,
       "value": "\"allowed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUpdateDeviceRequest.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1035,
       "length": 6,
       "value": "\"adid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUserProfileRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1100,
       "length": 6,
       "value": "\"prfl\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/RequestPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/RequestPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 190,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/RequestPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/RequestPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Response\/Coupon\/NetmeraFetchCouponResponse.swift",
@@ -36489,11 +36093,32 @@
       "value": "1024"
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRequestPoolImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 4,
+      "value": "1000"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRetryDispatcherImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 117,
-      "length": 2,
-      "value": "20"
+      "offset": 160,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRetryDispatcherImpl.swift",
+      "kind": "FloatLiteral",
+      "offset": 369,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRetryDispatcherImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 555,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetworkDbCacheLayerImpl.swift",
@@ -37023,240 +36648,254 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 2829,
+      "length": 30,
+      "value": "\"OfflineEventRemovalMigration\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
       "length": 19,
       "value": "\"PlistParamsLoader\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2878,
+      "offset": 2959,
       "length": 19,
       "value": "\"CacheParamsLoader\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2937,
+      "offset": 3018,
       "length": 19,
       "value": "\"IdentifiersLoader\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3070,
       "length": 12,
       "value": "\"AdIdLoader\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3131,
       "length": 28,
       "value": "\"DataTransferStatusVariable\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3214,
       "length": 34,
       "value": "\"AdditionalRequestHeadersVariable\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3298,
       "length": 28,
       "value": "\"InitSessionResponseHandler\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3292,
+      "offset": 3373,
       "length": 26,
       "value": "\"AppConfigResponseHandler\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3360,
+      "offset": 3441,
       "length": 21,
       "value": "\"UserResponseHandler\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3435,
+      "offset": 3516,
       "length": 18,
       "value": "\"netmera_cache.db\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3504,
+      "offset": 3585,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3558,
+      "offset": 3639,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3625,
+      "offset": 3706,
       "length": 10,
       "value": "\"_netmera\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3664,
+      "offset": 3745,
       "length": 12,
       "value": "\"sdk_params\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3726,
+      "offset": 3807,
       "length": 28,
       "value": "\"https:\/\/sdkapi.netmera.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3860,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3810,
+      "offset": 3891,
       "length": 5,
       "value": "\"3.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3838,
+      "offset": 3919,
       "length": 33,
       "value": "\"application\/json; charset=UTF-8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 3981,
       "length": 19,
       "value": "\"X-netmera-api-key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3956,
+      "offset": 4037,
       "length": 14,
       "value": "\"X-netmera-os\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4001,
+      "offset": 4082,
       "length": 16,
       "value": "\"X-netmera-sdkV\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4049,
+      "offset": 4130,
       "length": 16,
       "value": "\"X-netmera-appV\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4099,
+      "offset": 4180,
       "length": 16,
       "value": "\"X-netmera-appB\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4143,
+      "offset": 4224,
       "length": 19,
       "value": "\"X-netmera-app-key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4196,
+      "offset": 4277,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4261,
+      "offset": 4342,
       "length": 10,
       "value": "\"%02.2hhx\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4319,
+      "offset": 4400,
       "length": 4,
       "value": "\"os\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4355,
+      "offset": 4436,
       "length": 6,
       "value": "\"sdkv\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4395,
+      "offset": 4476,
       "length": 8,
       "value": "\"apikey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4458,
+      "offset": 4539,
       "length": 13,
       "value": "\"Information\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4512,
+      "offset": 4593,
       "length": 40,
       "value": "\"Device has been added to test devices.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4590,
+      "offset": 4671,
       "length": 44,
       "value": "\"Device could not be added to test devices.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4686,
+      "offset": 4767,
       "length": 13,
       "value": "\"netmera.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4738,
+      "offset": 4819,
       "length": 5,
       "value": "\"cer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/InternalNetmera.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 21,
+      "value": "\"DeviceTokenVariable\""
     }
   ]
 }
