@@ -35,11 +35,6 @@ public protocol NetmeraPushDelegate : AnyObject {
   func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
   func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
-  func didRegisterDeviceToken(_ deviceToken: Swift.String)
-  func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
-  func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
-  func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
-  func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
@@ -54,17 +49,26 @@ extension NetmeraNotification.NetmeraPushDelegate {
   public func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
-  public func didRegisterDeviceToken(_: Swift.String)
-  public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
-  public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
-  public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
-  public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldHandleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldHandlePresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handlePresentation(for _: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldHandleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush)
+}
+public protocol NetmeraPushLifecycleDelegate : AnyObject {
+  func didRegisterDeviceToken(_ deviceToken: Swift.String)
+  func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
+}
+extension NetmeraNotification.NetmeraPushLifecycleDelegate {
+  public func didRegisterDeviceToken(_: Swift.String)
+  public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
 @_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
   override open class var key: Swift.String {
@@ -119,6 +123,7 @@ extension NetmeraCore.Netmera {
   public static func isReceivingPushNotificationsEnabled(completion: @escaping (Swift.Bool) -> Swift.Void)
   public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
+  public static func setPushLifecycleDelegate(_ delegate: any NetmeraNotification.NetmeraPushLifecycleDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   @available(*, deprecated, renamed: "handleAction(_:for:)")

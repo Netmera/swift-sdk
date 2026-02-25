@@ -1227,176 +1227,6 @@
           },
           {
             "kind": "Function",
-            "name": "didRegisterDeviceToken",
-            "printedName": "didRegisterDeviceToken(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegateP22didRegisterDeviceTokenyySSF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegateP22didRegisterDeviceTokenyySSF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceive",
-            "printedName": "didReceive(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegateP10didReceiveyy0aB4Core0a4BaseC0CF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegateP10didReceiveyy0aB4Core0a4BaseC0CF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didOpen",
-            "printedName": "didOpen(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegateP7didOpenyy0aB4Core0a4BaseC0CF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegateP7didOpenyy0aB4Core0a4BaseC0CF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didClickActionButton",
-            "printedName": "didClickActionButton(_:for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegateP20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegateP20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didClickCarouselItem",
-            "printedName": "didClickCarouselItem(_:for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegateP20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegateP20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "shouldHandleWebViewPresentation",
             "printedName": "shouldHandleWebViewPresentation(for:)",
             "children": [
@@ -1767,171 +1597,6 @@
           },
           {
             "kind": "Function",
-            "name": "didRegisterDeviceToken",
-            "printedName": "didRegisterDeviceToken(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegatePAAE22didRegisterDeviceTokenyySSF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegatePAAE22didRegisterDeviceTokenyySSF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceive",
-            "printedName": "didReceive(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegatePAAE10didReceiveyy0aB4Core0a4BaseC0CF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegatePAAE10didReceiveyy0aB4Core0a4BaseC0CF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didOpen",
-            "printedName": "didOpen(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegatePAAE7didOpenyy0aB4Core0a4BaseC0CF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegatePAAE7didOpenyy0aB4Core0a4BaseC0CF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didClickActionButton",
-            "printedName": "didClickActionButton(_:for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegatePAAE20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegatePAAE20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didClickCarouselItem",
-            "printedName": "didClickCarouselItem(_:for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraBasePush",
-                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
-                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19NetmeraNotification0A12PushDelegatePAAE20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
-            "mangledName": "$s19NetmeraNotification0A12PushDelegatePAAE20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
-            "moduleName": "NetmeraNotification",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushDelegate>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "shouldHandleWebViewPresentation",
             "printedName": "shouldHandleWebViewPresentation(for:)",
             "children": [
@@ -2124,6 +1789,384 @@
         "declKind": "Protocol",
         "usr": "s:19NetmeraNotification0A12PushDelegateP",
         "mangledName": "$s19NetmeraNotification0A12PushDelegateP",
+        "moduleName": "NetmeraNotification",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraPushLifecycleDelegate",
+        "printedName": "NetmeraPushLifecycleDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRegisterDeviceToken",
+            "printedName": "didRegisterDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP22didRegisterDeviceTokenyySSF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP22didRegisterDeviceTokenyySSF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP10didReceiveyy0aB4Core0a4BaseC0CF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP10didReceiveyy0aB4Core0a4BaseC0CF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didOpen",
+            "printedName": "didOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP7didOpenyy0aB4Core0a4BaseC0CF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP7didOpenyy0aB4Core0a4BaseC0CF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickActionButton",
+            "printedName": "didClickActionButton(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickCarouselItem",
+            "printedName": "didClickCarouselItem(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRegisterDeviceToken",
+            "printedName": "didRegisterDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegatePAAE22didRegisterDeviceTokenyySSF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegatePAAE22didRegisterDeviceTokenyySSF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegatePAAE10didReceiveyy0aB4Core0a4BaseC0CF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegatePAAE10didReceiveyy0aB4Core0a4BaseC0CF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didOpen",
+            "printedName": "didOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegatePAAE7didOpenyy0aB4Core0a4BaseC0CF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegatePAAE7didOpenyy0aB4Core0a4BaseC0CF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickActionButton",
+            "printedName": "didClickActionButton(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegatePAAE20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegatePAAE20didClickActionButton_3forySS_0aB4Core0a4BaseC0CtF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickCarouselItem",
+            "printedName": "didClickCarouselItem(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraBasePush",
+                "printedName": "NetmeraNotificationCore.NetmeraBasePush",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A21PushLifecycleDelegatePAAE20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
+            "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegatePAAE20didClickCarouselItem_3forySSSg_0aB4Core0a4BaseC0CtF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraPushLifecycleDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP",
+        "mangledName": "$s19NetmeraNotification0A21PushLifecycleDelegateP",
         "moduleName": "NetmeraNotification",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -3683,6 +3726,16 @@
         "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -5268,7 +5321,38 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushLifecycleDelegate",
+            "printedName": "setPushLifecycleDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraPushLifecycleDelegate",
+                "printedName": "any NetmeraNotification.NetmeraPushLifecycleDelegate",
+                "usr": "s:19NetmeraNotification0A21PushLifecycleDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A12NotificationE24setPushLifecycleDelegateyyAD0aefG0_pFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE24setPushLifecycleDelegateyyAD0aefG0_pFZ",
+            "moduleName": "NetmeraNotification",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
