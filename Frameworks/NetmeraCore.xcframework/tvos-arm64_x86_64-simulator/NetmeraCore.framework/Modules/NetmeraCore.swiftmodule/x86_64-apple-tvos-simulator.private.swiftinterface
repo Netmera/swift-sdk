@@ -68,6 +68,7 @@ public protocol DependencyResolver {
 public protocol Dispatchable : ObjectiveC.NSObject {
   func async(_ work: @escaping () -> Swift.Void)
   func asyncAfter(deadline: Dispatch.DispatchTime, work: @escaping () -> Swift.Void)
+  func asyncAfter(deadline: Dispatch.DispatchTime, execute workItem: Dispatch.DispatchWorkItem)
 }
 extension Dispatch.DispatchQueue : NetmeraCore.Dispatchable {
   public func asyncAfter(deadline: Dispatch.DispatchTime, work: @escaping () -> Swift.Void)
@@ -102,10 +103,6 @@ public protocol Module {
 }
 public protocol NetmeraActionPerformer : AnyObject {
   func performAction(for actionData: [Swift.String : Any])
-}
-public protocol NetmeraCoreAnalyticDelegate {
-  func sessionEvent(_ elapsed: Foundation.TimeInterval)
-  func openAppEvent()
 }
 public protocol NetmeraDataSender {
   func sendEvent<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
@@ -183,20 +180,13 @@ open class Variable<T> where T : Swift.Equatable {
   public func clearAll()
   public func dispatchValue(value: T)
 }
-public protocol NetmeraEventConverter {
-  func hasConverter(_ className: Swift.String) -> Swift.Bool
-  func convert(_ dbCache: NetmeraCore.DbCache) -> NetmeraCore.NetmeraEvent?
-}
 public protocol NetmeraPushConverterProtocol {
   func convert(_ userInfo: [Swift.AnyHashable : Any], _ serializerProvider: NetmeraCore.SerializerProvider<any NetmeraCore.DictionaryDecoder, any NetmeraCore.DictionaryEncoder>) -> NetmeraCore.NetmeraPush?
   func canConvert(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
 }
 public typealias ReleasableDependencyResolver = NetmeraCore.DependencyResolver & NetmeraCore.Releasable
 public protocol NetmeraCacheInvoke {
-  func appendEventClasses(classes: [Swift.AnyClass])
   func appendRequestClasses(classes: [Swift.AnyClass])
-  func isKnownEventClass(_ key: Swift.String) -> Swift.Bool
-  func typeEventOf(_ key: Swift.String) -> Swift.AnyClass?
   func isKnownRequestClass(_ key: Swift.String) -> Swift.Bool
   func typeRequestOf(_ key: Swift.String) -> Swift.AnyClass?
   func appendSessionlessEventClasses(classes: [Swift.AnyClass])
@@ -412,7 +402,6 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
   }
   public var locationString: Swift.String?
   public var revenue: Swift.Double?
-  public var identifiers: NetmeraCore.NetmeraIdentifiers?
   open var isLocationDataRequired: Swift.Bool {
     get
   }
@@ -899,11 +888,12 @@ public struct NetmeraParams : Swift.Equatable, Swift.Codable {
   public let apiKey: Swift.String
   public let baseUrl: Swift.String?
   public let appGroupName: Swift.String?
-  public let customEvents: [Swift.AnyClass]
-  public init(apiKey: Swift.String, baseUrl: Swift.String? = nil, appGroupName: Swift.String? = nil, customEvents: [Swift.AnyClass] = [])
-  public init(from decoder: any Swift.Decoder) throws
+  public init(apiKey: Swift.String, baseUrl: Swift.String? = nil, appGroupName: Swift.String? = nil)
+  @available(*, deprecated, message: "customEvents is deprecated and no longer used.")
+  public init(apiKey: Swift.String, baseUrl: Swift.String? = nil, appGroupName: Swift.String? = nil, customEvents _: [Swift.AnyClass] = [])
   public static func == (lhs: NetmeraCore.NetmeraParams, rhs: NetmeraCore.NetmeraParams) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
   public let path: Swift.String
@@ -1039,6 +1029,11 @@ public class SwizzlingForwarder {
 @_hasMissingDesignatedInitializers public class InternalNetmera {
   public static func updateUserProfile(withDictionary dictionary: [Swift.String : Any], completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
+}
+extension NetmeraCore.InternalNetmera {
+  public enum Constants {
+    public static let deviceTokenVariableName: Swift.String
+  }
 }
 @_hasMissingDesignatedInitializers public class Netmera {
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)? = nil)
