@@ -28,13 +28,22 @@ public enum NetmeraPushPermissionType {
     get
   }
 }
+public enum PushDelegateDecision {
+  case sdkHandles
+  case appHandles
+  public static func == (a: NetmeraNotification.PushDelegateDecision, b: NetmeraNotification.PushDelegateDecision) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol NetmeraPushDelegate : AnyObject {
-  func shouldPresentWebView(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func webViewPresentationDecision(for push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
   func presentWebView(for push: NetmeraNotificationCore.NetmeraBasePush)
-  func shouldPresentNotification(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func notificationPresentationDecision(for push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
   func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
-  func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
-  func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func urlOpeningDecision(for url: Foundation.URL, push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
+  func openURL(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
@@ -43,12 +52,12 @@ public protocol NetmeraPushDelegate : AnyObject {
   func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
 }
 extension NetmeraNotification.NetmeraPushDelegate {
-  public func shouldPresentWebView(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func webViewPresentationDecision(for push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
   public func presentWebView(for push: NetmeraNotificationCore.NetmeraBasePush)
-  public func shouldPresentNotification(for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  public func notificationPresentationDecision(for push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
   public func presentNotification(for push: NetmeraNotificationCore.NetmeraBasePush)
-  public func shouldOpen(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
-  public func open(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
+  public func urlOpeningDecision(for url: Foundation.URL, push: NetmeraNotificationCore.NetmeraBasePush) -> NetmeraNotification.PushDelegateDecision
+  public func openURL(_ url: Foundation.URL, for push: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldHandleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handleWebViewPresentation(for _: NetmeraNotificationCore.NetmeraBasePush)
   public func shouldHandlePresentation(for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
@@ -125,6 +134,7 @@ extension NetmeraCore.Netmera {
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
   public static func setPushLifecycleDelegate(_ delegate: any NetmeraNotification.NetmeraPushLifecycleDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+  public static func displayContent(for pushObject: NetmeraNotificationCore.NetmeraBasePush, in webView: WebKit.WKWebView, onCloseRequested: @escaping () -> Swift.Void)
   public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   @available(*, deprecated, renamed: "handleAction(_:for:)")
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
@@ -134,3 +144,5 @@ extension NetmeraCore.Netmera {
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}
+extension NetmeraNotification.PushDelegateDecision : Swift.Equatable {}
+extension NetmeraNotification.PushDelegateDecision : Swift.Hashable {}

@@ -218,6 +218,7 @@ public class NetmeraPushInAppMessage : Swift.Codable, Swift.Equatable {
 public class NetmeraPushAction : Swift.Codable, Swift.CustomStringConvertible {
   final public let actionType: NetmeraNotificationCore.PushActionType?
   final public let close: Swift.Bool?
+  final public let url: Swift.String?
   public var description: Swift.String {
     get
   }
@@ -248,7 +249,6 @@ public class NetmeraPushInteractiveAction : Swift.Codable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraWebViewAction : NetmeraNotificationCore.NetmeraPushAction {
-  final public let url: Swift.String?
   final public let templateId: Swift.String?
   final public let templateParams: [Swift.String : Any]?
   final public let shouldShowPopupFullscreen: Swift.Bool?
@@ -282,6 +282,9 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   final public let expirationDate: Foundation.Date?
   final public let categoryIds: [Swift.Int]?
   public var isExpired: Swift.Bool {
+    get
+  }
+  public var webViewUrlString: Swift.String? {
     get
   }
   public init()
