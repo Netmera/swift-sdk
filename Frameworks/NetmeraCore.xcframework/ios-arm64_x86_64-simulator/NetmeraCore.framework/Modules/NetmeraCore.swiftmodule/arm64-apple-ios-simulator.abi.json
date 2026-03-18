@@ -31932,27 +31932,14 @@
                 "usr": "s:SD"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIBackgroundFetchResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIBackgroundFetchResult",
-                    "printedName": "UIKit.UIBackgroundFetchResult",
-                    "usr": "c:@E@UIBackgroundFetchResult"
-                  }
-                ]
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGySo23UIBackgroundFetchResultVctF",
-            "mangledName": "$s11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGySo23UIBackgroundFetchResultVctF",
+            "usr": "s:11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGyXltF",
+            "mangledName": "$s11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGyXltF",
             "moduleName": "NetmeraCore",
             "declAttributes": [
               "AccessControl"
