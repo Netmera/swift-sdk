@@ -14,6 +14,7 @@ import Swinject
 import SystemConfiguration
 import UIKit
 import UniformTypeIdentifiers
+import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -49,13 +50,6 @@ open class Callback<T> where T : Swift.Equatable {
 open class CoreProvider<T> {
   public init()
   open func provide() -> T
-  @objc deinit
-}
-open class DelegateProxy<D> : ObjectiveC.NSObject where D : ObjectiveC.NSObjectProtocol {
-  weak public var delegate: D?
-  public init(delegate: D?)
-  @objc override dynamic public func responds(to aSelector: ObjectiveC.Selector!) -> Swift.Bool
-  @objc override dynamic public func forwardingTarget(for aSelector: ObjectiveC.Selector!) -> Any?
   @objc deinit
 }
 public protocol DependencyResolver {
@@ -1023,9 +1017,14 @@ public protocol WidgetUrlInterceptor {
   @objc deinit
 }
 public class SwizzlingForwarder {
+  public var hasReceiver: Swift.Bool {
+    get
+  }
   public init(target: Swift.AnyObject, yourSelector: ObjectiveC.Selector, originalSelector: ObjectiveC.Selector)
   public func invoke(withArgs args: [Any])
   public func invokeRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: Swift.AnyObject)
+  public func invokeWillPresent(center: UserNotifications.UNUserNotificationCenter, notification: UserNotifications.UNNotification, completionHandler: Swift.AnyObject)
+  public func invokeDidReceive(center: UserNotifications.UNUserNotificationCenter, response: UserNotifications.UNNotificationResponse, completionHandler: Swift.AnyObject)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalNetmera {
