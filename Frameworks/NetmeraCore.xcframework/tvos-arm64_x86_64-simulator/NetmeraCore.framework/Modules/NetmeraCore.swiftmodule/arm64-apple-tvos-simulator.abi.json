@@ -1239,382 +1239,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "DelegateProxy",
-        "printedName": "DelegateProxy",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "τ_0_0?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11NetmeraCore13DelegateProxyC8delegatexSgvp",
-            "mangledName": "$s11NetmeraCore13DelegateProxyC8delegatexSgvp",
-            "moduleName": "NetmeraCore",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore13DelegateProxyC8delegatexSgvg",
-                "mangledName": "$s11NetmeraCore13DelegateProxyC8delegatexSgvg",
-                "moduleName": "NetmeraCore",
-                "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-                "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "τ_0_0?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore13DelegateProxyC8delegatexSgvs",
-                "mangledName": "$s11NetmeraCore13DelegateProxyC8delegatexSgvs",
-                "moduleName": "NetmeraCore",
-                "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-                "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore13DelegateProxyC8delegatexSgvM",
-                "mangledName": "$s11NetmeraCore13DelegateProxyC8delegatexSgvM",
-                "moduleName": "NetmeraCore",
-                "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-                "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DelegateProxy",
-                "printedName": "NetmeraCore.DelegateProxy<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:11NetmeraCore13DelegateProxyC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "τ_0_0?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11NetmeraCore13DelegateProxyC8delegateACyxGxSg_tcfc",
-            "mangledName": "$s11NetmeraCore13DelegateProxyC8delegateACyxGxSg_tcfc",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-            "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "responds",
-            "printedName": "responds(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "ObjectiveC.Selector?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Selector",
-                    "printedName": "ObjectiveC.Selector",
-                    "usr": "s:10ObjectiveC8SelectorV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore13DelegateProxyC8responds2toSb10ObjectiveC8SelectorVSg_tF",
-            "mangledName": "$s11NetmeraCore13DelegateProxyC8responds2toSb10ObjectiveC8SelectorVSg_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-            "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-            "overriding": true,
-            "objc_name": "respondsToSelector:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "forwardingTarget",
-            "printedName": "forwardingTarget(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "ObjectiveC.Selector?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Selector",
-                    "printedName": "ObjectiveC.Selector",
-                    "usr": "s:10ObjectiveC8SelectorV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore13DelegateProxyC16forwardingTarget3forypSg10ObjectiveC8SelectorVSg_tF",
-            "mangledName": "$s11NetmeraCore13DelegateProxyC16forwardingTarget3forypSg10ObjectiveC8SelectorVSg_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-            "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-            "overriding": true,
-            "objc_name": "forwardingTargetForSelector:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DelegateProxy",
-                "printedName": "NetmeraCore.DelegateProxy<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:11NetmeraCore13DelegateProxyC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11NetmeraCore13DelegateProxyCACyxGycfc",
-            "mangledName": "$s11NetmeraCore13DelegateProxyCACyxGycfc",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-            "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11NetmeraCore13DelegateProxyC",
-        "mangledName": "$s11NetmeraCore13DelegateProxyC",
-        "moduleName": "NetmeraCore",
-        "genericSig": "<τ_0_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
-        "sugared_genericSig": "<D where D : ObjectiveC.NSObjectProtocol>",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "DependencyResolver",
         "printedName": "DependencyResolver",
         "children": [
@@ -31769,6 +31393,56 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invokeRemoteNotification",
+            "printedName": "invokeRemoteNotification(application:userInfo:fetchCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGyXltF",
+            "mangledName": "$s11NetmeraCore18SwizzlingForwarderC24invokeRemoteNotification11application8userInfo22fetchCompletionHandlerySo13UIApplicationC_SDys11AnyHashableVypGyXltF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -36046,98 +35720,98 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1125,
       "length": 32,
       "value": "\"Failed to get method signature\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1263,
+      "offset": 1270,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1462,
+      "offset": 1469,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1669,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1675,
+      "offset": 1682,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1880,
+      "offset": 1887,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1889,
+      "offset": 1896,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 1902,
+      "offset": 1909,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3096,
+      "offset": 2718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3105,
+      "offset": 2727,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "IntegerLiteral",
-      "offset": 3114,
+      "offset": 2736,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "StringLiteral",
-      "offset": 3143,
+      "offset": 2765,
       "length": 103,
       "value": "\"Unsupported number of arguments (\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "StringLiteral",
-      "offset": 3190,
+      "offset": 2812,
       "length": 1,
       "value": "\") for selector: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzlingForwarder.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 2867,
       "length": 2,
       "value": "\"\""
     },
@@ -36153,7 +35827,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.16.0\""
+      "value": "\"4.16.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

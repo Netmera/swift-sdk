@@ -6549,6 +6549,13 @@
       "value": "\"cts\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
+      "kind": "Dictionary",
+      "offset": 470,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 160,

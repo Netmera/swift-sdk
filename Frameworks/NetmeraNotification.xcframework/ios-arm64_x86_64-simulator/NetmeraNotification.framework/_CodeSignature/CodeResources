@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bVel/A+L54YGRX8WoPeNWZQJ7RM=
+		9X847JaG8aOBUbkyqmBljIht6V8=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W3pXD1glQzzsnyVcfmFCFYaaaXo=
+		RCXO2Yv9GkZhN1latDv83zzSXQE=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bVel/A+L54YGRX8WoPeNWZQJ7RM=
+		9X847JaG8aOBUbkyqmBljIht6V8=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3YdnA1IALAMu1yMEEs+v7wplOo4=
+		aZH+p4R/7Uru137+Tga4LGy2RJA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8QrewBhPzv9RW8tkkKYVdO6l6pk/M/daYEEFruKJtAc=
+			MOP8bNBmy7rR4Ng2U91Df++PSsA30aeFsRhcyazw5wU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NuNMxOwSZdcPM3N/Xo+zwMVdvE30l5nxLpRuFV9DfaE=
+			ysKw0ACM5J4odW9sHYb0LUgA3xnYSf5RbP0jMcyY74s=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8QrewBhPzv9RW8tkkKYVdO6l6pk/M/daYEEFruKJtAc=
+			MOP8bNBmy7rR4Ng2U91Df++PSsA30aeFsRhcyazw5wU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jt8f7yW0YoEk5wc1URFIQd3mu4licUiakEYwu1G9ag4=
+			CM7bOlYTronMlqWSUqZZdW5/efm4W4qdVQiFPj+P5KM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
