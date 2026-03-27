@@ -13,7 +13,6 @@ import Swinject
 import SystemConfiguration
 import UIKit
 import UniformTypeIdentifiers
-import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -868,13 +867,9 @@ public protocol WidgetUrlInterceptor {
   @objc deinit
 }
 public class SwizzlingForwarder {
-  public var hasReceiver: Swift.Bool {
-    get
-  }
   public init(target: Swift.AnyObject, yourSelector: ObjectiveC.Selector, originalSelector: ObjectiveC.Selector)
   public func invoke(withArgs args: [Any])
   public func invokeRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: Swift.AnyObject)
-  public func invokeWillPresent(center: UserNotifications.UNUserNotificationCenter, notification: UserNotifications.UNNotification, completionHandler: Swift.AnyObject)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalNetmera {
