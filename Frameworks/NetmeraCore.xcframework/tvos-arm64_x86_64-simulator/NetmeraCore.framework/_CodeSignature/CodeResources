@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UztXzumge/oCTxTrVbfzCU5BvfY=
+		i6Pq45ctaL8BeBoLPa0dHC4d5Wg=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		GP3VNdEg8erARs/7Zw+M8Jjsn50=
+		8kY3lyH66yFbi/92TrIMn+dcWhE=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		AQ78Kq7DuJFEE5wnSTRmBKZdBuE=
+		A8YL+KFCvvudGwf0dzBwMP4zGUs=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		GP3VNdEg8erARs/7Zw+M8Jjsn50=
+		8kY3lyH66yFbi/92TrIMn+dcWhE=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		XloUMvNL//C2/HXttf74W05CJSk=
+		cgT3ktcWiP2T80o3IMjSS8vyCJA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bdC/9zx2gBqNUj/gEBLUyiQi8NZ0BrxqTex+4oP/k0=
+			J4AWlXqOaA8Pyd6/heJ6Q1HIA7TLEtdqRofudnnbMKI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Jt6ZeHw14SUSzV2fPVE8dV1u5Lc/Y/l5P/gniUW1rs=
+			xJ48KwWTLtco/rzOw2vR2cgcDMadndTYqAICBjdT8rc=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bdC/9zx2gBqNUj/gEBLUyiQi8NZ0BrxqTex+4oP/k0=
+			J4AWlXqOaA8Pyd6/heJ6Q1HIA7TLEtdqRofudnnbMKI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ylthfWQZCtXuvkc1vjcBMD6kUvs3dAuWS8cJL1xvOnM=
+			62/p6tKdx/q7X0g4jZyNYVNfpiDGvlUNEIgEQcetLsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

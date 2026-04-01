@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8uBahhLuM7JW2vhZPKHEvGRf3eo=
+		83CtDAAqriQv9i2Xc3LFuRa1Vwg=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Wbbeo9kaSjnP4hlIhq81WF8oeQ=
+		mb1QN5b553042n4iEDJVCgFGJYk=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1UVuMR5u7jNQxvsjEAXqu4ZSj+k=
+		zKnM2LiLOiKOtszx9KsRXFb/29w=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Wbbeo9kaSjnP4hlIhq81WF8oeQ=
+		mb1QN5b553042n4iEDJVCgFGJYk=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LGTduhenaoJAN5N5lFFt30pdsok=
+		9ajcQS/Og4FokiIABLD3vabnjic=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			82BEEKoCOuRTU7niYor65gKUy45R9yld2uo83fqYLdc=
+			fSQ4EOTlA0XaPf3xbJNvzc5/9whimWjlieVWhG1tfZE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vUJY2D+PoV6gtavB/r48KVtvDsQAGPk3MOozz+MgwwM=
+			JTlrjUF/nrwqdcp39hlFBE8PaNbEyHmnMqN9Qg4v0Yw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			82BEEKoCOuRTU7niYor65gKUy45R9yld2uo83fqYLdc=
+			fSQ4EOTlA0XaPf3xbJNvzc5/9whimWjlieVWhG1tfZE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WFlQjHeOgiuGqH73+I3L7gjeTCuh9P0r1DDHy22Sa1M=
+			gjO/1DtiBwFn3EMZjxAmPhsjbl4VwTvD6KG3KAa4Vwo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
