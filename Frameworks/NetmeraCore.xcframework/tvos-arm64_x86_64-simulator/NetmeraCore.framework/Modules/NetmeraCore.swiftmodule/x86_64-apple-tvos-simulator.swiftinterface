@@ -774,8 +774,8 @@ public struct NetmeraTrackableScreenInfo : Swift.Codable, Swift.Equatable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum NetmeraUserNotificationActionActivationMode : Swift.Int, Swift.Codable {
-  case background
   case foreground
+  case background
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

@@ -27338,43 +27338,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "background",
-            "printedName": "background",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(NetmeraCore.NetmeraUserNotificationActionActivationMode.Type) -> NetmeraCore.NetmeraUserNotificationActionActivationMode",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraUserNotificationActionActivationMode",
-                    "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode",
-                    "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetmeraUserNotificationActionActivationMode",
-                        "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode",
-                        "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO10backgroundyA2CmF",
-            "mangledName": "$s11NetmeraCore0A36UserNotificationActionActivationModeO10backgroundyA2CmF",
-            "moduleName": "NetmeraCore"
-          },
-          {
-            "kind": "Var",
             "name": "foreground",
             "printedName": "foreground",
             "children": [
@@ -27408,6 +27371,43 @@
             "declKind": "EnumElement",
             "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO10foregroundyA2CmF",
             "mangledName": "$s11NetmeraCore0A36UserNotificationActionActivationModeO10foregroundyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraUserNotificationActionActivationMode.Type) -> NetmeraCore.NetmeraUserNotificationActionActivationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraUserNotificationActionActivationMode",
+                    "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode",
+                    "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraUserNotificationActionActivationMode",
+                        "printedName": "NetmeraCore.NetmeraUserNotificationActionActivationMode",
+                        "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A36UserNotificationActionActivationModeO10backgroundyA2CmF",
+            "mangledName": "$s11NetmeraCore0A36UserNotificationActionActivationModeO10backgroundyA2CmF",
             "moduleName": "NetmeraCore"
           },
           {
@@ -35837,7 +35837,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.16.3\""
+      "value": "\"4.16.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
