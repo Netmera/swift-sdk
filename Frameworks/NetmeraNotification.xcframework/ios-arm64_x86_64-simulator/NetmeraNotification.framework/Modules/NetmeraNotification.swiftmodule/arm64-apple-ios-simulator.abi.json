@@ -1027,6 +1027,331 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetmeraInAppContentDelegate",
+        "printedName": "NetmeraInAppContentDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didShowContent",
+            "printedName": "didShowContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Content",
+                "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A20InAppContentDelegateP07didShowE0yyAA0acD0O0E0OF",
+            "mangledName": "$s19NetmeraNotification0A20InAppContentDelegateP07didShowE0yyAA0acD0O0E0OF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraInAppContentDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraInAppContentDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDismissContent",
+            "printedName": "didDismissContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Content",
+                "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraNotification0A20InAppContentDelegateP010didDismissE0yyAA0acD0O0E0OF",
+            "mangledName": "$s19NetmeraNotification0A20InAppContentDelegateP010didDismissE0yyAA0acD0O0E0OF",
+            "moduleName": "NetmeraNotification",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotification.NetmeraInAppContentDelegate>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotification.NetmeraInAppContentDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19NetmeraNotification0A20InAppContentDelegateP",
+        "mangledName": "$s19NetmeraNotification0A20InAppContentDelegateP",
+        "moduleName": "NetmeraNotification",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraInApp",
+        "printedName": "NetmeraInApp",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Content",
+            "printedName": "Content",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "web",
+                "printedName": "web",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraInApp.Content.Type) -> (Foundation.URL) -> NetmeraNotification.NetmeraInApp.Content",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> NetmeraNotification.NetmeraInApp.Content",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Content",
+                            "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                            "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(url: Foundation.URL)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URL",
+                                "printedName": "Foundation.URL",
+                                "usr": "s:10Foundation3URLV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraInApp.Content.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Content",
+                            "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                            "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A5InAppO7ContentO3webyAE10Foundation3URLV_tcAEmF",
+                "mangledName": "$s19NetmeraNotification0A5InAppO7ContentO3webyAE10Foundation3URLV_tcAEmF",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "template",
+                "printedName": "template",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraInApp.Content.Type) -> NetmeraNotification.NetmeraInApp.Content",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Content",
+                        "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                        "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraInApp.Content.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Content",
+                            "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                            "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A5InAppO7ContentO8templateyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A5InAppO7ContentO8templateyA2EmF",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "banner",
+                "printedName": "banner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraInApp.Content.Type) -> (NetmeraNotificationCore.NetmeraBannerPush) -> NetmeraNotification.NetmeraInApp.Content",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(NetmeraNotificationCore.NetmeraBannerPush) -> NetmeraNotification.NetmeraInApp.Content",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Content",
+                            "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                            "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(banner: NetmeraNotificationCore.NetmeraBannerPush)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NetmeraBannerPush",
+                                "printedName": "NetmeraNotificationCore.NetmeraBannerPush",
+                                "usr": "s:23NetmeraNotificationCore0A10BannerPushC"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraInApp.Content.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Content",
+                            "printedName": "NetmeraNotification.NetmeraInApp.Content",
+                            "usr": "s:19NetmeraNotification0A5InAppO7ContentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A5InAppO7ContentO6banneryAE0aB4Core0A10BannerPushC_tcAEmF",
+                "mangledName": "$s19NetmeraNotification0A5InAppO7ContentO6banneryAE0aB4Core0A10BannerPushC_tcAEmF",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19NetmeraNotification0A5InAppO7ContentO",
+            "mangledName": "$s19NetmeraNotification0A5InAppO7ContentO",
+            "moduleName": "NetmeraNotification",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19NetmeraNotification0A5InAppO",
+        "mangledName": "$s19NetmeraNotification0A5InAppO",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "PushDelegateDecision",
         "printedName": "PushDelegateDecision",
         "children": [
@@ -4063,6 +4388,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraNotificationCore",
         "printedName": "NetmeraNotificationCore",
         "declKind": "Import",
@@ -5663,6 +5998,36 @@
           },
           {
             "kind": "Function",
+            "name": "setInAppContentDelegate",
+            "printedName": "setInAppContentDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraInAppContentDelegate",
+                "printedName": "any NetmeraNotification.NetmeraInAppContentDelegate",
+                "usr": "s:19NetmeraNotification0A20InAppContentDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A12NotificationE23setInAppContentDelegateyyAD0aefgH0_pFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE23setInAppContentDelegateyyAD0aefgH0_pFZ",
+            "moduleName": "NetmeraNotification",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "handlePushObject",
             "printedName": "handlePushObject(_:)",
             "children": [
@@ -6278,7 +6643,7 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Presenter\/Base\/BasePushPresenter.swift",
       "kind": "Dictionary",
-      "offset": 490,
+      "offset": 573,
       "length": 3,
       "value": "[]"
     },

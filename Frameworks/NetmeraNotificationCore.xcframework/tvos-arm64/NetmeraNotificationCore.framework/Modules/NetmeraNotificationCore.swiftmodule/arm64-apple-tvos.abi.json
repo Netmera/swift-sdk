@@ -4116,6 +4116,83 @@
         "children": [
           {
             "kind": "Function",
+            "name": "updateExistingCategoryIfNeeded",
+            "printedName": "updateExistingCategoryIfNeeded(categoryInfo:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(identifier: Swift.String, actions: [NetmeraNotificationCore.NetmeraPushInteractiveAction])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraNotificationCore.NetmeraPushInteractiveAction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraPushInteractiveAction",
+                        "printedName": "NetmeraNotificationCore.NetmeraPushInteractiveAction",
+                        "usr": "s:23NetmeraNotificationCore0A21PushInteractiveActionC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NetmeraNotificationCore0B19CategoryRegisteringP014updateExistingD8IfNeeded12categoryInfo8callbackySS10identifier_SayAA0A21PushInteractiveActionCG7actionst_ySScSgtF",
+            "mangledName": "$s23NetmeraNotificationCore0B19CategoryRegisteringP014updateExistingD8IfNeeded12categoryInfo8callbackySS10identifier_SayAA0A21PushInteractiveActionCG7actionst_ySScSgtF",
+            "moduleName": "NetmeraNotificationCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraNotificationCore.NotificationCategoryRegistering>",
+            "sugared_genericSig": "<Self where Self : NetmeraNotificationCore.NotificationCategoryRegistering>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "register",
             "printedName": "register(categories:callback:)",
             "children": [

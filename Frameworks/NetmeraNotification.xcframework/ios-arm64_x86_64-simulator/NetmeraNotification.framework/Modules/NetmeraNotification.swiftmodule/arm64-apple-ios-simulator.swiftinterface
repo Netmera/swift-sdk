@@ -28,6 +28,17 @@ public enum NetmeraPushPermissionType {
     get
   }
 }
+public protocol NetmeraInAppContentDelegate : AnyObject {
+  func didShowContent(_ content: NetmeraNotification.NetmeraInApp.Content)
+  func didDismissContent(_ content: NetmeraNotification.NetmeraInApp.Content)
+}
+public enum NetmeraInApp {
+  public enum Content {
+    case web(url: Foundation.URL)
+    case template
+    case banner(banner: NetmeraNotificationCore.NetmeraBannerPush)
+  }
+}
 public enum PushDelegateDecision {
   case sdkHandles
   case appHandles
@@ -133,6 +144,7 @@ extension NetmeraCore.Netmera {
   public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
   public static func setPushLifecycleDelegate(_ delegate: any NetmeraNotification.NetmeraPushLifecycleDelegate)
+  public static func setInAppContentDelegate(_ delegate: any NetmeraNotification.NetmeraInAppContentDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func displayContent(for pushObject: NetmeraNotificationCore.NetmeraBasePush, in webView: WebKit.WKWebView, onCloseRequested: @escaping () -> Swift.Void)
   public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)

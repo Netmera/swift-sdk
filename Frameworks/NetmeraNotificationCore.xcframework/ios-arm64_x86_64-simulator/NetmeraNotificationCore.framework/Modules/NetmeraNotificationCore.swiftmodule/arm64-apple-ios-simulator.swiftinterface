@@ -144,6 +144,7 @@ public struct NetmeraNotificationCategoryAction {
   public init(id: Swift.String, title: Swift.String, activationMode: NetmeraCore.NetmeraUserNotificationActionActivationMode, destructive: Swift.Bool, authenticationRequired: Swift.Bool, behaviour: NetmeraCore.UserNotificationActionType)
 }
 public protocol NotificationCategoryRegistering {
+  func updateExistingCategoryIfNeeded(categoryInfo: (identifier: Swift.String, actions: [NetmeraNotificationCore.NetmeraPushInteractiveAction]), callback: ((Swift.String) -> Swift.Void)?)
   func register(categories: [NetmeraNotificationCore.NetmeraNotificationCategory], callback: (() -> Swift.Void)?)
 }
 public protocol UNUserNotificationCenterProtocol {
