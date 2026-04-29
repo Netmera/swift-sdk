@@ -76,10 +76,20 @@ extension NetmeraNotification.NetmeraPushDelegate {
   public func shouldHandleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
+public enum NetmeraActionSource : Swift.Equatable {
+  case interactiveButton
+  case carouselItem
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: NetmeraNotification.NetmeraActionSource, b: NetmeraNotification.NetmeraActionSource) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol NetmeraPushLifecycleDelegate : AnyObject {
   func didRegisterDeviceToken(_ deviceToken: Swift.String)
   func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
   func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
   func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
   func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
 }
@@ -87,6 +97,7 @@ extension NetmeraNotification.NetmeraPushLifecycleDelegate {
   public func didRegisterDeviceToken(_: Swift.String)
   public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
   public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
   public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
   public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
@@ -158,3 +169,4 @@ extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Equatable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Hashable {}
+extension NetmeraNotification.NetmeraActionSource : Swift.Hashable {}
