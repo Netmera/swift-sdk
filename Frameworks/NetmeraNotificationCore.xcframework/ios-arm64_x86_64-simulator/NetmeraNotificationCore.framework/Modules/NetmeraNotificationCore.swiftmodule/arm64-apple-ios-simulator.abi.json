@@ -5014,415 +5014,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ContentPushItem",
-        "printedName": "ContentPushItem",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "empty",
-            "printedName": "empty",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ContentPushItem",
-                "printedName": "NetmeraNotificationCore.ContentPushItem",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC5emptyACvpZ",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC5emptyACvpZ",
-            "moduleName": "NetmeraNotificationCore",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ContentPushItem",
-                    "printedName": "NetmeraNotificationCore.ContentPushItem",
-                    "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC5emptyACvgZ",
-                "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC5emptyACvgZ",
-                "moduleName": "NetmeraNotificationCore",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "url",
-            "printedName": "url",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC3url10Foundation3URLVSgvp",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC3url10Foundation3URLVSgvp",
-            "moduleName": "NetmeraNotificationCore",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.URL?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC3url10Foundation3URLVSgvg",
-                "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC3url10Foundation3URLVSgvg",
-                "moduleName": "NetmeraNotificationCore",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC5titleSSSgvp",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC5titleSSSgvp",
-            "moduleName": "NetmeraNotificationCore",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC5titleSSSgvg",
-                "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC5titleSSSgvg",
-                "moduleName": "NetmeraNotificationCore",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "subtitle",
-            "printedName": "subtitle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC8subtitleSSSgvp",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC8subtitleSSSgvp",
-            "moduleName": "NetmeraNotificationCore",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC8subtitleSSSgvg",
-                "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC8subtitleSSSgvg",
-                "moduleName": "NetmeraNotificationCore",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ContentPushItem",
-                "printedName": "NetmeraNotificationCore.ContentPushItem",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraNotificationCore",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraNotificationCore",
-            "overriding": true,
-            "declAttributes": [
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ContentPushItem",
-                "printedName": "NetmeraNotificationCore.ContentPushItem",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ContentPushItem",
-                "printedName": "NetmeraNotificationCore.ContentPushItem",
-                "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:23NetmeraNotificationCore15ContentPushItemC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC2eeoiySbAC_ACtFZ",
-            "moduleName": "NetmeraNotificationCore",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:23NetmeraNotificationCore15ContentPushItemC",
-        "mangledName": "$s23NetmeraNotificationCore15ContentPushItemC",
-        "moduleName": "NetmeraNotificationCore",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "s:23NetmeraNotificationCore0A10BaseActionC",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "NetmeraNotificationCore.NetmeraBaseAction"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotificationCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "NetmeraBaseAction",
         "printedName": "NetmeraBaseAction",
         "children": [
@@ -5451,8 +5042,8 @@
             "mangledName": "$s23NetmeraNotificationCore0A10BaseActionC2idSSSgvp",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5516,8 +5107,8 @@
             "mangledName": "$s23NetmeraNotificationCore0A10BaseActionC6actionAA0a4PushE0CSgvp",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -5594,8 +5185,8 @@
             "mangledName": "$s23NetmeraNotificationCore0A10BaseActionC6paramsSDyS2SGSgvp",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -5828,6 +5419,415 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraContentPushItem",
+        "printedName": "NetmeraContentPushItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraContentPushItem",
+                "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC5emptyACvpZ",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC5emptyACvpZ",
+            "moduleName": "NetmeraNotificationCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraContentPushItem",
+                    "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                    "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC5emptyACvgZ",
+                "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC5emptyACvgZ",
+                "moduleName": "NetmeraNotificationCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC3url10Foundation3URLVSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC3url10Foundation3URLVSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC3url10Foundation3URLVSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC3url10Foundation3URLVSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC5titleSSSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC5titleSSSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC5titleSSSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC5titleSSSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subtitle",
+            "printedName": "subtitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC8subtitleSSSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC8subtitleSSSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC8subtitleSSSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC8subtitleSSSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraContentPushItem",
+                "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraContentPushItem",
+                "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraContentPushItem",
+                "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraNotificationCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC",
+        "mangledName": "$s23NetmeraNotificationCore0A15ContentPushItemC",
+        "moduleName": "NetmeraNotificationCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:23NetmeraNotificationCore0A10BaseActionC",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "NetmeraNotificationCore.NetmeraBaseAction"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -11618,18 +11618,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[NetmeraNotificationCore.ContentPushItem]?",
+                "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[NetmeraNotificationCore.ContentPushItem]",
+                    "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ContentPushItem",
-                        "printedName": "NetmeraNotificationCore.ContentPushItem",
-                        "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
+                        "name": "NetmeraContentPushItem",
+                        "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                        "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
                       }
                     ],
                     "usr": "s:Sa"
@@ -11639,8 +11639,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0dE4ItemCGSgvp",
-            "mangledName": "$s23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0dE4ItemCGSgvp",
+            "usr": "s:23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0adE4ItemCGSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0adE4ItemCGSgvp",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
               "Final",
@@ -11659,18 +11659,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[NetmeraNotificationCore.ContentPushItem]?",
+                    "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[NetmeraNotificationCore.ContentPushItem]",
+                        "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ContentPushItem",
-                            "printedName": "NetmeraNotificationCore.ContentPushItem",
-                            "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
+                            "name": "NetmeraContentPushItem",
+                            "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
                           }
                         ],
                         "usr": "s:Sa"
@@ -11680,8 +11680,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0dE4ItemCGSgvg",
-                "mangledName": "$s23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0dE4ItemCGSgvg",
+                "usr": "s:23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0adE4ItemCGSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A11ContentPushC8carouselSayAA0adE4ItemCGSgvg",
                 "moduleName": "NetmeraNotificationCore",
                 "implicit": true,
                 "declAttributes": [
@@ -13036,18 +13036,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[NetmeraNotificationCore.ContentPushItem]?",
+                    "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[NetmeraNotificationCore.ContentPushItem]",
+                        "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ContentPushItem",
-                            "printedName": "NetmeraNotificationCore.ContentPushItem",
-                            "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
+                            "name": "NetmeraContentPushItem",
+                            "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
                           }
                         ],
                         "usr": "s:Sa"
@@ -13057,8 +13057,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA07ContentE4ItemCGSgvp",
-                "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA07ContentE4ItemCGSgvp",
+                "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA0a7ContentE4ItemCGSgvp",
+                "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA0a7ContentE4ItemCGSgvp",
                 "moduleName": "NetmeraNotificationCore",
                 "declAttributes": [
                   "Final",
@@ -13076,18 +13076,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "[NetmeraNotificationCore.ContentPushItem]?",
+                        "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Array",
-                            "printedName": "[NetmeraNotificationCore.ContentPushItem]",
+                            "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "ContentPushItem",
-                                "printedName": "NetmeraNotificationCore.ContentPushItem",
-                                "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
+                                "name": "NetmeraContentPushItem",
+                                "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                                "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
                               }
                             ],
                             "usr": "s:Sa"
@@ -13097,8 +13097,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA07ContentE4ItemCGSgvg",
-                    "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA07ContentE4ItemCGSgvg",
+                    "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA0a7ContentE4ItemCGSgvg",
+                    "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC8carouselSayAA0a7ContentE4ItemCGSgvg",
                     "moduleName": "NetmeraNotificationCore",
                     "implicit": true,
                     "declAttributes": [
@@ -13224,18 +13224,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[NetmeraNotificationCore.ContentPushItem]?",
+                    "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[NetmeraNotificationCore.ContentPushItem]",
+                        "printedName": "[NetmeraNotificationCore.NetmeraContentPushItem]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ContentPushItem",
-                            "printedName": "NetmeraNotificationCore.ContentPushItem",
-                            "usr": "s:23NetmeraNotificationCore15ContentPushItemC"
+                            "name": "NetmeraContentPushItem",
+                            "printedName": "NetmeraNotificationCore.NetmeraContentPushItem",
+                            "usr": "s:23NetmeraNotificationCore0A15ContentPushItemC"
                           }
                         ],
                         "usr": "s:Sa"
@@ -13261,8 +13261,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC17interactiveAction18mediaAttachmentURL8carousel5styleAESayAA0ae11InteractiveH0CGSg_SSSgSayAA07ContentE4ItemCGSgAA0E9StyleTypeOSgtcfc",
-                "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC17interactiveAction18mediaAttachmentURL8carousel5styleAESayAA0ae11InteractiveH0CGSg_SSSgSayAA07ContentE4ItemCGSgAA0E9StyleTypeOSgtcfc",
+                "usr": "s:23NetmeraNotificationCore0A9InboxPushC7PayloadC17interactiveAction18mediaAttachmentURL8carousel5styleAESayAA0ae11InteractiveH0CGSg_SSSgSayAA0a7ContentE4ItemCGSgAA0E9StyleTypeOSgtcfc",
+                "mangledName": "$s23NetmeraNotificationCore0A9InboxPushC7PayloadC17interactiveAction18mediaAttachmentURL8carousel5styleAESayAA0ae11InteractiveH0CGSg_SSSgSayAA0a7ContentE4ItemCGSgAA0E9StyleTypeOSgtcfc",
                 "moduleName": "NetmeraNotificationCore",
                 "declAttributes": [
                   "AccessControl",
@@ -15150,27 +15150,6 @@
       "value": "\"lastReportedDeliveryPush\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1485,
-      "length": 5,
-      "value": "\"bpp\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1508,
-      "length": 8,
-      "value": "\"ctitle\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1537,
-      "length": 7,
-      "value": "\"ctext\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraBaseAction.swift",
       "kind": "StringLiteral",
       "offset": 2417,
@@ -15190,6 +15169,27 @@
       "offset": 2514,
       "length": 4,
       "value": "\"at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraContentPushItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1505,
+      "length": 5,
+      "value": "\"bpp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraContentPushItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
+      "length": 8,
+      "value": "\"ctitle\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraContentPushItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1557,
+      "length": 7,
+      "value": "\"ctext\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
@@ -15488,14 +15488,14 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1286,
       "length": 6,
       "value": "\"crsl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
       "kind": "StringLiteral",
-      "offset": 1296,
+      "offset": 1310,
       "length": 5,
       "value": "\"stl\""
     },
@@ -15523,28 +15523,28 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush+Payload.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2115,
       "length": 4,
       "value": "\"ia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush+Payload.swift",
       "kind": "StringLiteral",
-      "offset": 2131,
+      "offset": 2152,
       "length": 4,
       "value": "\"mu\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush+Payload.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2179,
       "length": 6,
       "value": "\"crsl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush+Payload.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
+      "offset": 2205,
       "length": 5,
       "value": "\"stl\""
     },

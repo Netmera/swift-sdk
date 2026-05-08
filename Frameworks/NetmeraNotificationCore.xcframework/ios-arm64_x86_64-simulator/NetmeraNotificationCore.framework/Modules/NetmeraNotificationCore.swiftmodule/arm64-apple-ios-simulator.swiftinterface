@@ -169,16 +169,6 @@ public protocol UNUserNotificationCenterProtocol {
 }
 extension UserNotifications.UNUserNotificationCenter : NetmeraNotificationCore.UNUserNotificationCenterProtocol {
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ContentPushItem : NetmeraNotificationCore.NetmeraBaseAction, Swift.Equatable {
-  public static let empty: NetmeraNotificationCore.ContentPushItem
-  final public let url: Foundation.URL?
-  final public let title: Swift.String?
-  final public let subtitle: Swift.String?
-  required public init(from decoder: any Swift.Decoder) throws
-  override open func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotificationCore.ContentPushItem, rhs: NetmeraNotificationCore.ContentPushItem) -> Swift.Bool
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers public class NetmeraBaseAction : Swift.Codable {
   final public let id: Swift.String?
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
@@ -191,6 +181,16 @@ extension UserNotifications.UNUserNotificationCenter : NetmeraNotificationCore.U
   }
   required public init(from decoder: any Swift.Decoder) throws
   open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraContentPushItem : NetmeraNotificationCore.NetmeraBaseAction, Swift.Equatable {
+  public static let empty: NetmeraNotificationCore.NetmeraContentPushItem
+  final public let url: Foundation.URL?
+  final public let title: Swift.String?
+  final public let subtitle: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotificationCore.NetmeraContentPushItem, rhs: NetmeraNotificationCore.NetmeraContentPushItem) -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NetmeraPushAlert : Swift.Codable, Swift.Equatable {
@@ -341,7 +341,7 @@ extension NetmeraNotificationCore.NetmeraBasePush {
   }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraContentPush : NetmeraNotificationCore.NetmeraStandartPush {
-  final public let carousel: [NetmeraNotificationCore.ContentPushItem]?
+  final public let carousel: [NetmeraNotificationCore.NetmeraContentPushItem]?
   final public let style: NetmeraNotificationCore.PushStyleType?
   override public init()
   override public func encode(to encoder: any Swift.Encoder) throws
@@ -382,9 +382,9 @@ extension NetmeraNotificationCore.NetmeraInboxPush {
   @_hasMissingDesignatedInitializers public class Payload : NetmeraNotificationCore.NetmeraStandartPush {
     final public let interactiveAction: [NetmeraNotificationCore.NetmeraPushInteractiveAction]?
     final public let mediaAttachmentURL: Swift.String?
-    final public let carousel: [NetmeraNotificationCore.ContentPushItem]?
+    final public let carousel: [NetmeraNotificationCore.NetmeraContentPushItem]?
     final public let style: NetmeraNotificationCore.PushStyleType?
-    public init(interactiveAction: [NetmeraNotificationCore.NetmeraPushInteractiveAction]? = nil, mediaAttachmentURL: Swift.String? = nil, carousel: [NetmeraNotificationCore.ContentPushItem]? = nil, style: NetmeraNotificationCore.PushStyleType? = nil)
+    public init(interactiveAction: [NetmeraNotificationCore.NetmeraPushInteractiveAction]? = nil, mediaAttachmentURL: Swift.String? = nil, carousel: [NetmeraNotificationCore.NetmeraContentPushItem]? = nil, style: NetmeraNotificationCore.PushStyleType? = nil)
     override public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
   }

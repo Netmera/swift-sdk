@@ -101,9 +101,6 @@ public protocol NetmeraActionPerformer : AnyObject {
 public protocol NetmeraDataSender {
   func sendEvent<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
 }
-public protocol NetmeraEncrypterProtocol {
-  func encrypt(value: Swift.String) -> Swift.String
-}
 public protocol NetmeraPushPassthrough {
   func on(payload: [Swift.AnyHashable : Any])
 }
@@ -275,6 +272,7 @@ public protocol DataTransferStatusManaging {
 public protocol DeferredDeeplinkHandling {
   func processClipboard()
 }
+public typealias NetmeraInitSessionCallback = (Swift.Result<NetmeraCore.NetmeraInitSessionInfo, any Swift.Error>) -> Swift.Void
 public protocol PlistManager {
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraPlistError> where T : Swift.Decodable
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraPlistError>) -> Swift.Void) where T : Swift.Decodable
@@ -405,6 +403,19 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
   public static func == (lhs: NetmeraCore.NetmeraEvent, rhs: NetmeraCore.NetmeraEvent) -> Swift.Bool
   open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
+}
+public struct NetmeraInitSessionInfo : Swift.Equatable {
+  public let segments: [NetmeraCore.NetmeraSegment]
+  public init(segments: [NetmeraCore.NetmeraSegment] = [])
+  public static func == (a: NetmeraCore.NetmeraInitSessionInfo, b: NetmeraCore.NetmeraInitSessionInfo) -> Swift.Bool
+}
+public struct NetmeraSegment : Swift.Codable, Swift.Equatable {
+  public let id: Swift.Int
+  public let name: Swift.String
+  public init(id: Swift.Int, name: Swift.String)
+  public static func == (a: NetmeraCore.NetmeraSegment, b: NetmeraCore.NetmeraSegment) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 open class NetmeraPush : Swift.Codable {
   final public let pushType: NetmeraCore.NetmeraPushType
@@ -883,14 +894,12 @@ extension NetmeraCore.InternalNetmera {
   }
 }
 @_hasMissingDesignatedInitializers public class Netmera {
-  public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)? = nil)
-  public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)? = nil)
-  @available(*, deprecated, message: "Use identifyUser(_:) instead")
-  public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
+  public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
+  public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
+  public static func setInitSessionCallback(_ callback: NetmeraCore.NetmeraInitSessionCallback?)
   public static func identifyUser<T>(_ user: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserIdentify
   public static func updateUserProfile<T>(userProfile: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserProfile
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
-  public static func setEncryptor(_ encryptor: any NetmeraCore.NetmeraEncrypterProtocol)
   public static func setDataTransferEnabled(_ enabled: Swift.Bool)
   public static func isDataTransferEnabled() -> Swift.Bool
   public static func isNetmeraRemoteMessage(payload: [Swift.AnyHashable : Any]) -> Swift.Bool
@@ -901,10 +910,6 @@ extension NetmeraCore.InternalNetmera {
   public static func getSmsPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   public static func setWhatsAppPermission(isAllowed: Swift.Bool)
   public static func getWhatsAppPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  @available(*, deprecated, renamed: "setEmailPermission(isAllowed:)")
-  public static func setAllowedEmailSubscription(_ allowed: Swift.Bool)
-  @available(*, deprecated, renamed: "getEmailPermission(callback:)")
-  public static func isAllowedEmailSubscription() -> Swift.Bool
   public static func setAdditionalRequestHeaders(_ headers: [Swift.String : Swift.String])
   public static func startOperation()
   public static func kill()
@@ -912,6 +917,18 @@ extension NetmeraCore.InternalNetmera {
   public static func handleConnectionOptions(_ options: UIKit.UIScene.ConnectionOptions)
   public static func fetchCoupons(using filter: NetmeraCore.NetmeraCouponFilter, callback: @escaping (Swift.Result<[NetmeraCore.NetmeraCouponObject], NetmeraCore.NetmeraFetchCouponError>) -> Swift.Void)
   @objc deinit
+}
+extension NetmeraCore.Netmera {
+  @available(*, deprecated, message: "Use Netmera.setInitSessionCallback(_:) to receive Result<NetmeraInitSessionInfo, Error> instead.")
+  public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)?)
+  @available(*, deprecated, message: "Use Netmera.setInitSessionCallback(_:) to receive Result<NetmeraInitSessionInfo, Error> instead.")
+  public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)?)
+  @available(*, deprecated, message: "Use identifyUser(_:) instead")
+  public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
+  @available(*, deprecated, renamed: "setEmailPermission(isAllowed:)")
+  public static func setAllowedEmailSubscription(_ allowed: Swift.Bool)
+  @available(*, deprecated, renamed: "getEmailPermission(callback:)")
+  public static func isAllowedEmailSubscription() -> Swift.Bool
 }
 extension NetmeraCore.AccessLevel : Swift.Equatable {}
 extension NetmeraCore.AccessLevel : Swift.Hashable {}
