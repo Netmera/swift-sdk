@@ -277,6 +277,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -542,28 +549,28 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
-      "offset": 303,
+      "offset": 780,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
-      "offset": 365,
+      "offset": 842,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
-      "offset": 423,
+      "offset": 900,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Array",
-      "offset": 473,
+      "offset": 950,
       "length": 2,
       "value": "[]"
     }

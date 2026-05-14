@@ -3,7 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraNotificationCore
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
-import NetmeraCore
+@_spi(NetmeraInternal) import NetmeraCore
 @_exported import NetmeraNotificationCore
 import Swift
 import Swinject
@@ -172,7 +172,13 @@ extension UserNotifications.UNUserNotificationCenter : NetmeraNotificationCore.U
 @_hasMissingDesignatedInitializers public class NetmeraBaseAction : Swift.Codable {
   final public let id: Swift.String?
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
-  final public let params: [Swift.String : Swift.String]?
+  @available(*, deprecated, message: "`params` only includes string entries from the payload; non-string values are dropped. Use `customParameters` for the full payload.")
+  public var params: [Swift.String : Swift.String]? {
+    get
+  }
+  public var customParameters: [Swift.String : Any]? {
+    get
+  }
   public var webContentURL: Foundation.URL? {
     get
   }
@@ -308,11 +314,17 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   final public let badge: Swift.Int?
   final public let category: Swift.String?
   final public let contentAvailable: Swift.Int?
-  final public let params: [Swift.String : Swift.String]?
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
   final public let sendDate: Foundation.Date?
   final public let expirationDate: Foundation.Date?
   final public let categoryIds: [Swift.Int]?
+  @available(*, deprecated, message: "`params` only includes string entries from the payload; non-string values are dropped. Use `customParameters` for the full payload.")
+  public var params: [Swift.String : Swift.String]? {
+    get
+  }
+  public var customParameters: [Swift.String : Any]? {
+    get
+  }
   public var isExpired: Swift.Bool {
     get
   }
