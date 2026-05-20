@@ -29,6 +29,13 @@
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
+        "moduleName": "NetmeraAnalyticAutotracking"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
         "moduleName": "NetmeraAnalyticAutotracking",
         "declAttributes": [
           "RawDocComment"
@@ -2042,6 +2049,13 @@
       "offset": 3470,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/DelegateProxy\/DelegateSwizzler.swift",
+      "kind": "Array",
+      "offset": 1183,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Extension\/UIPickerView+Extension.swift",

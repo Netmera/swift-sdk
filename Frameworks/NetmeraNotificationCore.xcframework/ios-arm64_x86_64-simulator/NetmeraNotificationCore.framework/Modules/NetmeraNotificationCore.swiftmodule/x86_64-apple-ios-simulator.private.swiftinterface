@@ -286,14 +286,16 @@ public class NetmeraPushAction : Swift.Codable, Swift.CustomStringConvertible {
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraWebViewAction : NetmeraNotificationCore.NetmeraPushAction {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraWebViewAction : NetmeraNotificationCore.NetmeraPushAction, Swift.Equatable {
   final public let templateId: Swift.String?
-  final public let templateParams: [Swift.String : Any]?
   final public let shouldShowPopupFullscreen: Swift.Bool?
   final public let widthHeightRatio: CoreFoundation.CGFloat?
   final public let heightConstant: CoreFoundation.CGFloat?
   final public let timeToLive: Swift.Double?
   final public let borderRadius: CoreFoundation.CGFloat?
+  public var templateParams: [Swift.String : Any]? {
+    get
+  }
   override public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.NetmeraWebViewAction, rhs: NetmeraNotificationCore.NetmeraWebViewAction) -> Swift.Bool
   @objc deinit

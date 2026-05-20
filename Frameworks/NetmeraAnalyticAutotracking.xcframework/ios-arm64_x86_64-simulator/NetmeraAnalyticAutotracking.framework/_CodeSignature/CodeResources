@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tTiQ5Ls00IAmw0KIPmqLq7A8qKQ=
+		s3DfXlVafN88R3XR+mduzBi681U=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HNE082ztvuuJp3QueR9QRzik3tM=
+		plmiqjN9r2xxVBVPzE/GrazyX8A=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tTiQ5Ls00IAmw0KIPmqLq7A8qKQ=
+		s3DfXlVafN88R3XR+mduzBi681U=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SkUJz2+7iPjJ7Jx2TW5v4evKU4Y=
+		Mod0tj0p+irtVVDI+WmB+WOn1vI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kXWS0WX6hmgkTz4mc02ViEMgaSUGdwFJZ6y17R2iuck=
+			NeVeDyXo9Zji2ndH7ACSSvI1BU+9Rsr5ivSD4EBzoz0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BztJTLSWTrtscpsR+4bdcdaplJ6edotjWrKsc+S4txE=
+			zaSQW3TLpTPnCKx8js+kUH9exLBWz7e6yX/1ZgLgn34=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kXWS0WX6hmgkTz4mc02ViEMgaSUGdwFJZ6y17R2iuck=
+			NeVeDyXo9Zji2ndH7ACSSvI1BU+9Rsr5ivSD4EBzoz0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8BjVGH+FFximUrQ6b07NB0xHrzQoLEmnVUNGdE3nIiM=
+			4AZGLswkiRTFARsI5ZKCe6PG43+Cvv5dyBNQf5yPGOI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

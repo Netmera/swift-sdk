@@ -8398,86 +8398,6 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearAllReferences",
-            "printedName": "clearAllReferences(withKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UnsafeRawPointer",
-                "printedName": "Swift.UnsafeRawPointer",
-                "usr": "s:SV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore17ProxyCacheManagerP18clearAllReferences7withKeyySV_tF",
-            "mangledName": "$s11NetmeraCore17ProxyCacheManagerP18clearAllReferences7withKeyySV_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.ProxyCacheManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.ProxyCacheManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getReferencesByHost",
-            "printedName": "getReferencesByHost(withKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[(host: AnyObject, value: AnyObject)]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(host: AnyObject, value: AnyObject)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "AnyObject"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "AnyObject"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UnsafeRawPointer",
-                "printedName": "Swift.UnsafeRawPointer",
-                "usr": "s:SV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore17ProxyCacheManagerP19getReferencesByHost7withKeySayyXl4host_yXl5valuetGSV_tF",
-            "mangledName": "$s11NetmeraCore17ProxyCacheManagerP19getReferencesByHost7withKeySayyXl4host_yXl5valuetGSV_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.ProxyCacheManager>",
-            "sugared_genericSig": "<Self where Self : NetmeraCore.ProxyCacheManager>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -31519,6 +31439,189 @@
       },
       {
         "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DelegateMethodHook",
+        "printedName": "DelegateMethodHook",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "originalSelector",
+            "printedName": "originalSelector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore18DelegateMethodHookP16originalSelector10ObjectiveC0G0Vvp",
+            "mangledName": "$s11NetmeraCore18DelegateMethodHookP16originalSelector10ObjectiveC0G0Vvp",
+            "moduleName": "NetmeraCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Selector",
+                    "printedName": "ObjectiveC.Selector",
+                    "usr": "s:10ObjectiveC8SelectorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore18DelegateMethodHookP16originalSelector10ObjectiveC0G0Vvg",
+                "mangledName": "$s11NetmeraCore18DelegateMethodHookP16originalSelector10ObjectiveC0G0Vvg",
+                "moduleName": "NetmeraCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook>",
+                "sugared_genericSig": "<Self where Self : NetmeraCore.DelegateMethodHook>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "implementationSelector",
+            "printedName": "implementationSelector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore18DelegateMethodHookP22implementationSelector10ObjectiveC0G0Vvp",
+            "mangledName": "$s11NetmeraCore18DelegateMethodHookP22implementationSelector10ObjectiveC0G0Vvp",
+            "moduleName": "NetmeraCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Selector",
+                    "printedName": "ObjectiveC.Selector",
+                    "usr": "s:10ObjectiveC8SelectorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore18DelegateMethodHookP22implementationSelector10ObjectiveC0G0Vvg",
+                "mangledName": "$s11NetmeraCore18DelegateMethodHookP22implementationSelector10ObjectiveC0G0Vvg",
+                "moduleName": "NetmeraCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook>",
+                "sugared_genericSig": "<Self where Self : NetmeraCore.DelegateMethodHook>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noOpIMP",
+            "printedName": "noOpIMP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaquePointer",
+                "printedName": "Swift.OpaquePointer",
+                "usr": "s:s13OpaquePointerV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore18DelegateMethodHookP7noOpIMPs13OpaquePointerVvp",
+            "mangledName": "$s11NetmeraCore18DelegateMethodHookP7noOpIMPs13OpaquePointerVvp",
+            "moduleName": "NetmeraCore",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaquePointer",
+                    "printedName": "Swift.OpaquePointer",
+                    "usr": "s:s13OpaquePointerV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore18DelegateMethodHookP7noOpIMPs13OpaquePointerVvg",
+                "mangledName": "$s11NetmeraCore18DelegateMethodHookP7noOpIMPs13OpaquePointerVvg",
+                "moduleName": "NetmeraCore",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook>",
+                "sugared_genericSig": "<Self where Self : NetmeraCore.DelegateMethodHook>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11NetmeraCore18DelegateMethodHookP",
+        "mangledName": "$s11NetmeraCore18DelegateMethodHookP",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -31821,6 +31924,130 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "injectHooks",
+            "printedName": "injectHooks(on:implementationClass:hooks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore13SwizzleHelperC11injectHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "mangledName": "$s11NetmeraCore13SwizzleHelperC11injectHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "moduleName": "NetmeraCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook, τ_0_0 : Swift.CaseIterable>",
+            "sugared_genericSig": "<Hook where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exchangeOrMakeNoOpHooks",
+            "printedName": "exchangeOrMakeNoOpHooks(on:implementationClass:hooks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "mangledName": "$s11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "moduleName": "NetmeraCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook, τ_0_0 : Swift.CaseIterable>",
+            "sugared_genericSig": "<Hook where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -34737,13 +34964,6 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Manager\/ProxyCacheManagerImpl.swift",
-      "kind": "Dictionary",
-      "offset": 297,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Manager\/RequestManager.swift",
       "kind": "IntegerLiteral",
       "offset": 549,
@@ -36603,7 +36823,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.19.1\""
+      "value": "\"4.19.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

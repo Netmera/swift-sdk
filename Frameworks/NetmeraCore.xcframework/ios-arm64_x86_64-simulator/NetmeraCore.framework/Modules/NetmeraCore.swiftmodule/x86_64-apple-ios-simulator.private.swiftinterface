@@ -7,6 +7,7 @@ import Foundation
 import MobileCoreServices
 @_exported import NetmeraCore
 import OSLog
+import ObjectiveC
 import SQLite3
 import Security
 import Swift
@@ -281,8 +282,6 @@ public protocol ProxyCacheManager {
   func retainReferanceOn<T>(_ host: Any, value: T, key: Swift.UnsafeRawPointer)
   func referanceOn<T>(_ host: Any, key: Swift.UnsafeRawPointer) -> T?
   func clearReferenceOn(_ host: Any, withKey key: Swift.UnsafeRawPointer)
-  func clearAllReferences(withKey key: Swift.UnsafeRawPointer)
-  func getReferencesByHost(withKey key: Swift.UnsafeRawPointer) -> [(host: Swift.AnyObject, value: Swift.AnyObject)]
 }
 public struct NetmeraCouponFilter : Swift.Codable, Swift.Equatable {
   public let page: Swift.Int
@@ -1016,6 +1015,15 @@ public enum NetmeraDownloadOption {
 }
 public protocol WidgetUrlInterceptor {
   func proceed(_ url: Foundation.URL) -> Foundation.URL
+}
+public protocol DelegateMethodHook {
+  var originalSelector: ObjectiveC.Selector { get }
+  var implementationSelector: ObjectiveC.Selector { get }
+  var noOpIMP: ObjectiveC.IMP { get }
+}
+extension NetmeraCore.SwizzleHelper {
+  public static func injectHooks<Hook>(on cls: Swift.AnyClass, implementationClass: Swift.AnyClass, hooks _: Hook.Type) where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable
+  public static func exchangeOrMakeNoOpHooks<Hook>(on cls: Swift.AnyClass, implementationClass: Swift.AnyClass, hooks _: Hook.Type) where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable
 }
 @_hasMissingDesignatedInitializers public class SwizzleHelper {
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetSelector: ObjectiveC.Selector)

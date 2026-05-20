@@ -120,10 +120,11 @@ extension NetmeraNotification.NetmeraPushLifecycleDelegate {
   @objc deinit
 }
 public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
-public struct NetmeraUserCategoryPreference : Swift.Decodable {
+public struct NetmeraUserCategoryPreference : Swift.Codable {
   public let categoryId: Swift.Int?
   public let categoryEnabled: Swift.Bool?
   public let categoryName: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvertible {
