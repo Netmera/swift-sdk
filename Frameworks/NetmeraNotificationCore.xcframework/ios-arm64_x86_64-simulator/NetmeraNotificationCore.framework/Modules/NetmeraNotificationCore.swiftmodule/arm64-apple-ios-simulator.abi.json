@@ -8327,6 +8327,73 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraDeeplinkAction",
+                "printedName": "NetmeraNotificationCore.NetmeraDeeplinkAction",
+                "usr": "s:23NetmeraNotificationCore0A14DeeplinkActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A14DeeplinkActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A14DeeplinkActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -8338,7 +8405,6 @@
         ],
         "superclassUsr": "s:23NetmeraNotificationCore0A10PushActionC",
         "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "NetmeraNotificationCore.NetmeraPushAction"
         ],
@@ -8395,6 +8461,73 @@
         "name": "NetmeraOpenAppAction",
         "printedName": "NetmeraOpenAppAction",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraOpenAppAction",
+                "printedName": "NetmeraNotificationCore.NetmeraOpenAppAction",
+                "usr": "s:23NetmeraNotificationCore0A13OpenAppActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A13OpenAppActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13OpenAppActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -8728,6 +8861,72 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraPushAction",
+                "printedName": "NetmeraNotificationCore.NetmeraPushAction",
+                "usr": "s:23NetmeraNotificationCore0A10PushActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A10PushActionC10actionType5close3urlAcA0deG0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A10PushActionC10actionType5close3urlAcA0deG0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -8749,8 +8948,7 @@
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
               "Required",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -8844,6 +9042,73 @@
         "name": "NetmeraReviewAction",
         "printedName": "NetmeraReviewAction",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraReviewAction",
+                "printedName": "NetmeraNotificationCore.NetmeraReviewAction",
+                "usr": "s:23NetmeraNotificationCore0A12ReviewActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A12ReviewActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A12ReviewActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -8978,6 +9243,73 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraSendEventAction",
+                "printedName": "NetmeraNotificationCore.NetmeraSendEventAction",
+                "usr": "s:23NetmeraNotificationCore0A15SendEventActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A15SendEventActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A15SendEventActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -9078,6 +9410,73 @@
         "name": "NetmeraShareAction",
         "printedName": "NetmeraShareAction",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShareAction",
+                "printedName": "NetmeraNotificationCore.NetmeraShareAction",
+                "usr": "s:23NetmeraNotificationCore0A11ShareActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A11ShareActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A11ShareActionC10actionType5close3urlAcA04PusheG0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -9653,6 +10052,34 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(widgetURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraWebViewAction",
+                "printedName": "NetmeraNotificationCore.NetmeraWebViewAction",
+                "usr": "s:23NetmeraNotificationCore0A13WebViewActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A13WebViewActionC9widgetURLAC10Foundation0H0V_tcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13WebViewActionC9widgetURLAC10Foundation0H0V_tcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -9717,6 +10144,73 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(actionType:close:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraWebViewAction",
+                "printedName": "NetmeraNotificationCore.NetmeraWebViewAction",
+                "usr": "s:23NetmeraNotificationCore0A13WebViewActionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotificationCore.PushActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PushActionType",
+                    "printedName": "NetmeraNotificationCore.PushActionType",
+                    "usr": "s:23NetmeraNotificationCore14PushActionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A13WebViewActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13WebViewActionC10actionType5close3urlAcA04PushfH0OSg_SbSgSSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -9728,7 +10222,6 @@
         ],
         "superclassUsr": "s:23NetmeraNotificationCore0A10PushActionC",
         "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "NetmeraNotificationCore.NetmeraPushAction"
         ],
@@ -11169,6 +11662,62 @@
                 "declKind": "Accessor",
                 "usr": "s:23NetmeraNotificationCore0A8BasePushC11deeplinkURL10Foundation0G0VSgvg",
                 "mangledName": "$s23NetmeraNotificationCore0A8BasePushC11deeplinkURL10Foundation0G0VSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customDataString",
+            "printedName": "customDataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A8BasePushC16customDataStringSSSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A8BasePushC16customDataStringSSSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC16customDataStringSSSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A8BasePushC16customDataStringSSSgvg",
                 "moduleName": "NetmeraNotificationCore",
                 "accessorKind": "get"
               }
@@ -14551,6 +15100,451 @@
         "printedName": "NetmeraSilentPush",
         "children": [
           {
+            "kind": "Var",
+            "name": "kind",
+            "printedName": "kind",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Kind",
+                "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4kindAC4KindOvp",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4kindAC4KindOvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Kind",
+                    "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                    "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4kindAC4KindOvg",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4kindAC4KindOvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataString",
+            "printedName": "dataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC10dataStringSSSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC10dataStringSSSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC10dataStringSSSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC10dataStringSSSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(kind:dataString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraSilentPush",
+                "printedName": "NetmeraNotificationCore.NetmeraSilentPush",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Kind",
+                "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                "hasDefaultArg": true,
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4kind10dataStringA2C4KindO_SSSgtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4kind10dataStringA2C4KindO_SSSgtcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraSilentPush",
+                "printedName": "NetmeraNotificationCore.NetmeraSilentPush",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraNotificationCore",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Kind",
+            "printedName": "Kind",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "default",
+                "printedName": "default",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotificationCore.NetmeraSilentPush.Kind.Type) -> NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Kind",
+                        "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                        "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Kind",
+                            "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO7defaultyA2EmF",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO7defaultyA2EmF",
+                "moduleName": "NetmeraNotificationCore"
+              },
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotificationCore.NetmeraSilentPush.Kind.Type) -> NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Kind",
+                        "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                        "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Kind",
+                            "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO4datayA2EmF",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO4datayA2EmF",
+                "moduleName": "NetmeraNotificationCore"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Kind",
+                        "printedName": "NetmeraNotificationCore.NetmeraSilentPush.Kind",
+                        "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueAESgSi_tcfc",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueAESgSi_tcfc",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueSivp",
+                "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueSivp",
+                "moduleName": "NetmeraNotificationCore",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueSivg",
+                    "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO8rawValueSivg",
+                    "moduleName": "NetmeraNotificationCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4KindO",
+            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4KindO",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -14610,36 +15604,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraSilentPush",
-                "printedName": "NetmeraNotificationCore.NetmeraSilentPush",
-                "usr": "s:23NetmeraNotificationCore0A10SilentPushC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A10SilentPushC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A10SilentPushC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraNotificationCore",
-            "overriding": true,
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -14650,7 +15614,6 @@
           "AccessControl"
         ],
         "superclassUsr": "s:23NetmeraNotificationCore0A8BasePushC",
-        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "NetmeraNotificationCore.NetmeraBasePush",
           "NetmeraCore.NetmeraPush"
@@ -15492,63 +16455,63 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushAction.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
+      "offset": 1624,
       "length": 4,
       "value": "\"at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2911,
       "length": 5,
       "value": "\"tid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2954,
       "length": 5,
       "value": "\"fsc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2526,
+      "offset": 2988,
       "length": 5,
       "value": "\"whr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 3020,
       "length": 4,
       "value": "\"ch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 3047,
       "length": 5,
       "value": "\"ptl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2615,
+      "offset": 3077,
       "length": 5,
       "value": "\"pbr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2643,
+      "offset": 3105,
       "length": 4,
       "value": "\"at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
-      "offset": 2674,
+      "offset": 3136,
       "length": 7,
       "value": "\"tprms\""
     },
@@ -15562,91 +16525,91 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6411,
+      "offset": 6502,
       "length": 5,
       "value": "\"_nm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6540,
+      "offset": 6631,
       "length": 19,
       "value": "\"content-available\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6720,
       "length": 4,
       "value": "\"pt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6660,
+      "offset": 6751,
       "length": 6,
       "value": "\"piid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6685,
+      "offset": 6776,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6713,
+      "offset": 6804,
       "length": 5,
       "value": "\"xid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6739,
+      "offset": 6830,
       "length": 5,
       "value": "\"sts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6771,
+      "offset": 6862,
       "length": 5,
       "value": "\"ets\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6813,
+      "offset": 6904,
       "length": 4,
       "value": "\"dr\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6836,
+      "offset": 6927,
       "length": 6,
       "value": "\"prms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6861,
+      "offset": 6952,
       "length": 5,
       "value": "\"act\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6890,
+      "offset": 6981,
       "length": 5,
       "value": "\"cta\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 6962,
+      "offset": 7053,
       "length": 4,
       "value": "\"at\""
     },
@@ -15726,6 +16689,34 @@
       "offset": 1558,
       "length": 4,
       "value": "\"mu\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraSilentPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraSilentPush.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1312,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraSilentPush.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 5,
+      "value": "\"snt\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraSilentPush.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 5,
+      "value": "\"sdt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Utils\/Constants.swift",

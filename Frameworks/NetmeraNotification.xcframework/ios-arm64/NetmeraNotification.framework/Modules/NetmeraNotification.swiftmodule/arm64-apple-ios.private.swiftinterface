@@ -159,6 +159,7 @@ extension NetmeraCore.Netmera {
   public static func setInAppContentDelegate(_ delegate: any NetmeraNotification.NetmeraInAppContentDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func displayContent(for pushObject: NetmeraNotificationCore.NetmeraBasePush, in webView: WebKit.WKWebView, onCloseRequested: @escaping () -> Swift.Void)
+  public static func displayContent(forWidgetURL url: Foundation.URL, in webView: WebKit.WKWebView? = nil, onCloseRequested: (() -> Swift.Void)? = nil)
   public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
   @available(*, deprecated, renamed: "handleAction(_:for:)")
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)

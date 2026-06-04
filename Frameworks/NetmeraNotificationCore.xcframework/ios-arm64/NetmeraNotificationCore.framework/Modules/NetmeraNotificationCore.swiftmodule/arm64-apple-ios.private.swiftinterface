@@ -250,7 +250,7 @@ public class NetmeraPushInAppMessage : Swift.Codable, Swift.Equatable {
   override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraDeeplinkAction : NetmeraNotificationCore.NetmeraPushAction {
+@_hasMissingDesignatedInitializers public class NetmeraDeeplinkAction : NetmeraNotificationCore.NetmeraPushAction {
   override public var description: Swift.String {
     get
   }
@@ -259,6 +259,7 @@ public class NetmeraPushInAppMessage : Swift.Codable, Swift.Equatable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class NetmeraOpenAppAction : NetmeraNotificationCore.NetmeraPushAction {
+  override public init(actionType: NetmeraNotificationCore.PushActionType?, close: Swift.Bool? = nil, url: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
@@ -269,24 +270,28 @@ public class NetmeraPushAction : Swift.Codable, Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
   }
+  public init(actionType: NetmeraNotificationCore.PushActionType?, close: Swift.Bool? = nil, url: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class NetmeraReviewAction : NetmeraNotificationCore.NetmeraPushAction {
+  override public init(actionType: NetmeraNotificationCore.PushActionType?, close: Swift.Bool? = nil, url: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class NetmeraSendEventAction : NetmeraNotificationCore.NetmeraPushAction, Swift.Equatable {
   public static func == (lhs: NetmeraNotificationCore.NetmeraSendEventAction, rhs: NetmeraNotificationCore.NetmeraSendEventAction) -> Swift.Bool
+  override public init(actionType: NetmeraNotificationCore.PushActionType?, close: Swift.Bool? = nil, url: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers public class NetmeraShareAction : NetmeraNotificationCore.NetmeraPushAction {
+  override public init(actionType: NetmeraNotificationCore.PushActionType?, close: Swift.Bool? = nil, url: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraWebViewAction : NetmeraNotificationCore.NetmeraPushAction, Swift.Equatable {
+@_hasMissingDesignatedInitializers public class NetmeraWebViewAction : NetmeraNotificationCore.NetmeraPushAction, Swift.Equatable {
   final public let templateId: Swift.String?
   final public let shouldShowPopupFullscreen: Swift.Bool?
   final public let widthHeightRatio: CoreFoundation.CGFloat?
@@ -296,6 +301,7 @@ public class NetmeraPushAction : Swift.Codable, Swift.CustomStringConvertible {
   public var templateParams: [Swift.String : Any]? {
     get
   }
+  public init(widgetURL: Foundation.URL)
   override public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.NetmeraWebViewAction, rhs: NetmeraNotificationCore.NetmeraWebViewAction) -> Swift.Bool
   @objc deinit
@@ -334,6 +340,9 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
     get
   }
   public var deeplinkURL: Foundation.URL? {
+    get
+  }
+  public var customDataString: Swift.String? {
     get
   }
   public init()
@@ -431,10 +440,21 @@ extension NetmeraNotificationCore.NetmeraInboxPush {
   override public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers public class NetmeraSilentPush : NetmeraNotificationCore.NetmeraBasePush {
-  override public init()
-  override public init(action: NetmeraNotificationCore.NetmeraPushAction? = nil)
+public class NetmeraSilentPush : NetmeraNotificationCore.NetmeraBasePush {
+  final public let kind: NetmeraNotificationCore.NetmeraSilentPush.Kind
+  final public let dataString: Swift.String?
+  public init(kind: NetmeraNotificationCore.NetmeraSilentPush.Kind = .default, dataString: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public enum Kind : Swift.Int, Swift.Codable {
+    case `default`
+    case data
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NetmeraStandartPush : NetmeraNotificationCore.NetmeraBasePush, Swift.CustomStringConvertible {
@@ -459,3 +479,6 @@ extension NetmeraNotificationCore.PushActionType : Swift.RawRepresentable {}
 extension NetmeraNotificationCore.PushStyleType : Swift.Equatable {}
 extension NetmeraNotificationCore.PushStyleType : Swift.Hashable {}
 extension NetmeraNotificationCore.PushStyleType : Swift.RawRepresentable {}
+extension NetmeraNotificationCore.NetmeraSilentPush.Kind : Swift.Equatable {}
+extension NetmeraNotificationCore.NetmeraSilentPush.Kind : Swift.Hashable {}
+extension NetmeraNotificationCore.NetmeraSilentPush.Kind : Swift.RawRepresentable {}

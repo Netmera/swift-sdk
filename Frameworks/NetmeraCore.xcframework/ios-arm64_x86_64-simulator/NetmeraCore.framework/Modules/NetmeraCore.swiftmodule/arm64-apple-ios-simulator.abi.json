@@ -4993,34 +4993,6 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dispatchValue",
-            "printedName": "dispatchValue(value:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GenericTypeParam",
-                "printedName": "τ_0_0"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11NetmeraCore8VariableC13dispatchValue5valueyx_tF",
-            "mangledName": "$s11NetmeraCore8VariableC13dispatchValue5valueyx_tF",
-            "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
-            "sugared_genericSig": "<T where T : Swift.Equatable>",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -36823,7 +36795,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.19.2\""
+      "value": "\"4.20.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -37353,70 +37325,77 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 4974,
+      "length": 19,
+      "value": "\"X-netmera-app-xid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 5027,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5035,
+      "offset": 5092,
       "length": 10,
       "value": "\"%02.2hhx\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5093,
+      "offset": 5150,
       "length": 4,
       "value": "\"os\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5129,
+      "offset": 5186,
       "length": 6,
       "value": "\"sdkv\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5169,
+      "offset": 5226,
       "length": 8,
       "value": "\"apikey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5232,
+      "offset": 5289,
       "length": 13,
       "value": "\"Information\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5286,
+      "offset": 5343,
       "length": 40,
       "value": "\"Device has been added to test devices.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5364,
+      "offset": 5421,
       "length": 44,
       "value": "\"Device could not be added to test devices.\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5460,
+      "offset": 5517,
       "length": 13,
       "value": "\"netmera.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5512,
+      "offset": 5569,
       "length": 5,
       "value": "\"cer\""
     },

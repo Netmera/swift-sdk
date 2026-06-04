@@ -170,7 +170,6 @@ open class Variable<T> where T : Swift.Equatable {
   public func register(callback: NetmeraCore.Callback<T>)
   public func unregister(callback: NetmeraCore.Callback<T>)
   public func clearAll()
-  public func dispatchValue(value: T)
 }
 public protocol NetmeraPushConverterProtocol {
   func convert(_ userInfo: [Swift.AnyHashable : Any], _ serializerProvider: NetmeraCore.SerializerProvider<any NetmeraCore.DictionaryDecoder, any NetmeraCore.DictionaryEncoder>) -> NetmeraCore.NetmeraPush?
