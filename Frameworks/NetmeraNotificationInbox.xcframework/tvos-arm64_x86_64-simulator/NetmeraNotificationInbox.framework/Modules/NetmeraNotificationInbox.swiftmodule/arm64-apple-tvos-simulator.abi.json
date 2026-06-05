@@ -382,6 +382,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotificationInbox"
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraInboxError",
         "printedName": "NetmeraInboxError",
@@ -572,6 +579,43 @@
             "declKind": "EnumElement",
             "usr": "s:24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
             "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO16invalidParameteryACSS_tcACmF",
+            "moduleName": "NetmeraNotificationInbox"
+          },
+          {
+            "kind": "Var",
+            "name": "notOperating",
+            "printedName": "notOperating",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotificationInbox.NetmeraInboxError.Type) -> NetmeraNotificationInbox.NetmeraInboxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraInboxError",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                    "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotificationInbox.NetmeraInboxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraInboxError",
+                        "printedName": "NetmeraNotificationInbox.NetmeraInboxError",
+                        "usr": "s:24NetmeraNotificationInbox0aC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24NetmeraNotificationInbox0aC5ErrorO12notOperatingyA2CmF",
+            "mangledName": "$s24NetmeraNotificationInbox0aC5ErrorO12notOperatingyA2CmF",
             "moduleName": "NetmeraNotificationInbox"
           },
           {
@@ -3629,14 +3673,14 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 718,
+      "offset": 767,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/Inbox\/NetmeraInboxManagerImpl.swift",
       "kind": "Dictionary",
-      "offset": 625,
+      "offset": 674,
       "length": 3,
       "value": "[]"
     },
@@ -3699,14 +3743,14 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 799,
+      "offset": 848,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationInbox\/NetmeraNotificationInbox\/Inbox\/InboxCategory\/NetmeraInboxCategoryManagerImpl.swift",
       "kind": "Dictionary",
-      "offset": 706,
+      "offset": 755,
       "length": 3,
       "value": "[]"
     },

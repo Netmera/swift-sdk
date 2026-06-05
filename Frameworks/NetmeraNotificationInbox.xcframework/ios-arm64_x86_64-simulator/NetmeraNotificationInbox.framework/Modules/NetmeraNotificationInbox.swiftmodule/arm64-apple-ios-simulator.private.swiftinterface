@@ -22,6 +22,7 @@ public enum NetmeraInboxError : Swift.Error, Swift.CustomStringConvertible {
   case hasNoNextItems
   case requestError(description: Swift.String)
   case invalidParameter(description: Swift.String)
+  case notOperating
   public var description: Swift.String {
     get
   }

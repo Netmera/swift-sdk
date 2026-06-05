@@ -249,6 +249,7 @@ public enum LogLevel : Swift.Int, Swift.Comparable {
 }
 public enum NetmeraFetchCouponError : Swift.Error, Swift.CustomStringConvertible {
   case requestError(description: Swift.String)
+  case notOperating
   public var description: Swift.String {
     get
   }
@@ -357,6 +358,7 @@ public enum NetmeraTrackingManagerAuthorizationStatus : Swift.UInt, Swift.Codabl
 }
 public enum SDKState {
   case operating
+  case holdRequested
   case onHold
   case killed
   public static func == (a: NetmeraCore.SDKState, b: NetmeraCore.SDKState) -> Swift.Bool
@@ -739,6 +741,13 @@ public struct NetmeraIdentifiers : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct NetmeraNotOperatingError : Swift.Error, Swift.CustomStringConvertible {
+  public static let message: Swift.String
+  public var description: Swift.String {
+    get
+  }
+  public init()
+}
 public struct NetmeraParams : Swift.Equatable, Swift.Codable {
   public let apiKey: Swift.String
   public let baseUrl: Swift.String?
@@ -901,6 +910,9 @@ extension NetmeraCore.InternalNetmera {
   }
 }
 @_hasMissingDesignatedInitializers public class Netmera {
+  public static var isOperating: Swift.Bool {
+    get
+  }
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func setInitSessionCallback(_ callback: NetmeraCore.NetmeraInitSessionCallback?)
@@ -919,6 +931,7 @@ extension NetmeraCore.InternalNetmera {
   public static func getWhatsAppPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   public static func setAdditionalRequestHeaders(_ headers: [Swift.String : Swift.String])
   public static func startOperation()
+  public static func holdOperation()
   public static func kill()
   @available(iOS 13.0, tvOS 13.0, *)
   public static func handleConnectionOptions(_ options: UIKit.UIScene.ConnectionOptions)

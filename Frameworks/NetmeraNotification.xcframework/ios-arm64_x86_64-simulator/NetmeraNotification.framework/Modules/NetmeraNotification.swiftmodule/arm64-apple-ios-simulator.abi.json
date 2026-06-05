@@ -5311,6 +5311,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "UserCategoryPreferenceError",
         "printedName": "UserCategoryPreferenceError",
@@ -5374,6 +5384,43 @@
           },
           {
             "kind": "Var",
+            "name": "notOperating",
+            "printedName": "notOperating",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraNotification.UserCategoryPreferenceError.Type) -> NetmeraNotification.UserCategoryPreferenceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserCategoryPreferenceError",
+                    "printedName": "NetmeraNotification.UserCategoryPreferenceError",
+                    "usr": "s:19NetmeraNotification27UserCategoryPreferenceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraNotification.UserCategoryPreferenceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserCategoryPreferenceError",
+                        "printedName": "NetmeraNotification.UserCategoryPreferenceError",
+                        "usr": "s:19NetmeraNotification27UserCategoryPreferenceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19NetmeraNotification27UserCategoryPreferenceErrorO12notOperatingyA2CmF",
+            "mangledName": "$s19NetmeraNotification27UserCategoryPreferenceErrorO12notOperatingyA2CmF",
+            "moduleName": "NetmeraNotification"
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -5419,8 +5466,7 @@
         "mangledName": "$s19NetmeraNotification27UserCategoryPreferenceErrorO",
         "moduleName": "NetmeraNotification",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {

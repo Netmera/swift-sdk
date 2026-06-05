@@ -129,6 +129,7 @@ public struct NetmeraUserCategoryPreference : Swift.Codable {
 }
 public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvertible {
   case requestError(description: Swift.String)
+  case notOperating
   public var description: Swift.String {
     get
   }
