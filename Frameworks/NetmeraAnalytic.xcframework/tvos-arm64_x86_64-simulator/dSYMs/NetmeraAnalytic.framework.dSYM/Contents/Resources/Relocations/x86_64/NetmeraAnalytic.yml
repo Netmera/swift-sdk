@@ -777,7 +777,7 @@ relocations:
   - { offset: 0x45DA6, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A12EventGenericC10CodingKeysOs0E3KeyAAsAFP11stringValueSSvgTW', symObjAddr: 0x510, symBinAddr: 0x158D0, symSize: 0x20 }
   - { offset: 0x45DCC, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A12EventGenericC10CodingKeysOs0E3KeyAAsAFP11stringValuexSgSS_tcfCTW', symObjAddr: 0x530, symBinAddr: 0x158F0, symSize: 0x70 }
   - { offset: 0x45E49, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A12EventGenericCfD', symObjAddr: 0x620, symBinAddr: 0x159C0, symSize: 0x40 }
-  - { offset: 0x45F04, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A12EventGenericC19encodableAttributes33_872F3632CD122CC00558998B31B1FE98LL4fromSDySS0A4Core10AnyCodableVGSDySSypG_tFZTf4nd_n', symObjAddr: 0x1240, symBinAddr: 0x16510, symSize: 0x7B0 }
+  - { offset: 0x45EFA, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A12EventGenericC19encodableAttributes33_872F3632CD122CC00558998B31B1FE98LL4fromSDySS0A4Core10AnyCodableVGSDySSypG_tFZTf4nd_n', symObjAddr: 0x1240, symBinAddr: 0x16510, symSize: 0x7B0 }
   - { offset: 0x466C4, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A13GeofenceEventC10identifierSSSgvpACTk', symObjAddr: 0x1E0, symBinAddr: 0x17080, symSize: 0x70 }
   - { offset: 0x46703, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A13GeofenceEventC10CodingKeysOAEs0E3KeyAAWl', symObjAddr: 0x8A0, symBinAddr: 0x176C0, symSize: 0x30 }
   - { offset: 0x46716, size: 0x8, addend: 0x0, symName: '_$s15NetmeraAnalytic0A13GeofenceEventCMa', symObjAddr: 0x900, symBinAddr: 0x176F0, symSize: 0x30 }

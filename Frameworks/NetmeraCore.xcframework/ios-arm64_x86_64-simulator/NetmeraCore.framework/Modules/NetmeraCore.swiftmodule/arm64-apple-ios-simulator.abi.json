@@ -32510,6 +32510,100 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "NetmeraJSONEncoder",
+        "printedName": "NetmeraJSONEncoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraJSONEncoder",
+                "printedName": "NetmeraCore.NetmeraJSONEncoder",
+                "usr": "s:11NetmeraCore0A11JSONEncoderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11NetmeraCore0A11JSONEncoderCACycfc",
+            "mangledName": "$s11NetmeraCore0A11JSONEncoderCACycfc",
+            "moduleName": "NetmeraCore",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "spi_group_names": [
+              "NetmeraInternal"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11NetmeraCore0A11JSONEncoderC",
+        "mangledName": "$s11NetmeraCore0A11JSONEncoderC",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "NetmeraInternal"
+        ],
+        "superclassUsr": "s:10Foundation11JSONEncoderC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Foundation.JSONEncoder"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TopLevelEncoder",
+            "printedName": "TopLevelEncoder",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Output",
+                "printedName": "Output",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine15TopLevelEncoderP",
+            "mangledName": "$s7Combine15TopLevelEncoderP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",

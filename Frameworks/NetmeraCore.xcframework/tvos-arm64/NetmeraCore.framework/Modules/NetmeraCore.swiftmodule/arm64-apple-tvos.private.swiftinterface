@@ -1047,6 +1047,10 @@ public class SwizzlingForwarder {
   public func invokeRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: Swift.AnyObject)
   @objc deinit
 }
+@_spi(NetmeraInternal) @_inheritsConvenienceInitializers public class NetmeraJSONEncoder : Foundation.JSONEncoder {
+  @_spi(NetmeraInternal) override public init()
+  @_spi(NetmeraInternal) @objc deinit
+}
 @_hasMissingDesignatedInitializers public class InternalNetmera {
   public static func updateUserProfile(withDictionary dictionary: [Swift.String : Any], completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
