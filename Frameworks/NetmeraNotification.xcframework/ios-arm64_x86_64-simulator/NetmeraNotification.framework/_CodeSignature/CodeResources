@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Rqjt/+PAElM1LXoBoh3ui/pLyE=
+		8eZDR/Co14UX+GPDxCRxCunucc4=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XFrE7crpCaHOqbnBxMpBd0sxKSQ=
+		7y+0QvNTntnkUblX1lx8YjOT5QE=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2Rqjt/+PAElM1LXoBoh3ui/pLyE=
+		8eZDR/Co14UX+GPDxCRxCunucc4=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3ZEr9dBoSHl7SrefQBA1HEhY0b8=
+		qAT095WUE/a/asNgnt67e2tNGK8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ibk3jgsH9lLgOYE1GUPLNPyli/WGxkQ/7uMztyAyGWU=
+			adkKgQA4oTb0K29hL1PGBOeD1XwttP54YRWaXxeY9TY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LeCvGqmz8GQ5OSTmRZhB7FmJrGhvmsZSTshuy2tZwo8=
+			e2nTLg6sS+k7zT5Xwq3zCQJec/WHF/sBVdNGyOE8+Io=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ibk3jgsH9lLgOYE1GUPLNPyli/WGxkQ/7uMztyAyGWU=
+			adkKgQA4oTb0K29hL1PGBOeD1XwttP54YRWaXxeY9TY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LcEajwsVnUMCwZAyqB1IxSSL+a3t60ALhBhTkyg84qo=
+			/biHTnMIYWuwZr/XGvkVvnRszkjSRielExuP7ui/4TE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

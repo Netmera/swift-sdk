@@ -489,6 +489,12 @@ public enum NetmeraGender : Swift.Int, Swift.Codable {
     get
   }
 }
+public struct NetmeraIdentifyUserInfo : Swift.Equatable {
+  public let segments: [NetmeraCore.NetmeraSegment]
+  public init(segments: [NetmeraCore.NetmeraSegment] = [])
+  public static func == (a: NetmeraCore.NetmeraIdentifyUserInfo, b: NetmeraCore.NetmeraIdentifyUserInfo) -> Swift.Bool
+}
+public typealias NetmeraIdentifyUserCallback = (Swift.Result<NetmeraCore.NetmeraIdentifyUserInfo, any Swift.Error>) -> Swift.Void
 public enum NetmeraMaritalStatus : Swift.Int, Swift.Codable {
   case single
   case married
@@ -916,7 +922,7 @@ extension NetmeraCore.InternalNetmera {
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func setInitSessionCallback(_ callback: NetmeraCore.NetmeraInitSessionCallback?)
-  public static func identifyUser<T>(_ user: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserIdentify
+  public static func identifyUser<T>(user: T, completion: NetmeraCore.NetmeraIdentifyUserCallback? = nil) where T : NetmeraCore.NetmeraUserIdentify
   public static func updateUserProfile<T>(userProfile: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserProfile
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
   public static func setDataTransferEnabled(_ enabled: Swift.Bool)
@@ -943,6 +949,8 @@ extension NetmeraCore.Netmera {
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)?)
   @available(*, deprecated, message: "Use Netmera.setInitSessionCallback(_:) to receive Result<NetmeraInitSessionInfo, Error> instead.")
   public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, initSessionCallback: ((Swift.Bool) -> Swift.Void)?)
+  @available(*, deprecated, message: "Use identifyUser(user:completion:) to receive Result<NetmeraIdentifyUserInfo, Error> instead.")
+  public static func identifyUser<T>(_ user: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserIdentify
   @available(*, deprecated, message: "Use identifyUser(_:) instead")
   public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
   @available(*, deprecated, renamed: "setEmailPermission(isAllowed:)")
