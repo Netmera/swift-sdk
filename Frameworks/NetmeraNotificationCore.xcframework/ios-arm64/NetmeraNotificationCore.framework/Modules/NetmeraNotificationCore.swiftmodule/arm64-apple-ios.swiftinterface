@@ -239,6 +239,7 @@ public class NetmeraPushInAppMessage : Swift.Codable, Swift.Equatable {
   final public let fontColor: Swift.String?
   final public let fontSize: Swift.Double?
   final public let timeToLive: Swift.Double?
+  final public let animationStyle: Swift.String?
   public static func == (lhs: NetmeraNotificationCore.NetmeraPushInAppMessage, rhs: NetmeraNotificationCore.NetmeraPushInAppMessage) -> Swift.Bool
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -298,6 +299,7 @@ public class NetmeraPushAction : Swift.Codable, Swift.CustomStringConvertible {
   final public let heightConstant: CoreFoundation.CGFloat?
   final public let timeToLive: Swift.Double?
   final public let borderRadius: CoreFoundation.CGFloat?
+  final public let animationStyle: Swift.String?
   public var templateParams: [Swift.String : Any]? {
     get
   }

@@ -92,6 +92,10 @@ open class Factory2<I, T> {
   open func load() -> T
   @objc deinit
 }
+public protocol ManualTrackingManaging {
+  func trackView(viewIdentifier: Swift.String)
+  func trackAction(viewIdentifier: Swift.String)
+}
 public protocol Module {
   func applyContainer(_ container: Swinject.Container)
   static func create() -> any NetmeraCore.Module
@@ -274,6 +278,7 @@ public protocol DeferredDeeplinkHandling {
   func processClipboard()
 }
 public typealias NetmeraInitSessionCallback = (Swift.Result<NetmeraCore.NetmeraInitSessionInfo, any Swift.Error>) -> Swift.Void
+public typealias InternalAppConfigCallback = (Swift.Result<NetmeraCore.InternalNetmera.InternalAppConfig, any Swift.Error>) -> Swift.Void
 public protocol PlistManager {
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraPlistError> where T : Swift.Decodable
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraPlistError>) -> Swift.Void) where T : Swift.Decodable
@@ -357,10 +362,17 @@ public enum NetmeraTrackingManagerAuthorizationStatus : Swift.UInt, Swift.Codabl
   }
 }
 public enum SDKState {
+  case uninitialized
   case operating
   case holdRequested
   case onHold
   case killed
+  public var isInitialized: Swift.Bool {
+    get
+  }
+  public var isOperating: Swift.Bool {
+    get
+  }
   public static func == (a: NetmeraCore.SDKState, b: NetmeraCore.SDKState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -908,6 +920,11 @@ public class SwizzlingForwarder {
 }
 @_hasMissingDesignatedInitializers public class InternalNetmera {
   public static func updateUserProfile(withDictionary dictionary: [Swift.String : Any], completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public static func setPlatform(_ platform: NetmeraCore.InternalNetmera.Platform)
+  public static func getAppConfig() -> NetmeraCore.InternalNetmera.InternalAppConfig
+  public static func setAppConfigCallback(_ callback: NetmeraCore.InternalAppConfigCallback?)
+  public static func trackView(_ viewIdentifier: Swift.String)
+  public static func trackAction(_ viewIdentifier: Swift.String)
   @objc deinit
 }
 extension NetmeraCore.InternalNetmera {
@@ -915,7 +932,30 @@ extension NetmeraCore.InternalNetmera {
     public static let deviceTokenVariableName: Swift.String
   }
 }
+extension NetmeraCore.InternalNetmera {
+  public enum Platform : Swift.Equatable {
+    case reactNative
+    case flutter
+    case other
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: NetmeraCore.InternalNetmera.Platform, b: NetmeraCore.InternalNetmera.Platform) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension NetmeraCore.InternalNetmera {
+  public struct InternalAppConfig {
+    public static let `default`: NetmeraCore.InternalNetmera.InternalAppConfig
+    public let shouldSendScreenEvent: Swift.Bool
+    public let shouldSendInputFlow: Swift.Bool
+    public let shouldSendInputValue: Swift.Bool
+  }
+}
 @_hasMissingDesignatedInitializers public class Netmera {
+  public static var isInitialized: Swift.Bool {
+    get
+  }
   public static var isOperating: Swift.Bool {
     get
   }
@@ -1009,3 +1049,4 @@ extension NetmeraCore.NetmeraHTTPMethod : Swift.Hashable {}
 extension NetmeraCore.NetmeraHTTPMethod : Swift.RawRepresentable {}
 extension NetmeraCore.NetmeraDownloadOption : Swift.Equatable {}
 extension NetmeraCore.NetmeraDownloadOption : Swift.Hashable {}
+extension NetmeraCore.InternalNetmera.Platform : Swift.Hashable {}

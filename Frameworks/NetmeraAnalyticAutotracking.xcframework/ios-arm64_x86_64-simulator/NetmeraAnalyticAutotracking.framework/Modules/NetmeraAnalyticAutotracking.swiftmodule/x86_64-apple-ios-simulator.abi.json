@@ -685,6 +685,16 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraAnalytic",
+        "printedName": "NetmeraAnalytic",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalyticAutotracking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
