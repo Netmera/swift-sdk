@@ -16401,7 +16401,7 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/PushReceiveEventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 5389,
       "length": 26,
       "value": "\"lastReportedDeliveryPush\""
     },

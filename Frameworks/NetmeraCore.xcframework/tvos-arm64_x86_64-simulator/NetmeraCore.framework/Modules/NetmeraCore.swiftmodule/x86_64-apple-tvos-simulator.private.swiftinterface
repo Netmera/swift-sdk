@@ -93,7 +93,7 @@ open class Factory2<I, T> {
 }
 public protocol ManualTrackingManaging {
   func trackView(viewIdentifier: Swift.String)
-  func trackAction(viewIdentifier: Swift.String)
+  func trackAction(viewIdentifier: Swift.String, actionType: Swift.Int)
 }
 public protocol Module {
   func applyContainer(_ container: Swinject.Container)
@@ -104,6 +104,10 @@ public protocol NetmeraActionPerformer : AnyObject {
 }
 public protocol NetmeraDataSender {
   func sendEvent<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
+  func sendPersistentEvent<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
+}
+extension NetmeraCore.NetmeraDataSender {
+  public func sendPersistentEvent<T>(_ event: T) where T : NetmeraCore.NetmeraEvent
 }
 public protocol NetmeraPushPassthrough {
   func on(payload: [Swift.AnyHashable : Any])
@@ -1075,7 +1079,7 @@ public class SwizzlingForwarder {
   public static func getAppConfig() -> NetmeraCore.InternalNetmera.InternalAppConfig
   public static func setAppConfigCallback(_ callback: NetmeraCore.InternalAppConfigCallback?)
   public static func trackView(_ viewIdentifier: Swift.String)
-  public static func trackAction(_ viewIdentifier: Swift.String)
+  public static func trackAction(_ viewIdentifier: Swift.String, actionType: Swift.Int)
   @objc deinit
 }
 extension NetmeraCore.InternalNetmera {

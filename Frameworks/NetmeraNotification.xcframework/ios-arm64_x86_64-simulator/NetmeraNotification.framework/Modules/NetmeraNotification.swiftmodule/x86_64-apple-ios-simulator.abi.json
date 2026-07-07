@@ -7151,64 +7151,78 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 648,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 819,
       "length": 17,
       "value": "\"_netmeraWebView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 675,
+      "offset": 1001,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 745,
+      "offset": 1071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1089,
+      "offset": 1415,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1626,
+      "offset": 1952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1894,
+      "offset": 2220,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PushWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/WebContentNavigationDelegate.swift",
       "kind": "IntegerLiteral",
-      "offset": 1773,
+      "offset": 1865,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/WebContentNavigationDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 2419,
+      "offset": 2511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/WebContentNavigationDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 2532,
+      "offset": 2624,
       "length": 5,
       "value": "false"
     },
