@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q/dMx8V3DMub5w8S0s0Sj2LjdiY=
+		vwnxuizVBfT/QvTyrsojuZk/s/M=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Xceoun7Kb5xotWxZf+EH/05B4JI=
+		ikVFmWR+QL8CUsUzNBT6OWoZ9zc=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q/dMx8V3DMub5w8S0s0Sj2LjdiY=
+		vwnxuizVBfT/QvTyrsojuZk/s/M=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x9WbySYdEfbSyrEOiJWx+B7f3NE=
+		ILz7yf2z82z+/F384pJQ1cUoRU4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0AdU+LXt0DagCIReqiUXrxSCyT42eLCLWo/fUFWJtY=
+			yj/Wm6iGoYCjVINLuWwN1CCATa3+qhto8hqLnKIEQoM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vT+/XbismweOPqKR98YxIO3XIDY+6dWtYL424Lhp8Io=
+			28g9D9TMIx2Gjl9AKmt9ISSLY18T1YOt/qncMHKTD2E=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0AdU+LXt0DagCIReqiUXrxSCyT42eLCLWo/fUFWJtY=
+			yj/Wm6iGoYCjVINLuWwN1CCATa3+qhto8hqLnKIEQoM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0ddqOJsfjgdRYQa0sC8FHLiA0nEvuT+728nVEMcqwg=
+			mIRcVWxT3ALvOmPPcM4pplWRbqkBMaslIQNBivLeY28=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

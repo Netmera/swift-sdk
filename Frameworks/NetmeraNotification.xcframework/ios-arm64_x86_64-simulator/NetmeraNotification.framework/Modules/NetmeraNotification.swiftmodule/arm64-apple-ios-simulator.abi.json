@@ -7431,10 +7431,38 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
       "kind": "Dictionary",
-      "offset": 470,
+      "offset": 895,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
+      "kind": "Array",
+      "offset": 5732,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserNotificationCenterProxy\/UNUserNotificationCenterDelegateProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6115,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/Utils\/Constants.swift",

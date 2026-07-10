@@ -1052,12 +1052,14 @@ public protocol DelegateMethodHook {
 }
 extension NetmeraCore.SwizzleHelper {
   public static func injectHooks<Hook>(on cls: Swift.AnyClass, implementationClass: Swift.AnyClass, hooks _: Hook.Type) where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable
-  public static func exchangeOrMakeNoOpHooks<Hook>(on cls: Swift.AnyClass, implementationClass: Swift.AnyClass, hooks _: Hook.Type) where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable
+  @discardableResult
+  public static func exchangeOrMakeNoOpHooks<Hook>(on cls: Swift.AnyClass, implementationClass: Swift.AnyClass, hooks _: Hook.Type) -> Swift.Bool where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable
 }
 @_hasMissingDesignatedInitializers public class SwizzleHelper {
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetSelector: ObjectiveC.Selector)
   public static func exchange(_ sourceClass: Swift.AnyClass?, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass?, _ targetSelector: ObjectiveC.Selector)
-  public static func exchangeOrMakeNoOp(_ sourceClass: Swift.AnyClass, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass, _ targetSelector: ObjectiveC.Selector, _ noOpIMP: ObjectiveC.IMP)
+  @discardableResult
+  public static func exchangeOrMakeNoOp(_ sourceClass: Swift.AnyClass, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass, _ targetSelector: ObjectiveC.Selector, _ noOpIMP: ObjectiveC.IMP) -> Swift.Bool
   @discardableResult
   public static func injectSelector(_ sourceClass: Swift.AnyClass, _ sourceSelector: ObjectiveC.Selector, _ targetClass: Swift.AnyClass, _ targetSelector: ObjectiveC.Selector) -> Swift.Bool
   public static func shouldSkipClass(_ sourceClass: Swift.AnyClass) -> Swift.Bool
@@ -1108,9 +1110,6 @@ extension NetmeraCore.InternalNetmera {
   }
 }
 @_hasMissingDesignatedInitializers public class Netmera {
-  public static var isInitialized: Swift.Bool {
-    get
-  }
   public static var isOperating: Swift.Bool {
     get
   }

@@ -32485,8 +32485,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -32532,13 +32533,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore13SwizzleHelperC18exchangeOrMakeNoOpyyyXlXp_10ObjectiveC8SelectorVyXlXpAGs13OpaquePointerVtFZ",
-            "mangledName": "$s11NetmeraCore13SwizzleHelperC18exchangeOrMakeNoOpyyyXlXp_10ObjectiveC8SelectorVyXlXpAGs13OpaquePointerVtFZ",
+            "usr": "s:11NetmeraCore13SwizzleHelperC18exchangeOrMakeNoOpySbyXlXp_10ObjectiveC8SelectorVyXlXpAGs13OpaquePointerVtFZ",
+            "mangledName": "$s11NetmeraCore13SwizzleHelperC18exchangeOrMakeNoOpySbyXlXp_10ObjectiveC8SelectorVyXlXpAGs13OpaquePointerVtFZ",
             "moduleName": "NetmeraCore",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "DiscardableResult",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -32708,8 +32710,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -32749,8 +32752,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
-            "mangledName": "$s11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksyyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "usr": "s:11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksSbyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
+            "mangledName": "$s11NetmeraCore13SwizzleHelperC23exchangeOrMakeNoOpHooks2on19implementationClass5hooksSbyXlXp_yXlXpxmtAA18DelegateMethodHookRzs12CaseIterableRzlFZ",
             "moduleName": "NetmeraCore",
             "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.DelegateMethodHook, τ_0_0 : Swift.CaseIterable>",
             "sugared_genericSig": "<Hook where Hook : NetmeraCore.DelegateMethodHook, Hook : Swift.CaseIterable>",
@@ -32758,6 +32761,7 @@
             "declAttributes": [
               "Final",
               "AccessControl",
+              "DiscardableResult",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -33953,53 +33957,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "isInitialized",
-            "printedName": "isInitialized",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11NetmeraCore0A0C13isInitializedSbvpZ",
-            "mangledName": "$s11NetmeraCore0A0C13isInitializedSbvpZ",
-            "moduleName": "NetmeraCore",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11NetmeraCore0A0C13isInitializedSbvgZ",
-                "mangledName": "$s11NetmeraCore0A0C13isInitializedSbvgZ",
-                "moduleName": "NetmeraCore",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "isOperating",
             "printedName": "isOperating",
             "children": [
@@ -34017,7 +33974,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -38331,14 +38289,14 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzleHelper.swift",
       "kind": "Array",
-      "offset": 13143,
+      "offset": 13808,
       "length": 236,
       "value": "[\"_\", \"UIInput\", \"UIKeyboard\", \"UIDatePicker\", \"UISystemInput\", \"UISystem\", \"UITextEffects\", \"UIPeripheralHost\", \"UIEditingOverlay\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Helper\/SwizzleHelper.swift",
       "kind": "Array",
-      "offset": 13446,
+      "offset": 14111,
       "length": 50,
       "value": "[\"KeyboardMenu\", \"UIPickerTableView\"]"
     },
@@ -38487,7 +38445,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.23.1\""
+      "value": "\"4.23.2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -39116,6 +39074,13 @@
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/InternalNetmera.swift",
       "kind": "BooleanLiteral",
       "offset": 7029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Netmera.swift",
+      "kind": "BooleanLiteral",
+      "offset": 162,
       "length": 5,
       "value": "false"
     }
