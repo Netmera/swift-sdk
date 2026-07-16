@@ -6906,6 +6906,34 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLoggable",
+            "printedName": "isLoggable(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NetmeraCore.LogLevel",
+                "usr": "s:11NetmeraCore8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore6LoggerC10isLoggableySbAA8LogLevelOF",
+            "mangledName": "$s11NetmeraCore6LoggerC10isLoggableySbAA8LogLevelOF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -38445,7 +38473,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.23.2\""
+      "value": "\"4.23.3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

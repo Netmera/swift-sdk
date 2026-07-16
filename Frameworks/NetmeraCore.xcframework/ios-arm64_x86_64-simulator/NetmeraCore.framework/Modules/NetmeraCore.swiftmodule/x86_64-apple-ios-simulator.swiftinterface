@@ -241,6 +241,7 @@ public enum AccessLevel : Swift.String {
 }
 @_hasMissingDesignatedInitializers public class Logger {
   public func log(_ messages: Any..., level: NetmeraCore.LogLevel = .debug, access: NetmeraCore.AccessLevel = .public, _ file: Foundation.NSString = #file)
+  public func isLoggable(_ level: NetmeraCore.LogLevel) -> Swift.Bool
   @objc deinit
 }
 public enum LogLevel : Swift.Int, Swift.Comparable {

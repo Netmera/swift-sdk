@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		wVO3ZNkUoZKIsnFaChPMge5GUYg=
+		hV5biebQ1gSfNQY8aZqPHBS8kfc=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		phwNMWao+4YfPx+m/zC2lKefIK4=
+		2kaeAFj30ptTG3ONpVOc3HJL29Q=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		XP4Gw2Xcr5x4GBx7doaBmmFsAgQ=
+		7I8dplb/1jLkBLjjfai5hbv9tvY=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		I1Dp7pXED3LrRoHDV6ZCA2Do2uE=
+		QTUu22T17NJy1V7VIyluizkzDME=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		eLHOTgDHRD2wyO78pMR6SI+2ipU=
+		qhHlMjBGCEvCmiUc0r7TNFrUclI=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		wVO3ZNkUoZKIsnFaChPMge5GUYg=
+		hV5biebQ1gSfNQY8aZqPHBS8kfc=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		aIQtxHtDa2K8GEprvmgGXdCgJQE=
+		gfYTRSlzvu2vdef/8wxBJMPQn8k=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		U4GJYUXgPRgrx2w/U8t9fzBm8X8=
+		enPR1aogqMJ2Q4Wyq4UHf5t8Lpo=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		B3Qg2rKvSoUVEsVutcB3SdsZ79k=
+		cFCcmVMuycFR1Jua5BoutREq218=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		gRM8VQX95M5hwzcCk2CDt+tLd7Y=
+		OKpyJK8hKOfHiV9Y/L4/G4MXgHk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7IeSIg5Hu38OHgFBh0jnev7OxE3hc/ViEmipcuOsVjc=
+			yZ+chVV+Lxq2UYfq4w/a5lWfXZyHGM6R8uRtoJf/AEo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2FWtXE2q44KN/pEZgwKzw2DJx8Qj0tzV2DXdks3pKbw=
+			gwCkMWfuSlknxwaz8mFI0/9nC2LtV96M7yKdSVF0x7U=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kuzIcENRoe3ZtqhSah0wSZimRWRt+IhlMpJChkzAu2U=
+			woTlW7R6NpplM3D2v3R2QnDIb4nK2DMWycXYwUWjVNY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7sBUfaS24xkHRcyTYXmLeTSoBxmZfbmdA8lcwnCj4c=
+			G9fuIXxex6gakxYo/V+9/VjxeCITj1/o/vKlLf8hdEQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4zPGD8ML7QnV/mlplmlpVKM4d5fq0t8XXahTwA1DLiY=
+			kgK3+y+UdKMyIdkekiHsnv1RUtV+23A2pGYPnQBnDTY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7IeSIg5Hu38OHgFBh0jnev7OxE3hc/ViEmipcuOsVjc=
+			yZ+chVV+Lxq2UYfq4w/a5lWfXZyHGM6R8uRtoJf/AEo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/nv2EHMJmSLq/IeV5ZDpNAqx8osON2p+47nxYmvilGM=
+			hy2Te4J8z1Y9ZEc0nJMzqcH2xGqmMsbmKzIzIiZvKGU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKa1Rxg3G1LEh2LpMhDFtrYUqLWdx9hFHGWZ5a8hoY4=
+			bbu6cZUL5lJXUQIDG3o3d5fFT1QLXVgFNJtOu2TmL24=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8osQXGkJUuDR6AEZ9tdy9bFsgUr1r7e1KQUcycm6Aog=
+			fbcX0D9+wF3PUPJAPpL6Wj4QObX1bKerXZkdPdTMKmQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qfQE7RGbqbNrSLn9lzraNLhjFF30+LK0Y8suzFrp7NM=
+			hhoF9CkoaipJZ+uHiNh8yqvZBwGkWd2vsuEH9grE00o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
