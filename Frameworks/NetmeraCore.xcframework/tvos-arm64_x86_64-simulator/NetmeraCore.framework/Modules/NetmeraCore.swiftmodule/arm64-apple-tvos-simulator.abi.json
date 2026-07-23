@@ -38149,7 +38149,7 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/NetmeraRetryDispatcherImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 555,
+      "offset": 959,
       "length": 1,
       "value": "0"
     },
@@ -38312,7 +38312,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.23.3\""
+      "value": "\"4.23.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
