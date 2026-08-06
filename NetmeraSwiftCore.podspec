@@ -48,10 +48,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc  = true
 
-  s.swift_version = '5.0' 
-  s.dependency 'Swinject', '2.8.4'
+  s.swift_version = '5.0'
 
-  s.vendored_frameworks = 'Frameworks/NetmeraCore.xcframework'
+  s.vendored_frameworks = 'Frameworks/NetmeraCore.xcframework',
+                          'Dependencies/NetmeraSwinject.xcframework'
 
 end
 

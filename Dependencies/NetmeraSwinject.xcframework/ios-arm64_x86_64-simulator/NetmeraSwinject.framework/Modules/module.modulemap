@@ -1,0 +1,4 @@
+framework module NetmeraSwinject {
+  header "NetmeraSwinject-Swift.h"
+  requires objc
+}

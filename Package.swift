@@ -112,13 +112,13 @@ let package = Package(
       path: "Frameworks/NetmeraNotification.xcframework"
     ),
     .binaryTarget(
-      name: "Swinject",
-      path: "Dependencies/Swinject.xcframework"
+      name: "NetmeraSwinject",
+      path: "Dependencies/NetmeraSwinject.xcframework"
     ),
     .target(name: "NetmeraCoreWrapper",
             dependencies: [
               .target(name: "NetmeraCore", condition: .when(platforms: [.iOS])),
-              .target(name: "Swinject", condition: .when(platforms: [.iOS])),
+              .target(name: "NetmeraSwinject", condition: .when(platforms: [.iOS])),
             ],
             linkerSettings: [
               .linkedFramework("CoreTelephony")
