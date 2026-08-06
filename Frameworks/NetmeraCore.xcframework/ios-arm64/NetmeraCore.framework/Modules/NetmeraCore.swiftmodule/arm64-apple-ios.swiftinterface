@@ -923,6 +923,7 @@ public class SwizzlingForwarder {
   public init(target: Swift.AnyObject, yourSelector: ObjectiveC.Selector, originalSelector: ObjectiveC.Selector)
   public func invoke(withArgs args: [Any])
   public func invokeRemoteNotification(application: UIKit.UIApplication, userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: Swift.AnyObject)
+  public func invokeDidFailToRegisterForRemoteNotification(application: UIKit.UIApplication, error: Foundation.NSError)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class InternalNetmera {
