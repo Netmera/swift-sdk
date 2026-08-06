@@ -980,8 +980,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -2310,8 +2310,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -2333,13 +2333,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Container",
-                "printedName": "Swinject.Container",
-                "usr": "s:8Swinject9ContainerC"
+                "printedName": "NetmeraSwinject.Container",
+                "usr": "s:15NetmeraSwinject9ContainerC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore6ModuleP14applyContaineryy8Swinject0E0CF",
-            "mangledName": "$s11NetmeraCore6ModuleP14applyContaineryy8Swinject0E0CF",
+            "usr": "s:11NetmeraCore6ModuleP14applyContaineryy0A8Swinject0E0CF",
+            "mangledName": "$s11NetmeraCore6ModuleP14applyContaineryy0A8Swinject0E0CF",
             "moduleName": "NetmeraCore",
             "genericSig": "<τ_0_0 where τ_0_0 : NetmeraCore.Module>",
             "sugared_genericSig": "<Self where Self : NetmeraCore.Module>",
@@ -5476,8 +5476,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5500,8 +5500,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5524,8 +5524,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5541,8 +5541,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5558,8 +5558,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5821,8 +5821,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -5868,13 +5868,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Container",
-                "printedName": "Swinject.Container",
-                "usr": "s:8Swinject9ContainerC"
+                "printedName": "NetmeraSwinject.Container",
+                "usr": "s:15NetmeraSwinject9ContainerC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0aB6ModuleC14applyContaineryy8Swinject0E0CF",
-            "mangledName": "$s11NetmeraCore0aB6ModuleC14applyContaineryy8Swinject0E0CF",
+            "usr": "s:11NetmeraCore0aB6ModuleC14applyContaineryy0A8Swinject0E0CF",
+            "mangledName": "$s11NetmeraCore0aB6ModuleC14applyContaineryy0A8Swinject0E0CF",
             "moduleName": "NetmeraCore",
             "declAttributes": [
               "AccessControl",
@@ -5968,8 +5968,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -6015,8 +6015,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
       },
@@ -35862,11 +35862,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Swinject8ResolverP11NetmeraCoreE14resolveOrErroryqd__qd__mlF",
-            "mangledName": "$s8Swinject8ResolverP11NetmeraCoreE14resolveOrErroryqd__qd__mlF",
+            "usr": "s:15NetmeraSwinject8ResolverP0A4CoreE14resolveOrErroryqd__qd__mlF",
+            "mangledName": "$s15NetmeraSwinject8ResolverP0A4CoreE14resolveOrErroryqd__qd__mlF",
             "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swinject.Resolver>",
-            "sugared_genericSig": "<Self, Service where Self : Swinject.Resolver>",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : NetmeraSwinject.Resolver>",
+            "sugared_genericSig": "<Self, Service where Self : NetmeraSwinject.Resolver>",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -35904,11 +35904,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Swinject8ResolverP11NetmeraCoreE14resolveOrError_4nameqd__qd__m_SStlF",
-            "mangledName": "$s8Swinject8ResolverP11NetmeraCoreE14resolveOrError_4nameqd__qd__m_SStlF",
+            "usr": "s:15NetmeraSwinject8ResolverP0A4CoreE14resolveOrError_4nameqd__qd__m_SStlF",
+            "mangledName": "$s15NetmeraSwinject8ResolverP0A4CoreE14resolveOrError_4nameqd__qd__m_SStlF",
             "moduleName": "NetmeraCore",
-            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swinject.Resolver>",
-            "sugared_genericSig": "<Self, Service where Self : Swinject.Resolver>",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : NetmeraSwinject.Resolver>",
+            "sugared_genericSig": "<Self, Service where Self : NetmeraSwinject.Resolver>",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -35918,9 +35918,9 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:8Swinject8ResolverP",
-        "mangledName": "$s8Swinject8ResolverP",
-        "moduleName": "Swinject",
+        "usr": "s:15NetmeraSwinject8ResolverP",
+        "mangledName": "$s15NetmeraSwinject8ResolverP",
+        "moduleName": "NetmeraSwinject",
         "isExternal": true,
         "conformances": [
           {
@@ -36300,91 +36300,91 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
       "kind": "Dictionary",
-      "offset": 3049,
+      "offset": 3056,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 276,
       "length": 13,
       "value": "\"NetmeraCore\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 307,
       "length": 17,
       "value": "\"NetmeraAnalytic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 342,
       "length": 29,
       "value": "\"NetmeraAnalyticAutotracking\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 382,
+      "offset": 389,
       "length": 21,
       "value": "\"NetmeraLiveActivity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 428,
       "length": 17,
       "value": "\"NetmeraLocation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 456,
+      "offset": 463,
       "length": 17,
       "value": "\"NetmeraGeofence\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 498,
       "length": 25,
       "value": "\"NetmeraNotificationCore\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 534,
+      "offset": 541,
       "length": 21,
       "value": "\"NetmeraNotification\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 573,
+      "offset": 580,
       "length": 26,
       "value": "\"NetmeraNotificationInbox\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 617,
+      "offset": 624,
       "length": 22,
       "value": "\"NetmeraAdvertisingId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 664,
       "length": 37,
       "value": "\"NetmeraNotificationServiceExtension\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 719,
       "length": 37,
       "value": "\"NetmeraNotificationContentExtension\""
     },
@@ -38388,7 +38388,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.23.5\""
+      "value": "\"4.23.4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

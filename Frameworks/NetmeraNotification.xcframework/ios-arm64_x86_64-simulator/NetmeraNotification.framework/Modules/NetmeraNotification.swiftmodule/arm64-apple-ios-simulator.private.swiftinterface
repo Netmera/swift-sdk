@@ -8,9 +8,9 @@ import Foundation
 import NetmeraCore
 @_exported import NetmeraNotification
 @_exported import NetmeraNotificationCore
+import NetmeraSwinject
 import StoreKit
 import Swift
-import Swinject
 import UIKit
 import UserNotifications
 import WebKit

@@ -9,8 +9,8 @@ import Foundation
 @_exported import NetmeraAdvertisingId
 @_exported import NetmeraAnalytic
 import NetmeraCore
+import NetmeraSwinject
 import Swift
-import Swinject
 import UIKit
 import _Concurrency
 import _StringProcessing

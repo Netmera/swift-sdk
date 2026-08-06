@@ -1,0 +1,269 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-tvos12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraSwinject
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+final public class Assembler {
+  final public var resolver: any NetmeraSwinject.Resolver {
+    get
+  }
+  public init(container: NetmeraSwinject.Container? = Container())
+  public init(parentAssembler: NetmeraSwinject.Assembler?, defaultObjectScope: NetmeraSwinject.ObjectScope = .graph, behaviors: [any NetmeraSwinject.Behavior] = [])
+  @available(*, deprecated, message: "Use not throwing alternative: init(_:, container:)")
+  convenience public init(assemblies: [any NetmeraSwinject.Assembly], container: NetmeraSwinject.Container? = Container()) throws
+  public init(_ assemblies: [any NetmeraSwinject.Assembly], container: NetmeraSwinject.Container = Container())
+  @available(*, deprecated, message: "Use not throwing alternative: init(_:, parent:)")
+  convenience public init(assemblies: [any NetmeraSwinject.Assembly], parentAssembler: NetmeraSwinject.Assembler?) throws
+  public init(_ assemblies: [any NetmeraSwinject.Assembly], parent: NetmeraSwinject.Assembler?, defaultObjectScope: NetmeraSwinject.ObjectScope = .graph, behaviors: [any NetmeraSwinject.Behavior] = [])
+  final public func apply(assembly: any NetmeraSwinject.Assembly)
+  final public func apply(assemblies: [any NetmeraSwinject.Assembly])
+  @objc deinit
+}
+public protocol Assembly {
+  func assemble(container: NetmeraSwinject.Container)
+  func loaded(resolver: any NetmeraSwinject.Resolver)
+}
+extension NetmeraSwinject.Assembly {
+  public func loaded(resolver _: any NetmeraSwinject.Resolver)
+}
+public protocol Behavior {
+  func container<Type, Service>(_ container: NetmeraSwinject.Container, didRegisterType type: Type.Type, toService entry: NetmeraSwinject.ServiceEntry<Service>, withName name: Swift.String?)
+}
+extension NetmeraSwinject.Container {
+  @discardableResult
+  final public func register<Service, Arg1>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4, Arg5>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4, Arg5) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func register<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+}
+extension NetmeraSwinject.Container {
+  final public func resolve<Service, Arg1>(_ serviceType: Service.Type, argument: Arg1) -> Service?
+  final public func resolve<Service, Arg1>(_: Service.Type, name: Swift.String?, argument: Arg1) -> Service?
+  final public func resolve<Service, Arg1, Arg2>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2) -> Service?
+  final public func resolve<Service, Arg1, Arg2>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8, _ arg9: Arg9) -> Service?
+  final public func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9>(_: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8, _ arg9: Arg9) -> Service?
+}
+extension NetmeraSwinject.Container {
+  final public func forward<T, S>(_ type: T.Type, name: Swift.String? = nil, to service: NetmeraSwinject.ServiceEntry<S>)
+}
+@_hasMissingDesignatedInitializers final public class Container {
+  convenience public init(parent: NetmeraSwinject.Container? = nil, defaultObjectScope: NetmeraSwinject.ObjectScope = .graph, behaviors: [any NetmeraSwinject.Behavior] = [], registeringClosure: (NetmeraSwinject.Container) -> Swift.Void = { _ in })
+  final public func removeAll()
+  final public func resetObjectScope(_ objectScope: any NetmeraSwinject.ObjectScopeProtocol)
+  final public func resetObjectScope(_ objectScope: NetmeraSwinject.ObjectScope)
+  final public func resetObjectScope(_ objectScope: any NetmeraSwinject.ObjectScopeProtocol, serviceType: any Any.Type)
+  final public func resetObjectScope(_ objectScope: NetmeraSwinject.ObjectScope, serviceType: any Any.Type)
+  @discardableResult
+  final public func register<Service>(_ serviceType: Service.Type, name: Swift.String? = nil, factory: @escaping (any NetmeraSwinject.Resolver) -> Service) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func _register<Service, Arguments>(_ serviceType: Service.Type, factory: @escaping (Arguments) -> Any, name: Swift.String? = nil, option: (any NetmeraSwinject.ServiceKeyOption)? = nil) -> NetmeraSwinject.ServiceEntry<Service>
+  final public func synchronize() -> any NetmeraSwinject.Resolver
+  final public func addBehavior(_ behavior: any NetmeraSwinject.Behavior)
+  final public func hasAnyRegistration<Service>(of serviceType: Service.Type, name: Swift.String? = nil) -> Swift.Bool
+  final public func withObjectGraph<T>(_ identifier: NetmeraSwinject.GraphIdentifier, closure: (NetmeraSwinject.Container) throws -> T) rethrows -> T
+  @objc deinit
+}
+extension NetmeraSwinject.Container : NetmeraSwinject._Resolver {
+  final public func _resolve<Service, Arguments>(name: Swift.String?, option: (any NetmeraSwinject.ServiceKeyOption)? = nil, invoker: @escaping ((Arguments) -> Any) -> Any) -> Service?
+}
+extension NetmeraSwinject.Container : NetmeraSwinject.Resolver {
+  final public func resolve<Service>(_ serviceType: Service.Type) -> Service?
+  final public func resolve<Service>(_: Service.Type, name: Swift.String?) -> Service?
+}
+extension NetmeraSwinject.Container : Swift.CustomStringConvertible {
+  final public var description: Swift.String {
+    get
+  }
+}
+public struct GraphIdentifier : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public typealias ID = Foundation.UUID
+}
+extension NetmeraSwinject.GraphIdentifier : Swift.Equatable, Swift.Hashable {
+  public static func == (a: NetmeraSwinject.GraphIdentifier, b: NetmeraSwinject.GraphIdentifier) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol InstanceStorage : AnyObject {
+  var instance: Any? { get set }
+  func graphResolutionCompleted()
+  func instance(inGraph graph: NetmeraSwinject.GraphIdentifier) -> Any?
+  func setInstance(_ instance: Any?, inGraph graph: NetmeraSwinject.GraphIdentifier)
+}
+extension NetmeraSwinject.InstanceStorage {
+  public func graphResolutionCompleted()
+  public func instance(inGraph _: NetmeraSwinject.GraphIdentifier) -> Any?
+  public func setInstance(_ instance: Any?, inGraph _: NetmeraSwinject.GraphIdentifier)
+}
+final public class GraphStorage : NetmeraSwinject.InstanceStorage {
+  final public var instance: Any?
+  public init()
+  final public func graphResolutionCompleted()
+  final public func instance(inGraph graph: NetmeraSwinject.GraphIdentifier) -> Any?
+  final public func setInstance(_ instance: Any?, inGraph graph: NetmeraSwinject.GraphIdentifier)
+  @objc deinit
+}
+final public class PermanentStorage : NetmeraSwinject.InstanceStorage {
+  final public var instance: Any?
+  public init()
+  @objc deinit
+}
+final public class TransientStorage : NetmeraSwinject.InstanceStorage {
+  final public var instance: Any? {
+    get
+    set
+  }
+  public init()
+  @objc deinit
+}
+final public class WeakStorage : NetmeraSwinject.InstanceStorage {
+  final public var instance: Any? {
+    get
+    set
+  }
+  public init()
+  @objc deinit
+}
+final public class CompositeStorage : NetmeraSwinject.InstanceStorage {
+  final public var instance: Any? {
+    get
+    set
+  }
+  public init(_ components: [any NetmeraSwinject.InstanceStorage])
+  final public func graphResolutionCompleted()
+  final public func setInstance(_ instance: Any?, inGraph graph: NetmeraSwinject.GraphIdentifier)
+  final public func instance(inGraph graph: NetmeraSwinject.GraphIdentifier) -> Any?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class Lazy<Service> {
+  final public var instance: Service {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class Provider<Service> {
+  final public var instance: Service {
+    get
+  }
+  @objc deinit
+}
+public protocol ObjectScopeProtocol : AnyObject {
+  func makeStorage() -> any NetmeraSwinject.InstanceStorage
+}
+final public class ObjectScope : NetmeraSwinject.ObjectScopeProtocol, Swift.CustomStringConvertible, @unchecked Swift.Sendable {
+  final public let description: Swift.String
+  public init(storageFactory: @escaping () -> any NetmeraSwinject.InstanceStorage, description: Swift.String = "", parent: (any NetmeraSwinject.ObjectScopeProtocol)? = nil)
+  final public func makeStorage() -> any NetmeraSwinject.InstanceStorage
+  public static let transient: NetmeraSwinject.ObjectScope
+  public static let graph: NetmeraSwinject.ObjectScope
+  public static let container: NetmeraSwinject.ObjectScope
+  public static let weak: NetmeraSwinject.ObjectScope
+  @objc deinit
+}
+public protocol Resolver {
+  func resolve<Service>(_ serviceType: Service.Type) -> Service?
+  func resolve<Service>(_ serviceType: Service.Type, name: Swift.String?) -> Service?
+  func resolve<Service, Arg1>(_ serviceType: Service.Type, argument: Arg1) -> Service?
+  func resolve<Service, Arg1>(_ serviceType: Service.Type, name: Swift.String?, argument: Arg1) -> Service?
+  func resolve<Service, Arg1, Arg2>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2) -> Service?
+  func resolve<Service, Arg1, Arg2>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9>(_ serviceType: Service.Type, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8, _ arg9: Arg9) -> Service?
+  func resolve<Service, Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8, Arg9>(_ serviceType: Service.Type, name: Swift.String?, arguments arg1: Arg1, _ arg2: Arg2, _ arg3: Arg3, _ arg4: Arg4, _ arg5: Arg5, _ arg6: Arg6, _ arg7: Arg7, _ arg8: Arg8, _ arg9: Arg9) -> Service?
+}
+extension NetmeraSwinject.ServiceEntry {
+  @discardableResult
+  final public func implements<T>(_ type: T.Type, name: Swift.String? = nil) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2>(_ type1: T1.Type, _ type2: T2.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4, T5>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type, _ type5: T5.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4, T5, T6>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type, _ type5: T5.Type, _ type6: T6.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4, T5, T6, T7>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type, _ type5: T5.Type, _ type6: T6.Type, _ type7: T7.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4, T5, T6, T7, T8>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type, _ type5: T5.Type, _ type6: T6.Type, _ type7: T7.Type, _ type8: T8.Type) -> NetmeraSwinject.ServiceEntry<Service>
+  @discardableResult
+  final public func implements<T1, T2, T3, T4, T5, T6, T7, T8, T9>(_ type1: T1.Type, _ type2: T2.Type, _ type3: T3.Type, _ type4: T4.Type, _ type5: T5.Type, _ type6: T6.Type, _ type7: T7.Type, _ type8: T8.Type, _ type9: T9.Type) -> NetmeraSwinject.ServiceEntry<Service>
+}
+@_hasMissingDesignatedInitializers final public class ServiceEntry<Service> {
+  final public let serviceType: any Any.Type
+  final public let argumentsType: any Any.Type
+  @discardableResult
+  final public func inObjectScope(_ objectScope: any NetmeraSwinject.ObjectScopeProtocol) -> Self
+  @discardableResult
+  final public func inObjectScope(_ objectScope: NetmeraSwinject.ObjectScope) -> Self
+  @discardableResult
+  final public func initCompleted(_ completed: @escaping (any NetmeraSwinject.Resolver, Service) -> Swift.Void) -> Self
+  @objc deinit
+}
+public protocol ServiceKeyOption : Swift.CustomStringConvertible, Swift.Sendable {
+  func isEqualTo(_ another: any NetmeraSwinject.ServiceKeyOption) -> Swift.Bool
+  func hash(into: inout Swift.Hasher)
+}
+extension NetmeraSwinject.ObjectScope {
+  @available(*, unavailable, renamed: "transient")
+  public static let none: NetmeraSwinject.ObjectScope
+  @available(*, unavailable, renamed: "container")
+  public static let hierarchy: NetmeraSwinject.ObjectScope
+}
+@available(*, unavailable, renamed: "Resolver")
+public protocol ResolverType {
+}
+@available(*, unavailable, renamed: "Assembly")
+public protocol AssemblyType {
+}
+@available(*, unavailable, renamed: "ServiceKeyOption")
+public protocol ServiceKeyOptionType {
+}
+public protocol _Resolver {
+  func _resolve<Service, Arguments>(name: Swift.String?, option: (any NetmeraSwinject.ServiceKeyOption)?, invoker: @escaping ((Arguments) -> Any) -> Any) -> Service?
+}
