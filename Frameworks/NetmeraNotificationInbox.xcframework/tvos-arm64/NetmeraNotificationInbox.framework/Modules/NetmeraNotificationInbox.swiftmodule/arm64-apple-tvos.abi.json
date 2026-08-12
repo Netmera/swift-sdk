@@ -64,8 +64,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
       },
@@ -81,8 +81,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
       },
@@ -98,8 +98,8 @@
       },
       {
         "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationInbox"
       },

@@ -5,9 +5,9 @@
 import Foundation
 import NetmeraAnalytic
 import NetmeraCore
+import NetmeraSwinject
 import StoreKit
 import Swift
-import Swinject
 import UIKit
 import _Concurrency
 import _StringProcessing

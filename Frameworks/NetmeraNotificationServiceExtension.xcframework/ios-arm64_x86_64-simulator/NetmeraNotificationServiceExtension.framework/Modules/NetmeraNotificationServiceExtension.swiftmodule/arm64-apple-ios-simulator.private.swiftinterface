@@ -9,8 +9,8 @@ import NetmeraAnalytic
 import NetmeraCore
 import NetmeraNotificationCore
 @_exported import NetmeraNotificationServiceExtension
+import NetmeraSwinject
 import Swift
-import Swinject
 import UIKit
 import UniformTypeIdentifiers
 import UserNotifications

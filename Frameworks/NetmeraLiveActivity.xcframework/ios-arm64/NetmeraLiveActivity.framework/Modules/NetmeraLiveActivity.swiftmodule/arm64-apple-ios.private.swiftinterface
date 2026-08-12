@@ -5,8 +5,8 @@ import ActivityKit
 import Foundation
 import NetmeraCore
 @_exported import NetmeraLiveActivity
+import NetmeraSwinject
 import Swift
-import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

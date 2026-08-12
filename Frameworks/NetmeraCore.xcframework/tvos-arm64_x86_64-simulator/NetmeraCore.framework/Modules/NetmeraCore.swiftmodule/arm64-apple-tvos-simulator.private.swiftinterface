@@ -5,12 +5,12 @@
 import Foundation
 import MobileCoreServices
 @_exported import NetmeraCore
+import NetmeraSwinject
 import OSLog
 import ObjectiveC
 import SQLite3
 import Security
 import Swift
-import Swinject
 import SystemConfiguration
 import UIKit
 import UniformTypeIdentifiers
@@ -96,7 +96,7 @@ public protocol ManualTrackingManaging {
   func trackAction(viewIdentifier: Swift.String, actionType: Swift.Int)
 }
 public protocol Module {
-  func applyContainer(_ container: Swinject.Container)
+  func applyContainer(_ container: NetmeraSwinject.Container)
   static func create() -> any NetmeraCore.Module
 }
 public protocol NetmeraActionPerformer : AnyObject {
@@ -192,7 +192,7 @@ public protocol NetmeraCacheInvoke {
 }
 @_hasMissingDesignatedInitializers public class NetmeraCoreModule : NetmeraCore.Module {
   public static func create() -> any NetmeraCore.Module
-  public func applyContainer(_ container: Swinject.Container)
+  public func applyContainer(_ container: NetmeraSwinject.Container)
   @objc deinit
 }
 extension Swift.Bool {
@@ -201,7 +201,7 @@ extension Swift.Bool {
 extension Foundation.Bundle {
   public func infoValue<T>(for key: Swift.String, defaultValue: T) -> T
 }
-extension Swinject.Resolver {
+extension NetmeraSwinject.Resolver {
   public func resolveOrError<Service>(_ serviceType: Service.Type) -> Service
   public func resolveOrError<Service>(_ serviceType: Service.Type, name: Swift.String) -> Service
 }

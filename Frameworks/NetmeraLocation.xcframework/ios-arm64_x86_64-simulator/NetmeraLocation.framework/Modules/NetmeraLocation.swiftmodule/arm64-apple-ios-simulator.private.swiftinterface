@@ -7,8 +7,8 @@ import Foundation
 @_exported import NetmeraAnalytic
 import NetmeraCore
 @_exported import NetmeraLocation
+import NetmeraSwinject
 import Swift
-import Swinject
 import UIKit
 import _Concurrency
 import _StringProcessing
