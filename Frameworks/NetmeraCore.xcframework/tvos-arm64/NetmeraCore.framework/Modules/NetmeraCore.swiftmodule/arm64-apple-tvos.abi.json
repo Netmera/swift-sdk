@@ -36298,6 +36298,13 @@
       "value": "\"NetmeraOfflineEventRemovalMigrationCompleted\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/NetmeraApplicationProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 8813,
+      "length": 67,
+      "value": "\"Proxy reference missing — didReceiveRemoteNotification dropped.\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
       "kind": "Dictionary",
       "offset": 3056,
