@@ -355,6 +355,9 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   @objc deinit
 }
 extension NetmeraNotificationCore.NetmeraBasePush {
+  public var attribution: NetmeraCore.NetmeraPushAttribution? {
+    get
+  }
   public struct Identifiers : Swift.Codable, Swift.Equatable {
     public let pushId: Swift.String?
     public let pushInstanceId: Swift.String?

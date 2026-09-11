@@ -2,9 +2,9 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/runner/Library/Developer/Xcode/DerivedData/Netmera-amloerfvanhcwffupfwywetprfwa/Build/Intermediates.noindex/ArchiveIntermediates/NetmeraAdvertisingId/InstallationBuildProductsLocation/Library/Frameworks/NetmeraAdvertisingId.framework/NetmeraAdvertisingId'
 relocations:
-  - { offset: 0x5AC26, size: 0x8, addend: 0x0, symName: _NetmeraAdvertisingIdVersionString, symObjAddr: 0x0, symBinAddr: 0x11270, symSize: 0x0 }
-  - { offset: 0x5AC5B, size: 0x8, addend: 0x0, symName: _NetmeraAdvertisingIdVersionNumber, symObjAddr: 0x48, symBinAddr: 0x112B8, symSize: 0x0 }
-  - { offset: 0x5ACC0, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplC8instance33_0169D31429BBBC1FF21A03E8AA1FB782LL0A4Core0dE0_AF10ReleasablepSgvpZ', symObjAddr: 0xAB8, symBinAddr: 0x15640, symSize: 0x0 }
+  - { offset: 0x5AC26, size: 0x8, addend: 0x0, symName: _NetmeraAdvertisingIdVersionString, symObjAddr: 0x0, symBinAddr: 0x11230, symSize: 0x0 }
+  - { offset: 0x5AC5B, size: 0x8, addend: 0x0, symName: _NetmeraAdvertisingIdVersionNumber, symObjAddr: 0x48, symBinAddr: 0x11278, symSize: 0x0 }
+  - { offset: 0x5ACC0, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplC8instance33_0169D31429BBBC1FF21A03E8AA1FB782LL0A4Core0dE0_AF10ReleasablepSgvpZ', symObjAddr: 0xAB8, symBinAddr: 0x15648, symSize: 0x0 }
   - { offset: 0x5ACCE, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplC8instance33_0169D31429BBBC1FF21A03E8AA1FB782LL_WZ', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x18 }
   - { offset: 0x5AE97, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplCMa', symObjAddr: 0x63C, symBinAddr: 0x863C, symSize: 0x20 }
   - { offset: 0x5AEAB, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore18DependencyResolver_AA10ReleasablepSgWOd', symObjAddr: 0x780, symBinAddr: 0x8780, symSize: 0x48 }
@@ -28,7 +28,7 @@ relocations:
   - { offset: 0x5B53C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplC0A4Core0dE0AadEP14resolveOrError5namedqd__SS_tlFTW', symObjAddr: 0x6BC, symBinAddr: 0x86BC, symSize: 0x20 }
   - { offset: 0x5B557, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC22DependencyResolverImplC0A4Core10ReleasableAadEP15releaseInstanceyyFTW', symObjAddr: 0x6FC, symBinAddr: 0x86FC, symSize: 0x84 }
   - { offset: 0x5B6C8, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC02AdC12ProviderName33_02C56028B7A01F0328BE850CFFF3AB0DLL_WZ', symObjAddr: 0x0, symBinAddr: 0x897C, symSize: 0x50 }
-  - { offset: 0x5B6EC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC02AdC12ProviderName33_02C56028B7A01F0328BE850CFFF3AB0DLLSSvpZ', symObjAddr: 0x348, symBinAddr: 0x15778, symSize: 0x0 }
+  - { offset: 0x5B6EC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC02AdC12ProviderName33_02C56028B7A01F0328BE850CFFF3AB0DLLSSvpZ', symObjAddr: 0x348, symBinAddr: 0x15780, symSize: 0x0 }
   - { offset: 0x5B712, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC02AdC12ProviderName33_02C56028B7A01F0328BE850CFFF3AB0DLL_WZ', symObjAddr: 0x0, symBinAddr: 0x897C, symSize: 0x50 }
   - { offset: 0x5B84F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleCMa', symObjAddr: 0x12C, symBinAddr: 0x8AA8, symSize: 0x20 }
   - { offset: 0x5B874, size: 0x8, addend: 0x0, symName: '_$sSo19ASIdentifierManagerCMa', symObjAddr: 0x2A8, symBinAddr: 0x8C24, symSize: 0x3C }
@@ -39,7 +39,7 @@ relocations:
   - { offset: 0x5BA24, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC0A4Core0E0AadEP14applyContaineryy0A8Swinject0H0CFTW', symObjAddr: 0x14C, symBinAddr: 0x8AC8, symSize: 0x4 }
   - { offset: 0x5BA62, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC0A4Core0E0AadEP6createAdE_pyFZTW', symObjAddr: 0x150, symBinAddr: 0x8ACC, symSize: 0x44 }
   - { offset: 0x5BAA2, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC14InternalModuleC14applyContaineryy0A8Swinject0G0CFTf4nd_n', symObjAddr: 0x194, symBinAddr: 0x8B10, symSize: 0x114 }
-  - { offset: 0x5BC16, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerModuleC02AdC12ProviderName33_E808CED0C610CF96A7C03598F85A3001LLSSvpZ', symObjAddr: 0xB68, symBinAddr: 0x15838, symSize: 0x0 }
+  - { offset: 0x5BC16, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerModuleC02AdC12ProviderName33_E808CED0C610CF96A7C03598F85A3001LLSSvpZ', symObjAddr: 0xB68, symBinAddr: 0x15840, symSize: 0x0 }
   - { offset: 0x5BC24, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerModuleC02AdC12ProviderName33_E808CED0C610CF96A7C03598F85A3001LL_WZ', symObjAddr: 0x0, symBinAddr: 0x8C60, symSize: 0x50 }
   - { offset: 0x5BE74, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerModuleCMa', symObjAddr: 0x8D0, symBinAddr: 0x9520, symSize: 0x20 }
   - { offset: 0x5BE88, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerModuleC14applyContaineryy0A8Swinject0G0CFAA0bcD0_pAE8Resolver_pcfU2_TA', symObjAddr: 0x9A4, symBinAddr: 0x95B4, symSize: 0x8 }
@@ -61,8 +61,8 @@ relocations:
   - { offset: 0x5C6E7, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0abC6ModuleC0A4Core0D0AadEP14applyContaineryy0A8Swinject0G0CFTW', symObjAddr: 0x30, symBinAddr: 0x96F8, symSize: 0x4 }
   - { offset: 0x5C742, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0abC6ModuleC0A4Core0D0AadEP6createAdE_pyFZTW', symObjAddr: 0x34, symBinAddr: 0x96FC, symSize: 0x44 }
   - { offset: 0x5C7D1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0abC6ModuleC14applyContaineryy0A8Swinject0F0CFTf4nd_n', symObjAddr: 0x78, symBinAddr: 0x9740, symSize: 0x21C }
-  - { offset: 0x5CA15, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplC8instance33_3A227E719D396E4F6781F8ADFD3BD092LLAA0bcdE0_0A4Core10ReleasablepSgvpZ', symObjAddr: 0x8B0, symBinAddr: 0x159F8, symSize: 0x0 }
-  - { offset: 0x5CA2F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplC10isReleased33_3A227E719D396E4F6781F8ADFD3BD092LLSbvpZ', symObjAddr: 0x8E0, symBinAddr: 0x15A28, symSize: 0x0 }
+  - { offset: 0x5CA15, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplC8instance33_3A227E719D396E4F6781F8ADFD3BD092LLAA0bcdE0_0A4Core10ReleasablepSgvpZ', symObjAddr: 0x8B0, symBinAddr: 0x15A00, symSize: 0x0 }
+  - { offset: 0x5CA2F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplC10isReleased33_3A227E719D396E4F6781F8ADFD3BD092LLSbvpZ', symObjAddr: 0x8E0, symBinAddr: 0x15A30, symSize: 0x0 }
   - { offset: 0x5CA3D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplC8instance33_3A227E719D396E4F6781F8ADFD3BD092LL_WZ', symObjAddr: 0x0, symBinAddr: 0x99A4, symSize: 0x18 }
   - { offset: 0x5CC31, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplCMa', symObjAddr: 0x51C, symBinAddr: 0x9E9C, symSize: 0x20 }
   - { offset: 0x5CC45, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC21FrameworkDelegateImplCAC0A4Core10ReleasableAAWl', symObjAddr: 0x6E8, symBinAddr: 0x9F4C, symSize: 0x44 }
@@ -82,97 +82,101 @@ relocations:
   - { offset: 0x5D32C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11InitializerCfD', symObjAddr: 0x100, symBinAddr: 0xA1B4, symSize: 0x34 }
   - { offset: 0x5D381, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11InitializerC0A4Core0D0AadEP10initializeyyFTW', symObjAddr: 0x154, symBinAddr: 0xA208, symSize: 0x64 }
   - { offset: 0x5D3CA, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11InitializerC0A4Core0D0AadEP12deinitializeyyFTW', symObjAddr: 0x1B8, symBinAddr: 0xA26C, symSize: 0xA0 }
-  - { offset: 0x5D78D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplCMa', symObjAddr: 0x1584, symBinAddr: 0xB95C, symSize: 0x20 }
-  - { offset: 0x5D7A1, size: 0x8, addend: 0x0, symName: '_$ss6ResultOyyt11NetmeraCore0B10CacheErrorOGWOc', symObjAddr: 0x1608, symBinAddr: 0xB97C, symSize: 0x48 }
-  - { offset: 0x5D7B5, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCMa', symObjAddr: 0x1650, symBinAddr: 0xB9C4, symSize: 0x3C }
-  - { offset: 0x5D7C9, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tFy0A4Core0a8TrackingeD6StatusOcfU_TA', symObjAddr: 0x1754, symBinAddr: 0xBA6C, symSize: 0xC }
-  - { offset: 0x5D7DD, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC05checkbD15StatusForSystemyyFyycfU_TA', symObjAddr: 0x1760, symBinAddr: 0xBA78, symSize: 0x8 }
-  - { offset: 0x5D85C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tF', symObjAddr: 0x0, symBinAddr: 0xA3D8, symSize: 0x200 }
-  - { offset: 0x5D8F9, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tFy0A4Core0a8TrackingeD6StatusOcfU_', symObjAddr: 0x200, symBinAddr: 0xA5D8, symSize: 0x9C }
-  - { offset: 0x5D97C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC03setbD12StatusForAppyy0A4Core0a8TrackingedH0OFyycfU_', symObjAddr: 0x29C, symBinAddr: 0xA674, symSize: 0x94 }
-  - { offset: 0x5D9B1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC03getbD6Status3for0A4Core0a8TrackingedH0OAF012TransparencyD6SourceO_tF', symObjAddr: 0x330, symBinAddr: 0xA708, symSize: 0x11C }
-  - { offset: 0x5DA27, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC05checkbD15StatusForSystemyyFyycfU_', symObjAddr: 0x44C, symBinAddr: 0xA824, symSize: 0x17C }
-  - { offset: 0x5DA85, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC06updatebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0x5C8, symBinAddr: 0xA9A0, symSize: 0x4DC }
-  - { offset: 0x5DC38, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC04savebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0xAA4, symBinAddr: 0xAE7C, symSize: 0x910 }
-  - { offset: 0x5DE5C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC010dispatchAdC7Request33_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0x13B4, symBinAddr: 0xB78C, symSize: 0x184 }
-  - { offset: 0x5DEEC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplCfD', symObjAddr: 0x1538, symBinAddr: 0xB910, symSize: 0x4C }
-  - { offset: 0x5E04B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwCP', symObjAddr: 0x0, symBinAddr: 0xBA80, symSize: 0x30 }
-  - { offset: 0x5E063, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwCP', symObjAddr: 0x0, symBinAddr: 0xBA80, symSize: 0x30 }
-  - { offset: 0x5E077, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwxx', symObjAddr: 0x30, symBinAddr: 0xBAB0, symSize: 0x44 }
-  - { offset: 0x5E08B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwcp', symObjAddr: 0x94, symBinAddr: 0xBAF4, symSize: 0xCC }
-  - { offset: 0x5E09F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwca', symObjAddr: 0x160, symBinAddr: 0xBBC0, symSize: 0x94 }
-  - { offset: 0x5E0B3, size: 0x8, addend: 0x0, symName: ___swift_assign_boxed_opaque_existential_1, symObjAddr: 0x1F4, symBinAddr: 0xBC54, symSize: 0x168 }
-  - { offset: 0x5E0C7, size: 0x8, addend: 0x0, symName: ___swift_memcpy152_8, symObjAddr: 0x35C, symBinAddr: 0xBDBC, symSize: 0x34 }
-  - { offset: 0x5E0DB, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwta', symObjAddr: 0x390, symBinAddr: 0xBDF0, symSize: 0xA4 }
-  - { offset: 0x5E0EF, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwet', symObjAddr: 0x434, symBinAddr: 0xBE94, symSize: 0x48 }
-  - { offset: 0x5E103, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwst', symObjAddr: 0x47C, symBinAddr: 0xBEDC, symSize: 0x64 }
-  - { offset: 0x5E117, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVMa', symObjAddr: 0x4E0, symBinAddr: 0xBF40, symSize: 0x10 }
-  - { offset: 0x5E364, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCMa', symObjAddr: 0x414, symBinAddr: 0xC364, symSize: 0x3C }
-  - { offset: 0x5E378, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCMr', symObjAddr: 0x450, symBinAddr: 0xC3A0, symSize: 0x9C }
-  - { offset: 0x5E455, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC14configCallback33_DFF03C627CA71D5740E4BB433F16D120LL0A4Core0G0CyAF0A9AppConfigVGvgyAJcfU_TA', symObjAddr: 0x1448, symBinAddr: 0xD26C, symSize: 0x20 }
-  - { offset: 0x5E469, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC16appStateCallback33_DFF03C627CA71D5740E4BB433F16D120LL0A4Core0H0CyAF011ApplicationG0OGvgyAJcfU_TA', symObjAddr: 0x1468, symBinAddr: 0xD28C, symSize: 0x20 }
-  - { offset: 0x5E47D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC014dispatchSaveAdC5Async33_DFF03C627CA71D5740E4BB433F16D120LLyyFyycfU_TA', symObjAddr: 0x1560, symBinAddr: 0xD2AC, symSize: 0x8 }
-  - { offset: 0x5E492, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC6paramsAcA0bcD6ParamsV_tcfc', symObjAddr: 0x15C, symBinAddr: 0xC0AC, symSize: 0x1A8 }
-  - { offset: 0x5E4DA, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCfd', symObjAddr: 0x304, symBinAddr: 0xC254, symSize: 0xEC }
-  - { offset: 0x5E505, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCfD', symObjAddr: 0x3F0, symBinAddr: 0xC340, symSize: 0x24 }
-  - { offset: 0x5E5F0, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC07requestB13AuthorizationyyFyycfU_', symObjAddr: 0x4EC, symBinAddr: 0xC43C, symSize: 0xD8 }
-  - { offset: 0x5E6EB, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC012isAuthorizedB10Identifier10completionyySbc_tFyycfU_', symObjAddr: 0x5C4, symBinAddr: 0xC514, symSize: 0x2A0 }
-  - { offset: 0x5E7E1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC16onAppStateUpdate33_DFF03C627CA71D5740E4BB433F16D120LLyy0A4Core011ApplicationH0OF', symObjAddr: 0x864, symBinAddr: 0xC7B4, symSize: 0x208 }
-  - { offset: 0x5E88D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC14onConfigUpdate33_DFF03C627CA71D5740E4BB433F16D120LLyy0A4Core0a3AppG0VF', symObjAddr: 0xA6C, symBinAddr: 0xC9BC, symSize: 0x11C }
-  - { offset: 0x5E905, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC014dispatchSaveAdC5Async33_DFF03C627CA71D5740E4BB433F16D120LLyyFyycfU_', symObjAddr: 0xB88, symBinAddr: 0xCAD8, symSize: 0x50 }
-  - { offset: 0x5E969, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC06saveAdC033_DFF03C627CA71D5740E4BB433F16D120LLyySSF', symObjAddr: 0xBD8, symBinAddr: 0xCB28, symSize: 0x720 }
-  - { offset: 0x5ED1C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwxx', symObjAddr: 0x30, symBinAddr: 0xD2B4, symSize: 0x58 }
-  - { offset: 0x5ED30, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwcp', symObjAddr: 0xA8, symBinAddr: 0xD30C, symSize: 0xF4 }
-  - { offset: 0x5ED44, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwca', symObjAddr: 0x19C, symBinAddr: 0xD400, symSize: 0xC8 }
-  - { offset: 0x5ED58, size: 0x8, addend: 0x0, symName: ___swift_memcpy160_8, symObjAddr: 0x3CC, symBinAddr: 0xD4C8, symSize: 0x2C }
-  - { offset: 0x5ED6C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwta', symObjAddr: 0x3F8, symBinAddr: 0xD4F4, symSize: 0xBC }
-  - { offset: 0x5ED80, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwet', symObjAddr: 0x4B4, symBinAddr: 0xD5B0, symSize: 0x48 }
-  - { offset: 0x5ED94, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwst', symObjAddr: 0x4FC, symBinAddr: 0xD5F8, symSize: 0x68 }
-  - { offset: 0x5EDA8, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVMa', symObjAddr: 0x564, symBinAddr: 0xD660, symSize: 0x10 }
-  - { offset: 0x5EF56, size: 0x8, addend: 0x0, symName: '_$sSo17ATTrackingManagerC20NetmeraAdvertisingId0aB8ProtocolA2cDP27trackingAuthorizationStatusSo0abhI0VvgZTW', symObjAddr: 0x0, symBinAddr: 0xD670, symSize: 0x20 }
-  - { offset: 0x5EF92, size: 0x8, addend: 0x0, symName: '_$sSo17ATTrackingManagerC20NetmeraAdvertisingId0aB8ProtocolA2cDP28requestTrackingAuthorization17completionHandleryySo0abI6StatusVc_tFZTW', symObjAddr: 0x20, symBinAddr: 0xD690, symSize: 0xA0 }
-  - { offset: 0x5EFC5, size: 0x8, addend: 0x0, symName: '_$sSo36ATTrackingManagerAuthorizationStatusVIegy_ABIeyBy_TR', symObjAddr: 0xD0, symBinAddr: 0xD730, symSize: 0x3C }
-  - { offset: 0x5EFDD, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x10C, symBinAddr: 0xD76C, symSize: 0x10 }
-  - { offset: 0x5EFF1, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x11C, symBinAddr: 0xD77C, symSize: 0x8 }
-  - { offset: 0x5F117, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMa', symObjAddr: 0x0, symBinAddr: 0xD784, symSize: 0x3C }
-  - { offset: 0x5F12F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMa', symObjAddr: 0x0, symBinAddr: 0xD784, symSize: 0x3C }
-  - { offset: 0x5F143, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMr', symObjAddr: 0x3C, symBinAddr: 0xD7C0, symSize: 0x3C }
-  - { offset: 0x5F1F5, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMU', symObjAddr: 0x108, symBinAddr: 0xD88C, symSize: 0x8 }
-  - { offset: 0x5F229, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCACycfC', symObjAddr: 0x78, symBinAddr: 0xD7FC, symSize: 0x30 }
-  - { offset: 0x5F26B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryC6createAA0adE0_pyF', symObjAddr: 0xA8, symBinAddr: 0xD82C, symSize: 0x44 }
-  - { offset: 0x5F2C8, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCfD', symObjAddr: 0xEC, symBinAddr: 0xD870, symSize: 0x1C }
-  - { offset: 0x5F414, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMa', symObjAddr: 0x0, symBinAddr: 0xD894, symSize: 0x3C }
-  - { offset: 0x5F42C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMa', symObjAddr: 0x0, symBinAddr: 0xD894, symSize: 0x3C }
-  - { offset: 0x5F440, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMr', symObjAddr: 0x3C, symBinAddr: 0xD8D0, symSize: 0x48 }
-  - { offset: 0x5F52A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMU', symObjAddr: 0x128, symBinAddr: 0xD9BC, symSize: 0x8 }
-  - { offset: 0x5F582, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14C6createAA0adE0_pyF', symObjAddr: 0x84, symBinAddr: 0xD918, symSize: 0x5C }
-  - { offset: 0x5F5E6, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CACycfC', symObjAddr: 0xE0, symBinAddr: 0xD974, symSize: 0x2C }
-  - { offset: 0x5F661, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CfD', symObjAddr: 0x10C, symBinAddr: 0xD9A0, symSize: 0x1C }
-  - { offset: 0x5F844, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCMa', symObjAddr: 0x10, symBinAddr: 0xD9C4, symSize: 0x20 }
-  - { offset: 0x5F877, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCAA0adE0A2aDP27trackingAuthorizationStatus0A4Core0adehI0OvgTW', symObjAddr: 0x30, symBinAddr: 0xD9E4, symSize: 0x44 }
-  - { offset: 0x5F8C6, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCAA0adE0A2aDP07requestD13Authorization17completionHandleryy0A4Core0adeH6StatusOc_tFTW', symObjAddr: 0x74, symBinAddr: 0xDA28, symSize: 0x90 }
-  - { offset: 0x5F9FC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_', symObjAddr: 0x0, symBinAddr: 0xDAB8, symSize: 0x11C }
-  - { offset: 0x5FAAC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CMa', symObjAddr: 0x12C, symBinAddr: 0xDBE4, symSize: 0x20 }
-  - { offset: 0x5FAC0, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_TA', symObjAddr: 0x2C0, symBinAddr: 0xDD78, symSize: 0x8 }
-  - { offset: 0x5FAD4, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A34TrackingManagerAuthorizationStatusOSgWOh', symObjAddr: 0x308, symBinAddr: 0xDD80, symSize: 0x40 }
-  - { offset: 0x5FB12, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_', symObjAddr: 0x0, symBinAddr: 0xDAB8, symSize: 0x11C }
-  - { offset: 0x5FB5E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CfD', symObjAddr: 0x11C, symBinAddr: 0xDBD4, symSize: 0x10 }
-  - { offset: 0x5FBC7, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CAA0adE0A2aDP27trackingAuthorizationStatus0A4Core0adeiJ0OvgTW', symObjAddr: 0x14C, symBinAddr: 0xDC04, symSize: 0xD4 }
-  - { offset: 0x5FC19, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CAA0adE0A2aDP07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFTW', symObjAddr: 0x220, symBinAddr: 0xDCD8, symSize: 0x7C }
-  - { offset: 0x5FD5C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMa', symObjAddr: 0x0, symBinAddr: 0xDDC0, symSize: 0x3C }
-  - { offset: 0x5FD74, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMa', symObjAddr: 0x0, symBinAddr: 0xDDC0, symSize: 0x3C }
-  - { offset: 0x5FD88, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMr', symObjAddr: 0x3C, symBinAddr: 0xDDFC, symSize: 0x4C }
-  - { offset: 0x5FE41, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCfE', symObjAddr: 0xB4, symBinAddr: 0xDE74, symSize: 0x10 }
-  - { offset: 0x5FE6E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMU', symObjAddr: 0x1B0, symBinAddr: 0xDF70, symSize: 0x8 }
-  - { offset: 0x5FE96, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCACycfC', symObjAddr: 0x88, symBinAddr: 0xDE48, symSize: 0x2C }
-  - { offset: 0x5FF11, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCfD', symObjAddr: 0xC4, symBinAddr: 0xDE84, symSize: 0x3C }
-  - { offset: 0x5FF68, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderC7provideSSyF0A4Core0gE0CADxyFTV', symObjAddr: 0x100, symBinAddr: 0xDEC0, symSize: 0xB0 }
-  - { offset: 0x600A8, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderName_WZ', symObjAddr: 0x0, symBinAddr: 0xDF78, symSize: 0x48 }
-  - { offset: 0x600CC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderNameSSvpZ', symObjAddr: 0x1DA0, symBinAddr: 0x169F8, symSize: 0x0 }
-  - { offset: 0x600E1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderName_WZ', symObjAddr: 0x0, symBinAddr: 0xDF78, symSize: 0x48 }
-  - { offset: 0x6022D, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE8delegate33_7503D015D82076E5999A0B37A55838EDLLAD0cD17FrameworkDelegate_pSgvgZ', symObjAddr: 0x0, symBinAddr: 0xDFC0, symSize: 0xC4 }
-  - { offset: 0x60339, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE07requestC13AuthorizationyyFZ', symObjAddr: 0xC4, symBinAddr: 0xE084, symSize: 0xD8 }
-  - { offset: 0x603EF, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC07requestB13AuthorizationyyFyycfU_TA', symObjAddr: 0x1DC, symBinAddr: 0xE15C, symSize: 0x8 }
-  - { offset: 0x60403, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE012isAuthorizedC10Identifier10completionyySbc_tFZ', symObjAddr: 0x1E4, symBinAddr: 0xE164, symSize: 0x74 }
-  - { offset: 0x60457, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE013setAuthorizedC10Identifier10authorizedySb_tFZ', symObjAddr: 0x258, symBinAddr: 0xE1D8, symSize: 0x64 }
+  - { offset: 0x5D78D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplCMa', symObjAddr: 0x14C0, symBinAddr: 0xB898, symSize: 0x20 }
+  - { offset: 0x5D7A1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC04savebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtFyAH0aB4InfoCzXEfU_TA', symObjAddr: 0x1544, symBinAddr: 0xB8B8, symSize: 0xC }
+  - { offset: 0x5D7B5, size: 0x8, addend: 0x0, symName: '_$ss6ResultOyyt11NetmeraCore0B10CacheErrorOGWOc', symObjAddr: 0x1550, symBinAddr: 0xB8C4, symSize: 0x48 }
+  - { offset: 0x5D7C9, size: 0x8, addend: 0x0, symName: '_$sSo8NSStringCMa', symObjAddr: 0x1598, symBinAddr: 0xB90C, symSize: 0x3C }
+  - { offset: 0x5D7DD, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tFy0A4Core0a8TrackingeD6StatusOcfU_TA', symObjAddr: 0x169C, symBinAddr: 0xB9B4, symSize: 0xC }
+  - { offset: 0x5D7F1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC05checkbD15StatusForSystemyyFyycfU_TA', symObjAddr: 0x16A8, symBinAddr: 0xB9C0, symSize: 0x8 }
+  - { offset: 0x5D870, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tF', symObjAddr: 0x0, symBinAddr: 0xA3D8, symSize: 0x200 }
+  - { offset: 0x5D90D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC07requestbD010completionyyyc_tFy0A4Core0a8TrackingeD6StatusOcfU_', symObjAddr: 0x200, symBinAddr: 0xA5D8, symSize: 0x9C }
+  - { offset: 0x5D990, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC03setbD12StatusForAppyy0A4Core0a8TrackingedH0OFyycfU_', symObjAddr: 0x29C, symBinAddr: 0xA674, symSize: 0x94 }
+  - { offset: 0x5D9C5, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC03getbD6Status3for0A4Core0a8TrackingedH0OAF012TransparencyD6SourceO_tF', symObjAddr: 0x330, symBinAddr: 0xA708, symSize: 0x11C }
+  - { offset: 0x5DA3B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC05checkbD15StatusForSystemyyFyycfU_', symObjAddr: 0x44C, symBinAddr: 0xA824, symSize: 0x17C }
+  - { offset: 0x5DA99, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC06updatebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0x5C8, symBinAddr: 0xA9A0, symSize: 0x4DC }
+  - { offset: 0x5DC4C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC04savebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0xAA4, symBinAddr: 0xAE7C, symSize: 0x3F0 }
+  - { offset: 0x5DDBC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC04savebD033_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtFyAH0aB4InfoCzXEfU_', symObjAddr: 0xE94, symBinAddr: 0xB26C, symSize: 0x45C }
+  - { offset: 0x5DEDB, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplC010dispatchAdC7Request33_71CC13DAE39A3F3F477EF86D6EE998C6LL6status3fory0A4Core0a8TrackingeD6StatusO_AH012TransparencyD6SourceOtF', symObjAddr: 0x12F0, symBinAddr: 0xB6C8, symSize: 0x184 }
+  - { offset: 0x5DF6B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC24AuthorizationManagerImplCfD', symObjAddr: 0x1474, symBinAddr: 0xB84C, symSize: 0x4C }
+  - { offset: 0x5E0CA, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwCP', symObjAddr: 0x0, symBinAddr: 0xB9C8, symSize: 0x30 }
+  - { offset: 0x5E0E2, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwCP', symObjAddr: 0x0, symBinAddr: 0xB9C8, symSize: 0x30 }
+  - { offset: 0x5E0F6, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwxx', symObjAddr: 0x30, symBinAddr: 0xB9F8, symSize: 0x44 }
+  - { offset: 0x5E10A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwcp', symObjAddr: 0x94, symBinAddr: 0xBA3C, symSize: 0xCC }
+  - { offset: 0x5E11E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwca', symObjAddr: 0x160, symBinAddr: 0xBB08, symSize: 0x94 }
+  - { offset: 0x5E132, size: 0x8, addend: 0x0, symName: ___swift_assign_boxed_opaque_existential_1, symObjAddr: 0x1F4, symBinAddr: 0xBB9C, symSize: 0x168 }
+  - { offset: 0x5E146, size: 0x8, addend: 0x0, symName: ___swift_memcpy152_8, symObjAddr: 0x35C, symBinAddr: 0xBD04, symSize: 0x34 }
+  - { offset: 0x5E15A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwta', symObjAddr: 0x390, symBinAddr: 0xBD38, symSize: 0xA4 }
+  - { offset: 0x5E16E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwet', symObjAddr: 0x434, symBinAddr: 0xBDDC, symSize: 0x48 }
+  - { offset: 0x5E182, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVwst', symObjAddr: 0x47C, symBinAddr: 0xBE24, symSize: 0x64 }
+  - { offset: 0x5E196, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC19AuthorizationParamsVMa', symObjAddr: 0x4E0, symBinAddr: 0xBE88, symSize: 0x10 }
+  - { offset: 0x5E3E3, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCMa', symObjAddr: 0x414, symBinAddr: 0xC2AC, symSize: 0x3C }
+  - { offset: 0x5E3F7, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCMr', symObjAddr: 0x450, symBinAddr: 0xC2E8, symSize: 0x9C }
+  - { offset: 0x5E4D4, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC06saveAdC033_DFF03C627CA71D5740E4BB433F16D120LLyySSFy0A4Core0aB4InfoCzXEfU_TA', symObjAddr: 0x1394, symBinAddr: 0xD1EC, symSize: 0xC }
+  - { offset: 0x5E4E8, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC14configCallback33_DFF03C627CA71D5740E4BB433F16D120LL0A4Core0G0CyAF0A9AppConfigVGvgyAJcfU_TA', symObjAddr: 0x14B0, symBinAddr: 0xD21C, symSize: 0x20 }
+  - { offset: 0x5E4FC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC16appStateCallback33_DFF03C627CA71D5740E4BB433F16D120LL0A4Core0H0CyAF011ApplicationG0OGvgyAJcfU_TA', symObjAddr: 0x14D0, symBinAddr: 0xD23C, symSize: 0x20 }
+  - { offset: 0x5E510, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC014dispatchSaveAdC5Async33_DFF03C627CA71D5740E4BB433F16D120LLyyFyycfU_TA', symObjAddr: 0x15C8, symBinAddr: 0xD25C, symSize: 0x8 }
+  - { offset: 0x5E525, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC6paramsAcA0bcD6ParamsV_tcfc', symObjAddr: 0x15C, symBinAddr: 0xBFF4, symSize: 0x1A8 }
+  - { offset: 0x5E56D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCfd', symObjAddr: 0x304, symBinAddr: 0xC19C, symSize: 0xEC }
+  - { offset: 0x5E598, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplCfD', symObjAddr: 0x3F0, symBinAddr: 0xC288, symSize: 0x24 }
+  - { offset: 0x5E69D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC07requestB13AuthorizationyyFyycfU_', symObjAddr: 0x4EC, symBinAddr: 0xC384, symSize: 0xD8 }
+  - { offset: 0x5E798, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC012isAuthorizedB10Identifier10completionyySbc_tFyycfU_', symObjAddr: 0x5C4, symBinAddr: 0xC45C, symSize: 0x2A0 }
+  - { offset: 0x5E88E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC16onAppStateUpdate33_DFF03C627CA71D5740E4BB433F16D120LLyy0A4Core011ApplicationH0OF', symObjAddr: 0x864, symBinAddr: 0xC6FC, symSize: 0x208 }
+  - { offset: 0x5E93A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC14onConfigUpdate33_DFF03C627CA71D5740E4BB433F16D120LLyy0A4Core0a3AppG0VF', symObjAddr: 0xA6C, symBinAddr: 0xC904, symSize: 0x11C }
+  - { offset: 0x5E9B2, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC014dispatchSaveAdC5Async33_DFF03C627CA71D5740E4BB433F16D120LLyyFyycfU_', symObjAddr: 0xB88, symBinAddr: 0xCA20, symSize: 0x50 }
+  - { offset: 0x5EA16, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC06saveAdC033_DFF03C627CA71D5740E4BB433F16D120LLyySSF', symObjAddr: 0xBD8, symBinAddr: 0xCA70, symSize: 0x600 }
+  - { offset: 0x5EC8E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC06saveAdC033_DFF03C627CA71D5740E4BB433F16D120LLyySSFy0A4Core0aB4InfoCzXEfU_', symObjAddr: 0x1218, symBinAddr: 0xD070, symSize: 0x17C }
+  - { offset: 0x5EE37, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwxx', symObjAddr: 0x30, symBinAddr: 0xD264, symSize: 0x58 }
+  - { offset: 0x5EE4B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwcp', symObjAddr: 0xA8, symBinAddr: 0xD2BC, symSize: 0xF4 }
+  - { offset: 0x5EE5F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwca', symObjAddr: 0x19C, symBinAddr: 0xD3B0, symSize: 0xC8 }
+  - { offset: 0x5EE73, size: 0x8, addend: 0x0, symName: ___swift_memcpy160_8, symObjAddr: 0x3CC, symBinAddr: 0xD478, symSize: 0x2C }
+  - { offset: 0x5EE87, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwta', symObjAddr: 0x3F8, symBinAddr: 0xD4A4, symSize: 0xBC }
+  - { offset: 0x5EE9B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwet', symObjAddr: 0x4B4, symBinAddr: 0xD560, symSize: 0x48 }
+  - { offset: 0x5EEAF, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVwst', symObjAddr: 0x4FC, symBinAddr: 0xD5A8, symSize: 0x68 }
+  - { offset: 0x5EEC3, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC13ManagerParamsVMa', symObjAddr: 0x564, symBinAddr: 0xD610, symSize: 0x10 }
+  - { offset: 0x5F071, size: 0x8, addend: 0x0, symName: '_$sSo17ATTrackingManagerC20NetmeraAdvertisingId0aB8ProtocolA2cDP27trackingAuthorizationStatusSo0abhI0VvgZTW', symObjAddr: 0x0, symBinAddr: 0xD620, symSize: 0x20 }
+  - { offset: 0x5F0AD, size: 0x8, addend: 0x0, symName: '_$sSo17ATTrackingManagerC20NetmeraAdvertisingId0aB8ProtocolA2cDP28requestTrackingAuthorization17completionHandleryySo0abI6StatusVc_tFZTW', symObjAddr: 0x20, symBinAddr: 0xD640, symSize: 0xA0 }
+  - { offset: 0x5F0E0, size: 0x8, addend: 0x0, symName: '_$sSo36ATTrackingManagerAuthorizationStatusVIegy_ABIeyBy_TR', symObjAddr: 0xD0, symBinAddr: 0xD6E0, symSize: 0x3C }
+  - { offset: 0x5F0F8, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x10C, symBinAddr: 0xD71C, symSize: 0x10 }
+  - { offset: 0x5F10C, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x11C, symBinAddr: 0xD72C, symSize: 0x8 }
+  - { offset: 0x5F232, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMa', symObjAddr: 0x0, symBinAddr: 0xD734, symSize: 0x3C }
+  - { offset: 0x5F24A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMa', symObjAddr: 0x0, symBinAddr: 0xD734, symSize: 0x3C }
+  - { offset: 0x5F25E, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMr', symObjAddr: 0x3C, symBinAddr: 0xD770, symSize: 0x3C }
+  - { offset: 0x5F310, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCMU', symObjAddr: 0x108, symBinAddr: 0xD83C, symSize: 0x8 }
+  - { offset: 0x5F344, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCACycfC', symObjAddr: 0x78, symBinAddr: 0xD7AC, symSize: 0x30 }
+  - { offset: 0x5F386, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryC6createAA0adE0_pyF', symObjAddr: 0xA8, symBinAddr: 0xD7DC, symSize: 0x44 }
+  - { offset: 0x5F3E3, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerFactoryCfD', symObjAddr: 0xEC, symBinAddr: 0xD820, symSize: 0x1C }
+  - { offset: 0x5F52F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMa', symObjAddr: 0x0, symBinAddr: 0xD844, symSize: 0x3C }
+  - { offset: 0x5F547, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMa', symObjAddr: 0x0, symBinAddr: 0xD844, symSize: 0x3C }
+  - { offset: 0x5F55B, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMr', symObjAddr: 0x3C, symBinAddr: 0xD880, symSize: 0x48 }
+  - { offset: 0x5F645, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CMU', symObjAddr: 0x128, symBinAddr: 0xD96C, symSize: 0x8 }
+  - { offset: 0x5F69D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14C6createAA0adE0_pyF', symObjAddr: 0x84, symBinAddr: 0xD8C8, symSize: 0x5C }
+  - { offset: 0x5F701, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CACycfC', symObjAddr: 0xE0, symBinAddr: 0xD924, symSize: 0x2C }
+  - { offset: 0x5F77C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A25TrackingManagerFactoryV14CfD', symObjAddr: 0x10C, symBinAddr: 0xD950, symSize: 0x1C }
+  - { offset: 0x5F95F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCMa', symObjAddr: 0x10, symBinAddr: 0xD974, symSize: 0x20 }
+  - { offset: 0x5F992, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCAA0adE0A2aDP27trackingAuthorizationStatus0A4Core0adehI0OvgTW', symObjAddr: 0x30, symBinAddr: 0xD994, symSize: 0x44 }
+  - { offset: 0x5F9E1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A19TrackingManagerImplCAA0adE0A2aDP07requestD13Authorization17completionHandleryy0A4Core0adeH6StatusOc_tFTW', symObjAddr: 0x74, symBinAddr: 0xD9D8, symSize: 0x90 }
+  - { offset: 0x5FB17, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_', symObjAddr: 0x0, symBinAddr: 0xDA68, symSize: 0x11C }
+  - { offset: 0x5FBC7, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CMa', symObjAddr: 0x12C, symBinAddr: 0xDB94, symSize: 0x20 }
+  - { offset: 0x5FBDB, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_TA', symObjAddr: 0x2C0, symBinAddr: 0xDD28, symSize: 0x8 }
+  - { offset: 0x5FBEF, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A34TrackingManagerAuthorizationStatusOSgWOh', symObjAddr: 0x308, symBinAddr: 0xDD30, symSize: 0x40 }
+  - { offset: 0x5FC2D, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14C07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFySo010ATTrackingeiM0VcfU_', symObjAddr: 0x0, symBinAddr: 0xDA68, symSize: 0x11C }
+  - { offset: 0x5FC79, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CfD', symObjAddr: 0x11C, symBinAddr: 0xDB84, symSize: 0x10 }
+  - { offset: 0x5FCE2, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CAA0adE0A2aDP27trackingAuthorizationStatus0A4Core0adeiJ0OvgTW', symObjAddr: 0x14C, symBinAddr: 0xDBB4, symSize: 0xD4 }
+  - { offset: 0x5FD34, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0A22TrackingManagerImplV14CAA0adE0A2aDP07requestD13Authorization17completionHandleryy0A4Core0adeI6StatusOc_tFTW', symObjAddr: 0x220, symBinAddr: 0xDC88, symSize: 0x7C }
+  - { offset: 0x5FE77, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMa', symObjAddr: 0x0, symBinAddr: 0xDD70, symSize: 0x3C }
+  - { offset: 0x5FE8F, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMa', symObjAddr: 0x0, symBinAddr: 0xDD70, symSize: 0x3C }
+  - { offset: 0x5FEA3, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMr', symObjAddr: 0x3C, symBinAddr: 0xDDAC, symSize: 0x4C }
+  - { offset: 0x5FF5C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCfE', symObjAddr: 0xB4, symBinAddr: 0xDE24, symSize: 0x10 }
+  - { offset: 0x5FF89, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCMU', symObjAddr: 0x1B0, symBinAddr: 0xDF20, symSize: 0x8 }
+  - { offset: 0x5FFB1, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCACycfC', symObjAddr: 0x88, symBinAddr: 0xDDF8, symSize: 0x2C }
+  - { offset: 0x6002C, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderCfD', symObjAddr: 0xC4, symBinAddr: 0xDE34, symSize: 0x3C }
+  - { offset: 0x60083, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId02AdC8ProviderC7provideSSyF0A4Core0gE0CADxyFTV', symObjAddr: 0x100, symBinAddr: 0xDE70, symSize: 0xB0 }
+  - { offset: 0x601C3, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderName_WZ', symObjAddr: 0x0, symBinAddr: 0xDF28, symSize: 0x48 }
+  - { offset: 0x601E7, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderNameSSvpZ', symObjAddr: 0x1DA0, symBinAddr: 0x169F8, symSize: 0x0 }
+  - { offset: 0x601FC, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId9ConstantsO6ModuleO02AdC12ProviderName_WZ', symObjAddr: 0x0, symBinAddr: 0xDF28, symSize: 0x48 }
+  - { offset: 0x60348, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE8delegate33_7503D015D82076E5999A0B37A55838EDLLAD0cD17FrameworkDelegate_pSgvgZ', symObjAddr: 0x0, symBinAddr: 0xDF70, symSize: 0xC4 }
+  - { offset: 0x60454, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE07requestC13AuthorizationyyFZ', symObjAddr: 0xC4, symBinAddr: 0xE034, symSize: 0xD8 }
+  - { offset: 0x6050A, size: 0x8, addend: 0x0, symName: '_$s20NetmeraAdvertisingId0bC11ManagerImplC07requestB13AuthorizationyyFyycfU_TA', symObjAddr: 0x1DC, symBinAddr: 0xE10C, symSize: 0x8 }
+  - { offset: 0x6051E, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE012isAuthorizedC10Identifier10completionyySbc_tFZ', symObjAddr: 0x1E4, symBinAddr: 0xE114, symSize: 0x74 }
+  - { offset: 0x60572, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore0A0C0A13AdvertisingIdE013setAuthorizedC10Identifier10authorizedySb_tFZ', symObjAddr: 0x258, symBinAddr: 0xE188, symSize: 0x64 }
 ...

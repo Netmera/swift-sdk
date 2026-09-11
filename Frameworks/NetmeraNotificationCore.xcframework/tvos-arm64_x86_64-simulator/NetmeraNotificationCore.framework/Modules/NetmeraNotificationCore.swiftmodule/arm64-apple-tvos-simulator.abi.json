@@ -11616,6 +11616,65 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "attribution",
+            "printedName": "attribution",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraCore.NetmeraPushAttribution?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraPushAttribution",
+                    "printedName": "NetmeraCore.NetmeraPushAttribution",
+                    "usr": "s:11NetmeraCore0A15PushAttributionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23NetmeraNotificationCore0A8BasePushC11attribution0aC00aE11AttributionVSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A8BasePushC11attribution0aC00aE11AttributionVSgvp",
+            "moduleName": "NetmeraNotificationCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraCore.NetmeraPushAttribution?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraPushAttribution",
+                        "printedName": "NetmeraCore.NetmeraPushAttribution",
+                        "usr": "s:11NetmeraCore0A15PushAttributionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23NetmeraNotificationCore0A8BasePushC11attribution0aC00aE11AttributionVSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A8BasePushC11attribution0aC00aE11AttributionVSgvg",
+                "moduleName": "NetmeraNotificationCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "Identifiers",
             "printedName": "Identifiers",
@@ -12003,8 +12062,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraNotificationCore",
         "declAttributes": [

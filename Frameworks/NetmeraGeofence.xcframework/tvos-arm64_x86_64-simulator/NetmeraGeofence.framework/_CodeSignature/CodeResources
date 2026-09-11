@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NetmeraGeofence-Swift.h</key>
 		<data>
-		4a9DwpgRoNH5tYYG8P4WBUYOe2Y=
+		kJ95IIB9RndF0/cImTZk+grtgBI=
 		</data>
 		<key>Headers/NetmeraGeofence.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xo5YysqTOhxCzAZMMlI6usNF2ks=
+		Z0tmUnh1/wvnVyGkbfOmAWIxiqE=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		WjRDuiWvJUpWbkSWm37r5Awd6lM=
+		F3rKP7GB5UX3To44AF5YELkzYVo=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		RljmHjj5anQ8BzMoGQ2y5hXPAWw=
+		XCE0/LFYuo7YHOwZHcc2G0fx9b8=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		WjRDuiWvJUpWbkSWm37r5Awd6lM=
+		F3rKP7GB5UX3To44AF5YELkzYVo=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		/QmlV3/0/vxQ1P4y/y+L6Jqotp8=
+		y/jj+NA5XaZhQRXOhr81A81p3WQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kUhxFnH4PWCeIqEkui0PCziS8AeYdx1WHly+S6KDtuo=
+			DT+I+anDiYP/Hb5F0WAe4mY82QlBMXr7e7UuGYLS/Kw=
 			</data>
 		</dict>
 		<key>Headers/NetmeraGeofence.h</key>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KbjcEwNlYZbF9/XspFFGX/mAtXvjPf18XtNFRhLrtFs=
+			btgvLrLNs/n/K+o2elLlVbxRU26OdGzzBXMP+zExJtU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dSk67BNCcZOpcYcAmZTZhkANeg1486+KdVCFZ8fPZJs=
+			OG3szcgR1s8OdCbDEUG9Fz7mV9Vf6WnXLyfLzisvH0w=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KbjcEwNlYZbF9/XspFFGX/mAtXvjPf18XtNFRhLrtFs=
+			btgvLrLNs/n/K+o2elLlVbxRU26OdGzzBXMP+zExJtU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B/KlioI662nVhIJ/aYwHMrCKD70gQw08ii0GR/cRnTY=
+			lyrBUK5UDKovKLSaRVVvUgkrCBPSsgYbecf10h/YchM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
