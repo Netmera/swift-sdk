@@ -3864,13 +3864,71 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(NetmeraCore.NetmeraRequestParams.Type) -> NetmeraCore.NetmeraRequestParams",
+                "printedName": "(NetmeraCore.NetmeraRequestParams.Type) -> ([Swift.Int]?, [Swift.String]?) -> NetmeraCore.NetmeraRequestParams",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraRequestParams",
-                    "printedName": "NetmeraCore.NetmeraRequestParams",
-                    "usr": "s:11NetmeraCore0A13RequestParamsO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.Int]?, [Swift.String]?) -> NetmeraCore.NetmeraRequestParams",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraRequestParams",
+                        "printedName": "NetmeraCore.NetmeraRequestParams",
+                        "usr": "s:11NetmeraCore0A13RequestParamsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(categoryIds: [Swift.Int]?, channels: [Swift.String]?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Swift.Int]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Swift.Int]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Int",
+                                    "printedName": "Swift.Int",
+                                    "usr": "s:Si"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Swift.String]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Swift.String]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -3889,8 +3947,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11NetmeraCore0A13RequestParamsO29getUserCategoryPreferenceListyA2CmF",
-            "mangledName": "$s11NetmeraCore0A13RequestParamsO29getUserCategoryPreferenceListyA2CmF",
+            "usr": "s:11NetmeraCore0A13RequestParamsO29getUserCategoryPreferenceListyACSaySiGSg_SaySSGSgtcACmF",
+            "mangledName": "$s11NetmeraCore0A13RequestParamsO29getUserCategoryPreferenceListyACSaySiGSg_SaySSGSgtcACmF",
             "moduleName": "NetmeraCore"
           },
           {
@@ -39698,6 +39756,20 @@
       "value": "\"adid\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUserCategoryPreferenceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2159,
+      "length": 7,
+      "value": "\"ctids\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUserCategoryPreferenceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 7,
+      "value": "\"ctchs\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUserProfileRequest.swift",
       "kind": "StringLiteral",
       "offset": 1144,
@@ -40311,7 +40383,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.25.0\""
+      "value": "\"4.26.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",

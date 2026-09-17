@@ -5209,6 +5209,83 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "channelPreferences",
+            "printedName": "channelPreferences",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChannelPreference",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV18channelPreferencesSayAC07ChannelE0VGSgvp",
+            "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV18channelPreferencesSayAC07ChannelE0VGSgvp",
+            "moduleName": "NetmeraNotification",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ChannelPreference",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV18channelPreferencesSayAC07ChannelE0VGSgvg",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV18channelPreferencesSayAC07ChannelE0VGSgvg",
+                "moduleName": "NetmeraNotification",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -5258,6 +5335,745 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Channel",
+            "printedName": "Channel",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "mobile",
+                "printedName": "mobile",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO6mobileyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO6mobileyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "sms",
+                "printedName": "sms",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO3smsyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO3smsyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "email",
+                "printedName": "email",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO5emailyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO5emailyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "whatsApp",
+                "printedName": "whatsApp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8whatsAppyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8whatsAppyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "inApp",
+                "printedName": "inApp",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO5inAppyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO5inAppyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "web",
+                "printedName": "web",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type) -> NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO3webyA2EmF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO3webyA2EmF",
+                "moduleName": "NetmeraNotification"
+              },
+              {
+                "kind": "Var",
+                "name": "description",
+                "printedName": "description",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO11descriptionSSvp",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO11descriptionSSvp",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO11descriptionSSvg",
+                    "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO11descriptionSSvg",
+                    "moduleName": "NetmeraNotification",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueAESgSS_tcfc",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueAESgSS_tcfc",
+                "moduleName": "NetmeraNotification",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueSSvp",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueSSvp",
+                "moduleName": "NetmeraNotification",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueSSvg",
+                    "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8rawValueSSvg",
+                    "moduleName": "NetmeraNotification",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "allCases",
+                "printedName": "allCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.Channel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8allCasesSayAEGvpZ",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8allCasesSayAEGvpZ",
+                "moduleName": "NetmeraNotification",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Nonisolated"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.Channel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8allCasesSayAEGvgZ",
+                    "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO8allCasesSayAEGvgZ",
+                    "moduleName": "NetmeraNotification",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO",
+            "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO",
+            "moduleName": "NetmeraNotification",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CaseIterable",
+                "printedName": "CaseIterable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCases",
+                    "printedName": "AllCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.Channel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12CaseIterableP",
+                "mangledName": "$ss12CaseIterableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ChannelPreference",
+            "printedName": "ChannelPreference",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "channel",
+                "printedName": "channel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V7channelAC0F0OSgvp",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V7channelAC0F0OSgvp",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Channel",
+                            "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V7channelAC0F0OSgvg",
+                    "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V7channelAC0F0OSgvg",
+                    "moduleName": "NetmeraNotification",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isEnabled",
+                "printedName": "isEnabled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V9isEnabledSbSgvp",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V9isEnabledSbSgvp",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V9isEnabledSbSgvg",
+                    "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V9isEnabledSbSgvg",
+                    "moduleName": "NetmeraNotification",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChannelPreference",
+                    "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V6encode2toys7Encoder_p_tKF",
+                "moduleName": "NetmeraNotification",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V",
+            "mangledName": "$s19NetmeraNotification0A22UserCategoryPreferenceV07ChannelE0V",
+            "moduleName": "NetmeraNotification",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -6651,12 +7467,58 @@
           {
             "kind": "Function",
             "name": "getUserCategoryPreferenceList",
-            "printedName": "getUserCategoryPreferenceList(callback:)",
+            "printedName": "getUserCategoryPreferenceList(categoryIds:channels:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Int]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.Channel]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraNotification.NetmeraUserCategoryPreference.Channel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Channel",
+                        "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                        "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -6700,13 +7562,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A0C0A12NotificationE29getUserCategoryPreferenceList8callbackyys6ResultOySayAD0aefG0VGAD0efG5ErrorOGc_tFZ",
-            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE29getUserCategoryPreferenceList8callbackyys6ResultOySayAD0aefG0VGAD0efG5ErrorOGc_tFZ",
+            "usr": "s:11NetmeraCore0A0C0A12NotificationE29getUserCategoryPreferenceList11categoryIds8channels8callbackySaySiGSg_SayAD0aefG0V7ChannelOGSgys6ResultOySayALGAD0efG5ErrorOGctFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE29getUserCategoryPreferenceList11categoryIds8channels8callbackySaySiGSg_SayAD0aefG0V7ChannelOGSgys6ResultOySayALGAD0efG5ErrorOGctFZ",
             "moduleName": "NetmeraNotification",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -6714,7 +7577,7 @@
           {
             "kind": "Function",
             "name": "setUserCategoryPreference",
-            "printedName": "setUserCategoryPreference(categoryId:categoryEnabled:callback:)",
+            "printedName": "setUserCategoryPreference(categoryId:categoryEnabled:channel:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6732,6 +7595,21 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Channel",
+                    "printedName": "NetmeraNotification.NetmeraUserCategoryPreference.Channel",
+                    "usr": "s:19NetmeraNotification0A22UserCategoryPreferenceV7ChannelO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -6767,13 +7645,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NetmeraCore0A0C0A12NotificationE25setUserCategoryPreference10categoryId0H7Enabled8callbackySi_Sbys6ResultOySbAD0efG5ErrorOGctFZ",
-            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE25setUserCategoryPreference10categoryId0H7Enabled8callbackySi_Sbys6ResultOySbAD0efG5ErrorOGctFZ",
+            "usr": "s:11NetmeraCore0A0C0A12NotificationE25setUserCategoryPreference10categoryId0H7Enabled7channel8callbackySi_SbAD0aefG0V7ChannelOSgys6ResultOySbAD0efG5ErrorOGctFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A12NotificationE25setUserCategoryPreference10categoryId0H7Enabled7channel8callbackySi_SbAD0aefG0V7ChannelOSgys6ResultOySbAD0efG5ErrorOGctFZ",
             "moduleName": "NetmeraNotification",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -7390,37 +8269,107 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference.swift",
       "kind": "StringLiteral",
-      "offset": 325,
+      "offset": 583,
       "length": 6,
       "value": "\"ctid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference.swift",
       "kind": "StringLiteral",
-      "offset": 359,
+      "offset": 617,
       "length": 5,
       "value": "\"cte\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 647,
       "length": 5,
       "value": "\"ctn\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 6,
+      "value": "\"ctps\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 8,
+      "value": "\"MOBILE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 5,
+      "value": "\"SMS\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 7,
+      "value": "\"EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 11,
+      "value": "\"WHATS_APP\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 8,
+      "value": "\"IN_APP\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+Channel.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 5,
+      "value": "\"WEB\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+ChannelPreference.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 6,
+      "value": "\"ctch\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/NetmeraUserCategoryPreference+ChannelPreference.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 5,
+      "value": "\"cte\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/SetUserCategoryPreferenceRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 330,
       "length": 6,
       "value": "\"ctid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/SetUserCategoryPreferenceRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 364,
       "length": 5,
       "value": "\"cte\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/SetUserCategoryPreferenceRequestPayload.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 6,
+      "value": "\"ctch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraNotification\/NetmeraNotification\/UserCategoryPreference\/UserCategoryPreferenceListResponse.swift",

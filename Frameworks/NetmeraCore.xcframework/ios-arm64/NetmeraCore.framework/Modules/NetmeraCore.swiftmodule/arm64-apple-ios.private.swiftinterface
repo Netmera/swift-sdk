@@ -135,7 +135,7 @@ public enum NetmeraRequestParams {
   case getEmailPermission
   case getSmsPermission
   case getWhatsAppPermission
-  case getUserCategoryPreferenceList
+  case getUserCategoryPreferenceList(categoryIds: [Swift.Int]?, channels: [Swift.String]?)
   case setUserCategoryPreference(categoryPreference: any Swift.Encodable)
   case addTestDevice(deviceId: Swift.String)
   case fetchCoupon(filter: NetmeraCore.NetmeraCouponFilter)
