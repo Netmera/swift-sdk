@@ -113,6 +113,9 @@ extension NetmeraCore.NetmeraDataSender {
 public protocol NetmeraPushPassthrough {
   func on(payload: [Swift.AnyHashable : Any])
 }
+public protocol NetmeraRemoteConfigPushHandling {
+  func onRemoteConfigPush(version: Swift.Int?)
+}
 public enum NetmeraRequestParams {
   case enableAdId(source: Swift.Int)
   case disableAdId(source: Swift.Int)
@@ -135,18 +138,19 @@ public enum NetmeraRequestParams {
   case getEmailPermission
   case getSmsPermission
   case getWhatsAppPermission
-  case getUserCategoryPreferenceList
+  case getUserCategoryPreferenceList(categoryIds: [Swift.Int]?, channels: [Swift.String]?)
   case setUserCategoryPreference(categoryPreference: any Swift.Encodable)
   case addTestDevice(deviceId: Swift.String)
   case fetchCoupon(filter: NetmeraCore.NetmeraCouponFilter)
+  case fetchRemoteConfig(version: Swift.Int?)
 }
 public protocol NetmeraSessionDataSender : AnyObject {
   func sendOpenAppEvent()
   func sendTimeInAppEvent(_ timeInAppSecs: Swift.Double)
   func sendDeferredDeeplinkEvent(_ attributes: [Swift.String : Swift.String]?)
 }
-public protocol PushInstanceParamsSetProtocol {
-  func setPushParams(pushId: Swift.String?, pushInstanceId: Swift.String?)
+public protocol PushAttributionTracking {
+  func track(_ attribution: NetmeraCore.NetmeraPushAttribution)
 }
 public protocol Releasable {
   func releaseInstance()
@@ -175,6 +179,7 @@ open class Variable<T> where T : Swift.Equatable {
   }
   public init(_ value: T)
   @objc deinit
+  public func mutate(_ transform: (inout T) -> Swift.Void)
   public func register(callback: NetmeraCore.Callback<T>)
   public func unregister(callback: NetmeraCore.Callback<T>)
   public func clearAll()
@@ -256,8 +261,28 @@ public enum LogLevel : Swift.Int, Swift.Comparable {
     get
   }
 }
+public enum NetmeraLogEventThrottle {
+  case always
+  case oncePerProcess
+  case interval(Foundation.TimeInterval)
+  case whenChanged(Swift.String)
+  public static let daily: NetmeraCore.NetmeraLogEventThrottle
+}
+public protocol NetmeraLogEventReporting {
+  func report(tag: NetmeraCore.NetmeraLogEvent.Tag, message: Swift.String, scope: Swift.String, throttle: NetmeraCore.NetmeraLogEventThrottle, persistent: Swift.Bool)
+}
 public enum NetmeraFetchCouponError : Swift.Error, Swift.CustomStringConvertible {
   case requestError(description: Swift.String)
+  case notOperating
+  public var description: Swift.String {
+    get
+  }
+}
+public enum NetmeraRemoteConfigError : Swift.Error, Swift.CustomStringConvertible {
+  case requestError(description: Swift.String)
+  case invalidResponse
+  case missingKey(key: Swift.String)
+  case cancelled
   case notOperating
   public var description: Swift.String {
     get
@@ -420,6 +445,31 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
   public static func == (lhs: NetmeraCore.NetmeraEvent, rhs: NetmeraCore.NetmeraEvent) -> Swift.Bool
   open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
+}
+open class NetmeraLogEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var tag: Swift.String?
+  public var log: Swift.String?
+  convenience public init(tag: NetmeraCore.NetmeraLogEvent.Tag, log: Swift.String)
+  public init(tag: Swift.String? = nil, log: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraCore.NetmeraLogEvent, rhs: NetmeraCore.NetmeraLogEvent) -> Swift.Bool
+  @objc deinit
+}
+extension NetmeraCore.NetmeraLogEvent {
+  public struct Tag : Swift.RawRepresentable, Swift.Hashable, Swift.Codable {
+    public static let pushToken: NetmeraCore.NetmeraLogEvent.Tag
+    public static let deeplink: NetmeraCore.NetmeraLogEvent.Tag
+    public static let webView: NetmeraCore.NetmeraLogEvent.Tag
+    public static let geofence: NetmeraCore.NetmeraLogEvent.Tag
+    public static let notificationCategory: NetmeraCore.NetmeraLogEvent.Tag
+    public let rawValue: Swift.String
+    public init(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+  }
 }
 @_spi(NetmeraInternal) public struct AnyCodable : Swift.Codable {
   @_spi(NetmeraInternal) public var value: Any
@@ -644,6 +694,18 @@ public enum NetmeraPushType : Swift.Int, Swift.Codable {
     get
   }
 }
+public struct NetmeraRemoteConfig : Swift.Codable, Swift.Equatable {
+  public let version: Swift.Int
+  public func stringProperty(key: Swift.String) -> Swift.String?
+  public func boolProperty(key: Swift.String) -> Swift.Bool?
+  public func numberProperty(key: Swift.String) -> Swift.Double?
+  public func jsonProperty(key: Swift.String) -> [Swift.String : Any]?
+  public func arrayProperty(key: Swift.String) -> [Any]?
+  public func decodedProperty<Value>(key: Swift.String, asType: Value.Type = Value.self) throws -> Value where Value : Swift.Decodable
+  public static func == (lhs: NetmeraCore.NetmeraRemoteConfig, rhs: NetmeraCore.NetmeraRemoteConfig) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum NetmeraGender : Swift.Int, Swift.Codable {
   case male
   case female
@@ -853,6 +915,7 @@ public struct NetmeraAppConfig : Swift.Codable {
   public let shouldSendInAppPurchaseEvent: Swift.Bool?
   public let isTestUser: Swift.Bool?
   public let isTokenValid: Swift.Bool?
+  public let shouldSendLogEvent: Swift.Bool?
   public let batteryLevelLimit: Swift.Int?
   public let richPushTemplates: [Swift.String : Swift.String?]?
   public let interactiveCategories: [NetmeraCore.NetmeraUserNotificationCategory]?
@@ -929,6 +992,12 @@ public struct NetmeraParams : Swift.Equatable, Swift.Codable {
   public static func == (lhs: NetmeraCore.NetmeraParams, rhs: NetmeraCore.NetmeraParams) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct NetmeraPushAttribution : Swift.Equatable {
+  public let pushId: Swift.String?
+  public let pushInstanceId: Swift.String?
+  public init?(pushId: Swift.String?, pushInstanceId: Swift.String?)
+  public static func == (a: NetmeraCore.NetmeraPushAttribution, b: NetmeraCore.NetmeraPushAttribution) -> Swift.Bool
 }
 public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
   public let path: Swift.String
@@ -1139,6 +1208,9 @@ extension NetmeraCore.InternalNetmera {
   @available(iOS 13.0, tvOS 13.0, *)
   public static func handleConnectionOptions(_ options: UIKit.UIScene.ConnectionOptions)
   public static func fetchCoupons(using filter: NetmeraCore.NetmeraCouponFilter, callback: @escaping (Swift.Result<[NetmeraCore.NetmeraCouponObject], NetmeraCore.NetmeraFetchCouponError>) -> Swift.Void)
+  public static func getRemoteConfig() -> NetmeraCore.NetmeraRemoteConfig?
+  public static func fetchRemoteConfig(callback: @escaping (Swift.Result<NetmeraCore.NetmeraRemoteConfig, NetmeraCore.NetmeraRemoteConfigError>) -> Swift.Void)
+  public static func setRemoteConfigUpdateListener(_ listener: ((NetmeraCore.NetmeraRemoteConfig) -> Swift.Void)?)
   @objc deinit
 }
 extension NetmeraCore.Netmera {

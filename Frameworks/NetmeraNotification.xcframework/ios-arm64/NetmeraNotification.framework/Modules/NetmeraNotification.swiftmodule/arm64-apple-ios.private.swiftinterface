@@ -124,8 +124,39 @@ public struct NetmeraUserCategoryPreference : Swift.Codable {
   public let categoryId: Swift.Int?
   public let categoryEnabled: Swift.Bool?
   public let categoryName: Swift.String?
+  public let channelPreferences: [NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension NetmeraNotification.NetmeraUserCategoryPreference {
+  public enum Channel : Swift.String, Swift.Codable, Swift.CaseIterable, Swift.CustomStringConvertible {
+    case mobile
+    case sms
+    case email
+    case whatsApp
+    case inApp
+    case web
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [NetmeraNotification.NetmeraUserCategoryPreference.Channel]
+    public typealias RawValue = Swift.String
+    nonisolated public static var allCases: [NetmeraNotification.NetmeraUserCategoryPreference.Channel] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension NetmeraNotification.NetmeraUserCategoryPreference {
+  public struct ChannelPreference : Swift.Codable {
+    public let channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel?
+    public let isEnabled: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
 }
 public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvertible {
   case requestError(description: Swift.String)
@@ -165,11 +196,14 @@ extension NetmeraCore.Netmera {
   @available(*, deprecated, renamed: "handleAction(_:for:)")
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
-  public static func getUserCategoryPreferenceList(callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
-  public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
+  public static func getUserCategoryPreferenceList(categoryIds: [Swift.Int]? = nil, channels: [NetmeraNotification.NetmeraUserCategoryPreference.Channel]? = nil, callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
+  public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel? = nil, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Equatable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Hashable {}
 extension NetmeraNotification.NetmeraActionSource : Swift.Hashable {}
+extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.Equatable {}
+extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.Hashable {}
+extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.RawRepresentable {}

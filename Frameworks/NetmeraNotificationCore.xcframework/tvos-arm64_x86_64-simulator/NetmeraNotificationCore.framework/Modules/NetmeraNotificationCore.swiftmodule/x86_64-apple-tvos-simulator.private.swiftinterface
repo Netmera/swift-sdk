@@ -344,6 +344,9 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   @objc deinit
 }
 extension NetmeraNotificationCore.NetmeraBasePush {
+  public var attribution: NetmeraCore.NetmeraPushAttribution? {
+    get
+  }
   public struct Identifiers : Swift.Codable, Swift.Equatable {
     public let pushId: Swift.String?
     public let pushInstanceId: Swift.String?
@@ -440,6 +443,7 @@ public class NetmeraSilentPush : NetmeraNotificationCore.NetmeraBasePush {
   public enum Kind : Swift.Int, Swift.Codable {
     case `default`
     case data
+    case remoteConfig
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {

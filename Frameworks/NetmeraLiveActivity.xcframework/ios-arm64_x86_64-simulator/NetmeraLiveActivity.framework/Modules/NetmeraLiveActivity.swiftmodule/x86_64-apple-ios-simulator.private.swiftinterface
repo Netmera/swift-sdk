@@ -10,6 +10,14 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class NetmeraLiveActivityManualCloseEvent : NetmeraCore.NetmeraEvent {
+  override final public class var key: Swift.String {
+    get
+  }
+  public init(groupId: Swift.String)
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 public protocol NetmeraLiveActivityAttributes {
   var netmeraGroupId: Swift.String? { get set }
 }

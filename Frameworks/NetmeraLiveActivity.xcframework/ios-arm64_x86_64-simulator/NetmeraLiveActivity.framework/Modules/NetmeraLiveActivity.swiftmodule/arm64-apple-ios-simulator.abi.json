@@ -76,6 +76,242 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "NetmeraLiveActivityManualCloseEvent",
+        "printedName": "NetmeraLiveActivityManualCloseEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC3keySSvpZ",
+            "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC3keySSvpZ",
+            "moduleName": "NetmeraLiveActivity",
+            "static": true,
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC3keySSvgZ",
+                "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC3keySSvgZ",
+                "moduleName": "NetmeraLiveActivity",
+                "static": true,
+                "overriding": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(groupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraLiveActivityManualCloseEvent",
+                "printedName": "NetmeraLiveActivity.NetmeraLiveActivityManualCloseEvent",
+                "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC7groupIdACSS_tcfc",
+            "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC7groupIdACSS_tcfc",
+            "moduleName": "NetmeraLiveActivity",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraLiveActivity",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraLiveActivityManualCloseEvent",
+                "printedName": "NetmeraLiveActivity.NetmeraLiveActivityManualCloseEvent",
+                "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventCACycfc",
+            "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventCACycfc",
+            "moduleName": "NetmeraLiveActivity",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(eventKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraLiveActivity.NetmeraLiveActivityManualCloseEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraLiveActivityManualCloseEvent",
+                    "printedName": "NetmeraLiveActivity.NetmeraLiveActivityManualCloseEvent",
+                    "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC8eventKeyACSgSS_tcfc",
+            "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC8eventKeyACSgSS_tcfc",
+            "moduleName": "NetmeraLiveActivity",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19NetmeraLiveActivity0abC16ManualCloseEventC",
+        "mangledName": "$s19NetmeraLiveActivity0abC16ManualCloseEventC",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
@@ -517,6 +753,13 @@
       "offset": 1092,
       "length": 4,
       "value": "\"eu\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityManualCloseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1145,
+      "length": 4,
+      "value": "\"et\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Event\/NetmeraLiveActivityStartTokenEvent.swift",

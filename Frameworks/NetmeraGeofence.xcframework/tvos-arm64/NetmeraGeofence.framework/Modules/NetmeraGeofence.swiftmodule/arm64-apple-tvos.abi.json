@@ -410,17 +410,87 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 17,
+      "value": "\"monitoringState\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2625,
+      "length": 17,
+      "value": "\"earlyTransition\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 20,
+      "value": "\"rejectedTransition\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3335,
+      "length": 10,
+      "value": "\"selfHeal\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "Array",
-      "offset": 1396,
+      "offset": 4798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "Array",
-      "offset": 1456,
+      "offset": 4930,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "Array",
+      "offset": 5353,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5844,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "Dictionary",
+      "offset": 6276,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 44522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 44547,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
@@ -438,8 +508,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1189,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1715,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 390,
+      "offset": 1794,
       "length": 41,
       "value": "\"GeofenceAuthorizationDelegateIdentifier\""
     }
