@@ -295,6 +295,7 @@ public protocol DeferredDeeplinkHandling {
 }
 public typealias NetmeraInitSessionCallback = (Swift.Result<NetmeraCore.NetmeraInitSessionInfo, any Swift.Error>) -> Swift.Void
 public typealias InternalAppConfigCallback = (Swift.Result<NetmeraCore.InternalNetmera.InternalAppConfig, any Swift.Error>) -> Swift.Void
+public typealias NetmeraNetworkRequestCallback = (NetmeraCore.NetmeraNetworkRequestResult) -> Swift.Void
 public protocol PlistManager {
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraPlistError> where T : Swift.Decodable
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraPlistError>) -> Swift.Void) where T : Swift.Decodable
@@ -617,6 +618,57 @@ public struct NetmeraSegment : Swift.Codable, Swift.Equatable {
   public static func == (a: NetmeraCore.NetmeraSegment, b: NetmeraCore.NetmeraSegment) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct NetmeraNetworkRequestResult {
+  public let requestType: NetmeraCore.NetmeraNetworkRequestType
+  public let outcome: NetmeraCore.NetmeraNetworkRequestResult.Outcome
+  public var isSuccess: Swift.Bool {
+    get
+  }
+  public var failure: NetmeraCore.NetmeraNetworkRequestResult.Failure? {
+    get
+  }
+  public var isFinal: Swift.Bool {
+    get
+  }
+  public enum Outcome {
+    case success
+    case failure(NetmeraCore.NetmeraNetworkRequestResult.Failure)
+  }
+  public struct Failure : Swift.Error {
+    public let statusCode: Swift.Int?
+    public let errorCode: Swift.String?
+    public let message: Swift.String
+    public let willRetry: Swift.Bool
+  }
+}
+public enum NetmeraNetworkRequestType : Swift.CaseIterable {
+  case initSession
+  case event
+  case enablePush
+  case disablePush
+  case identifyUser
+  case updateUserProfile
+  case setEmailPermission
+  case setSmsPermission
+  case setWhatsAppPermission
+  case updateDevice
+  case enableAdId
+  case disableAdId
+  public static func == (a: NetmeraCore.NetmeraNetworkRequestType, b: NetmeraCore.NetmeraNetworkRequestType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [NetmeraCore.NetmeraNetworkRequestType]
+  nonisolated public static var allCases: [NetmeraCore.NetmeraNetworkRequestType] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension NetmeraCore.NetmeraNetworkRequestType {
+  public var name: Swift.String {
+    get
+  }
 }
 open class NetmeraPush : Swift.Codable {
   final public let pushType: NetmeraCore.NetmeraPushType
@@ -1162,6 +1214,7 @@ extension NetmeraCore.InternalNetmera {
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func initializeWithHoldingOperations(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil)
   public static func setInitSessionCallback(_ callback: NetmeraCore.NetmeraInitSessionCallback?)
+  public static func setNetworkRequestCallback(_ callback: NetmeraCore.NetmeraNetworkRequestCallback?)
   public static func identifyUser<T>(user: T, completion: NetmeraCore.NetmeraIdentifyUserCallback? = nil) where T : NetmeraCore.NetmeraUserIdentify
   public static func updateUserProfile<T>(userProfile: T, completion: ((Swift.Bool) -> Swift.Void)? = nil) where T : NetmeraCore.NetmeraUserProfile
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
@@ -1220,6 +1273,8 @@ extension NetmeraCore.TransparencyAuthorizationSource : Swift.RawRepresentable {
 extension NetmeraCore.UserNotificationActionType : Swift.Equatable {}
 extension NetmeraCore.UserNotificationActionType : Swift.Hashable {}
 extension NetmeraCore.UserNotificationActionType : Swift.RawRepresentable {}
+extension NetmeraCore.NetmeraNetworkRequestType : Swift.Equatable {}
+extension NetmeraCore.NetmeraNetworkRequestType : Swift.Hashable {}
 extension NetmeraCore.NetmeraPush.CodingKeys : Swift.Equatable {}
 extension NetmeraCore.NetmeraPush.CodingKeys : Swift.Hashable {}
 extension NetmeraCore.NetmeraPush.CodingKeys : Swift.RawRepresentable {}

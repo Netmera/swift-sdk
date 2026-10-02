@@ -8752,6 +8752,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -16394,6 +16404,1403 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraNetworkRequestResult",
+        "printedName": "NetmeraNetworkRequestResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requestType",
+            "printedName": "requestType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraNetworkRequestType",
+                "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV11requestTypeAA0acdG0Ovp",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV11requestTypeAA0acdG0Ovp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV11requestTypeAA0acdG0Ovg",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV11requestTypeAA0acdG0Ovg",
+                "moduleName": "NetmeraCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outcome",
+            "printedName": "outcome",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Outcome",
+                "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7outcomeAC7OutcomeOvp",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7outcomeAC7OutcomeOvp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Outcome",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7outcomeAC7OutcomeOvg",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7outcomeAC7OutcomeOvg",
+                "moduleName": "NetmeraCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccess",
+            "printedName": "isSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV9isSuccessSbvp",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV9isSuccessSbvp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV9isSuccessSbvg",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV9isSuccessSbvg",
+                "moduleName": "NetmeraCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Failure?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Failure",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Failure",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7failureAC7FailureVSgvp",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7failureAC7FailureVSgvp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Failure?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Failure",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Failure",
+                        "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7failureAC7FailureVSgvg",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7failureAC7FailureVSgvg",
+                "moduleName": "NetmeraCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFinal",
+            "printedName": "isFinal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7isFinalSbvp",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7isFinalSbvp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7isFinalSbvg",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7isFinalSbvg",
+                "moduleName": "NetmeraCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Outcome",
+            "printedName": "Outcome",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "success",
+                "printedName": "success",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraCore.NetmeraNetworkRequestResult.Outcome.Type) -> NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Outcome",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                        "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Outcome",
+                            "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO7successyA2EmF",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7OutcomeO7successyA2EmF",
+                "moduleName": "NetmeraCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "failure",
+                "printedName": "failure",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraCore.NetmeraNetworkRequestResult.Outcome.Type) -> (NetmeraCore.NetmeraNetworkRequestResult.Failure) -> NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(NetmeraCore.NetmeraNetworkRequestResult.Failure) -> NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Outcome",
+                            "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Failure",
+                            "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Failure",
+                            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Outcome",
+                            "printedName": "NetmeraCore.NetmeraNetworkRequestResult.Outcome",
+                            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO7failureyAeC7FailureVcAEmF",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7OutcomeO7failureyAeC7FailureVcAEmF",
+                "moduleName": "NetmeraCore"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7OutcomeO",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7OutcomeO",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Failure",
+            "printedName": "Failure",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "statusCode",
+                "printedName": "statusCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV10statusCodeSiSgvp",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV10statusCodeSiSgvp",
+                "moduleName": "NetmeraCore",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV10statusCodeSiSgvg",
+                    "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV10statusCodeSiSgvg",
+                    "moduleName": "NetmeraCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "errorCode",
+                "printedName": "errorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV9errorCodeSSSgvp",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV9errorCodeSSSgvp",
+                "moduleName": "NetmeraCore",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV9errorCodeSSSgvg",
+                    "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV9errorCodeSSSgvg",
+                    "moduleName": "NetmeraCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "message",
+                "printedName": "message",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV7messageSSvp",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV7messageSSvp",
+                "moduleName": "NetmeraCore",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV7messageSSvg",
+                    "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV7messageSSvg",
+                    "moduleName": "NetmeraCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "willRetry",
+                "printedName": "willRetry",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV9willRetrySbvp",
+                "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV9willRetrySbvp",
+                "moduleName": "NetmeraCore",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV9willRetrySbvg",
+                    "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV9willRetrySbvg",
+                    "moduleName": "NetmeraCore",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:11NetmeraCore0A20NetworkRequestResultV7FailureV",
+            "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV7FailureV",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11NetmeraCore0A20NetworkRequestResultV",
+        "mangledName": "$s11NetmeraCore0A20NetworkRequestResultV",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraNetworkRequestType",
+        "printedName": "NetmeraNetworkRequestType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initSession",
+            "printedName": "initSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO11initSessionyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO11initSessionyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "event",
+            "printedName": "event",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO5eventyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO5eventyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enablePush",
+            "printedName": "enablePush",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO10enablePushyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO10enablePushyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disablePush",
+            "printedName": "disablePush",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO11disablePushyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO11disablePushyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Var",
+            "name": "identifyUser",
+            "printedName": "identifyUser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO12identifyUseryA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO12identifyUseryA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updateUserProfile",
+            "printedName": "updateUserProfile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO17updateUserProfileyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO17updateUserProfileyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Var",
+            "name": "setEmailPermission",
+            "printedName": "setEmailPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO18setEmailPermissionyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO18setEmailPermissionyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "setSmsPermission",
+            "printedName": "setSmsPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO16setSmsPermissionyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO16setSmsPermissionyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Var",
+            "name": "setWhatsAppPermission",
+            "printedName": "setWhatsAppPermission",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO21setWhatsAppPermissionyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO21setWhatsAppPermissionyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Var",
+            "name": "updateDevice",
+            "printedName": "updateDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO12updateDeviceyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO12updateDeviceyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableAdId",
+            "printedName": "enableAdId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO10enableAdIdyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO10enableAdIdyA2CmF",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disableAdId",
+            "printedName": "disableAdId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetmeraCore.NetmeraNetworkRequestType.Type) -> NetmeraCore.NetmeraNetworkRequestType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO11disableAdIdyA2CmF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO11disableAdIdyA2CmF",
+            "moduleName": "NetmeraCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraNetworkRequestType",
+                "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraNetworkRequestType",
+                "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO9hashValueSivp",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO9hashValueSivp",
+            "moduleName": "NetmeraCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO9hashValueSivg",
+                "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO9hashValueSivg",
+                "moduleName": "NetmeraCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "NetmeraCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NetmeraCore.NetmeraNetworkRequestType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraNetworkRequestType",
+                    "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                    "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO8allCasesSayACGvpZ",
+            "moduleName": "NetmeraCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraCore.NetmeraNetworkRequestType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO8allCasesSayACGvgZ",
+                "moduleName": "NetmeraCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11NetmeraCore0A18NetworkRequestTypeO4nameSSvp",
+            "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO4nameSSvp",
+            "moduleName": "NetmeraCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11NetmeraCore0A18NetworkRequestTypeO4nameSSvg",
+                "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO4nameSSvg",
+                "moduleName": "NetmeraCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO",
+        "mangledName": "$s11NetmeraCore0A18NetworkRequestTypeO",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraCore.NetmeraNetworkRequestType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestType",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestType",
+                        "usr": "s:11NetmeraCore0A18NetworkRequestTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           }
         ]
       },
@@ -32122,6 +33529,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Security",
         "printedName": "Security",
         "declKind": "Import",
@@ -32686,6 +34103,16 @@
         "printedName": "UniformTypeIdentifiers",
         "declKind": "Import",
         "moduleName": "NetmeraCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -35964,6 +37391,55 @@
           },
           {
             "kind": "Function",
+            "name": "setNetworkRequestCallback",
+            "printedName": "setNetworkRequestCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((NetmeraCore.NetmeraNetworkRequestResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NetmeraCore.NetmeraNetworkRequestResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraNetworkRequestResult",
+                        "printedName": "NetmeraCore.NetmeraNetworkRequestResult",
+                        "usr": "s:11NetmeraCore0A20NetworkRequestResultV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C25setNetworkRequestCallbackyyyAA0adE6ResultVcSgFZ",
+            "mangledName": "$s11NetmeraCore0A0C25setNetworkRequestCallbackyyyAA0adE6ResultVcSgFZ",
+            "moduleName": "NetmeraCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "identifyUser",
             "printedName": "identifyUser(user:completion:)",
             "children": [
@@ -38330,7 +39806,7 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Framework\/NetmeraCoreFrameworkDelegateImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 4309,
+      "offset": 4424,
       "length": 4,
       "value": "true"
     },
@@ -38396,6 +39872,13 @@
       "offset": 3224,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Manager\/NetworkRequestCallbackProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1782,
+      "length": 43,
+      "value": "\"com.netmera.core.network-request-callback\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Manager\/RequestManager.swift",
@@ -38711,6 +40194,13 @@
       "offset": 571,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/NetworkRequest\/NetmeraNetworkRequestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5739,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Model\/Push\/NetmeraConfigPush.swift",
@@ -39723,7 +41213,7 @@
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 1975,
       "length": 5,
       "value": "\"ids\""
     },
@@ -40383,7 +41873,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.26.0\""
+      "value": "\"4.27.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
