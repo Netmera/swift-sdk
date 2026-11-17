@@ -16,10 +16,78 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraLocation",
+        "printedName": "NetmeraLocation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
         "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraLocation",
+        "printedName": "NetmeraLocation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -47,8 +115,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "NetmeraGeofence",
         "declAttributes": [
@@ -57,30 +125,17 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraLocation",
-        "printedName": "NetmeraLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "NetmeraGeofence"
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
         "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "NetmeraGeofence"
       },
       {
         "kind": "Import",
@@ -121,47 +176,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraSwinject",
-        "printedName": "NetmeraSwinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraLocation",
-        "printedName": "NetmeraLocation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraLocation",
         "printedName": "NetmeraLocation",
         "declKind": "Import",
@@ -203,6 +217,50 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraLocation",
+        "printedName": "NetmeraLocation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -212,6 +270,30 @@
         "kind": "Import",
         "name": "NetmeraLocation",
         "printedName": "NetmeraLocation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraGeofence"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraGeofence"
       },
@@ -234,13 +316,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraLocation",
         "printedName": "NetmeraLocation",
         "declKind": "Import",
@@ -258,83 +333,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraLocation",
         "printedName": "NetmeraLocation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraLocation",
-        "printedName": "NetmeraLocation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraGeofence"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraSwinject",
-        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraGeofence"
       },
