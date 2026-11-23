@@ -50,23 +50,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraSwinject",
-        "printedName": "NetmeraSwinject",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -323,6 +306,27 @@
       },
       {
         "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity"
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -520,22 +524,18 @@
       },
       {
         "kind": "Import",
-        "name": "ActivityKit",
-        "printedName": "ActivityKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
-        "name": "ActivityKit",
-        "printedName": "ActivityKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraLiveActivity"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraLiveActivity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraSwinject",
+        "printedName": "NetmeraSwinject",
         "declKind": "Import",
         "moduleName": "NetmeraLiveActivity"
       },
@@ -783,6 +783,13 @@
       "value": "\"eu\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Framework\/LiveActivityFrameworkDelegateImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Manager\/LiveActivityManagerImpl.swift",
       "kind": "Dictionary",
       "offset": 780,
@@ -809,13 +816,6 @@
       "offset": 950,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/netmera-sdk-swift\/netmera-sdk-swift\/NetmeraLiveActivity\/NetmeraLiveActivity\/Framework\/LiveActivityFrameworkDelegateImpl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 470,
-      "length": 5,
-      "value": "false"
     }
   ]
 }

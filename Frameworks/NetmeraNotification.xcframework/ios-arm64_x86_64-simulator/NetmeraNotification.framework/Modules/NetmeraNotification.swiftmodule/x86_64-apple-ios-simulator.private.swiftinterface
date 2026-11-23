@@ -28,53 +28,38 @@ public enum NetmeraPushPermissionType {
     get
   }
 }
-public struct NetmeraUserCategoryPreference : Swift.Codable {
-  public let categoryId: Swift.Int?
-  public let categoryEnabled: Swift.Bool?
-  public let categoryName: Swift.String?
-  public let channelPreferences: [NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol NetmeraInAppContentDelegate : AnyObject {
-  func didShowContent(_ content: NetmeraNotification.NetmeraInApp.Content)
-  func didDismissContent(_ content: NetmeraNotification.NetmeraInApp.Content)
-}
-public enum NetmeraInApp {
-  public enum Content {
-    case web(url: Foundation.URL)
-    case template
-    case banner(banner: NetmeraNotificationCore.NetmeraBannerPush)
-  }
-}
-extension UserNotifications.UNUserNotificationCenter {
-  public static func swizzle()
-}
-public enum NetmeraActionSource : Swift.Equatable {
-  case interactiveButton
-  case carouselItem
-  public static func == (a: NetmeraNotification.NetmeraActionSource, b: NetmeraNotification.NetmeraActionSource) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+extension NetmeraCore.Netmera {
+  public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
     get
   }
+  @available(*, deprecated, renamed: "setPopupPresentationEnabled(_:)")
+  public static func setEnabledPopupPresentation(_ enabled: Swift.Bool)
+  @available(*, deprecated, renamed: "setInAppMessagePresentationEnabled(_:)")
+  public static func setEnabledInAppMessagePresentation(_ enabled: Swift.Bool)
+  @available(*, deprecated, renamed: "setReceivingPushNotificationsEnabled(_:)")
+  public static func setEnabledReceivingPushNotifications(_ enabled: Swift.Bool)
+  @available(*, deprecated, renamed: "isReceivingPushNotificationsEnabled(_:)")
+  public static func isEnabledReceivingPushNotifications(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public static func setPopupPresentationEnabled(_ enabled: Swift.Bool)
+  public static func setInAppMessagePresentationEnabled(_ enabled: Swift.Bool)
+  public static func dismissAllPresentations()
+  public static func setReceivingPushNotificationsEnabled(_ enabled: Swift.Bool)
+  public static func isReceivingPushNotificationsEnabled(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
+  public static func setPushLifecycleDelegate(_ delegate: any NetmeraNotification.NetmeraPushLifecycleDelegate)
+  public static func setInAppContentDelegate(_ delegate: any NetmeraNotification.NetmeraInAppContentDelegate)
+  public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+  public static func displayContent(for pushObject: NetmeraNotificationCore.NetmeraBasePush, in webView: WebKit.WKWebView, onCloseRequested: @escaping () -> Swift.Void)
+  public static func displayContent(forWidgetURL url: Foundation.URL, in webView: WebKit.WKWebView? = nil, onCloseRequested: (() -> Swift.Void)? = nil)
+  public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+  @available(*, deprecated, renamed: "handleAction(_:for:)")
+  public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+  public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
+  public static func getUserCategoryPreferenceList(categoryIds: [Swift.Int]? = nil, channels: [NetmeraNotification.NetmeraUserCategoryPreference.Channel]? = nil, callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
+  public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel? = nil, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
 }
-public protocol NetmeraPushLifecycleDelegate : AnyObject {
-  func didRegisterDeviceToken(_ deviceToken: Swift.String)
-  func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
-  func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
-  func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
-  func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
-  func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
-}
-extension NetmeraNotification.NetmeraPushLifecycleDelegate {
-  public func didRegisterDeviceToken(_: Swift.String)
-  public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
-  public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
-  public func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
-  public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
-  public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
-}
+public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
 extension NetmeraNotification.NetmeraUserCategoryPreference {
   public enum Channel : Swift.String, Swift.Codable, Swift.CaseIterable, Swift.CustomStringConvertible {
     case mobile
@@ -96,6 +81,61 @@ extension NetmeraNotification.NetmeraUserCategoryPreference {
       get
     }
   }
+}
+@_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraWebViewActionEvent, rhs: NetmeraNotification.NetmeraWebViewActionEvent) -> Swift.Bool
+  @objc deinit
+}
+extension NetmeraNotification.NetmeraUserCategoryPreference {
+  public struct ChannelPreference : Swift.Codable {
+    public let channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel?
+    public let isEnabled: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
+@_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraNotificationSettingsEvent, rhs: NetmeraNotification.NetmeraNotificationSettingsEvent) -> Swift.Bool
+  @objc deinit
+}
+extension UserNotifications.UNUserNotificationCenter {
+  public static func swizzle()
+}
+public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvertible {
+  case requestError(description: Swift.String)
+  case notOperating
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol NetmeraInAppContentDelegate : AnyObject {
+  func didShowContent(_ content: NetmeraNotification.NetmeraInApp.Content)
+  func didDismissContent(_ content: NetmeraNotification.NetmeraInApp.Content)
+}
+public enum NetmeraInApp {
+  public enum Content {
+    case web(url: Foundation.URL)
+    case template
+    case banner(banner: NetmeraNotificationCore.NetmeraBannerPush)
+  }
+}
+public struct NetmeraUserCategoryPreference : Swift.Codable {
+  public let categoryId: Swift.Int?
+  public let categoryEnabled: Swift.Bool?
+  public let categoryName: Swift.String?
+  public let channelPreferences: [NetmeraNotification.NetmeraUserCategoryPreference.ChannelPreference]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum PushDelegateDecision {
   case sdkHandles
@@ -134,76 +174,36 @@ extension NetmeraNotification.NetmeraPushDelegate {
   public func shouldHandleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   public func handleOpenURL(_: Foundation.URL, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
-@_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotification.NetmeraWebViewActionEvent, rhs: NetmeraNotification.NetmeraWebViewActionEvent) -> Swift.Bool
-  @objc deinit
-}
-extension NetmeraNotification.NetmeraUserCategoryPreference {
-  public struct ChannelPreference : Swift.Codable {
-    public let channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel?
-    public let isEnabled: Swift.Bool?
-    public init(from decoder: any Swift.Decoder) throws
-    public func encode(to encoder: any Swift.Encoder) throws
-  }
-}
-@_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
-  override open class var key: Swift.String {
-    get
-  }
-  required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotification.NetmeraNotificationSettingsEvent, rhs: NetmeraNotification.NetmeraNotificationSettingsEvent) -> Swift.Bool
-  @objc deinit
-}
-public enum UserCategoryPreferenceError : Swift.Error, Swift.CustomStringConvertible {
-  case requestError(description: Swift.String)
-  case notOperating
-  public var description: Swift.String {
+public enum NetmeraActionSource : Swift.Equatable {
+  case interactiveButton
+  case carouselItem
+  public static func == (a: NetmeraNotification.NetmeraActionSource, b: NetmeraNotification.NetmeraActionSource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
-extension NetmeraCore.Netmera {
-  public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
-    get
-  }
-  @available(*, deprecated, renamed: "setPopupPresentationEnabled(_:)")
-  public static func setEnabledPopupPresentation(_ enabled: Swift.Bool)
-  @available(*, deprecated, renamed: "setInAppMessagePresentationEnabled(_:)")
-  public static func setEnabledInAppMessagePresentation(_ enabled: Swift.Bool)
-  @available(*, deprecated, renamed: "setReceivingPushNotificationsEnabled(_:)")
-  public static func setEnabledReceivingPushNotifications(_ enabled: Swift.Bool)
-  @available(*, deprecated, renamed: "isReceivingPushNotificationsEnabled(_:)")
-  public static func isEnabledReceivingPushNotifications(completion: @escaping (Swift.Bool) -> Swift.Void)
-  public static func setPopupPresentationEnabled(_ enabled: Swift.Bool)
-  public static func setInAppMessagePresentationEnabled(_ enabled: Swift.Bool)
-  public static func dismissAllPresentations()
-  public static func setReceivingPushNotificationsEnabled(_ enabled: Swift.Bool)
-  public static func isReceivingPushNotificationsEnabled(completion: @escaping (Swift.Bool) -> Swift.Void)
-  public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
-  public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
-  public static func setPushLifecycleDelegate(_ delegate: any NetmeraNotification.NetmeraPushLifecycleDelegate)
-  public static func setInAppContentDelegate(_ delegate: any NetmeraNotification.NetmeraInAppContentDelegate)
-  public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
-  public static func displayContent(for pushObject: NetmeraNotificationCore.NetmeraBasePush, in webView: WebKit.WKWebView, onCloseRequested: @escaping () -> Swift.Void)
-  public static func displayContent(forWidgetURL url: Foundation.URL, in webView: WebKit.WKWebView? = nil, onCloseRequested: (() -> Swift.Void)? = nil)
-  public static func handleAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
-  @available(*, deprecated, renamed: "handleAction(_:for:)")
-  public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
-  public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
-  public static func getUserCategoryPreferenceList(categoryIds: [Swift.Int]? = nil, channels: [NetmeraNotification.NetmeraUserCategoryPreference.Channel]? = nil, callback: @escaping (Swift.Result<[NetmeraNotification.NetmeraUserCategoryPreference], NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
-  public static func setUserCategoryPreference(categoryId: Swift.Int, categoryEnabled: Swift.Bool, channel: NetmeraNotification.NetmeraUserCategoryPreference.Channel? = nil, callback: @escaping (Swift.Result<Swift.Bool, NetmeraNotification.UserCategoryPreferenceError>) -> Swift.Void)
+public protocol NetmeraPushLifecycleDelegate : AnyObject {
+  func didRegisterDeviceToken(_ deviceToken: Swift.String)
+  func didReceive(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didOpen(_ push: NetmeraNotificationCore.NetmeraBasePush)
+  func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickActionButton(_ identifier: Swift.String, for push: NetmeraNotificationCore.NetmeraBasePush)
+  func didClickCarouselItem(_ identifier: Swift.String?, for push: NetmeraNotificationCore.NetmeraBasePush)
+}
+extension NetmeraNotification.NetmeraPushLifecycleDelegate {
+  public func didRegisterDeviceToken(_: Swift.String)
+  public func didReceive(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didOpen(_: NetmeraNotificationCore.NetmeraBasePush)
+  public func didTakeAction(_ action: NetmeraNotificationCore.NetmeraBaseAction?, from source: NetmeraNotification.NetmeraActionSource, for push: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickActionButton(_: Swift.String, for _: NetmeraNotificationCore.NetmeraBasePush)
+  public func didClickCarouselItem(_: Swift.String?, for _: NetmeraNotificationCore.NetmeraBasePush)
 }
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
 extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}
-extension NetmeraNotification.NetmeraActionSource : Swift.Hashable {}
 extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.Equatable {}
 extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.Hashable {}
 extension NetmeraNotification.NetmeraUserCategoryPreference.Channel : Swift.RawRepresentable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Equatable {}
 extension NetmeraNotification.PushDelegateDecision : Swift.Hashable {}
+extension NetmeraNotification.NetmeraActionSource : Swift.Hashable {}

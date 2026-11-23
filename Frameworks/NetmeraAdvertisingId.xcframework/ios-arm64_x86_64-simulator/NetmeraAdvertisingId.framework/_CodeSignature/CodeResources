@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/SJZ0kR7vXZBf9Xc/3KXS7f1MoM=
+		sV/ffrG4IOvdRPRoEeU/j/VxL8g=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L3oLj45gUm1xTkFDgUfj3HvI+8I=
+		bNpkt/FE2smnj/t2KWBjoxKzMD0=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/SJZ0kR7vXZBf9Xc/3KXS7f1MoM=
+		sV/ffrG4IOvdRPRoEeU/j/VxL8g=
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Oqm7y3hGAT7ii1/bP2mdXnd0zGo=
+		WaybLF6pfkeeGYhmZZw35u1Bebw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkdht7Lpw9aajJOnxloIZFYfj1N6DVRunFwaj51gbQg=
+			chvP/XisiJuJGkFarZxASXjnS0Nrj9gpBLqL4lqSbKM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ywHpcD3KtV9T1ThvSpf22sm0cf8sGAhvzlfMOkMPZzI=
+			Ujyuxygc/DeFu8eT+pHi2bPlC6UMxl16MuTInlMs8SI=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vkdht7Lpw9aajJOnxloIZFYfj1N6DVRunFwaj51gbQg=
+			chvP/XisiJuJGkFarZxASXjnS0Nrj9gpBLqL4lqSbKM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAdvertisingId.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Iv5FHvFV55aJngF9VSvZMTAfe382goBh2HGjuocXNo=
+			He1j+ndf7dYV+D16gaY+iVKMKghk8XsTG/OTicRiqRE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
