@@ -11,14 +11,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers final public class NetmeraLiveActivityManualCloseEvent : NetmeraCore.NetmeraEvent {
-  override final public class var key: Swift.String {
-    get
-  }
-  public init(groupId: Swift.String)
-  override final public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
 public protocol NetmeraLiveActivityAttributes {
   var netmeraGroupId: Swift.String? { get set }
 }
@@ -31,4 +23,12 @@ extension NetmeraCore.Netmera {
   public static func observeActivity<T>(_ activity: ActivityKit.Activity<T>) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
   @available(iOS 16.1, *)
   public static func resumeObservingActivities<T>(ofType type: ActivityKit.Activity<T>.Type) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
+}
+@_hasMissingDesignatedInitializers final public class NetmeraLiveActivityManualCloseEvent : NetmeraCore.NetmeraEvent {
+  override final public class var key: Swift.String {
+    get
+  }
+  public init(groupId: Swift.String)
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
